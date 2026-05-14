@@ -1,0 +1,256 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "menu": "",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "8c0f94de-dc17-49b5-b58d-f7401c9c3d3c": {
+          "type": "p80_vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "0091258a-b378-42b8-9a3e-3f6e2a74b770": {
+          "type": "p80_rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "d61d0f59-b481-42a8-ba96-02b3303e029f": {
+          "type": "p80_pickup_availability",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "text_NFMKqg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.shoe_sizing | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "text_e6CWFV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.sale_exclusion_message.value }}",
+            "text_style": "body"
+          }
+        },
+        "text_4yMWMD": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.final_sale_message | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "text_4idhG4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.promotional_message.value }}",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "1a958ebb-e6d7-4d4d-a8a5-68af17412859": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Complete the look",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "dots",
+            "image_ratio": "square"
+          }
+        },
+        "eeae7d41-cb99-4720-bc87-4c0851f97182": {
+          "type": "p80_care_materials",
+          "settings": {}
+        },
+        "db1c7bd4-44b5-4320-aa0d-a4509c6d7fae": {
+          "type": "p80_fit",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "8c0f94de-dc17-49b5-b58d-f7401c9c3d3c",
+        "title",
+        "0091258a-b378-42b8-9a3e-3f6e2a74b770",
+        "caption",
+        "price",
+        "d61d0f59-b481-42a8-ba96-02b3303e029f",
+        "variant_picker",
+        "text_NFMKqg",
+        "buy_buttons",
+        "text_e6CWFV",
+        "text_4yMWMD",
+        "text_4idhG4",
+        "description",
+        "1a958ebb-e6d7-4d4d-a8a5-68af17412859",
+        "eeae7d41-cb99-4720-bc87-4c0851f97182",
+        "db1c7bd4-44b5-4320-aa0d-a4509c6d7fae"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "color_scheme": "",
+        "padding_top": 52,
+        "padding_bottom": 72
+      }
+    },
+    "p80_shop_the_look": {
+      "type": "p80-shop-the-look",
+      "settings": {
+        "title": "Shop The Look",
+        "color_scheme": "",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "heading_font_override": "global",
+        "heading_scale_override": 100,
+        "body_font_override": "global",
+        "body_scale_override": 100
+      }
+    },
+    "1747770663fa046a54": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_peDKLR": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "215894",
+            "product_id_enabled": true,
+            "collection_id_enabled": true
+          }
+        },
+        "rebuy_personalization_engine_rebuy_widget_DCNPXg": {
+          "type": "shopify://apps/rebuy-personalization-engine/blocks/rebuy-widget/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "215940",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_peDKLR",
+        "rebuy_personalization_engine_rebuy_widget_DCNPXg"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1715974773ac72b7cd": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_y7nKgA": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_y7nKgA"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "14a40ea4-7927-4728-afb0-aa4a78cae916": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-0",
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "p80_shop_the_look",
+    "product-recommendations",
+    "1747770663fa046a54",
+    "1715974773ac72b7cd",
+    "14a40ea4-7927-4728-afb0-aa4a78cae916"
+  ]
+}

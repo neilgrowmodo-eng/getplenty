@@ -1,0 +1,472 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_1X1-8537.jpg",
+            "heading": "meet: jennilee",
+            "subheading": "@jennileem",
+            "text": "",
+            "button_label": "",
+            "link": "shopify://blogs/journal/meet-jennilee",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.jennileemarigomen.com/\"><span style=\"text-decoration:underline\">Jennilee Marigomen</span></a> is a self-taught Canadian photographer whose work explores the quiet beauty of everyday life. Her images are often described as atmospheric and emotionally resonant. </p><p>Jennilee works across both editorial and commercial photography, and in 2015, she was named as one of <a href=\"https://photoville.nyc/exhibition/pdns-30-2015-our-choice-of-new-and-emerging-photographers-to-watch/\"><span style=\"text-decoration:underline\">PDN's 30 New and Emerging Photographers to Watch</span></a>. She has published three books including, <a href=\"https://new-documents.org/books/window-seat\"><span style=\"text-decoration:underline\"><em>Window Seat</em></span></a> by Los Angeles New Documents, and participated in <em>Index: Five Emerging Vancouver Photographers</em>, a group show juried by The <a href=\"https://www.vanartgallery.bc.ca/\"><span style=\"text-decoration:underline\">Vancouver Art Gallery</span></a> at  <a href=\"https://www.instagram.com/295gallery/\"><span style=\"text-decoration:underline\">Gallery 295</span></a>.</p><p>In 2024, Jennilee exhibited <a href=\"https://www.jennileemarigomen.com/sehnsuchtworks\"><span style=\"text-decoration:underline\"><em>Sehnsucht</em></span></a> at the <a href=\"https://vancouverchinesegarden.com/exhibitions/\"><span style=\"text-decoration:underline\">Dr. Sun Yat Sen Gallery</span></a> during the <a href=\"https://capturephotofest.com/gallery/dr-sun-yat-sen-classical-chinese-garden/\"><span style=\"text-decoration:underline\">Capture Photography Festival</span></a>. “Sehnsucht” is a German word that represents the feelings about the facets of life that are unfinished and imperfect, paired with an intense longing for more ideal outcomes and emotion Jenilee strongly connects with since becoming a mother. The series brings together years of images that reflect on our relationship with the natural world. It's a hopeful yet honest meditation on environmental change, connection, and fragility. Balancing optimism with melancholy, her photographs seek out beauty, humor, and silver linings in the face of uncertainty.</p><p>Jenilee’s client list includes <a href=\"https://www.jennileemarigomen.com/woodwideweb\"><span style=\"text-decoration:underline\"><em>The New York Times</em></span></a>, <a href=\"https://www.jennileemarigomen.com/openai\"><span style=\"text-decoration:underline\"><em>Open AI</em></span></a>, <a href=\"https://www.ft.com/content/a601d05c-d5b0-4b9f-9708-f45297a35678\"><span style=\"text-decoration:underline\"><em>The Financial Times</em></span></a>,<a href=\"https://www.jennileemarigomen.com/quinhagak\"><span style=\"text-decoration:underline\"> </span><span style=\"text-decoration:underline\"><em>Telerama</em></span></a>, <em>Apple, Sonos, Aesop, Levi's and Apartamento</em>. You can find more of her work on her Instagram <a href=\"https://www.instagram.com/jennileem/\"><span style=\"text-decoration:underline\">@jennileem</span></a>.</p><p>We spent the morning with Jennilee exploring her neighbourhood and learning more about the woman behind the lens. Read our full interview below.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8417.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8377.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8465.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8376.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Q&A with Jennilee</h2><h3>Q: What are 3 words your friends or family would use to describe you?</h3><p>A: Creative, observant, and flexible</p><h3>Q: Tell us the story behind Jennilee Marigomen.</h3><p>A:  I was born in Vancouver and I went to school for fashion marketing. For eleven years I worked in the skate and snowboard industry but my boss also put on shows. So, he had me take event photos for the guest list and eventually I just got more into photography. I was really into tumblr and flickr and that’s basically how I taught myself to shoot photos.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8454.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 44
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7076.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6954.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6957.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_bottom": 55
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q:  What’s your advice for anyone looking to get into photography?</h3><p>A: Definitely find other creatives who also want to make a portfolio and collaborate with them. You basically want to create the work that you want to shoot.</p><h3>Q:  Where do you go when you are looking for inspiration?</h3><p>A: Basically nature, I like to walk down to the seawall to look at the water and look at the skies. I also try to get to art galleries when I can.</p><p></p><h3>Q: What is the most rewarding part of your job?</h3><p>A: The most rewarding part of my job is hearing how people interpret my photos. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8494.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: If you could give your younger self one piece of advice, what would it be?</h3><p>A: Be confident and know your worth.</p><h3>Q: What’s your favourite childhood snack?</h3><p>A: I grew up in an immigrant household. I remember as a child during day camp I went on a hike and one of the team leaders had hummus and I didn’t know what it was. When he gave it to me it totally blew my mind and he basically had to give it all to me because I wanted it, I wanted it all. But I also like wasabi peas, which I can eat all day long.</p><h3>Q: How would you describe your style?</h3><p>A: I love fashion and I really love bold silhouettes and I’m a huge fan of Japanese designers.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8507_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><h3>Q: What’s your favourite childhood snack?</h3><p>A: I grew up in an immigrant household. I remember as a child during day camp I went on a hike and one of the team leaders had hummus and I didn’t know what it was. When he gave it to me it totally blew my mind and he basically had to give it all to me because I wanted it, I wanted it all. But I also like wasabi peas, which I can eat all day long.</p><h3>Q: How would you describe your style?</h3><p>A: I love fashion and I really love bold silhouettes and I’m a huge fan of Japanese designers.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8507_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "collage_KLqDTn": {
+      "type": "collage",
+      "blocks": {
+        "image_RazRM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8553.jpg",
+            "image_padding": false
+          }
+        },
+        "image_B7txji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8591.jpg",
+            "image_padding": false
+          }
+        },
+        "image_dr6DRy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8564.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_RazRM8",
+        "image_B7txji",
+        "image_dr6DRy"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8584.jpg",
+        "image_mobile": "shopify://shop_images/MAY_ANN_9X16-7065.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jennilee’s Look 1: <a href=\"https://www.getplenty.com/products/propaganda-open-work-lace-shana-shirt\"><span style=\"text-decoration:underline\">Propaganda Lace Shana Shirt</span></a>, <a href=\"https://www.getplenty.com/products/pgd-cotton-spandex-jersey-mya-tank-top\"><span style=\"text-decoration:underline\">PGD Mya Tank</span></a>, and <a href=\"https://www.getplenty.com/products/m-l-soft-cotton-julie-barrel-pant\"><span style=\"text-decoration:underline\">Monk & Lou Julie Barrel Pant</span></a></p><p>Jennilee’s Look 2: <a href=\"https://www.getplenty.com/products/pieces-poppy-oxford-shirt\"><span style=\"text-decoration:underline\">Pieces Poppy Shirt</span></a> and <a href=\"https://www.getplenty.com/products/adidas-firebird-loose-track-pant\"><span style=\"text-decoration:underline\">Adidas Firebird Track Pant</span></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "collage_U9qgdF",
+    "image_with_text_wKVLmh",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_9WEiBt",
+    "collage_KLqDTn",
+    "p80_image_banner_NVKMXG",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

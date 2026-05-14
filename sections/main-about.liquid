@@ -1,0 +1,259 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-main-about.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-main-about.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{% if section.blocks.size > 0 %}
+<div class="page-width color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when 'heading' %}
+        <div class="abount__row about__heading">
+          <h1 class="h4">{{ page.title }}</h1>
+          {% if block.settings.title != blank %}<h2>{{ block.settings.title }}</h2>{% endif %}
+        </div>
+      {% when 'image-text' %}
+        <div class="abount__row about__image-text">
+          <figure>
+            {% if block.settings.image %}
+              {% assign image = block.settings.image %}
+              <img loading="lazy"
+                src='{{ image | image_url: width: 548 }}'
+                width='548'
+                height='728'
+                srcset='{{ image | image_url: width: 274 }} 274w,{{ image | image_url: width: 548 }} 548w,{{ image | image_url: width: 822 }} 822w'
+                sources='(min-width:548px) 548w, 100vw' />
+            {% endif %}
+          </figure>
+          <div class="text rich-text">
+            {% if block.settings.text != blank %}
+              <h3 class="hxxl">{{ block.settings.text }}</h3>
+            {% endif %}
+          </div>
+        </div>
+      {% when 'text' %}
+        <div class="abount__row about__text">
+          <div class="about__text--title">
+            {% if block.settings.subheading %}
+              <h3 class="hxxl">{{ block.settings.subheading | newline_to_br }}</h3>
+            {% endif %}
+          </div>
+            <div class="about__text--share">
+              <div class="footer-block  footer-block--social">
+                {% if block.settings.social_media_heading %}
+                  <h2 class="footer-block__heading">{{ block.settings.social_media_heading }}</h2>
+                {% endif %}
+                <ul class="list list-social list-unstyled" role="list">
+                  {%- if settings.social_twitter_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_twitter_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-twitter' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_facebook_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_facebook_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-facebook' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_pinterest_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_pinterest_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-pinterest' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_instagram_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_instagram_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-instagram' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_tiktok_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_tiktok_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-tiktok' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_tumblr_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_tumblr_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-tumblr' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_snapchat_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_snapchat_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-snapchat' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_youtube_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_youtube_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-youtube' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                  {%- if settings.social_vimeo_link != blank -%}
+                    <li class="list-social__item">
+                      <a href="{{ settings.social_vimeo_link }}" class="list-social__link link" target="_blank" rel="noopener noreferrer">
+                        {%- render 'icon-vimeo' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+                      </a>
+                    </li>
+                  {%- endif -%}
+                </ul>
+                {% if block.settings.social_media_text %}
+                  <div class="footer-block__details-content rte">
+                    <p>{{ block.settings.social_media_text }}</p>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          <div class="about__text--text rich-text">
+            {{ block.settings.text }}
+          </div>
+        </div>
+    {% endcase %}
+  {% endfor %}
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.main-about.name",
+  "tag": "section",
+  "class": "section",
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.main-about.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.main-about.blocks.heading.settings.title.label"
+        }
+      ]
+    },
+    {
+      "type": "image-text",
+      "name": "t:sections.main-about.blocks.image-text.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.main-about.blocks.image-text.settings.image.label"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "t:sections.main-about.blocks.image-text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.main-about.blocks.text.name",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "subheading",
+          "label": "t:sections.main-about.blocks.text.settings.subheading.label"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.main-about.blocks.text.settings.text.label"
+        },
+        {
+          "type": "header",
+          "content": "t:sections.main-about.blocks.text.settings.header.content"
+        },
+        {
+          "type": "text",
+          "id": "social_media_heading",
+          "label": "t:sections.main-about.blocks.text.settings.social_media_heading.label",
+          "default": "@GetPlenty"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_social_media",
+          "default": true,
+          "label": "t:sections.main-about.blocks.text.settings.enable_social_media.label"
+        },
+        {
+          "type": "text",
+          "id": "social_media_text",
+          "label": "t:sections.main-about.blocks.text.settings.social_media_text.label",
+          "default": "Tag us in your OOTD's: #getplenty"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ]
+}
+{% endschema %}

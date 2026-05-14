@@ -1,0 +1,174 @@
+{%- if collection.description != blank -%}
+    {{ 'section-collection-description.css' | asset_url | stylesheet_tag }}
+    <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+
+    <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+    <noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+
+    {%- style -%}
+    .section-{{ section.id }}-padding {
+        padding-top: 1.2rem;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        }
+    }
+    
+    .collection-description-wrapper {
+        position: relative;
+    }
+    
+    .collection-description-content {
+        display: inline;
+    }
+    
+    .collection-description-text {
+        display: inline;
+    }
+    
+    .read-more-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.3rem;
+        margin-left: 0.5rem;
+        padding: 0;
+        background: none;
+        border: none;
+        font-size: inherit;
+        font-family: inherit;
+        cursor: pointer;
+        text-decoration: underline;
+        color: rgb(var(--color-foreground));
+        vertical-align: baseline;
+    }
+    
+    .read-more-btn:hover {
+        color: rgb(var(--color-link));
+    }
+    
+    .read-more-btn .icon {
+        width: 1.2rem;
+        height: 1.2rem;
+        transition: transform 0.2s ease;
+    }
+    
+    .read-more-btn[aria-expanded="true"] .icon {
+        transform: rotate(180deg);
+    }
+    {%- endstyle -%}
+
+    <div class="isolate page-width collection-description">
+        <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+            <div class="rich-text__text rte">
+                {%- if section.settings.enable_read_more and collection.description.size > section.settings.character_limit -%}
+                    {%- assign truncated_description = collection.description | strip_html | truncate: section.settings.character_limit -%}
+                    <div class="collection-description-wrapper">
+                        <div class="collection-description-content">
+                            <span class="collection-description-text">{{ truncated_description }}</span><button type="button" class="read-more-btn link underlined-link animate-arrow" data-expanded="false" data-truncated="{{ truncated_description | escape }}" data-full="{{ collection.description | strip_html | escape }}">
+                                <span class="read-more-text">Read more</span>
+                                <span class="read-less-text" style="display: none;">Read less</span>
+                                <svg viewBox="0 0 14 10" fill="none" aria-hidden="true" focusable="false" class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="m8.537.808 4.58 4.58a.75.75 0 0 1 0 1.061l-4.58 4.58a.75.75 0 0 1-1.061-1.061L11.168 6.75H1a.75.75 0 0 1 0-1.5h10.168L7.476 1.869a.75.75 0 0 1 1.061-1.061Z" fill="currentColor">
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                {%- else -%}
+                    {{ collection.description }}
+                {%- endif -%}
+            </div>
+        </div>
+    </div>
+{%- endif -%}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const readMoreButtons = document.querySelectorAll('.read-more-btn');
+  
+  readMoreButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const wrapper = this.closest('.collection-description-wrapper');
+      const textSpan = wrapper.querySelector('.collection-description-text');
+      const readMoreText = this.querySelector('.read-more-text');
+      const readLessText = this.querySelector('.read-less-text');
+      
+      const isExpanded = this.getAttribute('data-expanded') === 'true';
+      
+      if (isExpanded) {
+        textSpan.textContent = this.getAttribute('data-truncated');
+        readMoreText.style.display = 'inline';
+        readLessText.style.display = 'none';
+        this.setAttribute('data-expanded', 'false');
+        this.setAttribute('aria-expanded', 'false');
+      } else {
+        textSpan.textContent = this.getAttribute('data-full');
+        readMoreText.style.display = 'none';
+        readLessText.style.display = 'inline';
+        this.setAttribute('data-expanded', 'true');
+        this.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+});
+</script>
+
+{% schema %}
+{
+  "name": "t:sections.collections-description.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_read_more",
+      "label": "Enable 'Read More' for long descriptions",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "character_limit",
+      "min": 50,
+      "max": 300,
+      "step": 10,
+      "unit": "ch",
+      "label": "Character limit before truncation",
+      "default": 150
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ]
+}
+{% endschema %}

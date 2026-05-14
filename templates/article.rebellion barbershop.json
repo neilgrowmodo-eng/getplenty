@@ -1,0 +1,409 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_6hGjAa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cFYE4N": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>(HIDE/delete AFTER COMPLETED)</h3><h2>Guidelines for PLENTY journal</h2><h3></h3><h3></h3>",
+            "heading_size": "h1"
+          }
+        },
+        "text_yPX3Jf": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Keep question header font to <strong>\"body font/paragraph\"</strong> (same as answers)</li><li>Use <strong>BOLD</strong> font, only for<strong> \"Q: & A:\"</strong></li><li>Make a consistent content <strong>\"position & alignment\" (\"middle, left\", respectively)</strong> </li><li>When using Q&A style boxes with multi column, <strong>create ONLY 6 columns</strong></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cFYE4N",
+        "text_yPX3Jf"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image1.jpg",
+            "heading": "Meet: Rebellion Barber shop",
+            "subheading": "@rebellionbarbershop",
+            "text": "P.S. Swing by our Uptown Men’s store this Father’s Day (June 15, 12-4pm) for a Free Tidy Up Trim & Shoulder Massage from Michael himself.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Michael Bodie, founder of <a href=\"https://www.instagram.com/rebellionbarbershop/\"><span style=\"text-decoration:underline\">Rebellion Barbershop</span></a>, first picked up hair cutting as a hobby while studying Philosophy at the <a href=\"https://www.uvic.ca/\"><span style=\"text-decoration:underline\">University of Victoria</span><span style=\"text-decoration:underline\"><em>.</em></span></a> Originally from the Comox Valley, he moved to Victoria in 2010 and began offering haircuts through a Craigslist ad that read: “First haircut free, $10 after that.”. What started as a side hustle between classes quickly turned into something more. As his skills grew, so did his following—eventually leading him behind the chair at local barbershops and into a growing client base. After five years in the industry, Bodie set his sights on something bigger: opening a barbershop of his own.</p><p>In 2018, he launched <a href=\"https://www.rebellionbarber.com/\"><span style=\"text-decoration:underline\">Rebellion Barbershop</span></a> in a restored heritage space at Oak Bay Junction—a location once home to the iconic <em>Figaro Barbershop</em> more than  15 years prior. The space wasn’t even on the market when Bodie found it, but recognizing its potential (and history), he secured the lease before it was ever listed. Rebellion opened with a bold move: an entire month of free haircuts—745 in just four weeks. The strategy paid off. Within a month, Rebellion became<a href=\"https://maps.app.goo.gl/MUKPRdTdXFt4Px7W7\" target=\"_blank\" title=\"https://maps.app.goo.gl/MUKPRdTdXFt4Px7W7\"> the highest-rated barbershop in Victoria</a> on Google Maps. Bodie hired a second barber and began mentoring his first apprentice.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/5N9A2300_copy.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Today, Rebellion has two locations, a team of eight barbers, and features a house-made <a href=\"https://www.rebellionbarber.com/goods\"><span style=\"text-decoration:underline\">product line</span></a> sold both in-shop and wholesale. Bodie now spends his time training new barbers, managing product distribution, and staying connected to the clients who’ve been with him from the start. With over a decade of experience, Rebellion continues to be built on craftsmanship, community, and a commitment to helping others grow. We caught up with Michael to hear how he turned a personal hobby into one of Victoria’s most respected barbershops. Read the full interview below.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-06-02_at_3_40_05_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What are 3 words your friends/family would use to describe you?</p><p><strong>A: </strong>Creative, driven, generous.</p><p><strong>Q:</strong> Any advice for someone looking to kick start their entrepreneurial or barbering journey but doesn’t know where to start?</p><p><strong>A:</strong> Imposter syndrome is overblown. Pick any topic or business that you’re considering and spend a couple hours watching videos about it on YouTube. After that you will already know more about it than 99% of the population. If you aren’t interested in that business or hobby after spending a couple hours learning about it then you haven’t wasted much time, so pick a new one! It’s easy to think of a pursuit as something “someone else” does, but everyone doing the thing currently used to not do it.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image0.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What are some of your fondest memories since you’ve started your career?</p><p><strong>A:</strong> Some of my fondest memories of my career are based around new opportunities. The first time I got someone to come over for a free haircut, my first day working at a barbershop, when I bought my first professional tools. Probably most significant was when I went out to a bar with my friend who was already in the industry, who helped me a lot, and when someone asked us what we did he said “we’re barbers”. It was the first time I felt like I had an identity. I didn’t know I needed it at the time, but that feeling really propelled me into the field and motivated me to master my craft.</p><p><strong>Q: </strong>What’s the most rewarding part of your job?</p><p><strong>A:</strong> When one of the barbers I trained from scratch has a line of people waiting for them. At this point in my career, the measure of a job well done is the success of the barbers around me. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/5N9A2066_copy.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> If you could give your younger self one piece of advice, what would it be?</p><p><strong>A: </strong>Think before you speak and lead with kindness always.</p><p><strong>Q:</strong> What’s your favourite childhood snack?</p><p><strong>A: </strong>Wildberry Pop Tarts.</p><p><strong>Q:</strong> How would you describe your style?</p><p><strong>A:</strong> I’m a retired skateboarder and emo kid, so I would say a grown-up version of that. Unpatterned neutrals, usually dark, and I try to wear stuff that makes me feel good. These days I focus on comfort and shapes. I’m definitely into the big cropped tee and loose-fitting pants. A cropped jacket, tucked in tee with a nice pair of shoes and a belt is another go-to when I don’t want to look like a lazy film director.</p><p><strong>Q: </strong>Any upcoming personal projects you’d like to share with us or a sneak peak?</p><p><strong>A:</strong> I hope to open a third location in the next 18 months. I’m also working on an onboarding handbook for new and experienced barbers looking to join us. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-06-02_at_3_24_56_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_GxgVgw": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_PpDYcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5N9A3303_copy.jpg",
+            "link_url": ""
+          }
+        },
+        "image_GcYrFe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/image2.jpg",
+            "link_url": ""
+          }
+        },
+        "image_pWqQLX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PpDYcq",
+        "image_GcYrFe",
+        "image_pWqQLX"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Michael’s Look 1:</p><p>Only & Sons <a href=\"https://www.getplenty.com/products/only-sons-ian-reg-ss-stripe-struct-tee\" target=\"_blank\" title=\"https://www.getplenty.com/products/only-sons-ian-reg-ss-stripe-struct-tee\">Ian Stripe Knit Tee</a>, and Gramicci<a href=\"https://www.getplenty.com/products/gramicci-g-short-pigment-dyed?variant=43225819775021\" target=\"_blank\" title=\"https://www.getplenty.com/products/gramicci-g-short-pigment-dyed?variant=43225819775021\"> G-Short (Pigment Dyed)</a></p><p>Michael's Look 2:</p><p>Jack & Jones <a href=\"https://www.getplenty.com/products/jack-jones-blanks-heavytee-ss-crop-crew-neck?variant=43231457411117\" target=\"_blank\" title=\"https://www.getplenty.com/products/jack-jones-blanks-heavytee-ss-crop-crew-neck?variant=43231457411117\">Heavy Short Sleeve Crew Neck T-Shirt</a> and Atrium <a href=\"https://www.getplenty.com/products/atrium-elastic-waist-relaxed-mid-short?variant=43199505236013\" target=\"_blank\" title=\"https://www.getplenty.com/products/atrium-elastic-waist-relaxed-mid-short?variant=43199505236013\">Relaxed Mid Short</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "rich_text_6hGjAa",
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_c4jGUN",
+    "p80_multi_image_banner_GxgVgw",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

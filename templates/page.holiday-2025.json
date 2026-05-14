@@ -1,0 +1,195 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "p80_image_banner_NFCVL9": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_1.jpg",
+        "image_mobile": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_1.jpg",
+        "link_url": "",
+        "margin_bottom": 20
+      }
+    },
+    "p80_image_banner_CqVqHz": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_2.png",
+        "image_mobile": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_2.png",
+        "link_url": "shopify://collections/for-her",
+        "margin_bottom": 20
+      }
+    },
+    "p80_image_banner_9gLccA": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_3.png",
+        "image_mobile": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_3.png",
+        "link_url": "shopify://collections/for-him",
+        "margin_bottom": 20
+      }
+    },
+    "p80_image_banner_m99GKL": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_4.jpg",
+        "image_mobile": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_4.png",
+        "link_url": "shopify://products/gift-card",
+        "margin_bottom": 0
+      }
+    },
+    "blocks_kXe6tz": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3e439a2_hkggKX": {
+          "type": "ai_gen_block_3e439a2",
+          "settings": {
+            "columns_desktop": 3,
+            "columns_mobile": "1",
+            "column_spacing": 0,
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_left": 36,
+            "padding_right": 36,
+            "enable_column_1": true,
+            "image_desktop_1": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_5.png",
+            "image_mobile_1": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_5.png",
+            "link_1": "shopify://collections/for-the-homebodies",
+            "enable_column_2": true,
+            "image_desktop_2": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_6_679691c5-bd08-4dba-be13-392d7b9c0ebe.jpg",
+            "image_mobile_2": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_6.png",
+            "link_2": "shopify://collections/cold-weather-heroes",
+            "enable_column_3": true,
+            "image_desktop_3": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_7.png",
+            "image_mobile_3": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_7.png",
+            "link_3": "shopify://collections/rsvp-ready",
+            "enable_column_4": false,
+            "link_4": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3e439a2_hkggKX"
+      ],
+      "name": "Multicolumn without spacing",
+      "settings": {}
+    },
+    "p80_image_banner_6CHxcb": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_8.jpg",
+        "image_mobile": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_8.png",
+        "link_url": "shopify://collections/stocking-stuffers",
+        "margin_bottom": 0
+      }
+    },
+    "1761928506d82339f7": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3e439a2_AQUAjK": {
+          "type": "ai_gen_block_3e439a2",
+          "settings": {
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "column_spacing": 0,
+            "padding_top": 36,
+            "padding_bottom": 36,
+            "padding_left": 36,
+            "padding_right": 36,
+            "enable_column_1": true,
+            "image_desktop_1": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_9.png",
+            "image_mobile_1": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_9.png",
+            "link_1": "",
+            "enable_column_2": true,
+            "image_desktop_2": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_10_a0a2757e-a04e-49b2-9333-d37ceaab6f2b.jpg",
+            "image_mobile_2": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_10.png",
+            "link_2": "shopify://collections/gifts-under-50",
+            "enable_column_3": true,
+            "image_desktop_3": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_11_dc1dd10c-6cb0-46e8-8f5b-e96368fe7d94.jpg",
+            "image_mobile_3": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_11.png",
+            "link_3": "shopify://collections/gifts-under-100",
+            "enable_column_4": true,
+            "image_desktop_4": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_12.png",
+            "image_mobile_4": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_12.png",
+            "link_4": "shopify://collections/gifts-under-150"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3e439a2_AQUAjK"
+      ],
+      "name": "Multicolumn without spacing",
+      "settings": {}
+    },
+    "blocks_7PaKp8": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3e439a2_YtHggi": {
+          "type": "ai_gen_block_3e439a2",
+          "settings": {
+            "columns_desktop": 3,
+            "columns_mobile": "1",
+            "column_spacing": 0,
+            "padding_top": 20,
+            "padding_bottom": 0,
+            "padding_left": 0,
+            "padding_right": 0,
+            "enable_column_1": true,
+            "image_desktop_1": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_13.jpg",
+            "image_mobile_1": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_13.png",
+            "link_1": "shopify://pages/delivery-returns",
+            "enable_column_2": true,
+            "image_desktop_2": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_14.jpg",
+            "image_mobile_2": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_14.png",
+            "link_2": "shopify://pages/delivery-returns",
+            "enable_column_3": true,
+            "image_desktop_3": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Desktop_R2_15.jpg",
+            "image_mobile_3": "shopify://shop_images/Plenty_Holiday_25.11.03_LandingPage_Mobile_15.png",
+            "link_3": "shopify://pages/delivery-returns",
+            "enable_column_4": false,
+            "link_4": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3e439a2_YtHggi"
+      ],
+      "name": "Multicolumn without spacing",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "p80_image_banner_NFCVL9",
+    "p80_image_banner_CqVqHz",
+    "p80_image_banner_9gLccA",
+    "p80_image_banner_m99GKL",
+    "blocks_kXe6tz",
+    "p80_image_banner_6CHxcb",
+    "1761928506d82339f7",
+    "blocks_7PaKp8"
+  ]
+}

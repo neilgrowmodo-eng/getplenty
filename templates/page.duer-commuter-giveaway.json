@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_7jJMyp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mTwb7P": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Ultimate Commuter Prize</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_iUhpAq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We teamed up with our friends at DUER to give one lucky winner a Cannondale Quick 5 Bike + a $250 DUER shopping spree at Plenty (total prize valued at $1,250).</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mTwb7P",
+        "text_iUhpAq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_GBWp9J": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NQCghK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Entries are open Wednesday, October 15th to Saturday, November 15th, 2025 at 11:59 PM. Limit one entry per person. Winner must be a British Columbia resident. The winner will be contacted by email directly from Plenty.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NQCghK"
+      ],
+      "custom_css": [
+        "p {font-size: .75em;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "page_qzyQga": {
+      "type": "page",
+      "custom_css": [
+        "h2 {display: none;}"
+      ],
+      "name": "t:sections.page.presets.name",
+      "settings": {
+        "page": "duer-commuter-giveaway",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_D4pyyY": {
+      "type": "featured-collection",
+      "custom_css": [
+        "p {font-family: \"Caslon Ionic\"; font-size: 1.6rem;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Discover Duer",
+        "subtitle": "",
+        "description": "<p>Timeless everyday apparel that is engineered to stretch, breathe, and feel as to wear. Designed in Canada.<br/><br/></p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "duer",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_7jJMyp",
+    "rich_text_GBWp9J",
+    "page_qzyQga",
+    "featured_collection_D4pyyY"
+  ]
+}

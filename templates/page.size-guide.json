@@ -1,0 +1,223 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-size-guide",
+      "blocks": {
+        "7b9fcc80-54db-4b2f-ad34-0a0985ae09d0": {
+          "type": "heading",
+          "settings": {
+            "title": "Alpha Sizing"
+          }
+        },
+        "b96f26cf-485f-4afd-a09a-cae61fa4cc7f": {
+          "type": "table_heading",
+          "settings": {
+            "headings": "BLANK|xxs|xs|s|m|l|xl|xxl"
+          }
+        },
+        "6a03d592-af54-4de3-ae68-db64502b6a00": {
+          "type": "table_data",
+          "settings": {
+            "data": "BUST|\n80 CM\n31½\"|\n85 CM\n33½\"|\n90 CM\n35½\"|\n95 CM\n37½\"|\n100 CM\n39½\"|\n105 CM\n41½\"|\n112 CM\n44\""
+          }
+        },
+        "6954bc94-4486-4a72-8875-3b8541c8b329": {
+          "type": "table_data",
+          "settings": {
+            "data": "WAIST|\n64 CM\n25\"|\n69 CM\n27\"|\n74 CM\n29\"|\n79 CM\n31\"|\n84 CM\n33\"|\n89 CM\n35\"|\n91½ CM\n36\""
+          }
+        },
+        "4f82cf1e-a7ea-46f6-8fb9-b29f291c2b18": {
+          "type": "table_data_last",
+          "settings": {
+            "data": "HIP|\n90 CM\n35½\"|\n95 CM\n37½\"|\n100 CM\n39½\"|\n105 CM\n41½\"|\n110 CM\n43½\"|\n115 CM\n45\"|\n117 CM\n46\""
+          }
+        },
+        "7730b148-4ebd-4a40-afb7-ed961b1d5829": {
+          "type": "heading",
+          "settings": {
+            "title": "Numeric Sizing"
+          }
+        },
+        "a886cc87-8d8c-40b1-ae3f-6f48bf742631": {
+          "type": "table_heading",
+          "settings": {
+            "headings": "BLANK|\n00|\n0|\n2|\n4|\n6|\n8|\n10|\n12|\n14"
+          }
+        },
+        "5e0b74f7-97dd-4b0d-996f-a1977b04a37d": {
+          "type": "table_data",
+          "settings": {
+            "data": "BUST|\n81½ CM\n32\"|\n84 CM\n33\"|\n86½ CM\n34\"|\n89 CM\n35\"|\n91½ CM\n36\"|\n94 CM\n37\"|\n96½ CM\n38\"|\n99 CM\n39\"|\n101½ CM\n40\""
+          }
+        },
+        "96b623bf-7004-433f-98b0-7b942aa47630": {
+          "type": "table_data",
+          "settings": {
+            "data": "WAIST|\n61 CM\n24\"|\n63½ CM\n25\"|\n66 CM\n26\"|\n68½ CM\n27\"|\n71 CM\n28\"|\n73½ CM\n29\"|\n76 CM\n30\"|\n78½ CM\n39\"|\n101½ CM\n40\""
+          }
+        },
+        "9b36ae0d-a248-4c80-8af1-bc223aed1ba3": {
+          "type": "table_data_last",
+          "settings": {
+            "data": "HIP|\n86½ CM\n34\"|\n89 CM\n35\"|\n91½ CM\n36\"|\n94 CM\n37\"|\n96½ CM\n38\"|\n99 CM\n39\"|\n101½ CM\n40\"|\n104 CM\n41\"|\n106½ CM\n42\""
+          }
+        },
+        "2b5a5613-7c56-4b59-968d-a2ae56f07cf2": {
+          "type": "heading",
+          "settings": {
+            "title": "Denim Sizing"
+          }
+        },
+        "405fedf8-3478-4591-a041-f24e2d8eed74": {
+          "type": "table_heading",
+          "settings": {
+            "headings": "BLANK|\n23|\n24|\n25|\n26|\n27|\n28|\n29|\n30|\n31|\n32|\n33"
+          }
+        },
+        "e39b7935-97a6-4e7b-b5b4-f53229055a01": {
+          "type": "table_data",
+          "settings": {
+            "data": "WAIST|\n58½ CM\n23\"|\n61 CM\n24\"|\n63½ CM\n25\"|\n66 CM\n26\"|\n68½ CM\n27\"|\n71 CM\n28\"|\n73½ CM\n29\"|\n76 CM\n30\"|\n78½ CM\n31\"|\n81½ CM\n32\"|\n84 CM\n33\""
+          }
+        },
+        "a236fb60-f3c8-429c-ac8f-81ff7708e043": {
+          "type": "table_data_last",
+          "settings": {
+            "data": "HIP|\n84 CM\n33\"|\n86½ CM\n34\"|\n89 CM\n35\"|\n91½ CM\n36\"|\n94 CM\n37\"|\n96½ CM\n38\"|\n99 CM\n39\"|\n101½ CM\n40\"|\n104 CM\n41\"|\n106½ CM\n42\"|\n109 CM\n43\""
+          }
+        },
+        "43c064be-4ee2-46c3-bf4c-28969b1caf4d": {
+          "type": "heading",
+          "settings": {
+            "title": "Shoes"
+          }
+        },
+        "964fc8c8-ead7-44ef-a83d-1634e96b3267": {
+          "type": "table_data_first",
+          "settings": {
+            "data": "EUR|\n36|\n37|\n38|\n39|\n40|\n41"
+          }
+        },
+        "77ede174-69d3-4669-9f5c-065ccbdae1ac": {
+          "type": "table_data_last",
+          "settings": {
+            "data": "CAN \/ US|\n6|\n6.5|\n7.5|\n8.5|\n9|\n10"
+          }
+        },
+        "d014bf71-799b-4828-9c70-ec951b708883": {
+          "type": "heading",
+          "settings": {
+            "title": "Alpha Sizing - Men's"
+          }
+        },
+        "5d0c9fcc-c526-43e4-9f36-286207e70b34": {
+          "type": "table_heading",
+          "settings": {
+            "headings": "BLANK|s|m|l|xl|xxl"
+          }
+        },
+        "0b5e6c1c-8e88-4caf-bb48-eedfa372ca76": {
+          "type": "table_data_first",
+          "settings": {
+            "data": "CHEST|\n89 CM\n35\"|\n96½ CM\n38\"|\n104 CM\n41\"|\n112 CM\n44\"|\n119½ CM\n47\""
+          }
+        },
+        "8e5014f3-ef15-4947-8b2f-2e92f33831d7": {
+          "type": "table_data_last",
+          "settings": {
+            "data": "CHEST|\n89 CM\n35\"|\n96½ CM\n38\"|\n104 CM\n41\"|\n112 CM\n44\"|\n119½ CM\n47\""
+          }
+        },
+        "441d0d4a-81b4-4d17-a060-52a9ccdb7462": {
+          "type": "heading",
+          "settings": {
+            "title": "Numeric Sizing - Men's"
+          }
+        },
+        "952cb2b5-9fe0-4d6f-8306-82ee0f92da1b": {
+          "type": "table_heading",
+          "settings": {
+            "headings": "BLANK|\n28|\n29|\n30|\n32|\n34|\n36|\n34"
+          }
+        },
+        "6e837f2e-7eb2-49ff-8a2e-c5dc82cf334d": {
+          "type": "table_data_last",
+          "settings": {
+            "data": "WAIST|\n71 CM\n28\"|\n73½ CM\n29\"|\n76 CM\n30\"|\n81½ CM\n32\"|\n86½ CM\n34\"|\n91½ CM\n36\"|\n96½ CM\n38\"|"
+          }
+        }
+      },
+      "block_order": [
+        "7b9fcc80-54db-4b2f-ad34-0a0985ae09d0",
+        "b96f26cf-485f-4afd-a09a-cae61fa4cc7f",
+        "6a03d592-af54-4de3-ae68-db64502b6a00",
+        "6954bc94-4486-4a72-8875-3b8541c8b329",
+        "4f82cf1e-a7ea-46f6-8fb9-b29f291c2b18",
+        "7730b148-4ebd-4a40-afb7-ed961b1d5829",
+        "a886cc87-8d8c-40b1-ae3f-6f48bf742631",
+        "5e0b74f7-97dd-4b0d-996f-a1977b04a37d",
+        "96b623bf-7004-433f-98b0-7b942aa47630",
+        "9b36ae0d-a248-4c80-8af1-bc223aed1ba3",
+        "2b5a5613-7c56-4b59-968d-a2ae56f07cf2",
+        "405fedf8-3478-4591-a041-f24e2d8eed74",
+        "e39b7935-97a6-4e7b-b5b4-f53229055a01",
+        "a236fb60-f3c8-429c-ac8f-81ff7708e043",
+        "43c064be-4ee2-46c3-bf4c-28969b1caf4d",
+        "964fc8c8-ead7-44ef-a83d-1634e96b3267",
+        "77ede174-69d3-4669-9f5c-065ccbdae1ac",
+        "d014bf71-799b-4828-9c70-ec951b708883",
+        "5d0c9fcc-c526-43e4-9f36-286207e70b34",
+        "0b5e6c1c-8e88-4caf-bb48-eedfa372ca76",
+        "8e5014f3-ef15-4947-8b2f-2e92f33831d7",
+        "441d0d4a-81b4-4d17-a060-52a9ccdb7462",
+        "952cb2b5-9fe0-4d6f-8306-82ee0f92da1b",
+        "6e837f2e-7eb2-49ff-8a2e-c5dc82cf334d"
+      ],
+      "settings": {
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

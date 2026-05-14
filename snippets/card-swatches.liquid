@@ -1,0 +1,131 @@
+{%- liquid
+    assign color_options = product.options_by_name['Color'].values
+    if color_options.size == 0
+        assign color_options = product.options_by_name['color'].values
+    endif
+    assign counter = 1
+    assign processed_generic_colors = ''
+-%}
+{%- if color_options.size > 0 -%}
+    <div class="card-swatches" data-product-id="{{ product.id }}">
+        {%- for color in color_options -%}
+            {%- assign generic_color = null -%}
+            {%- assign variant_with_color = null -%}
+            {%- assign variant_image_url = null -%}
+            
+            {%- comment -%} Find variant and generic color from variant metafields {%- endcomment -%}
+            {%- for variant in product.variants -%}
+                {%- if variant.option1 == color or variant.option2 == color or variant.option3 == color -%}
+                    {%- assign variant_with_color = variant -%}
+                    {%- if variant.metafields.custom.generic_color != blank -%}
+                        {%- assign generic_color = variant.metafields.custom.generic_color.value -%}
+                    {%- endif -%}
+                    {%- break -%}
+                {%- endif -%}
+            {%- endfor -%}
+            
+            {%- comment -%} Use generic color if found, otherwise original color {%- endcomment -%}
+            {%- if generic_color == null or generic_color == blank -%}
+                {%- assign generic_color = color -%}
+            {%- endif -%}
+            
+            {%- comment -%} Handle if generic_color is returned as an array from metafield {%- endcomment -%}
+            {%- if generic_color contains '[' -%}
+                {%- assign generic_color = generic_color | remove: '[' | remove: ']' | remove: '"' | strip -%}
+            {%- endif -%}
+
+            {%- comment -%} Get variant image URL for this color - try multiple methods {%- endcomment -%}
+            {%- if variant_with_color.featured_media -%}
+                {%- assign variant_image_url = variant_with_color.featured_media | image_url: width: 533 -%}
+            {%- elsif variant_with_color.featured_image -%}
+                {%- assign variant_image_url = variant_with_color.featured_image | image_url: width: 533 -%}
+            {%- elsif variant_with_color.image -%}
+                {%- assign variant_image_url = variant_with_color.image | image_url: width: 533 -%}
+            {%- else -%}
+                {%- comment -%} Fallback: find first image in product.media {%- endcomment -%}
+                {%- for media in product.media -%}
+                    {%- if media.media_type == 'image' -%}
+                        {%- for media_variant_id in media.variant_ids -%}
+                            {%- if media_variant_id == variant_with_color.id -%}
+                                {%- assign variant_image_url = media | image_url: width: 533 -%}
+                                {%- break -%}
+                            {%- endif -%}
+                        {%- endfor -%}
+                        {%- if variant_image_url != blank -%}
+                            {%- break -%}
+                        {%- endif -%}
+                    {%- endif -%}
+                {%- endfor -%}
+            {%- endif -%}
+            
+            {%- comment -%} Only show each generic color once {%- endcomment -%}
+            {%- unless processed_generic_colors contains generic_color -%}
+                {%- assign processed_generic_colors = processed_generic_colors | append: generic_color | append: ',' -%}
+                
+                {%- comment -%} Create swatch with smart color fallback based on generic color name {%- endcomment -%}
+                {%- liquid
+                    assign color_lower = generic_color | downcase
+                    assign fallback_color = '#ccc'
+                    
+                    if color_lower contains 'black'
+                        assign fallback_color = '#000000'
+                    elsif color_lower contains 'blue'
+                        assign fallback_color = '#0066cc'
+                    elsif color_lower contains 'brown'
+                        assign fallback_color = '#8B4513'
+                    elsif color_lower contains 'grey' or color_lower contains 'gray'
+                        assign fallback_color = '#808080'
+                    elsif color_lower contains 'green'
+                        assign fallback_color = '#00cc00'
+                    elsif color_lower contains 'neutral'
+                        assign fallback_color = '#f5f5f5'
+                    elsif color_lower contains 'orange'
+                        assign fallback_color = '#ff6600'
+                    elsif color_lower contains 'pink'
+                        assign fallback_color = '#ff69b4'
+                    elsif color_lower contains 'purple' or color_lower contains 'violet'
+                        assign fallback_color = '#800080'
+                    elsif color_lower contains 'red'
+                        assign fallback_color = '#cc0000'
+                    elsif color_lower contains 'yellow'
+                        assign fallback_color = '#ffff00'
+                    elsif color_lower contains 'white' or color_lower contains 'cream'
+                        assign fallback_color = '#ffffff'
+                    elsif color_lower contains 'wash'
+                        if color_lower contains 'light'
+                            assign fallback_color = '#e6f3ff'
+                        elsif color_lower contains 'medium'
+                            assign fallback_color = '#b3d9ff'
+                        elsif color_lower contains 'dark'
+                            assign fallback_color = '#80bfff'
+                        else
+                            assign fallback_color = '#b3d9ff'
+                        endif
+                    elsif color_lower contains 'gold'
+                        assign fallback_color = '#ffd700'
+                    elsif color_lower contains 'silver'
+                        assign fallback_color = '#c0c0c0'
+                    elsif color_lower contains 'espresso' or color_lower contains 'coffee'
+                        assign fallback_color = '#4A2C2A'
+                    elsif color_lower contains 'tan' or color_lower contains 'beige'
+                        assign fallback_color = '#d2b48c'
+                    elsif color_lower contains 'navy'
+                        assign fallback_color = '#000080'
+                    endif
+                -%}
+                <button 
+                    type="button"
+                    class="swatch-item swatch-color swatch-color--{{ generic_color | downcase | replace: ' ', '-' }} swatch-clickable"
+                    data-color="{{ generic_color }}"
+                    data-original-color="{{ color }}"
+                    data-variant-id="{{ variant_with_color.id | default: '' }}"
+                    data-variant-image="{{ variant_image_url | default: '' }}"
+                    title="{{ generic_color }}"
+                    aria-label="View {{ generic_color }} variant"
+                    style="background-color: {{ fallback_color }}; background-size: cover; background-position: center; width: 20px; height: 20px; display: inline-block; border: 1px solid #ddd; cursor: pointer; padding: 0;"
+                ></button>
+                {%- assign counter = counter | plus: 1 -%}
+            {%- endunless -%}
+        {%- endfor -%}
+    </div>
+{%- endif -%}

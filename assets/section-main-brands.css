@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.main-page-title {
+    margin: 0 0 1.6rem
+}
+
+.brands__initials {
+    display: flex;
+    gap: 1.6rem;
+    margin: 0 0 2.4rem
+}
+
+.brands__initials a {
+    font-weight: 700;
+    color: rgb(var(--color-base-accent-1));
+    text-decoration: none;
+    border-bottom: solid 0.2rem rgb(var(--color-base-background-1));
+}
+
+.brands__initials a:hover {
+    color: rgb(var(--color-base-accent-1));
+    border-color: rgb(var(--color-base-accent-1));
+}
+
+.brands__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.brands__item {
+    background-color: rgb(var(--color-logo-cream));
+    padding: 2.4rem;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 500px) {
+    .brands__list {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .brands__item {
+        flex: 0 1 calc(50% - calc(calc(var(--grid-desktop-horizontal-spacing)*1)/2));
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .brands__initials {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .brands__initials {
+        flex-wrap: wrap;
+        gap: 2.4rem;
+        margin: 0 0 3.6rem
+    }
+
+    .brands__list {
+        gap: var(--grid-desktop-horizontal-spacing);
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .brands__item {
+        padding: 4.8rem;
+        flex: 0 1 calc(33.33% - calc(calc(var(--grid-desktop-horizontal-spacing)*2)/3));
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .brands__item {
+        flex: 0 1 calc(25% - calc(calc(var(--grid-desktop-horizontal-spacing)*3)/4));
+    }
+}
+
+.brands__title {
+    margin: 0 0 2.4rem
+}
+
+.brands__item li,
+.brands__item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.brands__item a {
+    color: rgb(var(--color-base-accent-1));
+    text-decoration: none;
+}
+
+.brands__item a:hover {
+    text-decoration: underline;
+}

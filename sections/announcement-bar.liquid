@@ -1,0 +1,107 @@
+{{ 'p80-announcement-bar.css' | asset_url | stylesheet_tag }}
+
+<style>
+  announcement-bar {
+    background-color: {{ section.settings.background_colour }};
+    --slide-duration: {{ section.settings.slide_duration }};
+    --transition_duration: {{ section.settings.transition_duration }};
+  }
+</style>
+
+{% assign totalSlides = 0 %}
+
+<announcement-bar data-transition-duration="{{ section.settings.transition_duration }}" data-slide-duration="{{ section.settings.slide_duration }}" id="Announcement-bar-{{ section.id }}">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'announcement' -%}
+        {% assign totalSlides = totalSlides | plus: 1 %}
+        <div class="announcement-bar page-width {% if forloop.index > 1 %}announcement-bar--hidden{% endif %}" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+          {%- if block.settings.text != blank -%}
+            {%- if block.settings.link != blank -%}
+              <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow" style="color: {{ block.settings.text_colour }}">
+            {%- endif -%}
+                <p class="announcement-bar__message h5" style="color: {{ block.settings.text_colour }}">
+                  {{ block.settings.text | escape }}
+                  {%- if block.settings.link != blank -%}
+                    {% render 'icon-arrow' %}
+                  {%- endif -%}
+                </p>
+            {%- if block.settings.link != blank -%}
+              </a>
+            {%- endif -%}
+          {%- endif -%}
+        </div>
+    {%- endcase -%}
+  {% endfor %}
+  <button class="button announcement-bar__arrow announcement-bar__prev" name="prev" aria-label="{{ 'sections.header.announcement_arrow_previous' | t }}" aria-controls="Announcement-bar-{{ section.id }}">{% render 'icon-chevron-left' %}</button>
+  <button class="button announcement-bar__arrow announcement-bar__next" name="next" aria-label="{{ 'sections.header.announcement_arrow_next' | t }}" aria-controls="Announcement-bar-{{ section.id }}">{% render 'icon-chevron-right' %}</button>
+</announcement-bar>
+
+{% if totalSlides > 1 %}
+  <script src="{{ 'p80-announcement-bar.js' | asset_url }}" defer></script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_colour",
+      "label": "t:sections.announcement-bar.settings.background_colour.label",
+      "default": "#000"
+    },
+    {
+      "type": "number",
+      "id": "slide_duration",
+      "label": "t:sections.announcement-bar.settings.slide_duration.label",
+      "default": 10000
+    },
+    {
+      "type": "number",
+      "id": "transition_duration",
+      "label": "t:sections.announcement-bar.settings.transition_duration.label",
+      "default": 500
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "t:sections.rich-text.settings.full_width.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        },
+        {
+          "type": "color",
+          "id": "text_colour",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text_colour.label",
+          "default": "#fff"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.link.label"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "announcement"
+      }
+    ]
+  }
+}
+{% endschema %}

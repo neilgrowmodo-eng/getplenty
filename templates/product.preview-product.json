@@ -1,0 +1,230 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "menu": ""
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "8c0f94de-dc17-49b5-b58d-f7401c9c3d3c": {
+          "type": "p80_vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "0091258a-b378-42b8-9a3e-3f6e2a74b770": {
+          "type": "p80_rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "d61d0f59-b481-42a8-ba96-02b3303e029f": {
+          "type": "p80_pickup_availability",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "text_e6CWFV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.final_sale_message | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "1a958ebb-e6d7-4d4d-a8a5-68af17412859": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Complete the look",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "dots",
+            "image_ratio": "square"
+          }
+        },
+        "eeae7d41-cb99-4720-bc87-4c0851f97182": {
+          "type": "p80_care_materials",
+          "settings": {}
+        },
+        "db1c7bd4-44b5-4320-aa0d-a4509c6d7fae": {
+          "type": "p80_fit",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "8c0f94de-dc17-49b5-b58d-f7401c9c3d3c",
+        "title",
+        "0091258a-b378-42b8-9a3e-3f6e2a74b770",
+        "caption",
+        "price",
+        "d61d0f59-b481-42a8-ba96-02b3303e029f",
+        "variant_picker",
+        "text_e6CWFV",
+        "buy_buttons",
+        "description",
+        "1a958ebb-e6d7-4d4d-a8a5-68af17412859",
+        "eeae7d41-cb99-4720-bc87-4c0851f97182",
+        "db1c7bd4-44b5-4320-aa0d-a4509c6d7fae"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 72
+      }
+    },
+    "p80_shop_the_look": {
+      "type": "p80-shop-the-look",
+      "settings": {
+        "title": "Shop The Look",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "rich_text_cy3c9A": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hTXBH3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Propaganda</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_YGfYfD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For making statements. Restrained maximalism is the undercurrent of this spirited collection that features trend-forward styling, refreshing hues and uplifting prints. Available exclusively at Plenty. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hTXBH3",
+        "text_YGfYfD"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "products_to_show": 10,
+        "columns_desktop": 4,
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "1715974773ac72b7cd": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_y7nKgA": {
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_y7nKgA"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "14a40ea4-7927-4728-afb0-aa4a78cae916": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-0",
+        "template--15080988901436__14a40ea4-7927-4728-afb0-aa4a78cae916-1673999062f03d5898-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "p80_shop_the_look",
+    "rich_text_cy3c9A",
+    "product-recommendations",
+    "1715974773ac72b7cd",
+    "14a40ea4-7927-4728-afb0-aa4a78cae916"
+  ]
+}

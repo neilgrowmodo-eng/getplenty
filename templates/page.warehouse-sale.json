@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_AtCgR3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_TzTXWm": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>60-90% off with NEW stock added daily</h3>"
+          }
+        },
+        "text_GztPrW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>including women's & men's clothing, accessories, and shoes.</p><p>When: Friday, April 18 - Monday, April 21</p><p>Where: Vancouver Convention Centre —West Building, Hall A 1055 Canada Place</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_TzTXWm",
+        "text_GztPrW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "p80_contact_map_bAgYV6": {
+      "type": "p80-contact-map",
+      "settings": {
+        "latitude": "49.28954602864985",
+        "longitude": "-123.11633284928858",
+        "zoom": 14,
+        "grayscale": false,
+        "height": 60,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_UNgaED": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nj8Emf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>HOURS & INFO</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_aMq4Uh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Friday, April 18: 8 am to 8 pm</p><p>Saturday, April 19: 10 am to 6 pm</p><p>Sunday, April 20: 11 am to 5 pm</p><p>Monday, April 21: 11 am to 4 pm</p>"
+          }
+        },
+        "text_7KFHXc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Accepting cash, debit, and credit.<br/>Sorry, no gift cards or store credit.</p><p>All bags, jackets and umbrellas will need to be checked in prior to entering the sale.</p><p><strong>All sales are final.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nj8Emf",
+        "text_aMq4Uh",
+        "text_7KFHXc"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_AtCgR3",
+    "p80_contact_map_bAgYV6",
+    "rich_text_UNgaED"
+  ]
+}

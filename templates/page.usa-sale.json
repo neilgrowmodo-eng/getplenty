@@ -1,0 +1,126 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17146766674229716f": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_tcrwUE": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "VRicFK"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_tcrwUE"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_gKVCgM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fYrTfa": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Billie Eilish Giveaway<\/p>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_Gd6WUM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1️⃣ Follow both @getplenty and @heyydana_ <\/p><p>2️⃣ Tag a friend in the comments below the post (each comment with a tag counts as an entry, so the more you tag, the better your chances!) <\/p><p>3️⃣ Submit your email below!<\/p><p>Good luck! Winners will be announced on September 6th.<\/p>"
+          }
+        },
+        "button_tB43U6": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fYrTfa",
+        "text_Gd6WUM",
+        "button_tB43U6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_CTwCRD": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"vsscript_188112_751301\"><\/div><script async type=\"text\/javascript\" src=\"https:\/\/app.viralsweep.com\/vsa-widget-8d3161-188112.js?sid=188112_751301\"><\/script>\n<\/body>",
+        "color_scheme": "background-1",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17146766674229716f",
+    "rich_text_gKVCgM",
+    "custom_liquid_CTwCRD",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

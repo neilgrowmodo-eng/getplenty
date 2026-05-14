@@ -1,0 +1,294 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/20251217_130504.jpg",
+            "heading": "Meet: Relly Quilatan",
+            "subheading": "@djrelly_relik",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Relly Quilatan didn’t set out to build a DJ Academy. It started the way the best things usually do: out of a love for the craft and a desire to share it. Known professionally as DJ Relik, the Vancouver-based educator and community builder is the founder of <a href=\"https://www.tabletutors.com/\"><span style=\"text-decoration:underline\">Tabletutors</span></a>, a creative hub that has grown into a movement rooted in mentorship, access, and connection. Here, DJing is less about gatekeeping and more about opening doors. </p><p>We talk with Relly about the moments that keep him going, what it’s like watching someone fall in love with DJing for the first time, and how community, when nurtured with intention, can shape better artists, lasting friendships, and futures.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20251222_130859.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What’s the moment or memory that made you realize: “I really want to build this DJ community and share what I know”? </p><p><strong>A: </strong>I actually never thought that I wanted to build something. It just happened. What keeps me going is seeing the face of someone mixing songs for the first time. It reminds me of when I first started, and there’s no better feeling than discovering something that you love to do! Seeing someone perform at their first event,and realizing they can actually DJ,is something I can see over and over again. It really motivates me and makes me realize how important it is for us to be here for the generations to come.</p><p><strong>Q: </strong>For someone totally new to DJing, what’s the single most surprising thing they discover once they try it at Tabletutors? </p><p><strong>A:</strong> Something people are always surprised to see is how helpful and welcoming our community is. We’re happy to share not only years of knowledge, but also music, resources, experiences and opportunities, to give everyone a chance to express themselves and shine in their own ways. DJing in the past has had a history of gatekeeping and exclusivity. We push the opposite of that. Everyone supports each other here, and the community just keeps growing and getting better. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20251217_130740.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Tabletutors is rooted in community and mentorship. How does that vibe show up in the day-to-day at the studio (or behind the scenes)? </p><p><strong>A: </strong>You see it all the time when students come to class, or just come to visit. They ask random questions, hangout in and outside the studio together. Even after they’re finished their programs, they come to watch new students at our community events. They support each other at gigs and events around town, across Canada and sometimes internationally as well! A few students have started their own DJ collectives and groups to keep learning and growing together without us having to guide them. The best thing is knowing that even when they finish our programs, they know we’re always there for them, the same way they’re always there for us!  New connections and friendships start and grow here, which is really cool to see.  We’ve even had some students that’ve joined as mentors and instructors as well. </p><p><strong>Q: </strong>Outside of music and DJing, is there a different passion or creative outlet you lean on that actually feeds back into your DJ work? </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20251217_131213_a1f6258a-30d4-419b-a53e-deeea9a0eb95.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Outside of music and DJing, is there a different passion or creative outlet you lean on that actually feeds back into your DJ work? </p><p><strong>A:</strong> Still DJing… actually, scratching and turntablism! Scratching/turntablism isn’t something that I can do much at my regular gigs, so I like to practice when I can. Since I'm around people all the time, I enjoy having some time to myself once in a while to meditate and relax. Scratching, working out, woodworking, hanging with family doing nothing at home, and walking my dog. These activities reset my creative reserves, which allows me to come back fresh and bring new ideas back to work. </p><p><strong>Q:</strong> If someone came to you 8 years ago and said “You’ll be running a DJ academy,” what’s the first thing you think you’d tell that past-you now? </p><p><strong>A: </strong>The first thing I would tell my past self is that the name of the school is going to be called Tabletutors. Tabletutors is a good idea, and it’s happening, ‘cause it needs to happen. There’s gonna be times you’ll fall, but you’re gonna love getting back up!  </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20251217_125940.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Relly's Looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-rellys-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

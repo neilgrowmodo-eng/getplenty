@@ -1,0 +1,35 @@
+{% if settings.free_shipping_enabled == true and settings.free_shipping_threshold != blank and settings.free_shipping_pending_messaging != blank and settings.free_shipping_met_messaging != blank %}
+    <link
+        rel='stylesheet'
+        href='{{ 'component-p80-free-shipping-bar.css' | asset_url }}'
+        media='print'
+        onload="this.media='all'"
+    >
+    <noscript>{{ 'component-p80-free-shipping-bar.css' | asset_url | stylesheet_tag }}</noscript>
+
+    {% liquid
+        assign totalPrice = 0
+        assign threshold = settings.free_shipping_threshold | times: 100
+        assign hasFreeShipping = false
+        if cart != blank
+            assign totalPrice = cart.total_price
+            if totalPrice > threshold
+                assign hasFreeShipping = true
+            endif
+        endif
+    %}
+
+    <div class="page-width">
+        <shipping-Bar data-threshold="{{ threshold }}" data-total="{{ totalPrice }}" data-currency="{{ cart.currency.iso_code }}">
+            <p class='shipping-bar__title'>
+                <span data-free-shipping-pending {% if hasFreeShipping == true %}class="hidden"{% endif %}>{{ settings.free_shipping_pending_messaging }}</span>
+                <span data-free-shipping-met {% if hasFreeShipping == false %}class="hidden"{% endif %}>{{ settings.free_shipping_met_messaging | escape }}</span>
+            </p>
+            <div class="shipping-bar__progress-amounts">
+                <span>$0</span>
+                <span>{{ cart.currency.symbol }}{{ settings.free_shipping_threshold | escape }}</span>
+                <progress class='shipping-bar__progress' data-progress value='{{ totalPrice }}' max='{{ threshold }}'></progress>
+            </div>
+        </shipping-bar>
+    </div>
+{% endif %}

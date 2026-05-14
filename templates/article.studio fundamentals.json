@@ -1,0 +1,498 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7185.jpg",
+            "heading": "meet: may ann",
+            "subheading": "@studio_fundamentals",
+            "text": "",
+            "button_label": "",
+            "link": "https://www.instagram.com/studiofundamentals/",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://studiofundamentals.com/\">Studio Fundamentals</a> is a pottery studio located at 510 Clark Drive in East Vancouver. Founded in 2017 by May Ann Villanueva, a Filipino immigrant with a background in communication design, the studio stems from her desire to live creatively, share skills, and foster a bonded community.</p><p>Vancouver-based ceramicist May Ann is reshaping the face of ceramics in her community. With the creation of Studio Fundamentals, she is developing a space that offers accessibility for BIPOC individuals to practice the art of pottery. As a self-taught artist, she embraces cultural and social challenges while championing positive change around her.</p><p>We spent the morning with May Ann at her studio to learn more about the vision behind Studio Fundamentals and witness her students at work, honing their craft.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_4X5-7096.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7066.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6950.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN-7059.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Q&A with May Ann</h2><h3>Q: What are 3 words your friends or family would use to describe you?</h3><p>A: Crazy, loud, and funny.</p><h3>Q: Tell us the story behind Studio Fundamentals.</h3><p>A: Studio Fundamentals started in 2017 with the intent of documenting my design work. It began as graphic design, then evolved from 2D design to what it is now—pottery.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_4X5-6989.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7076.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6954.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6957.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q:  What’s your advice for someone looking to get into pottery?</h3><p>A: Take classes, whether at a community centre or any pottery studio. My biggest advice for learning anything creative is to really just stick with it. You might feel lost or think it’s not for you, but perseverance and commitment are key. Always pat yourself on the back for any small achievements you make, as they help push you forward to keep going.</p><h3>Q:  Where do you go when you are looking for inspiration?</h3><p>A: I like to step outside the mindset of a potter. I focus on calming my mind and finding ease. Whether it’s climbing outdoors, visiting another city, or stepping outside my comfort zone, I seek inspiration from everything in life—not just art.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_4X5-7090.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q:  What are some of your fondest memories since you started Studio Fundamentals?</h3><p>A: When I first started my very first studio, I was selling my classes for $20 to friends and asking them to promote it. They would come to the studio, and we’d have a great time—I’d be hanging out with friends while teaching them what I knew. It was also the feeling of trying to make something happen, believing in it so much, and being passionate about it. That feeling made me do everything I could to make it work.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_4X5-7103.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What is the most rewarding part of your job?</h3><p>A: Teaching. When someone comes in and doesn’t know anything about pottery, I love walking them through it and giving them my best. Whether it’s a 6-week workshop or continuing on to sell their first piece or receive their first commission, seeing my students grow is so rewarding. I love knowing that I’m doing something I can go home and feel happy about.</p><h3>Q: If you could give your younger self one piece of advice, what would it be?</h3><p>A: As cliché as it may sound, my biggest advice is to be your authentic self. Express yourself however you want, but be empathetic. It’s okay to be confused, it’s okay to feel lost, and it’s okay not to know what you want. Just try whatever you want and give it a shot. You never know what will stick or which passion will emerge. In the end, everything you learn will come together to help you achieve that one thing.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_4X5-7019.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><h3>Q: What’s your favourite childhood snack?</h3><p>A: Grilled fish and beef skewers—barbecue street food from the Philippines. I used to buy them after school, just outside the campus.</p><h3>Q: How would you describe your style?</h3><p>A: Comfortable and colourful at times. It’s all about wearing something that works in the studio as well as outside, like when I’m climbing. Anything loose and non-restrictive.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_4X5-7071.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_KLqDTn": {
+      "type": "collage",
+      "blocks": {
+        "image_RazRM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7195.jpg",
+            "image_padding": false
+          }
+        },
+        "image_B7txji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7210.jpg",
+            "image_padding": false
+          }
+        },
+        "image_dr6DRy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7080.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_RazRM8",
+        "image_B7txji",
+        "image_dr6DRy"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/MAY_ANN_9X16-7065.jpg",
+        "image_mobile": "shopify://shop_images/MAY_ANN_9X16-7065.jpg",
+        "link_url": "",
+        "margin_bottom": 35
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>May Ann's Look 1: Brixton Utility Overall and <a href=\"https://www.getplenty.com/products/propaganda-ribslub-gerry-square-neck-tank\">Propaganda Gerry Square Neck Tank</a></p><p>Look 2: <a href=\"https://www.getplenty.com/products/ribbon-luxe-rib-nylon-linden-drop-halter-racer-tank-1\">Ribbon Luxe Rib Nylon Linden Halter Racer Tank</a> and <a href=\"https://www.getplenty.com/products/m-l-soft-cotton-julie-barrel-pant\">Monk & Lou Julie Barrel Pant</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "collage_U9qgdF",
+    "image_with_text_wKVLmh",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "collage_KLqDTn",
+    "p80_image_banner_NVKMXG",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

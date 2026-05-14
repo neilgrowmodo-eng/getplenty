@@ -1,0 +1,459 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Susana_2.png",
+            "heading": "meet: susana",
+            "subheading": "@susanacardenass",
+            "text": "",
+            "button_label": "",
+            "link": "shopify://blogs/journal/meet-jennilee",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Being a mom is full of tender moments, unexpected lessons, and constant surprises. To celebrate the beauty of this journey, we spoke with three amazing women to hear their stories. From cherished memories to clever parenting hacks and personal style tips, they offered up real, relatable insights any parent can connect to. Whether you're new to parenting or simply curious, their words carry wisdom for everyone.</p><p>Meet <a href=\"https://www.instagram.com/susanacardenass/\"><span style=\"text-decoration:underline\">Susana Cárdenas.</span></a> Born and raised in Mexico, Susana moved to Vancouver with her mom and siblings when she was 17. Now 26 years old, she’s a model, mom of two, and content creator. For Susana, motherhood still feels surreal—sometimes she can’t believe she has two little ones. As she continues to figure out her own path in life, seeing her children happy reminds her she's exactly where she’s meant to be. She loves sharing her journey—the highs, the challenges, and most of all, the small everyday moments that make life beautiful.</p><p>As part of our <em>Meet the Creator: Hey Ma</em> series, we spent the afternoon with Susana, her toddler Eli, and her baby Bluette to hear more about her life as a mom of two. Read the full interview below.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9898-Enhanced-NR.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8377.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8465.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8376.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What’s the most rewarding part of motherhood?</p><p><strong>A:</strong> The most rewarding part of motherhood has been watching my kids grow and become their own person. As the months and years pass by you get to see how their personality changes and witness them becoming more of themselves. I get to see the behind the scenes of their lives and I love that. Being able to see a happy kid is so rewarding. </p><p><strong>Q:</strong> What do you wish someone had told you before becoming a mom?</p><p><strong>A:</strong> I feel like we have this idea that we need to have everything figured out before becoming a mom, like we need to have a house, a job, and all of these things checked off. However, most of the time you end up just figuring it out as you go. I got pregnant when I was 21 so I was really young and I still didn’t have a clue what I was doing with my life. All you need to do is take life one step at a time and figure out things as you go.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9809-Enhanced-NR.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7076.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6954.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6957.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_bottom": 55
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What’s a mom “hack” that makes life easier?</p><p><strong>A:</strong> It’s nothing fancy but it’s been extremely helpful. Learning how to regulate my nervous system. I find that when I am calmer I am able to go through chaos with my kids more smoothly and they are able to calm themselves down. This makes mornings easier, night routines easier, and going out easier because a calm me means calm kids. That’s a life changer.</p><p><strong>Q:</strong> If you could have one superpower for motherhood, what would it be?</p><p><strong>A:</strong> Definitely running without sleep. Being able to do things with little to no sleep would be the dream.</p><p><strong>Q:</strong> What activity or tradition with your kid(s) do you look forward to the most?</p><p><strong>A:</strong> I’m from Mexico, so a lot of traditions got lost because we don’t have as much family here. But one of my favourite traditions is Easter. We collect egg shells and put colourful paper inside and paint the eggs. Then we hide them around the forest or gardens and then when we find them we crack them on everyone’s heads. That’s probably my favourite tradition.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9858-Enhanced-NR.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>How has motherhood influenced your personal style?</p><p><strong>A:</strong>  I feel like since I became a mom I transitioned towards neutral tones, similar colour palettes, and more basic styles. When you are in a rush, It makes it much easier to grab a couple pieces on the go and they will look good. Now that my older one is four, I have been experimenting more with textures in the same colour palette instead of colours. </p><p><strong>Q:</strong> Do you have go-to outfits that make you feel confident on busy days?</p><p><strong>A: </strong>Long skirts and a crop top for sure. Mini skirts and a big t-shirt. And always a saddle bag because you don’t need your hands to carry it. I also love high boots that go well with anything.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9831-Enhanced-NR.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><h3>Q: What’s your favourite childhood snack?</h3><p>A: I grew up in an immigrant household. I remember as a child during day camp I went on a hike and one of the team leaders had hummus and I didn’t know what it was. When he gave it to me it totally blew my mind and he basically had to give it all to me because I wanted it, I wanted it all. But I also like wasabi peas, which I can eat all day long.</p><h3>Q: How would you describe your style?</h3><p>A: I love fashion and I really love bold silhouettes and I’m a huge fan of Japanese designers.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8507_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "collage_KLqDTn": {
+      "type": "collage",
+      "blocks": {
+        "image_B7txji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9887-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "image_B7txji"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8584.jpg",
+        "image_mobile": "shopify://shop_images/MAY_ANN_9X16-7065.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Jomar Victoria</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Susana’s Look: <a href=\"https://www.getplenty.com/products/propaganda-tencel-linen-pippa-boatneck-vest\"><span style=\"text-decoration:underline\">Propaganda Pippa Boatneck Vest</span></a> and <a href=\"https://www.getplenty.com/products/m-l-lyocell-linen-brenna-mid-rise-bermuda-short\"><span style=\"text-decoration:underline\">Monk & Lou Brenna Mid-Rise Bermuda Short</span></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h3>for all the mamas</h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mothers-day-gift-guide",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "collage_U9qgdF",
+    "image_with_text_wKVLmh",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_9WEiBt",
+    "collage_KLqDTn",
+    "p80_image_banner_NVKMXG",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

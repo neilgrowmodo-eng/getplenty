@@ -1,0 +1,299 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_xQQYgt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FMm8Ny": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Payment Plans<\/p>",
+            "heading_size": "hxl"
+          }
+        },
+        "text_h3Nrq6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>How it works:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FMm8Ny",
+        "text_h3Nrq6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_EA9kLn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_K7qtJG": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Afterpay<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_3WNV9U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How it works:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_K7qtJG",
+        "text_3WNV9U"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "p80_image_banner_QMfUPw": {
+      "type": "p80-image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Plenty_PaymentPlan_Icons_Text-01.png",
+        "image_mobile": "shopify:\/\/shop_images\/Plenty_PaymentPlan_Icons_Text-01.png",
+        "link_url": "",
+        "margin_bottom": 0
+      }
+    },
+    "faqs": {
+      "type": "main-faqs",
+      "blocks": {
+        "695a6121-8255-443d-b536-9596f2bdaef0": {
+          "type": "faq",
+          "settings": {
+            "title": "What is Afterpay?",
+            "text": "<p>Afterpay is a service that allows you to make purchases now and pay for them in four payments made every two weeks.<\/p>"
+          }
+        },
+        "2b8e8365-2f6f-47ea-a89d-cb0e0550a35f": {
+          "type": "faq",
+          "settings": {
+            "title": "How do I use Afterpay?",
+            "text": "<p>Shop with us online and add items to your cart and checkout as normal. At the checkout, choose Afterpay as your payment method. First-time customers will need to register with Afterpay and provide payment details and returning customers log in to make their purchase.<\/p>"
+          }
+        },
+        "374130de-cdf2-4df2-8526-6471c5aa43a1": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I use Afterpay if I'm an international customer?",
+            "text": "<p>Afterpay can only be applied to purchases made online at getplenty.com for Canadian customers.<\/p>"
+          }
+        },
+        "dd9f7a21-619e-428c-9967-dcca309a0e78": {
+          "type": "faq",
+          "settings": {
+            "title": "How does the payment schedule work?",
+            "text": "<p>All customers are required to make their first payment at the time of purchase, with the remaining three payments deducted every two weeks from your chosen payment method. For more questions about payment visit <a href=\"https:\/\/help.afterpay.com\/hc\/en-us\/sections\/203376123-Payments\"><span style=\"text-decoration:underline\">Afterpay Payments FAQ here.<\/span><\/a><\/p>"
+          }
+        },
+        "faq_pkcXMk": {
+          "type": "faq",
+          "settings": {
+            "title": "When will my items be delivered if I use Afterpay?",
+            "text": "<p>Afterpay orders are delivered based on our standard shipping time frame after you complete your order online. Visit our delivery and returns page for more information by clicking <a href=\"https:\/\/www.getplenty.com\/pages\/delivery-returns\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
+          }
+        },
+        "faq_V7JkxX": {
+          "type": "faq",
+          "settings": {
+            "title": "How do I return or exchange an item purchased using Afterpay?",
+            "text": "<p>If you have changed your mind, you can return your Afterpay purchase in-store or by mail for a refund. Please check that your return or exchange meets our Return Policy <a href=\"https:\/\/www.getplenty.com\/pages\/delivery-returns\"><span style=\"text-decoration:underline\">here<\/span><\/a>. Please do not return your purchase to Afterpay. If you believe there is fault or concern with your Afterpay purchase payment, please contact Afterpay customer support at <a href=\"mailto:info@afterpay.com\"><span style=\"text-decoration:underline\">info@afterpay.com<\/span><\/a><\/p>"
+          }
+        },
+        "1d018b10-2de7-4b73-9f47-4a7292bec079": {
+          "type": "faq",
+          "settings": {
+            "title": "Where can I find more about Afterpay?",
+            "text": "<p>If you would like to know more about Afterpay, visit <a href=\"http:\/\/www.afterpay.com\/\"><span style=\"text-decoration:underline\">www.afterpay.com <\/span><\/a>for a comprehensive list of <a href=\"https:\/\/help.afterpay.com\/hc\/en-us\/\"><span style=\"text-decoration:underline\">FAQs<\/span><\/a>, terms, <a href=\"https:\/\/www.afterpay.com\/en-CA\/instalment-agreement\"><span style=\"text-decoration:underline\">instalment agreement <\/span><\/a>along with Afterpay’s Privacy Policy which can be found a t<a href=\"https:\/\/www.afterpay.com\/en-CA\/privacy-policy\"><span style=\"text-decoration:underline\">www.afterpay.com\/en-CA\/privacy-policy<\/span><\/a>. If you have any questions about your Afterpay account, please contact Afterpay directly via a web form found <a href=\"https:\/\/help.afterpay.com\/hc\/en-us\/requests\/new\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "695a6121-8255-443d-b536-9596f2bdaef0",
+        "2b8e8365-2f6f-47ea-a89d-cb0e0550a35f",
+        "374130de-cdf2-4df2-8526-6471c5aa43a1",
+        "dd9f7a21-619e-428c-9967-dcca309a0e78",
+        "faq_pkcXMk",
+        "faq_V7JkxX",
+        "1d018b10-2de7-4b73-9f47-4a7292bec079"
+      ],
+      "settings": {
+        "heading": "Plenty X Afterpay FAQ",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_zXT7eb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_37VPGV": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>sezzle<\/p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_YGDMyH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How it works:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_37VPGV",
+        "text_YGDMyH"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "p80_image_banner_MDmfEn": {
+      "type": "p80-image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Plenty_PaymentPlan_Icons_Text-02.png",
+        "image_mobile": "shopify:\/\/shop_images\/Plenty_PaymentPlan_Icons_Text-02.png",
+        "link_url": "",
+        "margin_bottom": 0
+      }
+    },
+    "main_faqs_Rz6Jkj": {
+      "type": "main-faqs",
+      "blocks": {
+        "faq_hQay4M": {
+          "type": "faq",
+          "settings": {
+            "title": "What is Sezzle?",
+            "text": "<p>Sezzle is a service that splits your payments into 4 over 6 weeks so you can enjoy your purchases instantly and pay over time hassle free with no interest.<\/p>"
+          }
+        },
+        "faq_Uk7Gmc": {
+          "type": "faq",
+          "settings": {
+            "title": "How do I use Sezzle?",
+            "text": "<p>Shop with us online and add items to your cart and checkout as normal. At the checkout, choose Sezzle as your payment method. First-time customers will need to register with Sezzle and provide payment details and returning customers log in to make their purchase.<\/p>"
+          }
+        },
+        "faq_ftkLaE": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I use Sezzle if I'm an international customer?",
+            "text": "<p>Sezzle can only be applied to purchases made online at getplenty.com for Canadian customers.<\/p>"
+          }
+        },
+        "faq_TBKiRR": {
+          "type": "faq",
+          "settings": {
+            "title": "How does the payment schedule work?",
+            "text": "<p>All customers are required to make their first payment at the time of purchase, with the remaining three payments deducted every two weeks from your chosen payment method. For more questions about payment visit Sezzle Payments FAQ <a href=\"https:\/\/sezzle.com\/how-it-works\/\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
+          }
+        },
+        "faq_CeBiDE": {
+          "type": "faq",
+          "settings": {
+            "title": "When will my items be delivered if I use Sezzle?",
+            "text": "<p>Sezzle orders are delivered based on our standard shipping time frame after you complete your order online. Visit our delivery and returns page for more information by clicking <a href=\"https:\/\/www.getplenty.com\/pages\/delivery-returns\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
+          }
+        },
+        "faq_r4xLtf": {
+          "type": "faq",
+          "settings": {
+            "title": "How do I return or exchange an item purchased using Sezzle?",
+            "text": "<p>If you have changed your mind, you can return your Sezzle purchase in-store or by mail for a refund. Please check that your return or exchange meets our Return Policy <a href=\"https:\/\/www.getplenty.com\/pages\/delivery-returns\"><span style=\"text-decoration:underline\">here<\/span><\/a>. Please do not return your purchase to Sezzle. If you believe there is fault or concern with your Sezzle purchase payment, please contact Sezzle customer support <a href=\"https:\/\/shopper-help.sezzle.com\/hc\/en-us\/requests\/new\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
+          }
+        },
+        "faq_KP4T83": {
+          "type": "faq",
+          "settings": {
+            "title": "Where can I find more about Sezzle?",
+            "text": "<p>If you would like to know more about Sezzle, visit <a href=\"https:\/\/sezzle.com\/\"><span style=\"text-decoration:underline\">www.sezzle.com <\/span><\/a>for <a href=\"https:\/\/sezzle.com\/how-it-works\/\"><span style=\"text-decoration:underline\">how it works<\/span><\/a>, terms, <a href=\"https:\/\/legal.sezzle.com\/user\"><span style=\"text-decoration:underline\">user agreement <\/span><\/a>along with Sezzle’s Privacy Policy which can be found at <a href=\"https:\/\/legal.sezzle.com\/privacy\"><span style=\"text-decoration:underline\">www.legal.sezzle.com\/privacy<\/span><\/a>. If you have any questions about your Sezzle account, please contact Sezzle directly via a web form found <a href=\"https:\/\/shopper-help.sezzle.com\/hc\/en-us\/requests\/new\"><span style=\"text-decoration:underline\">here<\/span><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_hQay4M",
+        "faq_Uk7Gmc",
+        "faq_ftkLaE",
+        "faq_TBKiRR",
+        "faq_CeBiDE",
+        "faq_r4xLtf",
+        "faq_KP4T83"
+      ],
+      "settings": {
+        "heading": "Plenty X Sezzle FAQ",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 24
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "rich_text_xQQYgt",
+    "rich_text_EA9kLn",
+    "p80_image_banner_QMfUPw",
+    "faqs",
+    "rich_text_zXT7eb",
+    "p80_image_banner_MDmfEn",
+    "main_faqs_Rz6Jkj",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

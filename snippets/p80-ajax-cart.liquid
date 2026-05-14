@@ -1,0 +1,165 @@
+{%- unless settings.disable_theme_cart_for_rebuy -%}
+<link
+  rel='stylesheet'
+  href='{{ 'p80-ajax-cart.css' | asset_url }}'
+  media='print'
+  onload="this.media='all'"
+>
+
+<div id='ajax-cart'>
+  <div class='ajax-cart__header'>
+    <button class='ajax-cart__close' aria-label='Close Cart' data-toggle-cart>
+      {% render 'icon-close' %}
+    </button>
+    <div class='ajax-cart__title h2'>{{ 'sections.cart.title' | t }}</div>
+  </div>
+  {% if settings.free_shipping_enabled == true
+    and settings.free_shipping_threshold != blank
+    and settings.free_shipping_pending_messaging != blank
+    and settings.free_shipping_met_messaging != blank
+  %}
+    <div class='ajax-cart__shipping'>
+      {% render 'p80-free-shipping-bar' %}
+    </div>
+  {% endif %}
+  <div class='ajax-cart__no-products visible'>{{ 'sections.cart.empty' | t }}</div>
+  <div class='ajax-cart__has-products hidden'>
+    <div class='ajax-cart__products'>
+      <div class='ajax-cart__primary-products' data-ajax-cart-products></div>
+
+      {% if settings.cart_drawer_collection != blank %}
+        {%- assign collection = collections[settings.cart_drawer_collection].products -%}
+        {%- assign collection_heading = settings.cart_drawer_collection_heading -%}
+        {%- if collection.size > 0 -%}
+            <div class="ajax-cart__upsell complementary-products quick-add-hidden no-js-hidden">
+              <aside aria-label="{{ 'accessibility.complementary_products' | t }}">
+                  <div class="complementary-products__container">
+                    {%- if collection_heading != blank -%}
+                      <div class="summary__title">
+                        <h2 class="h3 accordion__title">{{ collection_heading }}</h2>
+                      </div>
+                    {%- endif -%}
+                    <complementary-component class="slider-mobile-gutter">
+                      {%- assign number_of_slides = 10 -%}
+                      <div id="Slider-ajax_cart" class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere" role="list"{% if number_of_slides > 1 %} aria-label="{{ 'general.slider.name' | t }}"{% endif %}>
+                      {%- for card_product in collection limit: 10 -%}
+                          <div id="Slide-ajax_cart-{{ forloop.index }}" class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
+                            <ul class="list-unstyled" role="list">
+                                <li>
+                                  {% render 'card-product-complementary',
+                                    card_product: card_product,
+                                    media_aspect_ratio: 'portrait',
+                                    show_secondary_image: false,
+                                    lazy_load: lazy_load,
+                                    show_quick_add: false,
+                                    section_id: 'upsell_carousel',
+                                    horizontal_class: true,
+                                    show_vendor: true
+                                  %}
+                                </li>
+                            </ul>
+                          </div>
+                        {%- endfor -%}
+                      </div>
+                      {%- if number_of_slides > 1 -%}
+                        <div class="slider-buttons no-js-hidden">
+                          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-direction' %}</button>
+                          <div class="slider-counter slider-counter--dots">
+                            <div class="slideshow__control-wrapper">
+                              {%- for i in (1..number_of_slides) -%}
+                                <button class="slider-counter__link slider-counter__link--dots link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-ajax_cart">
+                                  <span class="dot"></span>
+                                </button>
+                              {%- endfor -%}
+                            </div>
+                          </div>
+                          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-direction' %}</button>
+                        </div>
+                      {%- endif -%}
+                    </complementary-component>
+                  </div>
+              </aside>
+              {{ 'component-card.css' | asset_url | stylesheet_tag }}
+              {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+              {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+              {{ 'section-product-recommendations.css' | asset_url | stylesheet_tag }}
+              {{ 'component-complementary-products.css' | asset_url | stylesheet_tag }}
+            </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+    <div class='ajax-cart-controls'>
+      <div class='ajax-cart__totals'>
+        <div class='ajax-cart__total'>
+          <span>Subtotal:</span><span data-ajax-cart-price>{ Price }</span>
+        </div>
+      </div>
+      <div class='ajax-cart__terms'>
+        <p>{{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}</p>
+      </div>
+      <div class='ajax-cart__checkout'>
+        <a href='/checkout'>{{ 'sections.cart.checkout' | t }}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id='ajax-cart-product-template' class='ajax-cart__product hidden'>
+  <div class='ajax-cart__product-image'>
+    <img src='' alt='' loading='lazy' width='95' height='95' data-ajax-cart-product-image>
+  </div>
+  <div class='ajax-cart__product-info'>
+    <div class='ajax-cart__product-vendor' data-ajax-cart-product-vendor></div>
+    <a class='ajax-cart__product-title' target='_blank' href='' data-ajax-cart-product-title></a>
+    <div class='ajax-cart__product-variant' data-ajax-cart-product-subtitle></div>
+    <div class='ajax-cart__product-badge' data-ajax-cart-product-badge></div>
+    <div class='ajax-cart__product-controls'>
+      <div class='ajax-cart__product-quantity' data-ajax-cart-controls>
+        <button
+          type='button'
+          data-ajax-cart-decrease
+          class='ajax-cart__quantity-adjust ajax-cart__quantity--minus'
+          aria-label='Reduce item quantity by one'
+        >
+          {% render 'icon-minus' %}
+        </button>
+        <input
+          data-ajax-cart-product-quantity
+          type='text'
+          name='quantity[]'
+          class='ajax-cart__quantity-input'
+          min='0'
+          value='0'
+          aria-label='quantity'
+          oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1');"
+        >
+        <button
+          type='button'
+          data-ajax-cart-increase
+          class='ajax-cart__quantity-adjust ajax-cart__quantity--plus'
+          aria-label='Increase item quantity by one'
+        >
+          {% render 'icon-plus' %}
+        </button>
+      </div>
+      <div class="ajax-cart__product-remove">
+        <button class="link" data-ajax-cart-remove>Remove</button>
+      </div>
+      <div class='ajax-cart__product-price' data-ajax-cart-product-price></div>
+      <div class='ajax-cart__product-discounts' data-ajax-cart-product-discounts></div>
+    </div>
+  </div>
+</div>
+
+<div class="ajax-cart-overlay"></div>
+
+<script src='{{ 'p80-ajax-cart.js' | asset_url }}' defer></script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    {%- unless settings.disable_theme_cart_for_rebuy -%}
+    p80.cart = new p80.ajaxCart();
+    {%- endunless -%}
+  });
+</script>
+{%- endunless -%}

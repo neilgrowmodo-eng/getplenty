@@ -1,0 +1,480 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Plenty_MomDayCampaignPortrait_26.04.27-05.10_WebsiteHP_Desktop2.jpg",
+            "heading": "With Mom",
+            "subheading": "On motherhood, personal style, and the energy they carry.",
+            "text": "@sarahshabacon\n@sunja_link \n@weretheaustrias",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_gAEYqL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_aRbqQQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For Mother’s Day, we spent time with three local moms and their kids, capturing a moment together through a <a href=\"https://www.helloauraphoto.com/\" title=\"https://www.helloauraphoto.com/\">Hello Aura</a> portrait and reading.</p><p>An aura reading offers a glimpse into the shared energy between two people in a moment. What appears isn’t just colour, but something more personal—how they’re showing up, what they carry, and what they’re passing forward.</p><p>We asked each mom a few questions on motherhood, style, and what they’re learning along the way.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_aRbqQQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> If your kids could describe you in one word, what would it be?</p><p><strong>Sarah: </strong>Weird! I get it all the time from them because I was raised by parents who allowed us to be creative and crazy and sometimes that translates to turning a one word answer into a song.</p><p><strong>Sunja: </strong>Cool. No but seriously, I’m not sure. I know they respect me and my opinions, and we all appreciate humour, so maybe they would say funny? Or maybe yeah, cool. No idea to be honest.</p><p><strong>Jaynelle:</strong> I asked Riley this, and he said “kind and loving.” He sees how I engage with the littles every day as a preschool teacher—how I listen, guide, and care for them—and he notices the same qualities in how I show up for him. “Loving” isn’t just about saying I love him; it’s about showing up fully, helping others, and creating a space where he feels safe, supported, and inspired to do the same.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/helloaura_march18_2026_plenty_mothersday_sarah_ziggy.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What part of motherhood energizes you the most?</p><p><strong>Sarah: </strong>Seeing my sons excited about life. My oldest starts highschool in Fall and he talks about it with such joy, my youngest son lights up when he talks about places we've been or places he'd like to go. Their outlook on life is everything.</p><p><strong>Sunja:</strong> Hmmm.. energized and motherhood are not two words you see next to each other often…haha! But seriously, just knowing there is something bigger than yourself is energizing. Motherhood can be overwhelming,  but at the end of the day it’s the thing that truly is bigger than you, and you have to enjoy the ride.</p><p><strong>Jaynelle: </strong>For me, it’s both our big adventures and the little glimmers of everyday life. I love traveling with Riley and showing him the world, but I also treasure the small, ordinary moments—his unexpected hugs, silly jokes. Watching him grow into the little man he’s becoming and seeing the world through his eyes fills me with so much joy and pride.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/helloaura_march18_2026_plenty_mothersday_jaynelle_riley.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8377.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8465.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8376.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What’s one thing your kids have taught you about yourself?</p><p><strong>Sarah: </strong>That I can do anything I set my mind to, quite literally. I was 21 with a newborn and no career and it was through a desire to be there with them through their childhoods that I created a life where I could do just that.</p><p><strong>Sunja: </strong>That I’m more patient than I thought. I would not consider myself a patient person, but with kids they make you slow down and have the capacity to endure waiting or dealing with difficulties without frustration, because they’re beings who need your guidance.</p><p><strong>Jaynelle:</strong> Riley has taught me how to slow down and appreciate all the little things—the way he notices the small wonders in everyday life, the way he laughs and gets excited over something simple. Being around him has reminded me to pause, be present, and savour the fleeting moments, rather than rushing through life. It’s taught me that joy often lives in the small, quiet moments, and that slowing down allows me to be more patient, grateful, and fully engaged as a mom.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/helloaura_march16_2026_plenty_mothersday_sunja_greta.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> How has becoming a mom influenced your personal style?</p><p><strong>Sarah:</strong> I have much more fun dressing as a mom. Motherhood brought me out of my shell in how I presented myself to the world and how I felt about myself.</p><p><strong>Sunja: </strong>When they were little and I had to plan accordingly,I had to dress for whatever activities we were doing. But now that they're older I don't think they influence my style at all.</p><p><strong>Jaynelle: </strong>Becoming a mom has made me more intentional with what I buy and helped me curate a wardrobe of versatile, core pieces that I can mix, match, and style in multiple ways. I still love dressing up, but comfort and practicality are just as important.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/helloaura_march18_2026_plenty_mothersday_sarah_isaac.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4xWUyr": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_3AX3YE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What kind of energy do you hope your kids feel when they’re around you?</p><p><strong>Sarah: </strong> I hope my sons feel a secure energy around me, one where they feel they can be themselves, share ideas or get upset if they want to without fear of being told to stop.</p><p><strong>Sunja: </strong>Loved. That’s what matters. They need to know they’re safe and loved. Everything else pales in comparison.</p><p><strong>Jaynelle:</strong> I hope Riley always feels happy, loved, safe, and supported. I want him to know he can always come to me, no matter what, and that our home is a space where he can be himself freely—fun, full of life, and embraced for who he is. My goal is for him to feel a sense of joy and comfort in knowing he is deeply loved, cared for and cherished.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_3AX3YE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/helloaura_march16_2026_plenty_mothersday_sunja_moss.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-7076.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6954.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAY_ANN_4X5-6957.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "disabled": true,
+      "settings": {
+        "margin_bottom": 55
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><h3>Q: What’s your favourite childhood snack?</h3><p>A: I grew up in an immigrant household. I remember as a child during day camp I went on a hike and one of the team leaders had hummus and I didn’t know what it was. When he gave it to me it totally blew my mind and he basically had to give it all to me because I wanted it, I wanted it all. But I also like wasabi peas, which I can eat all day long.</p><h3>Q: How would you describe your style?</h3><p>A: I love fashion and I really love bold silhouettes and I’m a huge fan of Japanese designers.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8507_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JENNILEE_MARIGOMEN_4X5-8584.jpg",
+        "image_mobile": "shopify://shop_images/MAY_ANN_9X16-7065.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join us in-store this Mother’s Day at our <a href=\"https://www.getplenty.com/pages/store-locator\" title=\"https://www.getplenty.com/pages/store-locator\">Coquitlam location</a> for aura readings and portraits by <a href=\"https://www.helloauraphoto.com/\" title=\"https://www.helloauraphoto.com/\">Hello Aura</a>, with any <a href=\"https://www.getplenty.com/collections/z-supply\" title=\"https://www.getplenty.com/collections/z-supply\">Z Supply</a> purchase.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h3>for all the mamas</h3>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "mothers-day-gift-guide",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "rich_text_gAEYqL",
+    "image_with_text_FAfVaW",
+    "image_with_text_t6KzFw",
+    "collage_U9qgdF",
+    "image_with_text_NjQ3EM",
+    "image_with_text_wKVLmh",
+    "image_with_text_4xWUyr",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_9WEiBt",
+    "p80_image_banner_NVKMXG",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

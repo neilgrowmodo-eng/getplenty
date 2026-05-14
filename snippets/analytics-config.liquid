@@ -1,0 +1,23 @@
+{% comment %}
+  Server-Side Event Forwarding Snippet for GTM Server-Side
+  
+  This snippet provides a server-side endpoint that forwards events to GTM Server-Side.
+  You'll need to set up a server-side proxy (Cloudflare Workers, AWS Lambda, etc.)
+  that receives events from this client-side code and forwards them to your GTM Server-Side container.
+  
+  The GTM Server-Side URL should be in format:
+  https://your-gtm-server-side-domain.com/collect
+  
+  Configure this in Theme Settings > Analytics > GTM Server-Side URL
+{% endcomment %}
+
+<script>
+  // Set up analytics configuration from theme settings
+  window.analyticsConfig = {
+    gtmServerSideUrl: {{ settings.gtm_server_side_url | json }},
+    gtmContainerId: {{ settings.gtm_container_id | json }},
+    enableDebugMode: {{ settings.enable_analytics_debug | default: false }},
+    enableShopifyEvents: true,
+    enableServerSideForwarding: {{ settings.gtm_server_side_url != blank }}
+  };
+</script>

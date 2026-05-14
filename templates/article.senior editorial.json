@@ -1,0 +1,384 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L9-0430.jpg",
+            "heading": "Grandma's secret sauce",
+            "subheading": "",
+            "text": "",
+            "button_label": "",
+            "link": "shopify://collections/shop-the-look-grandmas-secret-sauce",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "rich_text_DqD6qm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HxXHHW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>It's spicy</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_niMnjK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spring style inspiration from the generations.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HxXHHW",
+        "text_niMnjK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L1-10029.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L8-0317.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L7_8-0170.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_PLHW3B": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QUxXwY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>name a more iconic duo</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_fEtnzn": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Trust us, your grandparents know best. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUxXwY",
+        "text_fEtnzn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L3-10504.jpg",
+            "link_url": ""
+          }
+        },
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L4-10761.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L5-11047.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EXDpHL",
+        "image_tjcjtt",
+        "image_dVxmJC"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "settings": {
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "collage_4RMHRU": {
+      "type": "collage",
+      "blocks": {
+        "image_BNBFBV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L9-0016_1.jpg",
+            "image_padding": true
+          }
+        },
+        "image_nWdCik": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L1-10064.jpg",
+            "image_padding": true
+          }
+        },
+        "image_X4eDhb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0220_Plenty_Spring25_Ken_and_Mineko_L2-10284.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_BNBFBV",
+        "image_nWdCik",
+        "image_X4eDhb"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Models : Mineko & Ken</strong></em></h6><h6><em><strong>Photography: </strong></em><a href=\"https://www.instagram.com/alexanderting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==\" target=\"_blank\" title=\"https://www.instagram.com/alexanderting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==\"><em><strong>Alex T.</strong></em></a></h6><h6>Styling: <a href=\"https://www.instagram.com/leilareira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==\" target=\"_blank\" title=\"https://www.instagram.com/leilareira?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==\"><em>Leila B.</em></a></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>shop the looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-the-look-grandmas-secret-sauce",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 44
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "rich_text_DqD6qm",
+    "collage_U9qgdF",
+    "rich_text_PLHW3B",
+    "p80_multi_image_banner_FFEjV9",
+    "p80_image_banner_NVKMXG",
+    "collage_4RMHRU",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

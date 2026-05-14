@@ -1,0 +1,175 @@
+{{ 'section-breadcrumbs.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  #shopify-section-{{ section.id }} .breadcrumbs {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}
+    {%- assign t = template | split: '.' | first -%}
+    <div class="breadcrumbs-wrapper color-{{ section.settings.color_scheme }} gradient">
+        <div class="page-width">
+        <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
+            <ol class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                    <a class="full-unstyled-link breadcrumbs__link" href="/">Home</a>
+                </li>
+                {%- case t -%}
+                    {%- when 'page' -%}
+                    <li class="breadcrumbs__item">
+                        <a class="full-unstyled-link breadcrumbs__link" href="{{ page.url }}" aria-current="page">{{ page.title }}</a>
+                    </li>
+                    {%- when 'product' -%}
+                        {%- if collection.url -%}
+                            <li class="breadcrumbs__item">
+                            {{ collection.title | link_to: collection.url }}
+                            </li>
+                        {%- endif -%}
+                        <li class="breadcrumbs__item">
+                            <a class="full-unstyled-link breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+                        </li>
+                    {%- when 'collection' and collection.handle -%}
+                        {%- liquid
+                            assign current_collection = collection.handle
+                            assign collection_crumbs = ''
+                        -%}
+                        {% capture temp_crumbs %}
+                            <li class="breadcrumbs__item">
+                                <a class="full-unstyled-link breadcrumbs__link" href="#link_object_url#">
+                                    #link_object_title#
+                                </a>
+                            </li>
+                            <li class="breadcrumbs__item">
+                                <a class="full-unstyled-link breadcrumbs__link" href="#second_level_link_object_url#" aria-current="page">
+                                    #second_level_link_object_title#
+                                </a>
+                            </li>
+                            {%- unless current_tags.size == blank -%}
+                                <li class="breadcrumbs__item">
+                                    {{ current_tags | join: ', ' | camelize }}
+                                </li>
+                            {%- endunless -%}
+                        {% endcapture %}
+                        {%- liquid
+                            assign current_collection = collection.handle
+                            assign collection_crumbs = ''
+                            if section.settings.menu != blank
+                                for link in section.settings.menu.links
+                                    if link.type == 'collection_link'
+                                        if link.links != blank
+                                            assign second_level_links = link.links
+                                            for second_level_link in second_level_links
+                                                if second_level_link.type == 'collection_link' and second_level_link.object.handle == current_collection
+                                                    capture collection_crumbs
+                                                        echo temp_crumbs | replace: '#link_object_url#', link.object.url | replace: '#link_object_title#', link.object.title | replace: '#second_level_link_object_url#', second_level_link.object.url | replace: '#second_level_link_object_title#', second_level_link.object.title
+                                                    endcapture
+                                                endif
+                                            endfor
+                                        endif
+                                    endif
+                                endfor
+                            endif
+                        -%}
+                        {%- if collection_crumbs != blank -%}
+                            {{ collection_crumbs }}
+                        {%- elsif current_tags -%}
+                            <li class="breadcrumbs__item">
+                                {{ collection.title | link_to: collection.url, class: 'full-unstyled-link breadcrumbs__link' }}
+                            </li>
+                            <li class="breadcrumbs__item">
+                                {%- capture tag_url -%}{{ collection.url }}/{{ current_tags | join: "+" }}{%- endcapture -%}
+                                <a class="full-unstyled-link breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ current_tags | join: " + " | capitalize }}</a>
+                            </li>
+                        {%- else -%}
+                            <li class="breadcrumbs__item">
+                                <a class="full-unstyled-link breadcrumbs__link" href="{{ collection.url }}" aria-current="page">{{ collection.title }}</a>
+                            </li>
+                        {%- endif -%}
+                    {%- when 'blog' -%}
+                        {%- if current_tags -%}
+                            <li class="breadcrumbs__item">
+                                {{ blog.title | link_to: blog.url }}
+                            </li>
+                            <li class="breadcrumbs__item">
+                                {%- capture tag_url -%}{{ blog.url }}/tagged/{{ current_tags | join: "+" }}{%- endcapture -%}
+                                {%- liquid
+                                    capture formatted_tags
+                                        for tag in current_tags
+                                            unless forloop.first
+                                                echo " + "
+                                            endunless
+                                            echo tag | capitalize
+                                        endfor
+                                    endcapture
+                                -%}
+                                <a class="full-unstyled-link breadcrumbs__link" href="{{ tag_url }}" aria-current="page">{{ formatted_tags }}</a>
+                            </li>
+                        {%- else -%}
+                            <li class="breadcrumbs__item">
+                                <a class="full-unstyled-link breadcrumbs__link" href="{{ blog.url }}" aria-current="page">{{ blog.title }}</a>
+                            </li>
+                        {%- endif -%}
+                    {%- when 'article' -%}
+                        <li class="breadcrumbs__item">
+                            {{ blog.title | link_to: blog.url }}
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a class="full-unstyled-link breadcrumbs__link" href="{{ article.url }}" aria-current="page">{{ article.title }}</a>
+                        </li>
+                    {%- else -%}
+                        <li class="breadcrumbs__item">
+                            <a class="full-unstyled-link breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+                        </li>
+                {%- endcase -%}
+            </ol>
+        </nav>
+        </div>
+    </div>
+{%- endunless -%}
+
+{% schema %}
+{
+  "name": "t:sections.breadcrumbs.name",
+  "class": "section-breadcrumbs",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.header.settings.menu.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 8
+    }
+  ]
+}
+{% endschema %}

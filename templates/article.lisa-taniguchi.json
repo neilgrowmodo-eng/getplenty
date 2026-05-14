@@ -1,0 +1,497 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LISA-6042.jpg",
+            "heading": "meet: lisa taniguchi",
+            "subheading": "@lisa.taniguchi",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For <a href=\"https://www.lisataniguchi.com/\"><span style=\"text-decoration:underline\">Lisa Taniguchi</span></a>, letters are more than shapes on a page—they’re a way of making sense of the world. A Vancouver-born designer, lettering artist, and muralist, she’s spent the last decade turning words into expressive works that carry memory, meaning, and a whole lot of heart.</p><p>Rooted in her Japanese-Canadian heritage, Lisa’s work sits at the intersection of design and feeling, where each stroke is intentional and every phrase holds a story. From <a href=\"https://www.lisataniguchi.com/new-page\"><span style=\"text-decoration:underline\">large-scale murals</span></a> to <a href=\"https://www.lisataniguchi.com/rain-murals-series\"><span style=\"text-decoration:underline\">city commissions</span></a> and <a href=\"https://www.instagram.com/p/C9SToEBJTCD/\"><span style=\"text-decoration:underline\">public installations</span></a>, Lisa’s work has brought bold, thoughtful phrases to walls across Vancouver and beyond—making space for people to pause, reflect, and feel seen. Now, she’s expanding that vision with a second font in the works and her first solo show, <em>the things we tell ourselves</em>, opening this fall.</p><p>We caught up with Lisa at her studio to talk about the memories that shape her art, snacks, signage, and why the words we carry often say the most. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LISA-6052.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LISA-6095.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LISA-6107.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What are 3 words your friends/family would use to describe you?</p><p><strong>A:</strong> Creative, caring, busy</p><p><strong>Q: </strong>Can you tell us about your creative beginnings—what first drew you to lettering and illustration?</p><p><strong>A: </strong>I went to school for graphic design over 10 years ago - that’s where I discovered my love of typography and lettering. Typography is a fundamental part of design, but design is expressing a prescribed message, feeling or purpose. It’s not inherently personal in the way that art is. Lettering drew me in because it gave me a way to explore art and expression that was still adjacent to graphic design. I wasn’t great at drawing and still am not. But drawing bold, vibrant letters to capture my internal thoughts and feelings felt empowering. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LISA-6087.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Has growing up in Vancouver shaped your artistic perspective in any surprising ways?</p><p><strong>A: </strong>The diversity of the city has enabled my appreciation of different perspectives, whether that’s values and beliefs or aesthetics and style. Being born and raised here, it wasn’t until I travelled to less diverse places that I learned to appreciate this. While it may not have a direct impact on my work, it influences my lens as an artist. </p><p><strong>Q: </strong>Where do your ideas usually start—a phrase, a sketch, a memory?</p><p><strong>A:</strong> Usually a memory, feeling or thought that I want to reflect on and preserve. My memory is terrible, so sometimes it feels like these personal lettering pieces are a way to remember where my head and heart was. It forces me to pause and be introspective - then turn that into art that, hopefully, others will resonate with too.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LISA-6108.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>We love that food and nostalgia are recurring themes in your work. Is there a particular memory or dish that always finds its way back in?</p><p><strong>A: </strong>Ah, that’s a hard one - there’s so many! I think we all crave nostalgia. In 2019, I spent 3 months in Japan, mostly in Osaka where a lot of my relatives still live. I would often visit my grandma and every single time she would have snacks and mugicha on a beautiful lacquer tray ready for me when I arrived. It can be hard to communicate with my broken Japanese, so those acts of love were made even more meaningful. </p><p><strong>Q:</strong> What was your favourite childhood snack?</p><p><strong>A:</strong> Shrimp crackers! There’s two specific kinds I loved (and still love!)</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LISA_4x5-6143.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_wf6qzR": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_m8eNy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LISA_4x5-6155.jpg",
+            "link_url": ""
+          }
+        },
+        "image_NqAm8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LISA_4x5-6166.jpg",
+            "link_url": ""
+          }
+        },
+        "image_Mk3GAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-4065.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_m8eNy6",
+        "image_NqAm8L",
+        "image_Mk3GAY"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>How would you describe your style?</p><p><strong>A: </strong>I would consider it comfortable with a little artistic flair. I try to have one piece of my outfit that adds visual interest, whether that’s a colourful bag, jewelry or a bold graphic tee.</p><p><strong>Q:</strong>Is there a piece in your closet or a go-to accessory that feels <em>most you</em> right now?</p><p><strong>A:</strong>Probably one of the new graphic tees I’ve got! It would be between a cobalt blue Henri Matisse shirt that features their handwriting on the back or a grungy long sleeve with gargoyles and gothic lettering. Two very different aesthetics, but both ones that feel very me right now!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3983.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong>We’re excited about your upcoming solo show and new font release! What can you share about what you’re working on?</p><p><strong>A: </strong>Eeeek! Yes, “the things we tell ourselves” - my very first solo art show - is coming up in September! It’s a collection of bold lettering paintings inspired by moments and musings from the past two years. Many of the paintings are from vulnerable points in my recent life, from big dreams and hopeful affirmations, to deep-seeded self doubt and questions about the worthiness of life. Opening night is Friday September 19th at Astro Club in Mount Pleasant!</p><p><strong>Q: </strong>Lately, you’ve been exploring retro Japanese design. What’s drawing you to that era or aesthetic?</p><p><strong>A:</strong> I think it's the romanticization of a different era when the process of creating was much more analog and manual. There’s a human, tactile-ness to the work - a texture that has soul. It’s also a way to connect to my family’s roots. I remember admiring vintage labels on sale at a flea market in Osaka, only for my parents to say that they remember it from their childhood. These artifacts tell a beautiful story. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3884.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3914.jpg",
+        "image_mobile": "shopify://shop_images/shiyu-3914.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "p80_multi_image_banner_GxgVgw": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_PpDYcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-3965.jpg",
+            "link_url": ""
+          }
+        },
+        "image_GcYrFe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu--2.jpg",
+            "link_url": ""
+          }
+        },
+        "image_pWqQLX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PpDYcq",
+        "image_GcYrFe",
+        "image_pWqQLX"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "p80_image_banner_KGecMT": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/LISA-6047.jpg",
+        "image_mobile": "shopify://shop_images/LISA-6047.jpg",
+        "link_url": "",
+        "margin_bottom": 35
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shiyu's Look 1: <a href=\"https://www.getplenty.com/products/pgd-cotton-spandex-jersey-mya-tank-top-25s?variant=43911121567789\" target=\"_blank\" title=\"https://www.getplenty.com/products/pgd-cotton-spandex-jersey-mya-tank-top-25s?variant=43911121567789\">PGD Mya Tank Top</a> and <a href=\"https://www.getplenty.com/products/propaganda-twill-suiting-imelda-straight-leg-wide-trouser?variant=43739894251565\" target=\"_blank\" title=\"https://www.getplenty.com/products/propaganda-twill-suiting-imelda-straight-leg-wide-trouser?variant=43739894251565\">PROPAGANDA Imelda Straight Leg Wide Trouser</a></p><p>Shiyu's Look 2: <a href=\"https://www.getplenty.com/products/pgd-cotton-spandex-zazie-rib-tank\" target=\"_blank\" title=\"https://www.getplenty.com/products/pgd-cotton-spandex-zazie-rib-tank\">PGD Zazie Rib Tank</a> and <a href=\"https://www.getplenty.com/products/propaganda-printed-floral-tilda-pencil-column-skirt?variant=43194214055981\" target=\"_blank\" title=\"https://www.getplenty.com/products/propaganda-printed-floral-tilda-pencil-column-skirt?variant=43194214055981\">PROPAGANDA Tilda Floral Column Skirt</a></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "p80_multi_image_banner_wf6qzR",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "p80_image_banner_UxCJ7h",
+    "p80_multi_image_banner_GxgVgw",
+    "p80_image_banner_KGecMT",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

@@ -1,0 +1,404 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PVraCa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/AIDAN-5113.jpg",
+            "heading": "meet: aidan",
+            "subheading": "@things_from_gardens",
+            "text": "Plenty is excited to be hosting our Valentine’s Day Pop Up event with @things_from_gardens.\nOn Saturday February 8th from 2-5pm at our Robson store.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 20,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_PVraCa"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "rich_text_KUaUxq": {
+      "type": "rich-text",
+      "blocks": {
+        "text_pM9EKt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aidan is a floral designer and event stylist based in Vancouver, BC. She builds atmospheric floral installations and arrangements for events, businesses, and homes. She’s the girl who falls in love with every stem she sees. The one lagging behind on a walk to photograph the plants, showing you a tiny detail of a leaf, pulling over the car to forage something on the side of the road, and generally being sentimental about beautiful things. Working with flowers and plants is a source of play, creativity, and meditation for her. The natural world and its many cycles is where she looks for inspiration. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_pM9EKt"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.thingsfromgardens.com/\">Things From Gardens</a> is named after how she started arranging flowers: gathering bits from around her neighbourhood and experimenting with how to style them. Starting this way taught her to find beauty in unusual things and made her resourceful in where she looked for materials.</p><p></p><p>Before starting her business, Aidan worked in tech and took vacation days to work on floral projects. In 2023 she decided to follow her true passions and connect to people through the joy of flowers, so she quit my corporate job and started working for herself. Today, she loves to bring concepts to life in large and small scale projects and teach workshops.</p><p></p><p>If you want to learn more about her work and support <a href=\"https://www.thingsfromgardens.com/\">Things From Gardens</a>, join her on IG <a href=\"https://www.instagram.com/things_from_gardens/\">@things_from_gardens</a>. We spent the morning with Aidan in her studio to hear more about the story behind <a href=\"https://www.thingsfromgardens.com/\">Things From Gardens</a>. Read the full interview below.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/VALENTINE_ACTIVATION-5046.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What are 3 words your friends or family would use to describe you?</h3><p>A:<strong> </strong>Passionate, energetic, and unconventional.</p><h3>Q: Tell us the story behind Things From Gardens.</h3><p>A: Things From Gardens was born out of a desire to be creative and do something with my body while I had a corporate job. I was really looking for something that I could use to express myself and I had always liked flowers. </p><p>During COVID, I found myself collecting little bits from around my neighborhood when I was going on walks with my dog. I would send my mom photos of things that I was making with the items I had found. She highly encouraged me to start an Instagram account just to have a record of the things I was making and to see how my skills were progressing over time.</p><p>After working on that Instagram account for about a year, without much intention to grow anything, I started meeting more florists in the city as well. I started taking the skills that I was building more seriously and studying things like Ikebana and taking online flower courses for how to design.</p><p>In April of 2023, I left my corporate jobs because I was really burnt out and flowers were a great safe space for me to try to find some restoration while I was trying to decide what I wanted to do next. Then in September 2023, an opportunity to sublet a studio came up and I thought “why not give this a shot?” and see what happens in three months. After three months in the studio, doing the biggest projects I had done to that date, I thought how am I supposed to put together a resume and interview for another job when I feel so deeply about what I was doing.</p><p>So through 2024, I started to build my own business. I moved into this new studio and have been growing and trying to find my footing since.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/AIDAN-5072.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What are some of your fondest memories since you have started the Things From Gardens?</h3><p>A: When I think about the things that make me feel happiest in my business, it’s really the people I’ve gotten to work with and the way that I’ve been able to play with different creative ideas. I love the intensity of going to an event, having a bit of a whirlwind set up, you’ve only got a couple of hours to build something incredible and large and impactful that’s going to be memorable for a lot of people who see it. And the satisfaction of having that thing complete and being able to see people walk in and be so excited and surprised by what has been made in the space that was previously there. My memories are a little part and parcel of the things that I get to do on a regular basis.</p><h3>Q: If you could give your younger self one piece of advice, what would it be?</h3><p>A: I think the advice I would give my younger self is the advice I am trying to practice right now, which is trust the process and persevere. This business was born out of a hobby I discovered and I just kept at and so when I think back to my younger self, there were a lot of things I tried and dropped, or I was afraid to continue with and I think if I had leaned into continuing to learn and continuing to work through awkward phases, I could’ve saved myself a lot of grief in the long run. Keep working hard, keep trying and trust that something good will come from it in the end. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/AIDAN-5149.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: Where do you go when you are looking for inspiration?</h3><p>A:<strong> </strong>I find inspiration from a lot of places but if I’m specifically looking for something when I’m starting a project, I really like to look at vintage floral books, art books, and things that are around me. I really like to start from a specific concept to build a project around. So for example this summer I was doing the <a href=\"https://www.instagram.com/maude.sips/\">Maude Sips</a> dinner which is a wine tasting dinner and we were thinking about what a deep summer, August, moody floral design could look like. And so we built around the concept of sneaking out at night from your grandparents house. So we were using flowers that were maybe a bit more traditional, flowers that a grandmother might have in her garden like blue hydrangeas or fuchsias. And then creating a little more abstract designs out of them so that we were really looking to emulate those feelings of deep summer, things that are really hot, sexy, sweaty and shiny, and that was really fun. I’m also really drawn to nature, so my initial concept of my business started with me wandering around my neighborhood. I find a lot of inspiration just looking at gardens around me, seeing what things are paired in the garden together, the way that textures balance, the way colours combine with each other, the way different things grow at different heights is really inspiring to me. Or even just going for a walk with my dog and seeing the way moss grows on the forest floor.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/VALENTINE_ACTIVATION-5018.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What’s your favourite childhood snack?</h3><p>A: Two things came to mind. One, I loved watching TV and eating <a href=\"https://www.wholesaleclub.ca/en/crispers-all-dressed-crackers-baked-snacks\">all dressed Crispers</a>. So random but so nostalgic. My mom blow drying my hair after a bath and eating all dressed Crispers while watching TV. The second is sneaking a bunch of rice crispies that my bubbe would make me as a kid while playing the Sims and finishing a whole bag of rice crispies that was supposed to last us a week. </p><h3>Q: How would you describe your style?</h3><p>A: My style has changed a lot since I have started this business because I’m often getting ready a lot to go to the studio everyday and working with flowers is very physical and manual work. So, I think I would describe my style now as pragmatic but I always try to look cute. I try getting dressed for the studio everyday even if I am the only person I am going to see. I really like wearing clothes that are comfortable. I like wearing clothes that I can move in really easily but I also like things that have a little bit of a classic touch with new proportions, which I am wearing right now. Can’t go wrong with a button down shirt, I’d wear a button down shirt every single day. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/VALENTINE_ACTIVATION-5052.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_KLqDTn": {
+      "type": "collage",
+      "blocks": {
+        "image_RazRM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AIDAN-5091.jpg",
+            "image_padding": false
+          }
+        },
+        "image_B7txji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AIDAN-5067.jpg",
+            "image_padding": false
+          }
+        },
+        "image_dr6DRy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VALENTINE_ACTIVATION-5032.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "image_RazRM8",
+        "image_B7txji",
+        "image_dr6DRy"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_GKVGMN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_NMqaKm": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_3bVtPG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Look 1: <a href=\"https://www.getplenty.com/products/agolde-cooper-cargo-indigo\">Agolde Cooper Cargo</a>, <a href=\"https://www.getplenty.com/products/ribbon-luxe-modal-cotton-stretch-toni-crewneck-t-shirt\">Ribbon Luxe Toni Crewneck T Shirt</a>, <a href=\"https://www.getplenty.com/products/propaganda-cotton-poplin-micro-pinstripe-sandy-oversized-button-shirt\">Propaganda Sandy Oversized Button Shirt</a>, and <a href=\"https://www.getplenty.com/products/m-l-ottoman-colby-quarter-zip-pullover\">Monk & Lou Ottoman Solid Colby Pullover</a>. </p><p>Look 2: <a href=\"https://www.getplenty.com/products/only-svea-melange-wide-leg-pant?variant=43030854041645\">Only Svea Melange Wide Leg Pant</a>, and <a href=\"https://www.getplenty.com/products/z-supply-gia-crew-neck-sweater?variant=43082965549101\">Z Supply Gia Crew Neck Sweater</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_NMqaKm",
+        "text_3bVtPG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "subtitle": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 88
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "rich_text_KUaUxq",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_c4jGUN",
+    "collage_KLqDTn",
+    "rich_text_GKVGMN",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

@@ -1,0 +1,13 @@
+.collection-description .rich-text__heading {
+    margin: 0 0 1.6rem
+}
+
+.collection-description .rich-text__text {
+    color: rgba(var(--color-foreground))
+}
+
+@media screen and (max-width: 767px) {
+    .collection-description .rich-text__text {
+        font-size: 1.6rem;
+    }
+}

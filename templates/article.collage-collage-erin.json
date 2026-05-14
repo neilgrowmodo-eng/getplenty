@@ -1,0 +1,468 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5856.jpg",
+            "heading": "meet: collage collage",
+            "subheading": "@collagecollage",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Step inside <a href=\"https://shop.collagecollage.ca/\"><span style=\"text-decoration:underline\">Collage Collage</span></a> and you’ll find more than just a shop. You'll find an explosion of colour, <a href=\"https://shop.collagecollage.ca/collections/supplies\"><span style=\"text-decoration:underline\">googly eyes</span></a>, <a href=\"https://shop.collagecollage.ca/collections/books\"><span style=\"text-decoration:underline\">picture books</span></a>, and an open invitation to make, try, and <a href=\"https://shop.collagecollage.ca/collections/camps-classes\"><span style=\"text-decoration:underline\">get a little messy</span></a>. Founded by artist and educator Erin Bonifero, the beloved Vancouver studio-slash-storefront has been nurturing creativity in kids (and their grown-ups) since 2009.</p><p>Shaped by years of involvement in community-based art programming and a belief in the power of hands-on making, Erin has built something rare: a space where trying matters more than perfect results, and pipe cleaners and pencil crayons are everyday magic. </p><p>We sat down with Erin to talk about her earliest art memories, her studio uniform, and why a good pen (and a good stain remover) go a long way.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLLAGE_COLLAGE-5955.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5933.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5868_1.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What are 3 words your friends/family would use to describe you?</p><p><strong>A: </strong>I had to ask them because I found this question overwhelming. Here are my favorites. Crafty, Caring, Vibrant.</p><p><strong>Q: </strong>Let’s start from the beginning. What’s your earliest memory of making art as a kid? </p><p><strong>A: </strong>I love this question. It takes me back to one of my favorite places, my grandmother's sewing room, which was home to what I believe was the world's greatest collections of craft materials. I was always welcome there, and she had all the things. It is organized with milk bags (for anyone else who grew up in Ontario) and I have the very best memories of being in that space and having access to all the supplies; googly eyes, craft felt, fabric for days, pipe cleaners, she had it all. It's likely what I'm always striving for in our classroom.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLLAGE_COLLAGE-5860_c7c205a2-bd2b-4f0d-972a-e7f60c5e2716.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Collage Collage has been around since 2009 (amazing)! What inspired you to blend a creative studio with a retail shop?</p><p><strong>A:</strong> I spent a lot of time after I graduated from Emily Carr working in various jobs that were pretty much extensions of me still running the Arts and Crafts Cabin at my Summer Camp. Through Arts Umbrella, The Vancouver Art Gallery, The Contemporary Art Gallery, SFU Gallery and the Richmond Art Gallery, I was able to run all kinds of wonderful arts programs for kids, but I knew I wanted a retail component as well. All of my grandparents have small business stories, and my Dad worked for a long time with small retailers. I think I just assumed it was part of my story to also run a shop. It means you can have a creative experience AND take the goods home with you. That, and I think a picture book collection is everyone's first art collection, and I wanted in on that.</p><p><strong>Q:</strong> Do you have a “uniform” for studio days? What’s your go-to outfit when you’re teaching or getting messy with art supplies?</p><p><strong>A: </strong>I do like clothes. And I am totally spoiled by the fact that my shop is on Main Street, right beside some of the best little shops to find true treasures in. My uniform is a rotation of jeans and a good top, a dress and a t-shirt under it, almost always the basics with one special thing mixed in. Things will get paint on them, but it's part of me now—I'm almost used to the occasional stain. My most stylish pal would always remind me to just wear the special thing, getting groceries, going to a wedding, wear the thing... and invest in a good stain remover.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLLAGE_COLLAGE-5864.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Running it all walking distance, literally having your kids at the studio– What’s the best part of building a business with your family?</p><p><strong>A:</strong> I actually had kids a few years AFTER I opened the store. So they've never known a life without the shop. To be honest, the best part changes as the shop changes. Before my husband and I were married, he helped me build the store— more than once. This place (and the location before it) are truly a labour of love. My favorite guy and his belief in this place, alongside the support and cheerleading from my folks and family are what brought this place to life. Now that our kids have grown up in the store, and their ownership of their role in it—THAT is the best part, I like what they see me doing, and what we're doing as a family for our community.</p><p><strong>Q:</strong> Collage Collage is a whole vibe. How do you curate what goes into the shop?</p><p><strong>A: </strong>It is a vibe, and I still love it. I pick things that light me up. I pick things that elevate what you expect from kids. I never talk down to children and I take their interests, observations and abilities seriously. Kids are the best, most open critics and I think about that often. I want you to find special things here, inspiring things, unexpected, fun, quality, wonderfully designed things. And also stickers, because—the vibe.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLLAGE_COLLAGE-5910.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_wf6qzR": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_m8eNy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5877.jpg",
+            "link_url": ""
+          }
+        },
+        "image_NqAm8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5906.jpg",
+            "link_url": ""
+          }
+        },
+        "image_Mk3GAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5863.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_m8eNy6",
+        "image_NqAm8L",
+        "image_Mk3GAY"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> If we peeked inside your art supply drawer, what would we find way too much of?</p><p><strong>A: </strong>Oh, the pens. Any kind of drawing material, actually. I can't help it. I have more than enough and I still can't help but keep adding to the collection. It doesn't matter to me if it comes from a high end stationary shop or the dollar store, when an excellent pen or pencil presents itself I have to add it to the collection. Drawing is the bones of all of this [and] writing is the script, so I think the tool that does both is my go to.</p><p><strong>Q:</strong> What advice would you give to parents who say “I’m not creative” but want to support their kids’ creativity?</p><p><strong>A:</strong> I love this question and I hear it all the time. I always remind the parents that it doesn't matter. Your kid can do this, all you need to do is set the stage. I think that's why our Mini Make classes have been going for so long—they're for kids and their adults to do together, and honestly, I think the parents get as much out of it as the kids. With the world being the way it is these days, we're all losing track of the most basic creative acts—mark making and just basic cutting and pasting. You don't need to \"be creative\" to just TRY and make marks with your kid. Scribble! Lay on the floor and trace one another! It's about trying. That's the best thing you can do for your kid (and yourself).</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLLAGE_COLLAGE-5997_58d9d31e-d691-4ceb-8a04-13a63db73c87.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You’ve built a really special community around Collage Collage. What does that community mean to you? </p><p><strong>A: </strong>I often struggle with the shop not being where I want it to be financially—it's still a hard go in this city with this rent and all the things you can assume. However, I have the privilege of being the recipient of SO MUCH JOY. Honestly, I get to hear a kind and happy thing every single day I'm at the shop. It could be a little one coming in for a new book, or a grandparent finding something so special for their grandchild—I'm deeply grateful to be the source of that joyful act.</p><p><strong>Q:</strong> Lastly, what’s something you hope everyone who comes through the studio leaves knowing or feeling?</p><p><strong>A: </strong>Much like the parents who doubt their own creative strength, I hope that people come through here and leave willing to try. As our world gets farther and farther away from pencil to paper, scissors to paper, glue to anything–I feel an even deeper urgency to invite people to try and get creative. It's not what you make, it's the process of trying. I hope you come through and feel the need to try. I have the perfect pencil for it.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/COLLAGE_COLLAGE-5939.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_GxgVgw": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_PpDYcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-6039.jpg",
+            "link_url": ""
+          }
+        },
+        "image_GcYrFe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/COLLAGE_COLLAGE-5977_54384b25-f24c-4ce0-af79-ee7041a11079.jpg",
+            "link_url": ""
+          }
+        },
+        "image_pWqQLX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PpDYcq",
+        "image_GcYrFe",
+        "image_pWqQLX"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>shop erin's looks </h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-erins-looks",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "p80_multi_image_banner_wf6qzR",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "p80_multi_image_banner_GxgVgw",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

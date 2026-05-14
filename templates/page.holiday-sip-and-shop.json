@@ -1,0 +1,247 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_jCYTCB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8EratW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>You’re Invited: Holiday Sip & Shop</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_cdJmDj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy 30% off everything, plus a complimentary gift with any $200 spend. Sip on exclusive matcha drinks with Idle Hours — the first 25 guests get a free one on us.</p><p>TableTutors will be setting the vibe with live sounds all evening. It’s the perfect time to tackle your holiday shopping and find something special to wear for all your upcoming celebrations. Please RSVP to your selected store below.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8EratW",
+        "text_cdJmDj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_U3yLfw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Hej4XJ": {
+          "type": "column",
+          "settings": {
+            "title": "Willowbrook: Dec 7",
+            "text": "<p>#210-19705 Fraser Highway Langley, BC V3A 7E9</p>",
+            "link_label": "RSVP Here",
+            "link": "https://www.eventcreate.com/e/plenty-willowbrook-holiday"
+          }
+        },
+        "column_wLQVHw": {
+          "type": "column",
+          "settings": {
+            "title": "Park Royal: Dec 8",
+            "text": "<p>1044 Park Royal South West Vancouver, BC V7T 1A1</p>",
+            "link_label": "RSVP Here",
+            "link": "https://www.eventcreate.com/e/plenty-park-royal-holiday"
+          }
+        },
+        "column_wMNr9c": {
+          "type": "column",
+          "settings": {
+            "title": "Coquitlam: Dec 9",
+            "text": "<p>2706-2929 Barnet Highway Coquitlam, BC V3B 5R5</p>",
+            "link_label": "RSVP Here",
+            "link": "https://www.eventcreate.com/e/plenty-coquitlam-holiday"
+          }
+        },
+        "column_4VEjkP": {
+          "type": "column",
+          "settings": {
+            "title": "Kitsilano: Dec 10",
+            "text": "<p>2803 West Broadway Vancouver, BC V6K 2G6</p>",
+            "link_label": "RSVP Here",
+            "link": "https://www.eventcreate.com/e/plenty-kitsilano-holiday"
+          }
+        },
+        "column_KyEmeW": {
+          "type": "column",
+          "settings": {
+            "title": "Uptown (Women's & Men's): Dec 11",
+            "text": "<p>Unit 119-3551 Uptown Blvd Victoria, BC V8Z 0B9</p>",
+            "link_label": "RSVP Here",
+            "link": "https://www.eventcreate.com/e/plenty-uptown-holiday"
+          }
+        }
+      },
+      "block_order": [
+        "column_Hej4XJ",
+        "column_wLQVHw",
+        "column_wMNr9c",
+        "column_4VEjkP",
+        "column_KyEmeW"
+      ],
+      "settings": {
+        "title": "Locations",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Store Locator",
+        "button_link": "shopify://pages/store-locator",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_RbkNV4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7NUEJM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SS25_M_L_AMICA_VNECK_TANK_-_RED_CHERRY3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Women's",
+            "link": "shopify://collections/new-arrivals-womens"
+          }
+        },
+        "column_iazpCR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/0219_Plenty_Ecomm_Geoffrey_and_Tony-9773.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Men's",
+            "link": "shopify://collections/new-arrivals-mens"
+          }
+        },
+        "column_V884nz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BAGGU_-_6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Everything Else",
+            "link": "shopify://collections/everything-else"
+          }
+        }
+      },
+      "block_order": [
+        "column_7NUEJM",
+        "column_iazpCR",
+        "column_V884nz"
+      ],
+      "custom_css": [
+        ".slider-button--next {display: none;}",
+        ".slider-button--prev {display: none;}",
+        ".caption {display: none;}"
+      ],
+      "settings": {
+        "title": "See What's New",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_anDyKm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cGq3PH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Offer valid at select locations only. Discount cannot be combined with any other offer. Offer available only at time of purchase. Offer not valid on previous purchases or gift cards. Items in original condition and discounted less than 50% off may be exchanged or returned for store credit until January 12, 2026. </em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cGq3PH"
+      ],
+      "custom_css": [
+        "p {font-size: .75em;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Become a Plenty Insider. </strong>Sign up for 10% off your first regular price online order. Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_jCYTCB",
+    "multicolumn_U3yLfw",
+    "multicolumn_RbkNV4",
+    "rich_text_anDyKm",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

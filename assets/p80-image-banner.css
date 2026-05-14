@@ -1,0 +1,26 @@
+.p80-image-banner {
+  margin-bottom: var(--margin-bottom);
+  position: relative;
+}
+
+.p80-image-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.p80-image-banner-link {
+  height: 0;
+  display: block;
+  background-color: red;
+}
+
+.p80-image-banner-link:after {
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}

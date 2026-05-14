@@ -1,0 +1,473 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2317.jpg",
+            "heading": "meet: sophia hsin",
+            "subheading": "@sophiahsin",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.sophiahsin.com/\"><span style=\"text-decoration:underline\">Sophia Hsin</span></a> is a <a href=\"https://www.sophiahsin.com/still-life\"><span style=\"text-decoration:underline\">still-life</span></a>, <a href=\"https://www.sophiahsin.com/taiwan\"><span style=\"text-decoration:underline\">travel</span></a>, and <a href=\"https://www.sophiahsin.com/fine-art-headshots-and-portraits\"><span style=\"text-decoration:underline\">lifestyle</span></a> photographer with a background in classical music and a lifelong love of design. Her work reflects a deep appreciation for beauty and craft. It’s shaped by the places she’s explored, the textures she’s drawn to, and the quiet moments tucked between the rhythms of everyday life. She notices the details: how homes are styled, <a href=\"https://www.sophiahsin.com/food-photography\"><span style=\"text-decoration:underline\">how meals are plated</span></a>, how light moves through a room. Those observations shape not only her photography, but also the way she lives and creates at home.</p><p>Her perspective is rooted in her heritage and also by the season she’s in now. One that balances motherhood, memory-making, and the slow build of a life well lived. From countryside dreams to creative rituals, we caught up with Sophia to talk about inspiration, identity, and the kinds of images that linger long after you’ve seen them.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_2121.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_AMhRfB": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_XAEn7F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Human-body-still-life-35.jpg",
+            "link_url": ""
+          }
+        },
+        "image_iWMFzG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sophia_Hsin_Photography_Still_6.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XAEn7F",
+        "image_iWMFzG"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What are 3 words your friends/family would use to describe you? </p><p><strong>A: </strong>Organic, intentional… my design professor also once called me quirky.</p><p><strong>Q:</strong> Your background in classical music is so interesting! How do you think that’s shaped the way you compose images? </p><p><strong>A: </strong>Classical music is all about refinement, attention to detail, and practice. In music school, we studied the composers and musicians whose works have endured for decades. That gave me a deep reverence for old-world artists and for what makes a piece timeless and able to connect with people. It’s absolutely shaped the way I work. Creating an image—especially personal work when I have all the time in the world—feels a lot like refining a piece of music: focusing on details, the lighting, the harmony between composition and subject. Very satisfying. The phrase about putting 10,000 hours into your craft to become a master rings true here.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_2138.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>We noticed you often incorporate ceramics, food and natural textures into your work. Which objects or environments are catching your eye lately?</p><p><strong>A: </strong>I recently watched a film on Georgia O’Keeffe, and now I’m dreaming of a countryside home. Somewhere outside the city to nourish the artist in me, not just the working photographer.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Sophia_Hsin_Photography_Still_5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Do you remember the first photo you took that made you feel something? What was that moment like?</p><p><strong>A: </strong>I remember taking a photo of flowers in Beijing when I first started shooting on my phone for Instagram… 2016? That year, the pollution was so bad you could barely see the sky for weeks. The photo went viral—so many people commented on how beautiful it was. That moment felt incredibly empowering. Art, to me, is a form of resilience. It’s about creating beauty, even in tough circumstances.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_2200.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_2148.jpg",
+        "image_mobile": "shopify://shop_images/IMG_2148.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_6WPP4a": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_xipPLU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Can you tell us a bit about how your Taiwanese heritage shows up in your creative process? </p><p><strong>A: </strong>I’ve come to a place where it’s not just about balancing my Taiwanese heritage, but also about understanding what it means to be Canadian, to be married to an Australian (we’ve spent a lot of time down under in recent years), and to be a mother. For me, it’s about creating a world that is uniquely yours—through your daily life, colours you wear, goods you collect in your home, the food you eat. From there, you build a world that invites others in. It’s still evolving every day.</p><p><strong>Q: </strong>You’ve travelled to so many inspiring places. Is there somewhere that always calls you back– that feels creatively grounding?<strong> </strong></p><p><strong>A: </strong>Honestly, Italy. I love Europe, but seeing Michelangelo’s <em>David</em> in person was unforgettable. I really believe it’s impossible not to feel like an artist in Italy—the beauty is overwhelming. The light, the natural flora and fauna, the food, the architecture, it just shouts out at you.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_xipPLU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_2281.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_GaNUy9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_xW9tig": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sophia_Hsin_Photography_Still_3.jpg",
+            "link_url": ""
+          }
+        },
+        "image_UHWCkL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sophia_Hsin_Photography_Still_8.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xW9tig",
+        "image_UHWCkL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What does a day in your life look like when you're not behind the camera?</p><p><strong>A: </strong>It’s all about spending as much quality time as I can with my toddler right now. I’ve come to accept that this season of life doesn’t leave much room for personal work, and that’s okay.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_2245.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_JiktqU": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_jATDRF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Is there a personal project you’re dreaming up currently or one that’s already on the go? </p><p><strong>A:</strong> We’re always talking about moving to the countryside. It’s something I really hope becomes a reality in the next few years.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_jATDRF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_2315.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_GNk676": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_2322.jpg",
+        "image_mobile": "shopify://shop_images/IMG_2322.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "featured_collection_zKQUjT": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Shop Sophia's Looks",
+        "subtitle": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-sophias-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "p80_multi_image_banner_AMhRfB",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "p80_image_banner_UxCJ7h",
+    "image_with_text_6WPP4a",
+    "p80_multi_image_banner_GaNUy9",
+    "image_with_text_c4jGUN",
+    "image_with_text_JiktqU",
+    "p80_image_banner_GNk676",
+    "featured_collection_zKQUjT",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

@@ -1,0 +1,482 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_6hGjAa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cFYE4N": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h3>(HIDE/delete AFTER COMPLETED)</h3><h2>Guidelines for PLENTY journal</h2><h3></h3><h3></h3>",
+            "heading_size": "h1"
+          }
+        },
+        "text_yPX3Jf": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Keep question header font to <strong>\"body font/paragraph\"</strong> (same as answers)</li><li>Use <strong>BOLD</strong> font, only for<strong> \"Q: & A:\"</strong></li><li>Make a consistent content <strong>\"position & alignment\" (\"middle, left\", respectively)</strong> </li><li>When using Q&A style boxes with multi column, <strong>create ONLY 6 columns</strong></li><li><strong>Use a business name</strong> as the title and if not use their full name.<br/>Meet: Rebellion Barbershop instead of Michael Brodie<br/><br/></li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cFYE4N",
+        "text_yPX3Jf"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6168.jpg",
+            "heading": "meet: carson ting",
+            "subheading": "@chairman_ting",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From comic books and Saturday morning cartoons to global design collaborations, <a href=\"https://chairmanting.com/featured\" target=\"_blank\" title=\"https://chairmanting.com/featured\">Carson Ting</a> has always been drawn to expressive imagery. Growing up in Toronto and now based in Vancouver, he has built a practice that moves fluidly between illustration, design, and fine art. We spoke with Carson about early inspirations, creative routines, and the beloved family pet that sparked his <a href=\"https://www.billionbuns.com/\" target=\"_blank\" title=\"https://www.billionbuns.com/\">Billion Buns</a> universe.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6201.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What are 3 words your friends and family would use to describe you? </p><p><strong>A: </strong>Driven, curious, and dependable.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6179.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Xcm763": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_MVB6xn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> Did you grow up surrounded by art, or did you go looking for it? </p><p><strong>A: </strong>Yes, but not by design. We always had a good mix of Western and Eastern comic books. These ranged from Archie, DC, and Marvel to Hong Kong classics like Old Master Q (<em>Lo Fu Zhi</em>, IYKYK). Between the comic books and Saturday morning cartoons like <em>Bugs Bunny</em> and my all-time favourite, <em>Fables of the Green Forest</em>, I was incredibly inspired by all the art in my orbit.</p><p>Growing up in Toronto, my dad started his own independent Chinese Canadian newspaper in our basement. I remember seeing all the typesetting machinery, and that visual really etched itself into my memory. But the most pivotal moment was when my dad first introduced me to pencil crayons. It truly blew my mind. I thought pencils only produced grey lines, so when I saw that these produced colour on paper, I was completely floored.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_MVB6xn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6244.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_qim38J": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_gGCMN3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>How did the creative energy in Toronto shape your early work, compared to the Vancouver scene now? </p><p><strong>A:</strong> Toronto taught me pace and pressure. It is a city that pushes you to perform, compete, and work fast. Toronto gave me the gift of grit through the grind, and it was a great place for training.</p><p>On the other side of the spectrum, Vancouver is more reflective. It gives me space to think about the meaning of my work. I think if I hadn’t cut my teeth in advertising art direction in Toronto, I wouldn’t have the same level of discipline and focus in Vancouver.</p><p></p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_gGCMN3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6256.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6239.jpg",
+            "link_url": ""
+          }
+        },
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6235.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dVxmJC",
+        "image_tjcjtt",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_bxNH9V": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_3KUgdY": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Your work lives on everything from walls to objects to screens. How do you carry your style across projects that live in very different formats?</p><p><strong>A: </strong> Whether it is a mural, a wine bottle label, a pair of sneakers, or a digital screen, it all starts with a pencil and a sheet of paper. I always try my best to create from my purest form of thinking, and often the spirit of my work translates through to the end. It is always a bit of a dance to balance the work I create with the reality of commerce. That balance has to be perfect. Otherwise, I risk losing not only the style of my art but also the sole purpose of the project itself.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_3KUgdY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6263.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_P4Vwza": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CxjN6x": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>How would you describe your personal style? Is there a piece in your wardrobe that you can’t live without? </p><p><strong>A: </strong>Simple, functional, and understated. I like things that last a long time, as I keep going back to the same outfits over and over.</p><p>I can’t live without a classic black t-shirt. However, that t-shirt can’t live without a solid mechanical watch (I am a self-proclaimed amateur horology enthusiast), a pair of relaxed trousers, and fresh sneakers. It gets very complicated very fast. ;)</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CxjN6x"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6218.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_jTrTpX": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_34KjnJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong><a href=\"https://www.billionbuns.com/\" target=\"_blank\" title=\"https://www.billionbuns.com/\">Billion Buns </a>has grown into a universe of its own. What was the inspiration behind the first character? </p><p><strong>A: </strong>The inspiration behind the first character was Bella, our late pet bunny. She was a beautiful black and white Dutch rabbit. She had a jet-black coat with a white nose, paws, and a white stripe around her neck that looked like a scarf.</p><p>She was a rescue from the Toronto Humane Society and lived until she was 14, which is amazing considering most only live up to 9 years old. We adopted her to keep our first rescued rabbit company, and they both ended up on a plane with me to start a new life in Vancouver. It is funny that you mention the word \"universe\" because I believe she is thriving somewhere in the cosmos, hence the creation of the Billion Buns universe.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_34KjnJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6184.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pLcPrn": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_XCBqQE": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: When you need to refuel creatively, what does that process look like?</strong></p><p><strong>A:</strong>  I step away from screens. I walk, weight train, travel, and spend time with my family. Most of my ideas come back when I am not trying to force them.</p><p><strong>Q:</strong> When you think about your next chapter, what excites you most? </p><p><strong>A:</strong> What excites me the most about my next chapter is the unknown. I find the discovery of new opportunities exhilarating, especially when it is a direct result of a previous accomplishment. Tracing the steps from one project to another through meaningful discovery is not only incredibly rewarding, but it also provides future fuel for more exciting work ahead.</p><p><br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_XCBqQE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6226.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_wf6qzR": {
+      "type": "p80-multi-image-banner",
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_6265.jpg",
+        "image_mobile": "shopify://shop_images/IMG_6265.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>shop carson's looks </h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-carsons-looks",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "rich_text_6hGjAa",
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_Xcm763",
+    "image_with_text_qim38J",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_bxNH9V",
+    "image_with_text_P4Vwza",
+    "image_with_text_jTrTpX",
+    "image_with_text_pLcPrn",
+    "p80_multi_image_banner_wf6qzR",
+    "p80_image_banner_UxCJ7h",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

@@ -1,0 +1,131 @@
+.contact .title {
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.contact img {
+  max-width: 100%;
+}
+
+.contact .form__message {
+  align-items: flex-start;
+}
+
+.contact .icon-success {
+  margin-top: 0.2rem;
+}
+
+.contact-form:not(:only-child) {
+  width: 100%;
+  margin-bottom: 4.8rem;
+}
+
+.contact-content {
+  background-color: rgb(var(--color-logo-cream));
+  box-sizing: border-box;
+  padding: 2.4rem;
+}
+
+.contact-content p {
+  margin-top: 0;
+  color: rgb(var(--color-black))
+}
+
+.contact-content p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-content a {
+  color: rgb(var(--color-black))
+}
+
+.contact-form .field-input {
+  text-align: left;
+  margin-bottom: 2.4rem;
+}
+
+.contact-form .field-input:last-of-type {
+  margin-bottom: 0;
+}
+
+.contact-form .less-margin {
+  margin-bottom: 0.8rem;
+}
+
+.contact-form .field-input label {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(var(--color-base-accent-1))
+}
+
+.contact-form .field input:focus,
+.contact-form .field input:not(:placeholder-shown) {
+  padding: 1.5rem
+}
+
+.contact-form .field:first-of-type {
+  margin-top: 0;
+}
+
+.contact-form .field:after {
+  box-shadow: 0 0 0 var(--inputs-border-width) rgb(var(--color-line-strong));
+}
+
+.contact-form .field input {
+  font-family: var(--font-body-family);
+}
+
+.contact__button {
+  text-align: center;
+}
+
+@media screen and (max-width: 749px) {
+  .contact-content li,
+  .contact-content p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .contact .title {
+    text-align: left;
+  }
+
+  .contact__fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+  }
+
+  .contact__button {
+    text-align: left;
+  }
+
+  .contact-content {
+    padding: 4.8rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .form-content-wrap:has(.contact-content) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4.8rem
+  }
+
+  .contact-form:not(:only-child) {
+    max-width: 54.6rem;
+    width: 100%;
+    flex: 1;
+    margin-bottom: 0;
+  }
+
+  .contact-content {
+    max-width: 43.2rem;
+    margin-top: 2.4rem;
+  }
+}

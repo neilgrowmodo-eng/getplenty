@@ -1,0 +1,74 @@
+/* stylelint-disable */
+/* Newsletter-specific color scheme mappings generated from settings.color_schemes (color_scheme_group) */
+{% assign schemes = 'scheme-1,scheme-2,scheme-3,scheme-4,scheme-5' | split: ',' %}
+{% for scheme_id in schemes %}
+  {% assign scheme = settings.color_schemes[scheme_id] %}
+  {% if scheme != blank %}
+.newsletter.color-{{ scheme_id }} {
+  --color-foreground: {{ scheme.settings.text | color_extract: 'red' }}, {{ scheme.settings.text | color_extract: 'green' }}, {{ scheme.settings.text | color_extract: 'blue' }};
+  --color-background: {{ scheme.settings.background | color_extract: 'red' }}, {{ scheme.settings.background | color_extract: 'green' }}, {{ scheme.settings.background | color_extract: 'blue' }};
+  {% if scheme.settings.background_gradient != blank %}
+    --gradient-background: {{ scheme.settings.background_gradient }};
+  {% else %}
+    --gradient-background: rgba({{ scheme.settings.background | color_extract: 'red' }}, {{ scheme.settings.background | color_extract: 'green' }}, {{ scheme.settings.background | color_extract: 'blue' }}, 1);
+  {% endif %}
+  --color-button: {{ scheme.settings.button | color_extract: 'red' }}, {{ scheme.settings.button | color_extract: 'green' }}, {{ scheme.settings.button | color_extract: 'blue' }};
+  --color-button-text: {{ scheme.settings.button_label | color_extract: 'red' }}, {{ scheme.settings.button_label | color_extract: 'green' }}, {{ scheme.settings.button_label | color_extract: 'blue' }};
+  --color-link: {{ scheme.settings.secondary_button_label | color_extract: 'red' }}, {{ scheme.settings.secondary_button_label | color_extract: 'green' }}, {{ scheme.settings.secondary_button_label | color_extract: 'blue' }};
+
+  background-color: rgb(var(--color-background)) !important;
+  color: rgb(var(--color-foreground));
+}
+
+.newsletter.color-{{ scheme_id }}.gradient {
+  background: var(--gradient-background) !important;
+}
+
+/* Newsletter wrapper styling */
+.newsletter.color-{{ scheme_id }} .newsletter__wrapper {
+  color: rgb(var(--color-foreground));
+}
+
+/* Newsletter heading styling */
+.newsletter.color-{{ scheme_id }} .newsletter__heading {
+  color: rgb(var(--color-foreground));
+}
+
+/* Newsletter subheading styling */
+.newsletter.color-{{ scheme_id }} .newsletter__subheading {
+  color: rgb(var(--color-foreground));
+}
+
+/* Newsletter form input styling */
+.newsletter.color-{{ scheme_id }} .newsletter__form input[type="email"] {
+  border-bottom-color: rgb(var(--color-foreground)) !important;
+  color: rgb(var(--color-foreground)) !important;
+}
+
+.newsletter.color-{{ scheme_id }} .newsletter__form input[type="email"]::placeholder {
+  color: rgb(var(--color-foreground)) !important;
+}
+
+/* Newsletter button styling */
+.newsletter.color-{{ scheme_id }} .newsletter__button {
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  border-color: rgb(var(--color-button));
+}
+
+.newsletter.color-{{ scheme_id }} .newsletter__button:hover {
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  opacity: 0.9;
+}
+
+/* Link styling */
+.newsletter.color-{{ scheme_id }} .link {
+  color: rgb(var(--color-link));
+}
+
+.newsletter.color-{{ scheme_id }} .link:hover {
+  color: rgb(var(--color-button));
+}
+  {% endif %}
+{% endfor %}

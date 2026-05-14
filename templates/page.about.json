@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-about",
+      "blocks": {
+        "7251a67f-dfaf-48df-aeb7-794ebb3529b3": {
+          "type": "heading",
+          "settings": {
+            "title": "HELLO, FRIEND."
+          }
+        },
+        "9c9730df-de81-4c1b-ab67-dba5d514f8f3": {
+          "type": "image-text",
+          "settings": {
+            "image": "shopify://shop_images/about01.png",
+            "text": "Style is about sharing your individuality with the world - and we are here to help."
+          }
+        },
+        "dfd0b9c5-61c3-468e-a8dd-b8293f501a88": {
+          "type": "text",
+          "settings": {
+            "subheading": "Since\n1989",
+            "text": "<p>Since 1989, Plenty has been regarded as an essential fashion destination on the West Coast. We believe in storytelling and a life well-lived; our stores reflect this mindset. From hand-picked Turkish pendant lamps to rich hardwood detailing and marbled interiors, every one of our locations is unique. Since our inception as a single store in Vancouver’s Kitsilano neighbourhood, we have aimed to outfit our customers with high-quality, style-forward pieces for every occasion.</p><p>Currently, we have 9 locations in Western Canada. Our flagship store is a two-level gem in the heart of Kitsilano. Our Robson Street location is in the heart of downtown Vancouver. Decorated with an array of colourful Turkish lamps, our Metropolis at Metrotown store is a must-see. A sleek and sophisticated store in Coquitlam Centre offers a large selection of women's and men's pieces. We offer women's and men's clothing and accessories in the South Wing of West Vancouver's Park Royal shopping centre. Willowbrook Shopping Centre in Langley is the newest addition to our brick-and-mortar locations. And don't forget to visit our outlet at McArthur Glen.</p><p>Outside of the Lower Mainland in Victoria at Uptown Centre we have two bright outdoor locations including our first men's boutique.</p>",
+            "social_media_heading": "@GetPlenty",
+            "enable_social_media": true,
+            "social_media_text": "Tag us in your OOTD's: #getplenty"
+          }
+        }
+      },
+      "block_order": [
+        "7251a67f-dfaf-48df-aeb7-794ebb3529b3",
+        "9c9730df-de81-4c1b-ab67-dba5d514f8f3",
+        "dfd0b9c5-61c3-468e-a8dd-b8293f501a88"
+      ],
+      "settings": {
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

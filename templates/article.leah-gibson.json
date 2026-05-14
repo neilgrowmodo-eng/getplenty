@@ -1,0 +1,437 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-01-14_at_2.29.57_PM.png",
+            "heading": "Meet: Leah Gibson",
+            "subheading": "@homebody_",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.instagram.com/homebody_\"><span style=\"text-decoration:underline\">Leah Gibson</span></a> feels most at home with her hands in the dirt. As the florist, grower, and gardener behind <a href=\"https://www.homebodyfloral.ca/\"><span style=\"text-decoration:underline\">Homebody Floral</span></a>, her work lives  between wild and intentional; celebrating garden-grown and locally sourced blooms shaped by the rhythm of the seasons. </p><p>Leah’s approach to florals mirrors her personal style: layered, comfort-forward, a little off-beat, and grounded in colour and texture. Soft neutrals and unexpected pops of colour show up everywhere, blurring the line between how she dresses, designs, and lives.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2026-01-14_at_2.43.02_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What are 3 words your friends/family would use to describe you?</p><p><strong>A: </strong>When I polled my best friend, he described me as “<em>gifted, nurturing & stubborn</em>”. Family described me as “<em>admirable, kind, and earthly</em>” (before adding ‘<em>stinky farty poopy!!!</em>’ … brothers. Don’t publish that, or do?).</p><p><strong>Q:</strong> Let’s start from the beginning. What did your childhood relationship with nature feel like?</p><p><strong>A:</strong> As a kid, Nature just felt like home. I spent a lot of my childhood outdoors; in the garden, making potions, catching worms, creekwalks, swimming in lakes… In retrospect it’s funny because so much of my youth was spent wandering the woods with my brother, flipping rotten logs & mossy rocks to look for critters… Fast forward to the present day, I’m a florist/grower/gardener and he’s in ecological restoration and studying endangered native species. It all just makes sense, you know?</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_5333.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> The floral industry is so tied to nature, but it isn’t always sustainable. When did you first notice that gap, and how did it shape what you wanted Homebody to be?</p><p><strong>A:</strong> I definitely noticed this very early on in my floral career. Working for some larger scale, more traditional flower shops really put on blast how wasteful the industry is. From the plastics and packaging they arrive in, to the far off destinations many stems travel, to how much ends up in the compost at the end of each week. </p><p>I was quickly questioning a lot of these tendencies and immediately started researching and seeking alternatives, which involved visiting some local flower farms to really get to the source. This inspired me in new ways because I was able to understand flowers as a whole, and not just as a fragment of something that arrived in a box (kind of like buying your food straight from the farmer at a market instead of your big-box grocery store—there was a sense of connection). </p><p>I was always being told my arrangements were ‘too unruly’ so… I went off on my own to embrace this rather than fight it. Now, working primarily with local/garden grown elements, their more organic form steers much of my creations. Imported florals have been bred to be very straight and rigid and… nature ain’t either of those things honey! </p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2026-01-14_at_2.02.14_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_irtNLW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ppjw9W": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You work closely with other local farms. What's the most surprising thing you’ve learned from building that support network? </p><p><strong>A: </strong>Community. Is. INTEGRAL. I’m always surprised at how we all experience similar battles, from heat and drought to bug pressure; but all have varying trials. For example, if my sweet pea crop fails - someone else’s might be flourishing even just a few kms away. When my cosmos are popping off, someone else’s have been ravaged by Japanese beetles. When my dahlias rot, others are a little slower producing than other years but still coming on strong. There are so many ways we can balance one another, from product support to just mentorship and someone who gets it. It can be isolating working so seasonally, and on weekends—during the months of the year when all of your friends and family members are free and looking to get together—we’re in full on work mode. I’m continually surprised at how truly transformative a caring/understanding community can be. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ppjw9W"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2026-01-14_at_2.05.57_PM.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> How would you describe your personal style?</p><p><strong>A: </strong>I’d describe my style as <em>the cool aunt who has big grandma energy</em>; she’s a mix of utilitarian architect meets retired kindergarten teacher, meets your cousin who has a sheep farm in Ireland. Off-duty garden gnome, earth worm chic. I’d say it’s like if Mary Kate and Ashley liked to catch frogs and take you fishing, and will also take you antique shopping and dance in the kitchen making dinner. I take a lot of inspiration from textures in nature & interior design, and vintage books. I gravitate towards colours that make me feel grounded. Comfort is key and I have to be able to get a little dirty at all times. The more layers the better.</p><p><strong>Q:</strong> Imagine a floral arrangement that describes you. Which stems make the cut?</p><p><strong>A: </strong>Pansies: soft and sweet, delicate yet intricate, but stronger than they look, weathering whatever comes their way. The quiet underdog. Perennially surprising you. </p><p>Foxglove: imaginative, whimsical, thoughtful and layered… but a little poisonous in large quantities LOL Definitely the introvert of the floral world. Pay attention to me, but also give me space.</p><p>Garden rose: big diva Leo energy on the outside, but can be stubborn once you get a little closer. (<em>Cancer sun, Leo rising…</em>) </p><p>Ornamental grass: the gentle, sensitive softie.</p><p>And finally, Delphinium: because… Blue.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_5407_8c758e05-21ab-4090-bb12-3fd5e81f4fd1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_XJdmDp": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_VHkGAT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-01-14_at_2.02.14_PM.png",
+            "link_url": ""
+          }
+        },
+        "image_CTjMXi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-01-14_at_2.32.07_PM.png",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VHkGAT",
+        "image_CTjMXi"
+      ],
+      "name": "t:sections.p80-multi-image-banner.presets.name",
+      "settings": {
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_jzjctF": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_raakbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>If someone walked into your studio and your closet at the same time, what would they notice as a common thread between the two?</p><p><strong>A: </strong>COLOURS. Lots of browns, blacks, and blues: with pops of oranges and reds. I take inspiration for my home and spaces and wardrobe from each other and the highest compliment is for someone to walk into your house or see an article of clothing and just go ‘<em>this is so you</em>’. I think our external environments are such direct reflections of our personalities, it’s honestly so fun and fascinating and is what makes us all individual.</p><p><strong>Q: </strong>Flowers are fleeting by nature. What has working with something so temporary taught you?</p><p><strong>A: </strong>It’s taught me appreciation through a certain level of detachment, I suppose. So much is out of my control, working with stems that all come with an expiry date. So much of gardening is surrendering to the elements and mother nature. It’s taught me to be flexible, go with the flow, and separate myself from any one outcome. I could also tinker endlessly but at a certain point you need to just step back and view the big picture as a whole.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_raakbm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_5213.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_CTEHXX": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_CDLHzX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_5313.jpg",
+            "link_url": ""
+          }
+        },
+        "image_e3U67j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-01-14_at_4.06.23_PM.png",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CDLHzX",
+        "image_e3U67j"
+      ],
+      "name": "t:sections.p80-multi-image-banner.presets.name",
+      "settings": {
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_KFPWwx": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_QkPVGX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> Winter is downtime in your calendar. Knowing there are bulbs sleeping under the snow, does the pause spark ideas, or is it more about slowing down?</p><p><strong>A: </strong>It’s more about pumping the breaks, moving with intention, and yummy gooey slow routine. While winter is my ‘off’ season, it’s still a time where there is lots to be done, just in a different way than the energy that summer brings with it. Winter is a lot more thoughtful, planning, behind the scenes work, while summer is just absolutely surrendering to the chaos of it all. I love them both and need the two contrasting seasons to keep my cool. Winter is when I hunker down, allow a sense of spaciousness into my schedule, and settle into a more intentional movement routine. </p><p><strong>Q: </strong>What does “growth” mean for you right now? </p><p><strong>A: </strong>Right now, growth for me means continually <em>learning, playing, experimenting</em>. I’m in a season where I’ve been working really hard on projects to get me where I want to be for a really long time (<em>specifically the past few years, building my gardens & physical studio space</em>), and now that I’m coming to the end of wrapping these up, I’m very excited to move into a season of reaping the benefits of my ongoing projects, enjoying the harvests of my labour (metaphorically as well as literally). Growth currently feels a lot like tying up loose ends, and moving into a fresh chapter. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_QkPVGX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_5104.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Leah's Looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-leahs-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_irtNLW",
+    "image_with_text_FAfVaW",
+    "p80_multi_image_banner_XJdmDp",
+    "image_with_text_jzjctF",
+    "p80_multi_image_banner_CTEHXX",
+    "image_with_text_KFPWwx",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

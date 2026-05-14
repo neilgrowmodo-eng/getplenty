@@ -1,0 +1,366 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4282.heic",
+            "heading": "Meet: Idle Hours Cafe",
+            "subheading": "@idlehourscafe_",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.instagram.com/idlehourscafe_/\"><span style=\"text-decoration:underline\">Idle Hours Cafe</span></a> invites you to slow down, sip thoughtfully, and savor the moment in a world that moves at a mile-a-minute. What started as a cozy at-home experiment with friends has blossomed into a pop-up café experience specializing in matcha, coffee, and seasonal drinks designed to delight.</p><p>Meet Aanchal and Aditi, the creators behind Idle Hours, and our partners for our upcoming <a href=\"https://www.getplenty.com/pages/holiday-2025-sip-and-shops\" target=\"_blank\" title=\"https://www.getplenty.com/pages/holiday-2025-sip-and-shops\">Holiday Sip & Shop</a>, happening at select locations December 7-11. Find event details and RSVPs <a href=\"https://www.getplenty.com/pages/holiday-2025-sip-and-shops\" target=\"_blank\" title=\"https://www.getplenty.com/pages/holiday-2025-sip-and-shops\">here</a>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_3414.heic",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What inspired you to start Idle Hours?</p><p><strong>A: </strong>We have always loved hosting in our space, from holiday dinners to wine nights, charcuterie boards and movie nights; we had done it all… except a cafe. Idle Hours began as a simple way to bring our friends together in our apartment, unwind, and experiment with unique drinks. We quickly realized that we really wanted to share this with more people, and we just hit the ground running with our little idea.</p><p><strong>Q:</strong> Idle Hours is all about slowing down. What does a “perfect idle hour” look like to you?</p><p><strong>A:</strong> For us, the “perfect idle hour” is all about finding some time for the little joys of life, whether that be indulging in our morning matcha or taking the time to do our skincare routine. It really doesn’t have to be anything big or monumental, just a small pocket of time that makes us feel grounded and present.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_3321.heic",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_DWbeNN": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_y3EHyT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3304.heic",
+            "link_url": ""
+          }
+        },
+        "image_dzntEg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4289.heic",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_y3EHyT",
+        "image_dzntEg"
+      ],
+      "name": "t:sections.p80-multi-image-banner.presets.name",
+      "settings": {
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> Your drinks are so fun and seasonal! How do you come up with new flavors or ideas?</p><p><strong>A: </strong>We love experimenting with different flavours while making sure to keep the authentic taste of matcha at the centre. Most of our ideas are inspired by our travels, childhood memories, and little moments of serendipity, like discovering a new ingredient at a local market or reminiscing about snacks we grew up with. From there, we play with textures and pairings that complement  rather than overpower the earthiness of matcha. Sometimes that means balancing it with something bright and fruity; other times it’s about leaning into warm, nostalgic flavours that feel comforting and familiar.</p><p><strong>Q: </strong>What’s your favorite part of creating a space where people can just pause and enjoy the moment?</p><p><strong>A: </strong>For us, the most special part is that people choose to seek us out, especially since we don’t have a permanent location. Every time we host a pop-up somewhere new and see familiar faces in the crowd, it means so much. We love getting to chat with people, hear their stories, and recognize those returning customers who’ve become a little part of our community. It’s those small moments of connection that make all the effort feel worth it.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_4315.heic",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Outside of coffee and matcha, what little things in life bring you joy and help you slow down?</p><p><strong>A: </strong>Most of our joys are rooted in family, genuine connections and travel. Our family is a big part of our lives, so even simple moments like cooking together or catching up after a long day help us slow down. We also enjoy traveling. Exploring new places helps us reset, stay curious, and appreciate the small things.</p><p><strong>Q</strong>: How do you see Idle Hours evolving in the future? Any exciting projects coming up?</p><p><strong>A:</strong> To be very honest, we’re not planners. We live in the moment and do what feels exciting and right with the best intentions. This is why Idle Hours is almost 6 months in with so many pop-ups with local businesses in the city, and we can’t believe it. Looking ahead, our goal is to keep building with that same spirit—creating unique, fun flavors and giving people a welcoming space to gather, slow down, and connect with like-minded souls. We’re excited to keep exploring collaborations, seasonal drinks, and little moments that make everyday life a bit more joyful. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_3340.heic",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_fbQGpE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nYHQjd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Holiday Sip & Shop with Idle Hours </p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_6F9kwA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Catch Idle Hours at select locations from 5-8PM:</strong></p><p><strong>Dec 7 </strong>– Willowbrook</p><p><strong>Dec 8 </strong>– Park Royal</p><p><strong>Dec 9 </strong>– Coquitlam</p><p><strong>Dec 10 </strong>– Kitsilano</p><p><strong>Dec 11 </strong>– Uptown Women’s & Men’s</p>"
+          }
+        },
+        "button_YwGLp8": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "https://www.getplenty.com/pages/holiday-2025-sip-and-shops?_kx=wugvQDOTBOxTxhPbfS7AbQIB7zoBpxNw2DP7guZ_f6A.XjKdjP",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nYHQjd",
+        "text_6F9kwA",
+        "button_YwGLp8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Aanchal & Aditi's Looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-aanchal-aditis-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "p80_multi_image_banner_DWbeNN",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "rich_text_fbQGpE",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

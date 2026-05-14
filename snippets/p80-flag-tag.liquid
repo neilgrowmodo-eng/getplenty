@@ -1,0 +1,18 @@
+{%- if tag contains 'flag:' -%}
+  {%- liquid
+    assign flag_obj = tag | split: ':'
+    if flag_obj[2] == 'black'
+      assign color = settings.sold_out_badge_color_scheme | prepend: 'color-'
+    else
+      assign color = settings.sale_badge_color_scheme | prepend: 'color-'
+    endif
+  -%}
+  {%- if flag_obj.size > 1 -%}
+    <span
+      id='NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}'
+      class='badge badge--bottom-left {{ color }}'
+    >
+      {{- flag_obj[1] -}}
+    </span>
+  {%- endif -%}
+{%- endif -%}

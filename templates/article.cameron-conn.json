@@ -1,0 +1,323 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2771.jpg",
+            "heading": "Meet: Cameron Conn",
+            "subheading": "@champlain",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For <a href=\"https://www.getplenty.com/collections/champlain\" title=\"https://www.getplenty.com/collections/champlain\">Champlain</a> co-founder and CEO Cameron Conn, getting dressed is all about intention. Working across varied industries during his career, his approach to dressing has stayed rooted in a belief that how you show up sets the tone. That perspective carries through to Champlain, where classic menswear is reinvented for modern life.</p><p>We caught up with Cameron ahead of <a href=\"https://www.getplenty.com/blogs/journal/slo-pour-saturday\" title=\"https://www.getplenty.com/blogs/journal/slo-pour-saturday\">Slo Pour Saturday</a> to talk brand building, everyday wardrobe essentials, and his approach to getting dressed.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/X8A1066.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> You’ve moved from casinos to tech to fashion during your career. Each of these have their own culture and way of dressing. How has your personal style evolved alongside those shifts?</p><p><strong>A: </strong>Transitioning between industries was almost more about assimilation than evolution. In each environment, I had to represent myself, my team, and the company. While every industry has its own standard of appearance, I’ve always tried to raise that standard. I want to be the example, both in form and function. There’s a level of self-confidence that comes with a thoughtful appearance, and I’ve approached each stage of my career with that mindset.</p><p>While my day-to-day wardrobe has changed, my philosophy hasn’t. I lean classic and try not to chase trends. We’ve all seen moments in menswear that don’t age well—oversized tie knots, loud socks, things that felt current at the time but look ridiculous in hindsight. A crisp white shirt, a pocket square, matching socks, those things always work.</p><p>In tech, I wasn’t going to wear the same outfit every day like Mark Zuckerberg or Steve Jobs (not putting myself in their stratosphere), and I wasn’t going to default to jeans and a hoodie like most of my team. I dressed for the day, what meetings I had, who I was seeing, what I needed to represent.</p><p>Funny enough, running Champlain has been the hardest. When you love fashion and run an apparel company, there’s an internal pressure to wear your brand all the time. But I genuinely love other brands too. Sometimes I’ll put on someone else’s cardigan and feel slightly guilty, especially when someone asks if it’s Champlain and I have to say it isn’t.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/X8A1098.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_VUi7iQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_MELg4X": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You’ve spoken about getting more out of what you already own. What’s one small shift that can change how someone gets dressed day to day?</p><p><strong>A: </strong>Fashion will always keep pushing forward, and the further it goes, the harder it becomes to integrate those pieces into your everyday wardrobe.</p><p>The easiest way to solve that is to build your foundation on classic pieces. That gives you flexibility, you can layer in trend-driven items without disrupting your entire wardrobe.</p><p>A practical place to start is pants. Most men default to jeans, which are great—but they’re actually one of the hardest pieces to dress up. They almost create too many options.</p><p>Adding a few pairs of chinos or slacks immediately elevates everything. You can still wear a white sneaker and a simple shirt, but the overall look is sharper and more intentional.</p><p>Everything you wear on top with jeans can work with a more tailored pant. The only real constraint becomes footwear, and that’s not a bad thing. For example, Jordans should stay with denim.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_MELg4X"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/X8A1065.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_CULrcX": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_XnbBY6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What’s one piece in your wardrobe that you can’t live without? </p><p><strong>A</strong>: I’ll always be a sucker for a clean white tennis shoe—not an athletic shoe, a casual one.</p><p>It goes back to high school, I used to go through ten pairs of Tommy Hilfiger a year. But it doesn’t matter the brand—Keds, Vans, Vince, Common Projects—slip-ons or lace-ups.</p><p>For me, a white shoe is the easiest way to achieve a clean, elevated casual look.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_XnbBY6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/X8A1048.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Champlain sits in that middle ground between tailoring and athleisure. What made you realize there was space for a brand like this?</p><p><strong>A: </strong>This really starts with my partner and founder, Jonathan Richard. While running his custom tailoring business, he was seeing firsthand how dress codes were shifting. Clients were still coming in for suits, but they didn’t actually want to wear them. They were looking for something more relaxed, but still felt stuck between formal tailoring and casual wear.</p><p>That led Jonathan to start revisiting classic menswear, looking back over the last 70 years and asking how it could be modernized.</p><p>When I first came in as an investor, what he had built resonated immediately. I had experienced that same frustration, moving from environments where suits were the norm into ones where they felt out of place, but still wanting to show up professionally. I felt it in tech, and even more so after selling my company and stepping into a larger organization.</p><p>With the help of our partner Warren Schindler, we took a deeper look at the market. Athleisure was dominating post-COVID work culture, suits were being pushed into fewer settings, fast fashion was moving too quickly, and high fashion wasn’t practical for most professionals.</p><p>No one was really focused on the center of the market—the everyday professional who still cares how they present themselves. That space was largely held by legacy brands that peaked decades ago. Jonathan’s design perspective, combined with that gap, made the mission clear: bring back classic menswear in a way that feels relevant today.</p><p></p><p><strong>Q: </strong>There’s a strong sense of nostalgia in the pieces, but they don’t feel overly traditional. How do you balance references while still making something that feels current?</p><p><strong>A:</strong> This is where Jonathan’s instincts really shine. He does an incredible job building each seasonal collection. From there, we come together as a team and pressure-test everything.</p><p>We ask: where did this piece originate? What did the best version of it look like historically? How are we modernizing it? And does it work across different wardrobes?</p><p>The goal is to create pieces that feel natural to someone with a strong personal style, but still approachable enough to bring in someone who’s just starting to refine how they dress.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/X8A1125.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Champlain</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "champlain",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "image_with_text_t6KzFw",
+    "main",
+    "image_with_text_FAfVaW",
+    "image_with_text_VUi7iQ",
+    "image_with_text_CULrcX",
+    "image_with_text_wKVLmh",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

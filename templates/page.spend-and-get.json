@@ -1,0 +1,278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_VR3zXq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XCUWLC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spend & Get On Now",
+            "heading_size": "h1"
+          }
+        },
+        "text_8Qwyir": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get $10-$50 off on your next purchase when you make a qualifying purchase in-store.</p><p>Visit us at any of the below locations until March 30 to shop and save.</p><p><em>Offer available in-store only, some conditions apply.</em></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XCUWLC",
+        "text_8Qwyir"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Plenty_SpendGetPublic_25.03.13_DedicatedEmail.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_U3yLfw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4VEjkP": {
+          "type": "column",
+          "settings": {
+            "title": "Kitsilano",
+            "text": "<p>2803 West Broadway Vancouver, BC V6K 2G6</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MUbGdK": {
+          "type": "column",
+          "settings": {
+            "title": "Robson",
+            "text": "<p>1107 Robson Street Vancouver, BC V6E 1B5</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wMNr9c": {
+          "type": "column",
+          "settings": {
+            "title": "Coquitlam",
+            "text": "<p>2706-2929 Barnet Highway Coquitlam, BC V3B 5R5</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7jipwM": {
+          "type": "column",
+          "settings": {
+            "title": "Metrotown",
+            "text": "<p>Suite 24E-4700 Kingsway Burnaby, BC V5H 4M1</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wLQVHw": {
+          "type": "column",
+          "settings": {
+            "title": "Park Royal",
+            "text": "<p>1044 Park Royal South West Vancouver, BC V7T 1A1</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hej4XJ": {
+          "type": "column",
+          "settings": {
+            "title": "Willowbrook",
+            "text": "<p>#210-19705 Fraser Highway Langley, BC V3A 7E9</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KyEmeW": {
+          "type": "column",
+          "settings": {
+            "title": "Uptown Women's",
+            "text": "<p>Unit 119-3551 Uptown Blvd Victoria, BC V8Z 0B9</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pfgwCa": {
+          "type": "column",
+          "settings": {
+            "title": "Uptown Men's",
+            "text": "<p>Unit 101-3600 Uptown Blvd Victoria, BC V8Z 0B9</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4VEjkP",
+        "column_MUbGdK",
+        "column_wMNr9c",
+        "column_7jipwM",
+        "column_wLQVHw",
+        "column_Hej4XJ",
+        "column_KyEmeW",
+        "column_pfgwCa"
+      ],
+      "settings": {
+        "title": "Offer Available at",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Store Locator",
+        "button_link": "shopify://pages/store-locator",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_RbkNV4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7NUEJM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SS25_M_L_AMICA_VNECK_TANK_-_RED_CHERRY3.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Women's",
+            "link": "shopify://collections/new-arrivals-womens"
+          }
+        },
+        "column_iazpCR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/0219_Plenty_Ecomm_Geoffrey_and_Tony-9773.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Men's",
+            "link": "shopify://collections/new-arrivals-mens"
+          }
+        },
+        "column_V884nz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BAGGU_-_6.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Everything Else",
+            "link": "shopify://collections/everything-else"
+          }
+        }
+      },
+      "block_order": [
+        "column_7NUEJM",
+        "column_iazpCR",
+        "column_V884nz"
+      ],
+      "custom_css": [
+        ".slider-button--next {display: none;}",
+        ".slider-button--prev {display: none;}",
+        ".caption {display: none;}"
+      ],
+      "settings": {
+        "title": "See What's New",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_anDyKm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cGq3PH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Offer valid in-store only on full-price items until March 30, 2025. Offer not valid at McArthurGlen Designer Outlet. Discount cannot be combined with any other offer. Offer available at time of purchase. Offer not valid on previous purchases or gift cards. Voucher is valid from March 15, 2025 to April 30, 2025. Any returns will be in the amount paid minus the voucher amount. Limit 1 voucher per person.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cGq3PH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Become a Plenty Insider. </strong>Sign up for 10% off your first regular price online order. Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_VR3zXq",
+    "multicolumn_U3yLfw",
+    "multicolumn_RbkNV4",
+    "rich_text_anDyKm",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

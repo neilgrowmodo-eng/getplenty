@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faqs": {
+      "type": "main-faqs",
+      "blocks": {
+        "695a6121-8255-443d-b536-9596f2bdaef0": {
+          "type": "faq",
+          "settings": {
+            "title": "What are your locations & hours?",
+            "text": "<p>You can find all of our locations and business hours <a href=\"https:\/\/www.getplenty.com\/pages\/store-locator\" target=\"_blank\" title=\"https:\/\/www.getplenty.com\/pages\/store-locator\">here<\/a>.<\/p>"
+          }
+        },
+        "2b8e8365-2f6f-47ea-a89d-cb0e0550a35f": {
+          "type": "faq",
+          "settings": {
+            "title": "Do you sell gift cards?",
+            "text": "<p>Yes, please click <a href=\"https:\/\/www.getplenty.com\/products\/gift-card\" title=\"Gift Card\">here <\/a>to purchase one online.<\/p>"
+          }
+        },
+        "374130de-cdf2-4df2-8526-6471c5aa43a1": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I use a gift card or store credit online?",
+            "text": "<p><strong>Gift Card: <\/strong>Yes, please enter the gift card number at checkout. If you have any issues please email <a href=\"mailto:orders@getplenty.com\" title=\"mailto:orders@getplenty.com\">orders@getplenty.com <\/a>with your gift card number.<br\/><br\/><strong>Store Credit: <\/strong>To use store credit online, first place an order like normal. <br\/><br\/>Reply to your order confirmation to let us know you would like to have your credit applied. We will then immediately refund you the amount covered by your store credit.<\/p>"
+          }
+        },
+        "dd9f7a21-619e-428c-9967-dcca309a0e78": {
+          "type": "faq",
+          "settings": {
+            "title": "My gift card won't work online?",
+            "text": "<p>Our apologies for the technical issue! This is something we are working towards resolving as soon as possible.<\/p><p>In the meantime we ask you first try entering both the number located below the bar code and the \"If checking out online:\" number.<\/p><p>If neither are successful we ask you place your order like normal. Reply to your order confirmation to let us know you would like to have your gift card applied. Please include the full gift card number located under the bar code. <\/p><p>We will then immediately process a refund for the amount covered by your gift card.<\/p>"
+          }
+        },
+        "faq_pkcXMk": {
+          "type": "faq",
+          "settings": {
+            "title": "Will you send me a tracking number?",
+            "text": "<p>You will receive a tracking number once the package has been shipped if you provided an email at checkout.<\/p><p>If you did not receive one, please email <a href=\"mailto:orders@getplenty.com\" title=\"mailto:orders@getplenty.com\">orders@getplenty.com<\/a> and we will provide you with an update on your order. Please note that tracking numbers may take up to 24 hours to update.<\/p>"
+          }
+        },
+        "faq_V7JkxX": {
+          "type": "faq",
+          "settings": {
+            "title": "What is your return policy?",
+            "text": "<p>Our return policy can be found <a href=\"https:\/\/www.getplenty.com\/pages\/delivery-returns\" title=\"\/pages\/delivery-returns\">here<\/a>.<\/p>"
+          }
+        },
+        "1d018b10-2de7-4b73-9f47-4a7292bec079": {
+          "type": "faq",
+          "settings": {
+            "title": "Do you offer price adjustments?",
+            "text": "<p>A one-time price adjustment can be made within 7 days of purchase with the original receipt and item(s) with tags attached.<br\/><br\/>If it is past 7 days and\/or the item is not present, the difference in price will be issued as a store credit up to 30 days from the original date of purchase. Sale or promotional priced items are not eligible for price adjustments.<\/p>"
+          }
+        },
+        "faq_L8Efjz": {
+          "type": "faq",
+          "settings": {
+            "title": "Can I contact someone with questions\/concerns?",
+            "text": "<p>General Inquiries: <a href=\"mailto:info@getplenty.com\" title=\"mailto:info@getplenty.com\">info@getplenty.com<\/a><\/p><p>Order Inquiries: <a href=\"mailto:orders@getplenty.com\" title=\"mailto:orders@getplenty.com\">orders@getplenty.com<\/a><\/p><p>Call Monday - Friday, 9AM - 4PM PST (excluding holidays)<\/p><p>604-428-3070 or Toll Free 1-833-946-1763<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "695a6121-8255-443d-b536-9596f2bdaef0",
+        "2b8e8365-2f6f-47ea-a89d-cb0e0550a35f",
+        "374130de-cdf2-4df2-8526-6471c5aa43a1",
+        "dd9f7a21-619e-428c-9967-dcca309a0e78",
+        "faq_pkcXMk",
+        "faq_V7JkxX",
+        "1d018b10-2de7-4b73-9f47-4a7292bec079",
+        "faq_L8Efjz"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "heading_size": "hxxl",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 24
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "faqs",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

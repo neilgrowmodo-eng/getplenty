@@ -1,0 +1,143 @@
+.product-recommendations {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 2.5rem;
+}
+.product-recommendations__title {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+.product-recommendations__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.product-recommendations__product {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(50% - 14px);
+  margin-left: 0;
+  margin-right: 0;
+  text-decoration: none;
+  margin-bottom: 14px;
+}
+.product-recommendations__product:first-of-type {
+  width: 50%;
+}
+.product-recommendations__product:last-of-type {
+  width: calc(50% - 7px);
+}
+.product-recommendations__product:focus,
+.product-recommendations__product:focus-within {
+  outline: solid 2px #4d4d4d;
+}
+.product-recommendations__product:nth-of-type(2n) {
+  margin-right: 0;
+  margin-left: 7px;
+}
+.product-recommendations__product:last-of-type {
+  margin-right: 0;
+}
+/* The base Dawn theme hides empty divs - we add the body selector here to increase style priority */
+body .product-recommendations__image--placeholder {
+  display: block;
+  width: 100%;
+  height: 60%;
+  background: #dcdcdc;
+  align-self: flex-start;
+}
+.product-recommendations__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  align-self: flex-start;
+}
+.product-recommendations__content {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.product-recommendations__product-title {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #4d4d4d;
+}
+.product-recommendations__price {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #4d4d4d;
+}
+.product-recommendations__product-original {
+  text-decoration: line-through;
+}
+.product-recommendations__loader {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 495px;
+}
+.product-recommendations__loader.visible {
+  display: flex;
+}
+.product-recommendations__loader .product-recommendations__spinner {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.product-recommendations__loader .product-recommendations__spinner:after {
+  content: ' ';
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #4d4d4d transparent #4d4d4d transparent;
+  animation: spinner-animation 1.2s linear infinite;
+}
+@keyframes spinner-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (min-width: 768px) {
+  .product-recommendations__product {
+    width: calc(25% - 14px);
+    margin-bottom: 0;
+  }
+  .product-recommendations__product {
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  .product-recommendations__product:nth-of-type(2n) {
+    margin-right: 7px;
+    margin-left: 7px;
+  }
+  .product-recommendations__product:first-of-type {
+    margin-left: 0;
+    width: calc(25% - 7px);
+  }
+  .product-recommendations__product:last-of-type {
+    margin-right: 0;
+    width: calc(25% - 7px);
+  }
+  .product-recommendations {
+    padding: 0 5rem;
+  }
+}
+@media (min-width: 1700px) {
+  .product-recommendations {
+    width: 1600px;
+    padding: 0 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

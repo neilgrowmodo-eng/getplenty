@@ -1,0 +1,209 @@
+.abount__row {
+    width: 100%;
+    max-width: 111.6rem;
+    margin: 0 auto;
+}
+
+.about__heading {
+    margin-bottom: 2.4rem
+}
+
+.about__heading h1 {
+    margin: 0 0 1.6rem;
+}
+
+.about__heading h2 {
+    margin: 0
+}
+
+.about__image-text {
+    display: flex;
+    gap: var(--grid-desktop-horizontal-spacing);
+    flex-direction: column;
+    margin-bottom: 4.8rem;
+}
+
+.about__image-text figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.about__image-text img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about__image-text figure:before {
+    display: none;
+}
+
+.about__image-text figure:after {
+    content: "";
+    display: block;
+    width: calc(100% - 2.4rem);
+    height: 2.4rem;
+    background: rgb(var(--color-base-solid-button-labels));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.about__image-text .hxxl {
+    margin: 0;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.about__text--title {
+    order: 1;
+}
+
+.about__text--text {
+    order: 2;
+}
+
+.about__text--share {
+    order: 3;
+}
+
+.about__text--share > div:only-child:last-child,
+.about__text--share > div {
+    margin: 0;
+    text-align: left;
+    width: auto;
+    max-width: none;
+}
+
+.about__text--share .footer-block__details-content > p,
+.about__text--share .footer-block__details-content > li,
+.about__text--share .footer-block .list-social__link,
+.about__text--share .footer-block__heading {
+    color: rgb(var(--color-foreground))
+}
+
+.about__text--text {
+    grid-area: 1 / 2 / 3 / 3;
+    line-height: 1.5;
+    color: rgb(var(--color-foreground))
+}
+
+.about__text h3 {
+    margin: 0;
+    text-align: left;
+}
+
+.about__text p {
+    margin-top: 0;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 749px) {
+    .about__text--text p,
+    .about__text--text li {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    .about__text--share > div:only-child:last-child,
+    .about__text--share > div {
+        display: block;
+    }
+
+    .about__text--share .footer-block__heading {
+        margin-bottom: 1.6rem;
+    }
+
+    .about__text--share .footer-block.footer-block--social .list-social {
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .about__heading {
+        margin-bottom: calc(var(--grid-desktop-horizontal-spacing)*2)
+    }
+
+    .about__image-text {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: var(--grid-desktop-horizontal-spacing);
+        margin-bottom: 9.6rem
+    }
+
+    .about__image-text figure:before {
+        content: "";
+        display: block;
+        width: var(--grid-desktop-horizontal-spacing);
+        height: 83.1%;
+        background: rgb(var(--color-base-solid-button-labels));
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .about__image-text figure:after {
+        display: none;
+    }
+
+    .about__image-text > * {
+        width: 50%;
+        flex: 1;
+    }
+
+    .about__image-text .hxxl {
+        font-size: 6.2rem;
+        line-height: .88;
+    }
+
+    .about__text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0;
+        grid-column-gap: 48px;
+        grid-row-gap: 0px;
+    }
+
+    .about__text--title {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about__text--text {
+        order: 3;
+    }
+
+    .about__text--share {
+        order: 2;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        color: rgb(var(--color-foreground))
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .about__image-text .hxxl {
+        font-size: 8.2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about__image-text .hxxl {
+        font-size: 9.6rem;
+    }
+}

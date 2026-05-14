@@ -1,0 +1,4 @@
+.radio__label__primary[data-shipping-method-label-title*="FedEx"] br,
+.radio__label__primary[data-shipping-method-label-title*="FedEx"] .small-text {
+    display: none;
+}

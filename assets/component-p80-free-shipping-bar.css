@@ -1,0 +1,65 @@
+.shipping-bar__title {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  color: rgb(var(--color-black));
+  font-size: 1.4rem
+}
+
+.shipping-bar__labels span:nth-of-type(2) {
+  margin-left: auto;
+}
+
+shipping-bar {
+  width: 100%;
+  max-width: 52rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shipping-bar__progress-amounts {
+  display: flex;
+  align-items: center;
+  column-gap: .8rem;
+  font-size: 1.2rem;
+  color: rgb(var(--color-black));
+  width: 100%;
+}
+
+.shipping-bar__progress-amounts span {
+  display: inline-block;
+}
+
+.shipping-bar__progress-amounts span:first-child {
+  order: 1;
+}
+
+.shipping-bar__progress-amounts span:nth-child(2) {
+  order: 3;
+}
+
+.shipping-bar__progress-amounts progress {
+  width: 100%;
+  height: 0.8rem;
+  order: 2;
+  -webkit-appearance: none;
+  border: solid 0.2rem rgb(var(--color-black));
+}
+
+.shipping-bar__progress-amounts progress::-webkit-progress-bar {
+  background-color: rgb(var(--gradient-base-background-1));
+}
+
+.shipping-bar__progress-amounts progress::-webkit-progress-value {
+  background-color: rgb(var(--color-black));
+}
+
+@media screen and (min-width: 768px) {
+  .shipping-bar__title {
+    margin-bottom: 0;
+    font-size: 1.6rem
+  }
+}

@@ -1,0 +1,177 @@
+<link
+  rel='stylesheet'
+  href='{{ 'section-p80-contact-map.css' | asset_url }}'
+  media='print'
+  onload="this.media='all'"
+>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    height: {{ section.settings.height | times: 0.75 | round: 0 }}rem;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      height: {{ section.settings.height }}rem;
+    }
+  }
+{%- endstyle -%}
+
+<div class='contact-map color-{{ section.settings.color_scheme }} gradient {% if section.settings.grayscale %}grayscale {% endif %}shopify-section-{{ section.id }} section-{{ section.id }}-padding'>
+  <div class='contact-map__container' data-map-container></div>
+</div>
+
+<script>
+  const contactMap = () => {
+      const container = document.getElementById("shopify-section-{{ section.id }}");
+      if(!container) return;
+
+      const target = container.querySelector("[data-map-container]");
+      if(!target) {
+          console.error("Map container not found.");
+          return;
+      }
+
+      const location = {
+          lat: {{ section.settings.latitude }},
+          lng: {{ section.settings.longitude }}
+      }
+      if(!location.lat || !location.lng) {
+          console.error("Missing latitude or longitude.");
+          return;
+      }
+
+      const googleMap = new google.maps.Map(target, {
+          zoom: {{ section.settings.zoom }},
+          center: location,
+          styles: [
+          {
+            "featureType": "poi",
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          }
+        ]
+      });
+
+      const markerOptions = {
+          position: location,
+          map: googleMap,
+      }
+      {% if section.settings.marker != blank %}
+          markerOptions.icon = {
+              url: {{ section.settings.marker | image_url: width: 40 }}
+          }
+      {% endif %}
+      const marker = new google.maps.Marker(markerOptions);
+  }
+
+  window.contactMap = contactMap;
+
+  (function loadContactMapScript() {
+    const mapApiKey = {{ section.settings.map_api_key | json }};
+    if (!mapApiKey) return;
+
+    const script = document.createElement('script');
+    script.defer = true;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(mapApiKey)}&callback=contactMap&v=weekly`;
+    document.head.appendChild(script);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Contact Map",
+  "settings": [
+    {
+      "type": "text",
+      "id": "latitude",
+      "default": "42.2140789",
+      "label": "t:sections.p80-contact-map.settings.latitude.label"
+    },
+    {
+      "type": "text",
+      "id": "longitude",
+      "default": "-121.7676633",
+      "label": "t:sections.p80-contact-map.settings.longitude.label"
+    },
+    {
+      "type": "range",
+      "id": "zoom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "label": "t:sections.p80-contact-map.settings.zoom.label",
+      "default": 16
+    },
+    {
+      "type": "image_picker",
+      "id": "marker",
+      "label": "t:sections.p80-contact-map.settings.marker.label"
+    },
+    {
+      "type": "text",
+      "id": "map_api_key",
+      "label": "Google Maps API key"
+    },
+    {
+      "type": "checkbox",
+      "id": "grayscale",
+      "label": "t:sections.p80-contact-map.settings.grayscale.label",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "height",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "rem",
+      "label": "t:sections.p80-contact-map.settings.height.label",
+      "default": 60
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact Map"
+    }
+  ]
+}
+{% endschema %}

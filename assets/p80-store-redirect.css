@@ -1,0 +1,48 @@
+store-redirect {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--background-color);
+  /* We *really* want this to appear above any other content */
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity var(--duration-default) linear;
+  pointer-events: none;
+  color: rgb(var(--color-foreground));
+}
+
+store-redirect.store-redirect--visible {
+  opacity: 1;
+  transition: opacity var(--duration-default) linear;
+  pointer-events: all;
+}
+
+store-redirect .page-width {
+  width: 100%;
+  text-align: center;
+}
+
+store-redirect .redirect__message {
+  margin-bottom: 2rem;
+}
+
+store-redirect .redirect__message > * {
+  font-size: var(--font-size-paragraph-large);
+  color: inherit;
+}
+
+store-redirect .redirect__message a {
+  color: rgba(var(--color-link), var(--alpha-link));
+}
+
+store-redirect .redirect__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}

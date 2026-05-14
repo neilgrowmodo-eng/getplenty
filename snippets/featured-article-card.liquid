@@ -1,0 +1,17 @@
+<div class="featured-article">
+    <div class="featured-article__heading">
+        <h5>{{ 'blogs.featured_article.sub_heading' | t }}</h5>
+        <h2 class="hxxl">{{ 'blogs.featured_article.heading' | t }}</h2>
+    </div>
+    <div class="blog-articles__article article article-featured">
+        {%- render 'article-card',
+            article: article,
+            media_height: 'extra-large',
+            media_aspect_ratio: article.image.aspect_ratio,
+            show_image: true,
+            show_date: false,
+            show_author: false,
+            show_excerpt: false
+          -%}
+    </div>
+</div>

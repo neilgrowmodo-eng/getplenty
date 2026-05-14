@@ -1,0 +1,141 @@
+/* stylelint-disable */
+/* Custom-liquid-specific color scheme mappings generated from settings.color_schemes (color_scheme_group) */
+{% assign schemes = 'scheme-1,scheme-2,scheme-3,scheme-4,scheme-5' | split: ',' %}
+{% for scheme_id in schemes %}
+  {% assign scheme = settings.color_schemes[scheme_id] %}
+  {% if scheme != blank %}
+.custom-liquid.color-{{ scheme_id }} {
+  --color-foreground: {{ scheme.settings.text | color_extract: 'red' }}, {{ scheme.settings.text | color_extract: 'green' }}, {{ scheme.settings.text | color_extract: 'blue' }};
+  --color-background: {{ scheme.settings.background | color_extract: 'red' }}, {{ scheme.settings.background | color_extract: 'green' }}, {{ scheme.settings.background | color_extract: 'blue' }};
+  {% if scheme.settings.background_gradient != blank %}
+    --gradient-background: {{ scheme.settings.background_gradient }};
+  {% else %}
+    --gradient-background: rgba({{ scheme.settings.background | color_extract: 'red' }}, {{ scheme.settings.background | color_extract: 'green' }}, {{ scheme.settings.background | color_extract: 'blue' }}, 1);
+  {% endif %}
+  --color-button: {{ scheme.settings.button | color_extract: 'red' }}, {{ scheme.settings.button | color_extract: 'green' }}, {{ scheme.settings.button | color_extract: 'blue' }};
+  --color-button-text: {{ scheme.settings.button_label | color_extract: 'red' }}, {{ scheme.settings.button_label | color_extract: 'green' }}, {{ scheme.settings.button_label | color_extract: 'blue' }};
+  --color-link: {{ scheme.settings.secondary_button_label | color_extract: 'red' }}, {{ scheme.settings.secondary_button_label | color_extract: 'green' }}, {{ scheme.settings.secondary_button_label | color_extract: 'blue' }};
+
+  background-color: rgb(var(--color-background)) !important;
+  color: rgb(var(--color-foreground));
+}
+
+.custom-liquid.color-{{ scheme_id }}.gradient {
+  background: var(--gradient-background) !important;
+}
+
+/* Custom-liquid wrapper styling */
+.custom-liquid.color-{{ scheme_id }} .section-{{ section.id }}-padding {
+  color: rgb(var(--color-foreground));
+}
+
+/* Custom-liquid content styling */
+.custom-liquid.color-{{ scheme_id }} .custom-liquid__content {
+  color: rgb(var(--color-foreground));
+}
+
+/* Button styling within custom-liquid */
+.custom-liquid.color-{{ scheme_id }} .button--primary {
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  border-color: rgb(var(--color-button));
+}
+
+.custom-liquid.color-{{ scheme_id }} .button--primary:hover {
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  opacity: 0.9;
+}
+
+.custom-liquid.color-{{ scheme_id }} .button--secondary {
+  background-color: transparent;
+  color: rgb(var(--color-button));
+  border-color: rgb(var(--color-button));
+}
+
+.custom-liquid.color-{{ scheme_id }} .button--secondary:hover {
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+}
+
+/* Link styling */
+.custom-liquid.color-{{ scheme_id }} a:not(.button) {
+  color: rgb(var(--color-link));
+}
+
+.custom-liquid.color-{{ scheme_id }} a:not(.button):hover {
+  color: rgb(var(--color-button));
+}
+
+/* Heading styling */
+.custom-liquid.color-{{ scheme_id }} h1,
+.custom-liquid.color-{{ scheme_id }} h2,
+.custom-liquid.color-{{ scheme_id }} h3,
+.custom-liquid.color-{{ scheme_id }} h4,
+.custom-liquid.color-{{ scheme_id }} h5,
+.custom-liquid.color-{{ scheme_id }} h6 {
+  color: rgb(var(--color-foreground));
+}
+
+/* Paragraph and text styling */
+.custom-liquid.color-{{ scheme_id }} p,
+.custom-liquid.color-{{ scheme_id }} span,
+.custom-liquid.color-{{ scheme_id }} div {
+  color: rgb(var(--color-foreground));
+}
+
+/* Form elements styling */
+.custom-liquid.color-{{ scheme_id }} input,
+.custom-liquid.color-{{ scheme_id }} textarea,
+.custom-liquid.color-{{ scheme_id }} select {
+  color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-background));
+  border-color: rgb(var(--color-foreground));
+}
+
+.custom-liquid.color-{{ scheme_id }} input:focus,
+.custom-liquid.color-{{ scheme_id }} textarea:focus,
+.custom-liquid.color-{{ scheme_id }} select:focus {
+  border-color: rgb(var(--color-button));
+  outline-color: rgb(var(--color-button));
+}
+
+/* Table styling */
+.custom-liquid.color-{{ scheme_id }} table {
+  color: rgb(var(--color-foreground));
+}
+
+.custom-liquid.color-{{ scheme_id }} th,
+.custom-liquid.color-{{ scheme_id }} td {
+  border-color: rgb(var(--color-foreground));
+}
+
+/* List styling */
+.custom-liquid.color-{{ scheme_id }} ul,
+.custom-liquid.color-{{ scheme_id }} ol {
+  color: rgb(var(--color-foreground));
+}
+
+.custom-liquid.color-{{ scheme_id }} li {
+  color: rgb(var(--color-foreground));
+}
+
+/* Blockquote styling */
+.custom-liquid.color-{{ scheme_id }} blockquote {
+  color: rgb(var(--color-foreground));
+  border-left-color: rgb(var(--color-button));
+}
+
+/* Code styling */
+.custom-liquid.color-{{ scheme_id }} code,
+.custom-liquid.color-{{ scheme_id }} pre {
+  color: rgb(var(--color-foreground));
+  background-color: rgba(var(--color-foreground), 0.1);
+}
+
+/* Horizontal rule styling */
+.custom-liquid.color-{{ scheme_id }} hr {
+  border-color: rgb(var(--color-foreground));
+}
+  {% endif %}
+{% endfor %}

@@ -1,0 +1,411 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9451.jpg",
+            "heading": "meet: renske werner",
+            "subheading": "@renske_werner",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.renskewerner.com/\" target=\"_blank\" title=\"https://www.renskewerner.com/\">Renske Werner</a> is a Vancouver-based artist whose work, from illustrated maps and murals to animations and editorial pieces, creates joyful moments of pause in everyday life. </p><p>We caught up with Renske during <a href=\"https://www.mellingstudio.com/work/isthisworking\" target=\"_blank\"><span style=\"text-decoration:underline\"><em>Is This Working?</em></span></a>, the week‑long exhibition she co‑curated with <a href=\"https://www.instagram.com/mellingstudio/?hl=en\"><span style=\"text-decoration:underline\">Laura Melling</span></a> and <a href=\"https://www.instagram.com/jodykphillips/?hl=en\"><span style=\"text-decoration:underline\">Jody Phillips.</span></a> The show invited visitors to explore the invisible structures that shape how and why we work, creating spaces to lean into the gaps, reflect, and embrace the unexpected. In many ways, the exhibition mirrored Renske’s creative approach: playful, thoughtful, and full of moments that surprise and delight.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9484.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What’s the first spark you hope to offer to people who interact with your work? </p><p><strong>A:</strong> I’d say the first spark is usually delight. Something that catches the eye, lifts a mood, invites a moment of pause. Perhaps also curiosity: something about the colour, detail, or composition that makes people stop, look more closely, or smile; maybe wonder about the story behind the image. The spark might be visual warmth, whimsical detail, or just an unexpected twist that makes the ordinary feel special.</p><p><strong>Q:</strong> How do you intentionally design moments of delight for viewers?</p><p><strong>A: </strong>Using colour, shape, and style to feel welcoming, rather than harsh. Bright but soft, playful and approachable. I love to find beauty in the everyday, so I use a lot of everyday objects or moments in my work. It’s about simplifying instead of making something complex. I also like to embed small details that reward looking more closely. My <a href=\"https://www.renskewerner.com/custom-illustrated-maps\"><span style=\"text-decoration:underline\">illustrated maps</span></a> are a great example of this because these include so many little illustrations.  </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9466.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "p80_multi_image_banner_LQLyqf": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_EAi639": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2290.webp",
+            "link_url": "https://www.renskewerner.com/pci-group"
+          }
+        },
+        "image_8j3WPq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0062.webp",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EAi639",
+        "image_8j3WPq"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> In curating <a href=\"https://www.mellingstudio.com/work/isthisworking\" title=\"https://www.mellingstudio.com/work/isthisworking\"><em>Is This Working?</em></a>, you created spaces that encourage viewers to reflect and interact. How does that compare to the way you create a mural or illustration for someone to experience?</p><p><strong>A: </strong>Curating is more about the overall experience, sequencing, spatial relationships between works, and how people move through and interact with the space. It involves designing the “architecture” of the experience, not just individual pieces. In contrast, with a mural or illustration, the piece is more self-contained; while you consider its surroundings, it’s less about how multiple works relate in space.</p><p><strong>Q: </strong>With both client work and co-curation, you’re balancing multiple perspectives. Can you tell us a bit about what collaboration means to you?</p><p><strong>A: </strong>The nature of all my client-work is rooted in collaboration and trust. It’s my job to respect the client’s goals, brand, message and values, while also bringing in my own voice and style. That means listening, adapting, and sometimes negotiating what aspects of style/concept are essential. In more general terms, and including co-curating, collaboration also means incorporating feedback, being flexible, trying something and testing if it works. In my opinion pooling talent and skills always makes work  a thousand times better than when you’re doing it alone. The different perspectives that are inherent to collaborating is where magic happens. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9546.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_wf6qzR": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_Mk3GAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9473_1.jpg",
+            "link_url": ""
+          }
+        },
+        "image_NqAm8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9521.jpg",
+            "link_url": "https://www.instagram.com/ghislainbrownkossi/"
+          }
+        },
+        "image_m8eNy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9537.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Mk3GAY",
+        "image_NqAm8L",
+        "image_m8eNy6"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Can you share a time when a creative block surprised you, and what route you took to break through?</p><p><strong>A:</strong><em> </em>I don’t often experience creative block, but when I struggle to start a project, my go-to is the world of Pinterest. Just going through beautiful images is often all I need to get inspired.  </p><p><strong>Q:</strong> What’s one ritual or practice you return to when you need to reset?</p><p><strong>A:</strong> I’d probably clean :) Truly, the act of tidying a space helps clear my mind too. Just like a room feels refreshed after it’s been cleaned, I find my thoughts feel lighter and more organized afterward.</p><p></p><p><strong>Q:</strong> How do you create joy in your creative process?</p><p><strong>A: </strong>Very simply put, by drawing what I like. Subjects that feel uplifting or fun, scenes that bring rest or delight. Working with clients on projects that are value-aligned helps as well. I have a few incredible clients that make working with them very easeful. The fact that I am not an artist that rigidly sticks to a certain style allows room for joy as well. Trying something different feels like play, which is always exciting and cultivates joy.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_9498.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9507.jpg",
+        "image_mobile": "shopify://shop_images/IMG_9507.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "rich_text_cHeefz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WRjgjA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Is this working?</p>",
+            "heading_size": "h1"
+          }
+        },
+        "text_RFeG4k": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Curators</strong></p><p>Renske Werner - <a href=\"https://www.instagram.com/renske_werner/\">@renske_werner</a></p><p>Laura Melling - <a href=\"https://www.instagram.com/mellingstudio/\">@mellingstudio</a></p><p>Jody Phillips - <a href=\"https://www.instagram.com/jodykphillips/\">@jodykphillips</a></p><p><strong>Collaborators</strong></p><p>Noble Architecture - <a href=\"https://www.instagram.com/noblearchitecture/\"><span style=\"text-decoration:underline\">@noblearchitecture</span></a></p><p>Motiv Architects - <a href=\"https://www.instagram.com/motivarchitects/\">@motivarchitects</a></p><p>Aileen Lee, Vestige Story - <a href=\"https://www.instagram.com/vestige.story/\">@vestige.story</a></p><p>Adele Tetangco - <a href=\"https://www.instagram.com/snack____size/\">@snack____size</a></p><p>Mustaali Raj - <a href=\"https://www.instagram.com/mraj/\">@mraj</a></p><p>Minahil Bukhari - <a href=\"https://www.instagram.com/landandmarks/\">@landandmarks</a></p><p>Ghislain Brown-Kossi - <a href=\"https://www.instagram.com/ghislainbrownkossi/\">@ghislainbrownkossi</a></p><p>Mahatta Price - <a href=\"https://www.instagram.com/mahatta._.price/\">@mahatta._.price</a></p><p>Khorshid Naderi-Azad, WallyWool -<a href=\"https://www.instagram.com/khokhonad/\">@khokhonad</a> <a href=\"https://www.instagram.com/wallywoolbc/\">@wallywoolbc</a></p><p>Sarah Lesher - <a href=\"https://www.instagram.com/sarahlesher/\">@sarahlesher</a></p>"
+          }
+        },
+        "button_79q6aq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WRjgjA",
+        "text_RFeG4k",
+        "button_79q6aq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "p80_image_banner_KGecMT": {
+      "type": "p80-image-banner",
+      "disabled": true,
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_6509.jpg",
+        "image_mobile": "shopify://shop_images/IMG_6509.jpg",
+        "link_url": "",
+        "margin_bottom": 35
+      }
+    },
+    "featured_collection_mNEWV4": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Renske's Looks </h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-renskes-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "main",
+    "p80_multi_image_banner_LQLyqf",
+    "image_with_text_NjQ3EM",
+    "p80_multi_image_banner_wf6qzR",
+    "image_with_text_FAfVaW",
+    "p80_image_banner_UxCJ7h",
+    "rich_text_cHeefz",
+    "p80_image_banner_KGecMT",
+    "featured_collection_mNEWV4",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

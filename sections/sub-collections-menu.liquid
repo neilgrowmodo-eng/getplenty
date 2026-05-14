@@ -1,0 +1,91 @@
+{{ 'section-sub-collections-menu.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.menu != blank -%}
+  {%- liquid
+    assign current_collection = collection.handle
+    for link in section.settings.menu.links
+      if link.type == 'collection_link' and link.object.handle == current_collection
+        assign sub_collections = link.links
+      endif
+      if sub_collections == blank and link.links != blank
+        assign second_level_links = link.links
+        for second_level_link in second_level_links
+          if second_level_link.type == 'collection_link' and second_level_link.object.handle == current_collection
+            assign sub_collections = second_level_link.links
+          endif
+        endfor
+      endif
+    endfor
+  -%}
+  {%- if sub_collections != blank and current_tags.size == blank -%}
+    <div class='section-sub-collections-menu color-{{ section.settings.color_scheme }} gradient'>
+      <div class='page-width'>
+        <ul class='collection-sublinks contains-card contains-card--collection contains-card--standard grid grid--7-col-desktop grid--7-col-tablet-down collection-list--13-items'>
+          {%- for link in sub_collections -%}
+            {%- liquid
+              assign link_object = link.object
+              assign card_image = ''
+              assign path_object = link.url | replace: '/collections/', '' | replace: 'collections/', '' | split: '/'
+              if link.type == 'collection_link' and path_object.size > 1 and section.blocks.size > 0
+                assign link_object = link
+                for tag in section.blocks
+                  if link.url == tag.settings.title and tag.settings.image != blank
+                    assign card_image = tag.settings.image
+                  endif
+                endfor
+              endif
+            -%}
+            <li class='collection-sublinks__item grid__item'>
+              {% render 'card-collection',
+                card_collection: link_object,
+                card_image: card_image,
+                media_aspect_ratio: 'portrait'
+              %}
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.sub-collections-menu.name",
+  "class": "section section--sub-collections",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "main-menu",
+      "label": "t:sections.sub-collections-menu.settings.link_list.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tag_filter",
+      "name": "t:sections.sub-collections-menu.blocks.tag_filter.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "info": "t:sections.sub-collections-menu.blocks.tag_filter.settings.title.info",
+          "placeholder": "/collection/tops/shirts",
+          "label": "t:sections.sub-collections-menu.blocks.tag_filter.settings.title.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.sub-collections-menu.blocks.tag_filter.settings.image.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

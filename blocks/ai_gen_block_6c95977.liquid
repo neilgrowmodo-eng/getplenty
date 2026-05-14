@@ -1,0 +1,327 @@
+{% doc %}
+  @prompt
+    A multi-column section with one image per column. These columns should be responsive, and allow for a desktop media file and a mobile media file. The padding of the section (top, bottom, right, left) should be adjustable, as well as the spacing between each column. Maximum four columns in this section. Allow this section to be reused. 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-multi-column-{{ ai_gen_id }} {
+    padding-top: {{ block.settings.padding_top }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+    padding-left: {{ block.settings.padding_left }}px;
+    padding-right: {{ block.settings.padding_right }}px;
+  }
+
+  .ai-multi-column-container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.column_spacing }}px;
+    max-width: 100%;
+  }
+
+  .ai-multi-column-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ai-multi-column-image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    position: relative;
+  }
+
+  .ai-multi-column-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-multi-column-image-desktop-{{ ai_gen_id }} {
+    display: block;
+  }
+
+  .ai-multi-column-image-mobile-{{ ai_gen_id }} {
+    display: none;
+  }
+
+  .ai-multi-column-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-multi-column-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .ai-multi-column-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-multi-column-container-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+    }
+
+    .ai-multi-column-image-desktop-{{ ai_gen_id }} {
+      display: none;
+    }
+
+    .ai-multi-column-image-mobile-{{ ai_gen_id }} {
+      display: block;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-multi-column-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-multi-column-container-{{ ai_gen_id }}">
+    {% for i in (1..4) %}
+      {% liquid
+        assign column_enabled_key = 'column_' | append: i | append: '_enabled'
+        assign image_desktop_key = 'column_' | append: i | append: '_image_desktop'
+        assign image_mobile_key = 'column_' | append: i | append: '_image_mobile'
+
+        assign column_enabled = block.settings[column_enabled_key]
+        assign image_desktop = block.settings[image_desktop_key]
+        assign image_mobile = block.settings[image_mobile_key]
+      %}
+
+      {% if column_enabled %}
+        <div class="ai-multi-column-item-{{ ai_gen_id }}">
+          <div class="ai-multi-column-image-wrapper-{{ ai_gen_id }}">
+            {% if image_desktop or image_mobile %}
+              {% if image_desktop %}
+                <img
+                  src="{{ image_desktop | image_url: width: 1000 }}"
+                  alt="{{ image_desktop.alt | escape }}"
+                  loading="lazy"
+                  width="{{ image_desktop.width }}"
+                  height="{{ image_desktop.height }}"
+                  class="ai-multi-column-image-{{ ai_gen_id }} ai-multi-column-image-desktop-{{ ai_gen_id }}"
+                >
+              {% endif %}
+
+              {% if image_mobile %}
+                <img
+                  src="{{ image_mobile | image_url: width: 800 }}"
+                  alt="{{ image_mobile.alt | escape }}"
+                  loading="lazy"
+                  width="{{ image_mobile.width }}"
+                  height="{{ image_mobile.height }}"
+                  class="ai-multi-column-image-{{ ai_gen_id }} ai-multi-column-image-mobile-{{ ai_gen_id }}"
+                >
+              {% elsif image_desktop %}
+                <img
+                  src="{{ image_desktop | image_url: width: 800 }}"
+                  alt="{{ image_desktop.alt | escape }}"
+                  loading="lazy"
+                  width="{{ image_desktop.width }}"
+                  height="{{ image_desktop.height }}"
+                  class="ai-multi-column-image-{{ ai_gen_id }} ai-multi-column-image-mobile-{{ ai_gen_id }}"
+                >
+              {% endif %}
+            {% else %}
+              <div class="ai-multi-column-placeholder-{{ ai_gen_id }}">
+                {{ 'image' | placeholder_svg_tag }}
+                <div class="ai-multi-column-empty-state-{{ ai_gen_id }}">
+                  Add an image for column {{ i }}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Multi-column images",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "range",
+      "id": "column_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Column spacing",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_left",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Left",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_right",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Right",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Column 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_1_enabled",
+      "label": "Enable column 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_image_desktop",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_image_mobile",
+      "label": "Mobile image"
+    },
+    {
+      "type": "header",
+      "content": "Column 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_2_enabled",
+      "label": "Enable column 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_image_desktop",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_image_mobile",
+      "label": "Mobile image"
+    },
+    {
+      "type": "header",
+      "content": "Column 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_3_enabled",
+      "label": "Enable column 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_image_desktop",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_image_mobile",
+      "label": "Mobile image"
+    },
+    {
+      "type": "header",
+      "content": "Column 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_4_enabled",
+      "label": "Enable column 4",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_4_image_desktop",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_4_image_mobile",
+      "label": "Mobile image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column images"
+    }
+  ]
+}
+{% endschema %}

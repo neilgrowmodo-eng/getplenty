@@ -1,0 +1,46 @@
+{%- if section.blocks.size > 0 -%}
+  <div class="filter-swatches filter-swatches-set-2" style="display: none;">
+    {
+    {%- liquid
+      for block in section.blocks
+        assign name = block.settings.title
+        echo name | json
+        echo ': '
+        if block.settings.swatch != blank
+          echo block.settings.swatch | image_url: width: 50 | json
+        else
+          echo '' | json
+        endif
+        unless forloop.last
+          echo ', '
+        endunless
+      endfor
+    -%}
+    }
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.swatches_set_2.name",
+  "class": "filter-swatches filter-swatches-set-2",
+  "blocks": [
+    {
+      "type": "image_swatch",
+      "name": "t:sections.swatches_set_1.blocks.image_swatch.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.swatches_set_1.blocks.image_swatch.settings.title.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "swatch",
+          "label": "t:sections.swatches_set_1.blocks.image_swatch.settings.swatch.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

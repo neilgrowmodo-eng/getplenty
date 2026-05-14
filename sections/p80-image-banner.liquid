@@ -1,0 +1,95 @@
+{%- if section.settings.image != blank and section.settings.image_mobile != blank -%}
+  {{ 'p80-image-banner.css' | asset_url | stylesheet_tag }}
+  <div id='Banner-{{ section.id }}' class='p80-image-banner color-{{ section.settings.color_scheme }} gradient banner--desktop-transparent' style="--margin-bottom: {{ section.settings.margin_bottom }}px;">
+    <div class='media-image-banner'>
+      {%- liquid
+        assign sizes = '100vw'
+        assign image_desktop = section.settings.image
+        assign image_mobile = section.settings.image_mobile
+        assign link_url = section.settings.link_url
+      -%}
+      {{
+        image_desktop
+        | image_url: width: 2500
+        | image_tag:
+          width: image_desktop.width,
+          height: image_desktop.height,
+          class: 'small-hide',
+          sizes: sizes,
+          widths: '1100, 1500, 1780, 2000, 3000, 3840',
+          alt: image_desktop.alt
+        | escape
+      }}
+      {{
+        image_mobile
+        | image_url: width: 750
+        | image_tag:
+          loading: 'lazy',
+          width: image_mobile.width,
+          height: image_mobile.height,
+          class: 'large-up-hide medium-hide',
+          sizes: sizes,
+          widths: '375, 550, 750',
+          alt: image_mobile.alt
+        | escape
+      }}
+    </div>
+    {% if link_url != blank %}
+      <a href='{{ link_url }}' class='link p80-image-banner-link'
+        ><span class='visually-hidden'>{{ image_desktop.alt }}</span></a
+      >
+    {%- endif -%}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.p80-image-banner.name",
+  "tag": "section",
+  "class": "section section--p80-image-banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.p80-image-banner.settings.image.label",
+      "info": "t:sections.p80-image-banner.settings.image.info"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "t:sections.p80-image-banner.settings.image_mobile.label",
+      "info": "t:sections.p80-image-banner.settings.image_mobile.info"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "t:sections.p80-image-banner.settings.link_url.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.margin.section_margin_heading"
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.margin.margin_bottom",
+      "default": 50
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.p80-image-banner.presets.name"
+    }
+  ]
+}
+{% endschema %}

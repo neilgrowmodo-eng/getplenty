@@ -1,0 +1,497 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-4051_ac62b479-a94e-4738-9224-cd8a7f13921f.jpg",
+            "heading": "meet: shiyu",
+            "subheading": "@shiyutattoo",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For Vancouver-based tattoo artist <a href=\"https://www.instagram.com/shiyu_tattoo/?hl=en\"><span style=\"text-decoration:underline\">Shiyu</span></a>, storytelling runs deep—etched not just in paper or paint, but into skin. Known for her dynamic work rooted in traditional Asian motifs, Shiyu has carved out a name for herself through a dedication to craft, community, and culture.</p><p>With a background that bridges anime fandom and economic degrees, four years of rigorous apprenticeship, and a portfolio that’s earned international awards, Shiyu is now based at <a href=\"http://www.monkeykingtattoos.com/#/\"><span style=\"text-decoration:underline\">Monkey King Tatto</span></a>o—the same studio that first sparked her fascination with tattooing.</p><p>Whether painting large-scale murals or designing full-back pieces, Shiyu’s work feels deeply intentional. It’s this blend of discipline and soul that’s made her one of the most compelling artists in Vancouver’s tattoo scene today.</p><p>We caught up with Shiyu to talk about artistic beginnings, boyish style, and the seven-year human canvas she’ll never forget.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3955-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-3940.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Three words your friends or family would use to describe you?</p><p><strong>A:</strong>Determined, thoughtful, and grounded.</p><p><strong>Q:</strong> Tell us the story behind Shiyu Tattoo.</p><p><strong>A:</strong> I’ve loved drawing since I was young, thanks to anime like <em>Pokémon</em> and <em>Sailor Moon</em>. Eventually, that interest expanded into body art. I still remember the first time I stepped into a tattoo studio—about 15 years ago—when I tagged along with a friend for his appointment. His artist ended up being Jeff Tam (who’s now my boss!) at <a href=\"http://www.monkeykingtattoos.com/#/\"><span style=\"text-decoration:underline\">Monkey King</span></a>. I was fascinated, but being a tattoo artist felt like a pipe dream—especially since I grew up with traditional Asian parents who definitely wouldn’t have approved.</p><p>After graduating with a degree in economics, working in banking, and going through a rough breakup, I decided to take a leap and pursue tattooing. It’s come full circle—today, I work at the same studio that first inspired me.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3892.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What advice would you give to someone interested in tattooing but not sure where to start?</p><p><strong>A: </strong>Draw every day. Learn the basics of art—there are tons of free resources online. Build a portfolio and talk to tattoo artists. Go to conventions, or just get tattooed. Being immersed in that world helps you learn fast.</p><p><strong>Q:</strong> Where do you turn for inspiration?</p><p><strong>A: </strong>Books. Whether I’m studying artists I admire or learning the history behind different motifs, books are my favorite way to stay connected to the deeper meaning behind the art.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3884.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What are some of your fondest memories since starting your career?</p><p><strong>A: </strong>Getting accepted into <a href=\"http://www.monkeykingtattoos.com/#/\"><span style=\"text-decoration:underline\">Monkey King</span></a> felt like finding my community. Every day feels like I’m hanging out with friends. Our clients even joke that we need to start a podcast—there’s always something hilarious or unexpected being said in the studio.</p><p><strong>Q:</strong> What’s a project you’re especially proud of?</p><p><strong>A: </strong>There’s a client I met early in my career who came in with almost no tattoos. Over the last seven years, we’ve completed both his arms, his chest, full back, and one leg. His body is basically a timeline of <a href=\"https://www.instagram.com/shiyu_tattoo/?hl=en\"><span style=\"text-decoration:underline\">my growth as an artist</span></a>—it’s surreal and really special.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-4047.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_wf6qzR": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_m8eNy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-3905.jpg",
+            "link_url": ""
+          }
+        },
+        "image_NqAm8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-3958.jpg",
+            "link_url": ""
+          }
+        },
+        "image_Mk3GAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-4065.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_m8eNy6",
+        "image_NqAm8L",
+        "image_Mk3GAY"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What’s the most rewarding part of your job?</p><p><strong>A:</strong>The people. I do a lot of large-scale work, which means seeing clients regularly over long periods of time. Sometimes, I see them more often than I see my own family. The friendships I’ve built—and the things I’ve learned from those conversations—mean the world to me.</p><p><strong>Q: </strong>If you could give your younger self one piece of advice, what would it be?</p><p><strong>A:</strong> Being present and practicing gratitude solves most things.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3983.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> Favourite childhood snack?</p><p><strong>A:</strong> Maltesers.</p><p><strong>Q:</strong> How would you describe your personal style?</p><p><strong>A: </strong>Boyish. I love military-inspired fashion—bomber jackets, cargo pants, camouflage, army tones.</p><p><strong>Q:</strong>Any upcoming personal projects you’d like to share?</p><p><strong>A: </strong>I just finished a 5x10 foot painting that’s going to be installed at a friend’s new food hall opening in Richmond. Keep an eye out!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3884.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3914.jpg",
+        "image_mobile": "shopify://shop_images/shiyu-3914.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "p80_multi_image_banner_GxgVgw": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_PpDYcq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu-3965.jpg",
+            "link_url": ""
+          }
+        },
+        "image_GcYrFe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shiyu--2.jpg",
+            "link_url": ""
+          }
+        },
+        "image_pWqQLX": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PpDYcq",
+        "image_GcYrFe",
+        "image_pWqQLX"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "p80_image_banner_KGecMT": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/shiyu-3939.jpg",
+        "image_mobile": "shopify://shop_images/shiyu-3939.jpg",
+        "link_url": "",
+        "margin_bottom": 35
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shiyu's Look 1: <a href=\"https://www.getplenty.com/products/pgd-cotton-spandex-jersey-mya-tank-top-25s?variant=43911121567789\" target=\"_blank\" title=\"https://www.getplenty.com/products/pgd-cotton-spandex-jersey-mya-tank-top-25s?variant=43911121567789\">PGD Mya Tank Top</a> and <a href=\"https://www.getplenty.com/products/propaganda-twill-suiting-imelda-straight-leg-wide-trouser?variant=43739894251565\" target=\"_blank\" title=\"https://www.getplenty.com/products/propaganda-twill-suiting-imelda-straight-leg-wide-trouser?variant=43739894251565\">PROPAGANDA Imelda Straight Leg Wide Trouser</a></p><p>Shiyu's Look 2: <a href=\"https://www.getplenty.com/products/pgd-cotton-spandex-zazie-rib-tank\" target=\"_blank\" title=\"https://www.getplenty.com/products/pgd-cotton-spandex-zazie-rib-tank\">PGD Zazie Rib Tank</a> and <a href=\"https://www.getplenty.com/products/propaganda-printed-floral-tilda-pencil-column-skirt?variant=43194214055981\" target=\"_blank\" title=\"https://www.getplenty.com/products/propaganda-printed-floral-tilda-pencil-column-skirt?variant=43194214055981\">PROPAGANDA Tilda Floral Column Skirt</a></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "p80_multi_image_banner_wf6qzR",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "p80_image_banner_UxCJ7h",
+    "p80_multi_image_banner_GxgVgw",
+    "p80_image_banner_KGecMT",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

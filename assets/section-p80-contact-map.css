@@ -1,0 +1,7 @@
+.contact-map.grayscale {
+  filter: grayscale(100%);
+}
+
+.contact-map__container {
+  height: 100%;
+}

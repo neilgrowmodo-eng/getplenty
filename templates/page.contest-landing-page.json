@@ -1,0 +1,118 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_VgBAdb": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".klaviyo-form {width: 70%; margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% render 'klaviyo-contest-form' %}",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn_FaHymi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pEeKBj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SS25_M_L_AMICA_VNECK_TANK_-_RED_CHERRY3.jpg",
+            "title": "Monk & Lou",
+            "text": "<p>Timeless classics in sophisticated silhouettes that will take you from work to the weekend, and everywhere in between. Subtle feminine detailing, everyday neutrals, and workhorse staples are the stars of this collection.</p>",
+            "link_label": "Shop Monk & Lou",
+            "link": "shopify://collections/monk-lou"
+          }
+        },
+        "column_FWmhrj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/SS25PROPAGANDAKORANEHIGHSLITSKIRT-BLACK_99d67609-db41-4f88-b1bf-684b8db6f8b2.jpg",
+            "title": "Propaganda",
+            "text": "<p>Restrained maximalism is the undercurrent of this spirited collection that features trend-forward styling, refreshing hues, and uplifting prints. Everyday comfort with a contemporary attitude.</p>",
+            "link_label": "Shop Propaganda",
+            "link": "shopify://collections/propaganda"
+          }
+        },
+        "column_8cqYaN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/pgd-bottoms-kendra-jogger-sweatpant-34069520220205_20519bae-07d2-456d-970b-c1688ab79e88.jpg",
+            "title": "PGD",
+            "text": "<p>Comfortable basics for the everyday adventure of figuring life out. With inspiration from retro styling and vintage sport, this collection is the perfect balancing act of the modern feminine and relaxed men’s styling.</p>",
+            "link_label": "Shop PGD",
+            "link": "shopify://collections/pgd"
+          }
+        },
+        "column_cVXCxU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/0219_Plenty_Ecomm_Geoffrey_and_Tony-8461.jpg",
+            "title": "Atrium",
+            "text": "<p>Proudly PNW laidback basics and utility styles with a nod to established streetwear trends. This collection offers reliable wardrobe staples that will quickly find a place in your everyday rotation.</p>",
+            "link_label": "Shop Atrium",
+            "link": "shopify://collections/atrium"
+          }
+        }
+      },
+      "block_order": [
+        "column_pEeKBj",
+        "column_FWmhrj",
+        "column_8cqYaN",
+        "column_cVXCxU"
+      ],
+      "settings": {
+        "title": "Our Brands",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "All Brands →",
+        "button_link": "shopify://pages/brands",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_GCGEpB": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".klaviyo-form {width: 70%; margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% render 'klaviyo-contest-form' %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_VgBAdb",
+    "multicolumn_FaHymi",
+    "custom_liquid_GCGEpB"
+  ]
+}

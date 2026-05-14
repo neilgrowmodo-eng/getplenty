@@ -1,0 +1,334 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Photo_2025-09-24_6_39_07_PM.jpg",
+            "heading": "Meet: Catherine Bruhwiler",
+            "subheading": "@cathbruhwiler",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are people who ride waves, and then there are people who are shaped by them. <a href=\"https://www.instagram.com/cathbruhwiler/?hl=en\" target=\"_blank\" title=\"https://www.instagram.com/cathbruhwiler/?hl=en\">Catherine Bruhwiler</a> is the latter. Before Tofino became a postcard, it was her home. And before Canadian women were widely visible in the surf scene, she was already there—doing what she loves. </p><p>Named Canada’s first female professional surfer, Catherine has spent her life building community in and around the water. Coaching and mentoring though <a href=\"https://tofinopaddlesurf.com/\"><span style=\"text-decoration:underline\">Tofino Paddle Surf</span></a>, she’s helped welcome countless kids, women, and newcomers into the ocean.</p><p>In our conversation, she reflects on growing up on the Pacific Coast, watching women’s surfing evolve, and what she hopes the next generation of girls feel when they paddle out.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Photo_2025-09-24_6_34_34_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You were named Canada’s first female professional surfer (so cool). What did it feel like receiving that title?</p><p><strong>A</strong>:I haven’t actually thought much about it—but when I do, what comes to mind most is how far Canadian surfing and women’s surfing has come even in my lifetime. I was and am just doing what I love, and it’s amazing to see others doing the same and taking the sport and lifestyle to the next level, and how much women have integrated into the lineups around the world. We belong there, we love it. The ocean is just an amazing place to be.</p><p><strong>Q:</strong> What do you hope the next generation of girls feel when they paddle out?</p><p><strong>A: </strong>I hope they feel confident, free, and completely at home in the ocean. Surfing is such a gift—it teaches resilience, patience, presence and joy. I want them to know that they belong out there, that dreams are valid, and that the ocean has endless lessons and adventures waiting for them, and that hopefully, it will always be there for them. A place of solitude, comfort, opportunity and growth.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_7465.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Tofino has become an international surf destination. You were part of the community before it was on the map. How have you seen the scene shift over the years?</p><p><strong>A: </strong>It’s been incredible to watch. When I was young, there were barely any surfers here, and almost no girls in the water. Now there are loads of surfers from all over the world, but most amazingly tons of kids and almost as many women as men. I’m grateful for the strong local community that’s grown around surfing here—families, kids, clubs and contests keeping that grassroots spirit alive.</p><p><strong>Q:</strong> Describe your ideal day eating in Tofino: breakfast, lunch, dinner.</p><p><strong>A: </strong>Coffee from one of the local shops on the beach while checking the waves - that would be a great way to start the day. for lunch, I love Surfside Grill or some fresh oysters from our oyster farm with my husband on the deck. Raw with lemon or Tabasco is my favourite. for dinner or something cooked over the fire. fresh salmon that we might’ve caught that day or some crab from the traps and some garden veggies.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Photo_2025-09-24_6_35_58_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Outside of surf gear, how would you describe your personal style?</p><p><strong>A: </strong>Practical for working on the beach to hauling a few pieces of firewood or racing in the sand with the little kids. I love clothes that are comforting, timeless, and let me move easily from the beach to town to camping. I never go anywhere without a bikini in my pocket and a homemade wool toque in my bag. It’s all about the layers with the weather here.</p><p><strong>Q:</strong> Is there one piece in your wardrobe that you can’t live without? </p><p><strong>A: </strong>A warm, oversized hoodie. It’s my go-to after every surf session, and it reminds me of home no matter where I am.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_7622.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_jzjctF": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_raakbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You wear many hats, from competing and coaching to community building and environmental advocacy. What’s the most rewarding part of your day to day?</p><p><strong>A: </strong>Sharing the stoke with kids and seeing their eyes light up when they play outside, in the ocean or catch a wave. Watching the next generation of surfers fall in love with the ocean, grow gratitude, gain confidence, and build community—that’s my favourite.</p><p><strong>Q: </strong>You’ve competed on the world stage and now coach the next generation of surfers, including your own grandkids. What excites you most about the next steps in your journey?</p><p><strong>A:  </strong>I’m excited to keep passing on knowledge and helping Canadian surfers, especially young girls, dream bigger than ever before. Whether that means competing internationally, supporting the sport and next generations here at home, or deepening our connection to the ocean and environment, I can’t wait to see what’s next. Being part of that journey—as a grandma, coach, and community builder—feels like a huge privilege. I’m ever grateful that surfing brings me back to presence whether I’m surfing by myself or sharing my time with friends, family, and other inspired individuals.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_raakbm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Photo_2025-09-24_6_28_23_PM.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Photo_2025-09-24_6_40_33_PM.jpg",
+        "image_mobile": "shopify://shop_images/Photo_2025-09-24_6_40_33_PM.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Catherine's Looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-catherines-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_jzjctF",
+    "p80_image_banner_UxCJ7h",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

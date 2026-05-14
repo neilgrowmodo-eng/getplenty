@@ -1,0 +1,460 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6463.jpg",
+            "heading": "meet: ariane lapointe",
+            "subheading": "@strawberry_softserve",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For Ariane Lapointe, everything comes down to balance. It’s a harmony between the mediums of <a href=\"https://www.arianelapointe.com/tattoos\"><span style=\"text-decoration:underline\">tattooing</span></a> and <a href=\"https://www.arianelapointe.com/unspecific-memories-20242025\" target=\"_blank\" title=\"https://www.arianelapointe.com/unspecific-memories-20242025\">painting</a>, tradition and innovation, colour and shape, home and places undiscovered.</p><p>After earning a Graphic Design degree in Quebec, Ariane moved to Vancouver in 2016 and slowly fell into tattooing, starting with handpokes on friends before moving into more intricate designs with a machine. Now, over eight years later, her work has evolved into something unmistakably magical, shaped by a painter’s eye and a curiosity for how personal experiences can live on the body.</p><p>Whether she’s painting in her studio or tattooing a client, Ariane is chasing that same feeling she finds in her favourite works of art: something instinctual, something that makes you stop, gasp, and think, <em>“I love this so much.”</em></p><p></p><p></p><p></p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6550.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> What are 3 words your friends/family would use to describe you? </p><p><strong>A: </strong>After consulting my inner circle (which I think indicates something about me) it seems that they think I am loyal, passionate and disciplined. I'll take it.</p><p><strong>Q:</strong> You tattoo at Bebop Ink in Vancouver’s Main Street neighbourhood. What’s the studio vibe like, and how does living in Vancouver shape your practice?</p><p><strong>A: </strong>I found evolving as an artist in Vancouver has been a really interesting experience. It is not an easy city to live in, the need to constantly grind and work is quite unique, but  it also nurtures this resilience and will to constantly push myself. The tattoo scene is very strong and always growing, which leads me to never stay in a comfort zone in regards to my art. So exploring new styles, new techniques, new subject matters is a constant. I am also so, so lucky because my clientele continues to show up and get excited about my crazy ideas and for that I am so thankful.</p><p>I also want to acknowledge that without the tattoo community support and teaching, I wouldn't be doing this to this level, and I cannot describe how this shapes a person. I am forever grateful.</p><p>As for Bebop, our main goal is to create a calm, safe and welcoming space. We are also all colourful folks who love art, so we try to showcase our favorite artists on the walls as well as our work. A beautiful mashup of all our brains. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6485.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6516.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6424.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Tattooing is so collaborative and intimate, while painting can be solitary and open-ended. Do you find yourself craving one over the other depending on your headspace?</p><p><strong>A:</strong>  I think you'll find in most of my answers that I am always looking for balance. So as much as I need time alone to paint or draw, I absolutely thrive on interacting with my clients. I love learning from them, from life experiences, hobbies, studies or their work, I need to know it all. I also find the relationship we develop through a tattoo session really unique and I cherish the trust folks give me during those times. But yes, I will most likely retreat and put my headphones on after a tattoo session to reset. </p><p></p><p><strong>Q: </strong>People might not know you also have a painting practice. What would you want someone to take away from seeing your work on a wall instead of on skin?</p><p><strong>A: </strong>My painting practice is in such opposition to my tattoo practice that I would love for folks to see it as an extension of my creative brain and not to compare them. </p><p>Abstract painting is so far away from the rigid tools we use in tattooing, it is absolutely freeing to create that way. It really helps balance my brain.</p><p>My goal when folks look at my paintings would be an instant fascination, I want to draw them in and get them to spend time looking at various parts of it. Look at all the colours and how they interact, look from up close and from afar and get them to travel through the work.</p><p>Personally, my favourite experiences with art have been when I walk in a space and I instantly gasp, like, 'AH I love this SO much!' Then I think about what I love, and why I reacted this way. It's very instinctual. I hope my paintings can do this for someone one day.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6353.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_UxCJ7h": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/image-asset.webp",
+        "image_mobile": "shopify://shop_images/image-asset.webp",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You’ve described your work as evolving with your art history obsessions, like fauvism, impressionism and expressionism. What draws you to those movements?</p><p><strong>A:</strong> One of the biggest aspects that fascinates me in those movements is how the artists interact with colors. Pulling away from realism, it is playful, strong and intentional. I love working with these color palettes, and adapting their ideas to tattoos.  I also appreciate the energy in paint strokes, it feels so free and automatic but the results are intentional. </p><p>For the impressionists specifically, I really admire their fascination with time passing and trying to capture that in their paintings. The Poplars series by Monet is a perfect example of this. It's not something I would have the patience to do myself and I think it's so beautiful to witness their love for light and time in that way. </p><p><strong>Q: </strong>Where do you think tattooing sits in relation to art history?</p><p><strong>A: </strong>Tattooing is one of the oldest forms of art, so it has its own extremely rich history. I think in relation to modern art history, it has evolved in parallel, not intertwined with it.  Subject matters, techniques and colors are all different because you can't tattoo like you paint.  In tattooing, folks have been looking for symbolism in relation to personal experiences instead of something that is meant for a broad audience. </p><p>We often tattoo parts of iconic paintings and it feels quite full circle to immortalize these images on skin.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6392.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_wf6qzR": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_m8eNy6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6356.jpg",
+            "link_url": ""
+          }
+        },
+        "image_NqAm8L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6428.jpg",
+            "link_url": ""
+          }
+        },
+        "image_Mk3GAY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6465.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_m8eNy6",
+        "image_NqAm8L",
+        "image_Mk3GAY"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Traveling is also part of your creative rhythm—you’ve booked in cities like Montreal, NYC, Paris, and Lisbon. Does tattooing in different cities inspire your work, or is it more about building connections with community wherever you go?</p><p><strong>A: </strong>Travelling has always been where I find inspiration the easiest. I feel so deeply inspired every time I visit different cities or landscapes. It's all in the new shapes, new lights, different architecture, but also how people dress, how they move, how they spend time with each other. Not to mention countless art gallery visits everywhere I go. I am always taking it all in and trying to translate it into new pieces. </p><p>As for the artists I get to meet, it feels almost surreal to work alongside them. Those are usually folks I have been admiring from afar for years, so to meet and create next to them is incredible. Not to mention to get tattooed by them, it really is a dream. Every time I work in a new studio, I learn something new, technique wise or how people create differently. I always come back slightly changed. So yes, tattooing elsewhere alongside other artists deeply inspires my work.</p><p></p><p><strong>Q:</strong> Any dream cities or studios you'd love to visit in the future? </p><p><strong>A: </strong>I am currently daydreaming about visiting London. I think after all the places I have been to this will be the next big one. I don't have a specific shop in mind yet, I need to research where my style and aesthetic would fit best! In the meantime, I am having a great time visiting Canadian cities, and would love to make it to Nova Scotia and Newfoundland soon.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6513.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>Your work has such a distinct look. Does that carry over into how you dress? How would you describe your personal style these days?</p><p><strong>A:</strong> Ah! The question I knew would be the hardest. Yes, I think I carry a distinct style in how I dress. I think creating outfits is an art and an extension of how I see the world. I usually think about how I want to feel and what I want to project and get dressed based on this. I love finding and following trends but to adapt them to my body and my budget. I thrift and modify a lot to create pieces I can't afford or that don't exist in my size.</p><p>I usually mix elegant and classic with strong and masc to create contrast and once again balance. I love incorporating bright colors, oversize shapes and different fabric textures. And never forget all the rings! </p><p><strong>Q: </strong>What's a recent piece—painting or tattoo—that you’re especially proud of, and what's the backstory behind it?</p><p><strong>A:</strong> I have recently done a few color pieces in the fauvism inspired style, and they healed really well which I am really happy about. I have also done a few pieces with fabric draping and I am obsessed with the shading in those. I think when I try something new and the result aligns with my vision, that's when I get really proud. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_6471.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_KGecMT": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_6509.jpg",
+        "image_mobile": "shopify://shop_images/IMG_6509.jpg",
+        "link_url": "",
+        "margin_bottom": 35
+      }
+    },
+    "featured_collection_mNEWV4": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Ariane's looks </h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-arianes-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "main",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_NjQ3EM",
+    "p80_image_banner_UxCJ7h",
+    "image_with_text_FAfVaW",
+    "p80_multi_image_banner_wf6qzR",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "p80_image_banner_KGecMT",
+    "featured_collection_mNEWV4",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

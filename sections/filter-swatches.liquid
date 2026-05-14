@@ -1,0 +1,100 @@
+{%- liquid
+  assign generic_swatches = ''
+  assign processed_generic_colors = ''
+  
+  comment
+    Build mapping of generic colors to swatches by scanning all products
+    This creates a comprehensive mapping that includes variant metafield data
+  endcomment
+  
+  for product in collections.all.products
+    for variant in product.variants
+      if variant.metafields.custom.generic_color != blank
+        assign generic_color = variant.metafields.custom.generic_color.value
+        unless processed_generic_colors contains generic_color
+          assign processed_generic_colors = processed_generic_colors | append: generic_color | append: ','
+          
+          comment
+            Try to find a swatch for this generic color from the existing swatch system
+          endcomment
+          for swatch in product.metafields.global.color_swatches.value
+            if swatch.alt == generic_color
+              assign generic_swatches = generic_swatches | append: generic_color | append: ':' | append: swatch | image_url: width: 50 | append: ','
+              break
+            endif
+          endfor
+        endunless
+      endif
+    endfor
+  endfor
+-%}
+
+{%- if generic_swatches != blank -%}
+  <div class="filter-swatches filter-swatches-enhanced" style="display: none;">
+    {
+    {%- liquid
+      assign swatch_array = generic_swatches | split: ','
+      for swatch_item in swatch_array
+        if swatch_item != blank
+          assign swatch_parts = swatch_item | split: ':'
+          if swatch_parts.size == 2
+            echo swatch_parts[0] | json
+            echo ': '
+            echo swatch_parts[1] | json
+            unless forloop.last
+              echo ', '
+            endunless
+          endif
+        endif
+      endfor
+    -%}
+    }
+  </div>
+{%- endif -%}
+
+{%- if section.blocks.size > 0 -%}
+  <div class="filter-swatches filter-swatches-set-1" style="display: none;">
+    {
+    {%- liquid
+      for block in section.blocks
+        assign name = block.settings.title
+        echo name | json
+        echo ': '
+        if block.settings.swatch != blank
+          echo block.settings.swatch | image_url: width: 50 | json
+        else
+          echo '' | json
+        endif
+        unless forloop.last
+          echo ', '
+        endunless
+      endfor
+    -%}
+    }
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.swatches_set_1.name",
+  "class": "filter-swatches filter-swatches-set-1",
+  "blocks": [
+    {
+      "type": "image_swatch",
+      "name": "t:sections.swatches_set_1.blocks.image_swatch.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.swatches_set_1.blocks.image_swatch.settings.title.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "swatch",
+          "label": "t:sections.swatches_set_1.blocks.image_swatch.settings.swatch.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

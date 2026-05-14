@@ -1,0 +1,379 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/000238790027.jpg",
+            "heading": "Meet: Sandro Petrillo",
+            "subheading": "@sssoaps.co",
+            "text": "Photos  by Antony Creary @gizaadaa",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sandro Petrillo is part artist, part alchemist, part orchestrator of experience. Fascinated by how atmosphere can create connection, his work starts with the senses;  inviting you to take notice and be present in the moment. We caught up with the <a href=\"https://www.sssoaps.co/\"><span style=\"text-decoration:underline\">SSSOAPS</span></a> founder and Toronto dance music scene veteran to talk multisensory design, daily rituals, and bringing feels to the forefront.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/000238790014.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_byaxdk": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_twKh9G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000238790006.jpg",
+            "link_url": ""
+          }
+        },
+        "image_iVU9yU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000238790031.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_twKh9G",
+        "image_iVU9yU"
+      ],
+      "name": "t:sections.p80-multi-image-banner.presets.name",
+      "settings": {
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> 3 words your friends/family would use to describe you?</p><p><strong>A: </strong>Intentional, imaginative, quietly-chaotic ;)</p><p><strong>Q: </strong>Your work exists at the intersection of sound, scent, light, and ritual. How did that multidisciplinary approach evolve?</p><p><strong>A:</strong> My approach really came from paying attention to the way environments make people feel.  I started my career primarily in music, DIY spaces and building infrastructure for people to come together. I quickly realized it wasn’t just about what people were seeing or hearing. Atmosphere, memory, the deeply sensorial and of course, emotion; all such wonderful perspectives to play with. Scent slowly but naturally entered the playing field over some years. A truly massive bar soap collection came to be… taunting me to dive into making some for myself. And I’ll tell ya, the moment I got my hands on materials of that nature, I was hooked! Years later, I’m so amazed at how truly connected all of these practices are. Applying methods and materials I’m in contact with now to practices I’ve been nurturing for years and years—what a gift!</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/000238790012.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What draws you to creating multisensory environments, and what do you hope people feel inside them?</p><p><strong>A:</strong> I would say it’s the passion I have around adjusting the set and setting, the building of layered intention into the spaces we exist in. There are many things we can utilize to shift the feeling of a space, some more intense than others. I truly believe each shift changes how people inhabit a space. When sound, light, and scent are working together, there’s somewhat of a communal and harmonic relationship occuring; and it’s live and in the moment. We breathe differently, we become more present. I’m definitely not trying to overwhelm anyone; I’m more interested in subtle shifts in awareness. Ideally, people feel safe, curious, and slightly more connected to themselves when they’re inside the work.</p><p><strong>Q:</strong> In a world that’s increasingly digital, why do you think tactile and sensory experiences resonate so deeply?</p><p><strong>A: </strong>I don’t see digital and physical worlds as opposites. I think the digital realm is incredible—it expands access, imagination, and connection in real ways. But humans are still sensory beings. We regulate our nervous systems through touch, smell, sound, and proximity. Tactile and sensory experiences don’t replace the digital; they support it. They give us a grounded baseline so we can move through digital spaces with more clarity, presence, and care. Energy exists in many forms, and our array of senses help us navigate those layers. I truly believe that tapping in and seeking out experiences to nudge those feels is a major key to life. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/000238790009_aa58ae24-358d-4ae3-b5b0-27745772fa9b.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_tFm9bn": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_GcjdAG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000238790011_507c0928-1c08-43d1-9134-0c57e429acf5.jpg",
+            "link_url": ""
+          }
+        },
+        "image_egg9d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/000238790004.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GcjdAG",
+        "image_egg9d7"
+      ],
+      "name": "t:sections.p80-multi-image-banner.presets.name",
+      "settings": {
+        "margin_bottom": 50
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>What role does ritual play in your own daily routine? Any personal practices that ground your day?</p><p><strong>A:</strong> I’d say a fairly heavy role. Although as mentioned above, there is a quiet chaos to much of how I exist, there’s a deep and layered stack of habits and rituals within. In terms of daily constants, my morning is the medicine! Here’s how it goes basically everyday: wake up, quick lil’ stretch, turn the kettle on, grind some amazing decaf coffee—whilst grinding, roll some sort of smokeable, pour coffee, take the dogs outside (with said coffee & smokable), think, see the sun. Then inside for a workout or yoga (this part is SO KEY, the moving the blood in the AM, game changer). Post-workout I hydrate (of course) and then hop into the shower. Due to my work I have MANY essential oils so I pick a fragrance for the day and jump in. Shower also has a nice post workout stretch and a general ponder on my day, which most often includes choosing what I’m gonna wear (roughly) as a nice meditation on what’s to come. </p><p><strong>Q:</strong> How would you describe your personal style?</p><p><strong>A:</strong> My personal style is utilitarian, soft, often-functional, and very intentional. I’m drawn to natural textures, neutral palettes, and silhouettes that feel both relaxed and considered. I like clothing that feels lived-in but still designed. HUGE fan of a one tone fit with a bit of flavour also. Bags though, don’t get me started on bags! I could have an entire identity based on bags. File under utility, but yes, wow. I love a bag with a system, a bag that clips to bags. I literally have bags inside of bags inside of bags! No joke! </p><p></p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/000238790007.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_jzjctF": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_raakbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> Any designers, eras, or personal inspirations that consistently influence your work?</p><p><strong>A: </strong>Oh wow, so many! Shoutout EARTH! Constantly in awe of her beauty. Beyond her, my curiosities are constantly wandering, landing in one place for a while, and then off on another journey awaiting the next chapter in the deep dive. As of recently I’m DEEP in graffiti YouTube & TikTok; exploring the ways in which people express & have expressed themselves in their environment. There’s a thread, or perhaps a general ethos behind that movement that is very inspiring, not only aesthetically but philosophically also. There’s a ton of graffiti in my surroundings here in Toronto so I come across it all the time. It’s been fun to have the layered tactile nature of it being in my world, and then being able to dive deep into wormholes online. I’ll leave YouTube on while I’m in the lab so I often take in some juicy bits! </p><p><strong>Q: </strong>If someone was visiting Toronto and wanted to see the city through your eyes, what spots would you take them to?</p><p><strong>A:</strong> Oh cripes! I mean first off, <a href=\"https://www.instagram.com/rurubaked/?hl=en\"><span style=\"text-decoration:underline\">Ruru Baked</span></a> for some amazing ice cream, no matter what time it is. I’d bring them to my studio of course, show them my shop <a href=\"https://www.instagram.com/givennroomm/?hl=en\"><span style=\"text-decoration:underline\">Givenn Roomm</span></a> and the general area. There’s amazing coffee and treats in that zone, so we would do a bit of a tour; show them the spots I pop into, the deli, the fruit stand etc. There are a bunch of parks around that I like to wander through, so we’d visit those also. Later, if we were to grab a meal we’d either hit some <a href=\"https://www.instagram.com/toronto_restaurant_jerkking/?hl=en\"><span style=\"text-decoration:underline\">Jerk King</span></a> or something amazing in Korea Town and those are my most frequented personal digs. Then if we’re really feeling up for a full one, we’d head to the club <a href=\"https://www.instagram.com/standardtime.to/?hl=en\"><span style=\"text-decoration:underline\">Standard Time</span></a> up on Geary for a session within the glorious sound system there.  </p><p><strong>Q:</strong> Looking ahead, what’s next for you? Any projects or ideas currently in motion that you’re excited to explore?</p><p><strong>A:</strong> Oh yes, absolutely! I’m in a phase of semi-quiet expansion. A lot of what I’m working on now sits at the intersection of scent, sound, and spatial design—thinking about how environments can feel more and more like living systems. I’m developing a few projects that focus on slowness, ritual, and collective presence, as well as returning to more tactile craft in my studio work. I’m excited about letting things grow naturally and staying open to unexpected collaborations along the way.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_raakbm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/000238790030.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Sandro's Looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-sandros-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "p80_multi_image_banner_byaxdk",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "p80_multi_image_banner_tFm9bn",
+    "image_with_text_FAfVaW",
+    "image_with_text_jzjctF",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

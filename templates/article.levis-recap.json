@@ -1,0 +1,436 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9725.jpg",
+            "heading": "Levi’s® diy Recap",
+            "subheading": "At Plenty kitsilano",
+            "text": "",
+            "button_label": "",
+            "link": "shopify://collections/shop-the-look-grandmas-secret-sauce",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_DqD6qm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HxXHHW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Custom Levi’s® Moments</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_niMnjK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Highlights from an evening with Vancouver friends, putting a spin on the latest styles.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HxXHHW",
+        "text_niMnjK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tgzJb8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9610.jpg",
+            "link_url": ""
+          }
+        },
+        "image_XXiqfR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9676.jpg",
+            "link_url": ""
+          }
+        },
+        "image_piNDnP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9737.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tgzJb8",
+        "image_XXiqfR",
+        "image_piNDnP"
+      ],
+      "settings": {
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_cqVQkr": {
+      "type": "p80-image-banner",
+      "disabled": true,
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9752.jpg",
+        "image_mobile": "shopify://shop_images/IMG_9752.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "p80_multi_image_banner_RayPgx": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_4jwDMf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9743.jpg",
+            "link_url": ""
+          }
+        },
+        "image_i8t3Yj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9744.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4jwDMf",
+        "image_i8t3Yj"
+      ],
+      "settings": {
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_PLHW3B": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QUxXwY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>good company, great jeans</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_fEtnzn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>...and a lot of creativity.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUxXwY",
+        "text_fEtnzn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "p80_multi_image_banner_L9AkH7": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_Q3Lzp3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9623.jpg",
+            "link_url": ""
+          }
+        },
+        "image_xT6fVD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9759.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Q3Lzp3",
+        "image_xT6fVD"
+      ],
+      "settings": {
+        "margin_bottom": 0
+      }
+    },
+    "p80_multi_image_banner_C7gWFz": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_pKdULF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9709_1.jpg",
+            "link_url": ""
+          }
+        },
+        "image_WnQYXJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9792.jpg",
+            "link_url": ""
+          }
+        },
+        "image_jV9Ftr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9716.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pKdULF",
+        "image_WnQYXJ",
+        "image_jV9Ftr"
+      ],
+      "settings": {
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_zaUwtW": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/IMG_9752.jpg",
+        "image_mobile": "shopify://shop_images/IMG_9752.jpg",
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Event Sponsor: </strong><a href=\"https://www.instagram.com/levis/\" title=\"https://www.instagram.com/levis/\"><strong>Levi’s®️</strong></a></h6><h6><strong>Event Host: </strong><a href=\"https://www.instagram.com/roshelleflores_/\" title=\"https://www.instagram.com/roshelleflores_/\"><strong>Roshelle Flores</strong></a></h6><h6><strong>Photography: </strong><a href=\"https://www.instagram.com/jomarvictoria\" title=\"https://www.instagram.com/jomarvictoria\"><strong>Jomar Victoria</strong></a></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>shop the looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-the-look-grandmas-secret-sauce",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 44
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_rdXXGw": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>shop levi's® </h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "levis-spring-26",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "rich_text_DqD6qm",
+    "p80_multi_image_banner_FFEjV9",
+    "p80_image_banner_cqVQkr",
+    "p80_multi_image_banner_RayPgx",
+    "rich_text_PLHW3B",
+    "p80_multi_image_banner_L9AkH7",
+    "p80_multi_image_banner_C7gWFz",
+    "p80_image_banner_zaUwtW",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896",
+    "featured_collection_rdXXGw"
+  ]
+}

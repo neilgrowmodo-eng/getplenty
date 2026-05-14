@@ -1,0 +1,136 @@
+.blog-placeholder {
+  margin: 0 1.5rem;
+  background: rgb(var(--color-background));
+}
+
+.blog-placeholder__content {
+  padding: 3rem;
+  background: rgba(var(--color-foreground), 0.04);
+}
+
+.blog-placeholder .placeholder {
+  position: relative;
+}
+
+.blog-placeholder h2 {
+  margin: 0;
+}
+
+.blog-placeholder .rte-width {
+  margin-top: 1.2rem;
+  color: rgba(var(--color-foreground), 0.75);
+}
+
+.blog__title {
+  margin: 0;
+}
+
+.blog__posts.articles-wrapper {
+  margin-bottom: 1rem;
+}
+
+.blog__posts.articles-wrapper .article {
+  scroll-snap-align: start;
+}
+
+.background-secondary .blog-placeholder__content {
+  background-color: rgb(var(--color-background));
+}
+
+.blog__posts .card-wrapper {
+  width: 100%;
+}
+
+.blog__button {
+  margin-top: 3rem;
+}
+
+.title-wrapper-with-link .underlined-link {
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-bottom: solid 0.2rem rgb(var(--color-foreground));
+  color: rgb(var(--color-foreground));
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.blog__posts.articles-wrapper .card--standard .card__inner {
+  --ratio-percent: 66.66% !important;
+}
+
+.article-card .card__information {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+}
+
+.article-card .card__heading {
+  font-family: var(--font-heading-family);
+  font-size: 3.2rem;
+  line-height: 1;
+  margin-bottom: 1.6rem;
+  min-height: auto;
+}
+
+.article-card .article-card__excerpt {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: rgb(var(--color-black))
+}
+
+.article-card .badge {
+  display: none;
+}
+
+.article-card .link-text-bold {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 749px) {
+  .blog__post.article {
+    width: calc(100% - 3rem);
+  }
+
+  .blog__posts.articles-wrapper .slider__slide {
+    width: calc(100% - 9.6rem)
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .blog-placeholder {
+    text-align: center;
+    width: 50%;
+    margin: 0;
+  }
+
+  .blog__button {
+    margin-top: 5rem;
+  }
+
+  .article-card .card__heading {
+    font-size: 4.8rem;
+  }
+}
+
+/* check for flexbox gap in older Safari versions */
+@supports not (inset: 10px) {
+  @media screen and (min-width: 750px) {
+    .blog__posts .article + .article {
+      margin-left: var(--grid-desktop-horizontal-spacing);
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .grid--1-col-desktop .article-card .card__content {
+    text-align: center;
+  }
+
+  .blog__posts.articles-wrapper {
+    margin-bottom: 0;
+  }
+
+  .blog .title-wrapper-with-link {
+    align-items: flex-end;
+    margin: 0 0 4.8rem;
+  }
+}

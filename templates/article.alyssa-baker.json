@@ -1,0 +1,323 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/alyssabaker-plenty-29.jpg",
+            "heading": "Meet: Alysssa Baker",
+            "subheading": "@alyssa_baker",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": false,
+            "text_alignment": "right",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet <a href=\"https://www.instagram.com/alyssa_baker/\"><span style=\"text-decoration:underline\">Alyssa Baker:</span></a> singer, songwriter, and reimaginer of the songs we think we already know.</p><p>Raised in Vancouver on a soundtrack of Shania, Nelly Furtado, and early-2000s pop, she grew up performing in the living room long before stepping into a studio. Since then, her voice has traveled far; from mentorships with beloved Canadian artists, to a loyal <a href=\"https://www.youtube.com/user/AlyssaBakerMusic\"><span style=\"text-decoration:underline\">YouTube community</span></a> of over 120K subscribers.</p><p>Now based in Toronto, Alyssa is entering a new chapter. Her upcoming EP of 1960s covers pulls from an era of recognizable melodies and forgotten gems, filtered through her signature palette of dreamy pop and quiet vulnerability. </p><p>In our conversation, we talk about letting the messy first drafts in, the community that shaped her, and letting instinct lead the way. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alyssabaker-plenty-8.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q: </strong>You started performing at just four years old. What do you remember most about those early moments?</p><p><strong>A:</strong> I remember that music was always playing in my house growing up. I didn’t have many musicians or singers in my immediate family, but everyone loved music, so the radio was always on or a CD would be playing. I started singing along and memorizing songs, and some of my earliest memories are of putting on little shows for my family, singing and dancing around the living room. I loved it so much that pretty quickly I wanted to start taking singing lessons and performing for more people. Back then, I had no concept of stage fright, so looking back at videos from that time is pretty funny because four-year-old me was performing at malls in my hometown like they were Madison Square Garden. What I remember most about those early creative moments is just how fun it was and how much I loved it from the very beginning.</p><p><strong>Q:</strong> Who were the artists or voices that first made you fall in love with music?</p><p><strong>A: </strong>The artists who first made me fall in love with music were Shania Twain, Nelly Furtado, Britney Spears, and other female pop stars. I’ve always loved a wide range of music and genres, but it was definitely those artists that made me want to become a singer.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alyssabaker-plenty-11.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong>You’ve been mentored by some incredible Canadian artists. What lessons from those mentorships have stayed with you the most?</p><p><strong>A: </strong>I feel so lucky to have learned from artists I really look up to, and their guidance has had a huge impact on my songwriting. The biggest lesson they taught me was to let ideas flow without worrying about perfecting them right away. It is hard to be creative when you are editing yourself and there is no need to be embarrassed by a first draft. Often the messy ideas turn into the best, most authentic parts of a song. I also learned that when it comes time to edit, to be open to feedback and not get too attached to anything. Focus on simplifying, telling a clear story, and saying exactly what you mean as honestly as possible.</p><p><strong>Q:</strong> How would you describe your personal style? </p><p><strong>A:</strong> I love classic, tailored looks and timeless silhouettes, and I try to mix trends with those kinds of pieces. My style can be a bit funky, I like to experiment a little, but I also really appreciate simplicity. I definitely play it up when I’m performing. I try to present an elevated version of myself on stage while staying authentic, so I’ll amp up my usual style with bolder pieces, more makeup, or something a bit show stopping. I would say my style icons are Dakota Johnson and Rachel from <em>Friends</em>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alyssabaker-plenty-26.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong>What does your writing process look like? </p><p><strong>A:</strong> Most of the time my songwriting comes in bursts of creativity at random times, but it can look pretty different depending on the song. I might hear or see something that inspires me to rush and write down an idea or record a quick voice memo. Other times, I’ll journal stream-of-consciousness style and come back later to see if I like anything. Every now and then, a song appears almost fully formed, which is always a fun surprise! And then there are days when I feel like I have so much to express, but nothing will come. Lately, I’ve been enjoying starting with a production idea and then humming or singing nonsense until I find something I can build on. If I’m co-writing, it’s usually more intentional. I like to bring an idea to each session, but also allow space to explore. It’s always fun to open the session with a conversation about life or by listening to music for inspiration. This is what I love so much about the songwriting process. It’s different every time, which makes it so fun!</p><p><strong>Q: </strong>For your upcoming EP of 1960s covers, what was it about that era that drew you in?</p><p><strong>A:</strong> I was looking for songs people would recognize that fit the vibe of my <a href=\"https://www.youtube.com/watch?v=jbLW2FtCliA\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=jbLW2FtCliA\">“Can’t Help Falling in Love” cover</a>, since that’s probably the song I’m most associated with. I started exploring different options, thinking of songs most people would know but maybe hadn’t heard in a while or hadn’t been covered too much. One of my main collaborators on this project, Nathan Ferraro, suggested reinventing vintage country songs, which got me digging into that era. I considered doing all country songs or all love songs, but I ended up focusing on the ’60s as a whole because that era felt recognizable without being overplayed, and I was really loving all the options I was finding. I also loved the idea of reimagining songs from the 1960s as synth-pop in my own style because it felt completely unexpected.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alyssabaker-plenty-30.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_jzjctF": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_raakbm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Q:</strong> When you approach a cover, how do you decide what to preserve and what to reinvent?</p><p><strong>A: </strong>I love this question! I usually try to preserve the melody because I think that’s the heart of a song. When the melody changes too much, it doesn’t really feel like the same song to me. That’s totally just a personal opinion, but I think it’s a fun challenge to take a melody, whether it’s classic, jazzy, or rock, and find a way to make it feel different without changing too many notes. My goal is always to make the song my own without making it unrecognizable. I’ll add little instrumental hooks or parts, change the tempo, reimagine it in another genre, or try to highlight a side of the song that isn’t usually at the forefront. That’s the cool thing about great songs. You can play around with a bunch of elements, but the base is so solid that you can take it pretty much anywhere and it’ll still sound great through different lenses.</p><p><strong>Q:</strong> How has your sense of inspiration evolved as you’ve grown?  What moves you now that might not have a few years ago?</p><p><strong>A: </strong>When I was younger, I had a lot of creativity, but I feel like my skills as a writer and singer have improved to help channel that creativity more effectively. I used to write a lot of poetry and always wanted my music to be deep and dark. While I still love many of my lyrics from that time because they came from such an unbridled place of creativity, I no longer feel that I have to prove I’m a serious musician by making everything sad and intricate. I give myself more freedom to explore, write what I enjoy, and trust my instincts, and lately I’ve been loving writing fun, pop songs. What moves me now is different from what moved me before. I’m inspired by everyday life, living with my partner and pets, noticing little details, and making up stories that seem like they could make good songs. I’ve started doing a little producing, and even though I don’t have a ton of technical skill yet, I let myself experiment and my ideas are helping shape my upcoming releases.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_raakbm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/alyssabaker-plenty-7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_p6UYdj": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>Shop Alyssa's Looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-alyssas-looks",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_tURdTe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; margin: 2rem 0;\">\n  <iframe allow=\"autoplay *; encrypted-media *; fullscreen *; clipboard-write\" \n          frameborder=\"0\" \n          height=\"175\" \n          style=\"width:100%; max-width:660px; overflow:hidden; border-radius:10px;\" \n          sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" \n          src=\"https://embed.podcasts.apple.com/ca/podcast/cafe-business-and-the-art-of-a-perfect/id1685751414?i=1000620915641\">\n  </iframe>\n</div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_jzjctF",
+    "featured_collection_p6UYdj",
+    "custom_liquid_tURdTe",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_VR3zXq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XCUWLC": {
+          "type": "heading",
+          "settings": {
+            "heading": "But first… party!",
+            "heading_size": "h1"
+          }
+        },
+        "text_8Qwyir": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To kick off this special customer appreciation offer, join us for an evening of shopping and treats on Thursday, March 6 from 5-8pm at select stores: Kitsilano, Robson, Uptown Women’s & Men’s.</p><p>Please RSVP to your location below.</p><p><em>Must show invite in-store to redeem offer.</em></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XCUWLC",
+        "text_8Qwyir"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Plenty_LoyaltySipShop_25.03.06_Email_-_compressed.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_U3yLfw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_4VEjkP": {
+          "type": "column",
+          "settings": {
+            "title": "Kitsilano",
+            "text": "<p>2803 West Broadway Vancouver, BC V6K 2G6</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MUbGdK": {
+          "type": "column",
+          "settings": {
+            "title": "Robson",
+            "text": "<p>1107 Robson Street Vancouver, BC V6E 1B5</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KyEmeW": {
+          "type": "column",
+          "settings": {
+            "title": "Uptown Women's",
+            "text": "<p>Unit 119-3551 Uptown Blvd Victoria, BC V8Z 0B9</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pfgwCa": {
+          "type": "column",
+          "settings": {
+            "title": "Uptown Men's",
+            "text": "<p>Unit 101-3600 Uptown Blvd Victoria, BC V8Z 0B9</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_4VEjkP",
+        "column_MUbGdK",
+        "column_KyEmeW",
+        "column_pfgwCa"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_anDyKm": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cGq3PH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Can’t make it to any of our kick off parties? You can still redeem your Spend and Get offer at </em><a href=\"https://www.getplenty.com/pages/store-locator\" title=\"Store Locator\"><em>any Plenty location</em></a><em> from March 6-14. Must show invite in-store to redeem offer. Offer not valid at McArthurGlen Designer Outlet.</em></p><p><em>The “Get” will be provided in the form of a coupon which will be valid in-store only on full-price items with a minimum purchase based on indicated spending tiers. Discount cannot be combined with any other offer. Offer not valid on previous purchases or gift cards. Offer is valid from March 15, 2025 to April 30, 2025. Any returns will be in the amount paid minus the coupon amount.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_cGq3PH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Become a Plenty Insider. </strong>Sign up for 10% off your first regular price online order. Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_VR3zXq",
+    "multicolumn_U3yLfw",
+    "rich_text_anDyKm",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

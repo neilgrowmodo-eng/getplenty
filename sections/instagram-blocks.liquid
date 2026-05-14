@@ -1,0 +1,88 @@
+{{ 'section-instagram-block.css' | asset_url | stylesheet_tag }}
+
+{%- if section.blocks.size > 0 -%}
+  <div id='instagram-{{ section.id }}' class='instagram-blocks color-{{ section.settings.color_scheme }} gradient'>
+    {%- for block in section.blocks -%}
+      {%- assign image = block.settings.image -%}
+      {%- if image != blank -%}
+        <figure>
+          {%- if block.settings.link_url != blank -%}
+            <a
+              href='{{ block.settings.link_url }}'
+              target='_blank'
+              rel='noopener noreferrer'
+              class='permalink'
+            >
+              {%- render 'icon-instagram' -%}
+            </a>
+          {%- endif -%}
+          <img
+            loading='lazy'
+            src='{{ image | image_url: width: 530 }}'
+            width='324'
+            height='324'
+            srcset='{{ image | image_url: width: 324 }} 768w,{{ image | image_url: width: 530 }} 1000w'
+            sources='(min-width:324px) 768w, 100vw'
+          >
+        </figure>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.instagram.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Block",
+      "limit": 5,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.instagram.blocks.block.settings.image.label"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "t:sections.instagram.blocks.block.settings.link_url.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.instagram.presets.name",
+      "blocks": [
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

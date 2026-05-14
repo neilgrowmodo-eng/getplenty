@@ -1,0 +1,526 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-1969.jpg",
+            "heading": "meet: marlayna",
+            "subheading": "@hypechocolate",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Marlayna Pincott: Hype Chocolate Co-Founder and Local Community Mentor</h3><p>If there is one place you need to visit this holiday season, it is the <a href=\"https://hypechocolate.com/\">Hype Chocolate</a> headquarters located on 855 E. Hastings Street for all your unique chocolate needs. The co-founder of Hype Chocolate Marlayna filled us in on everything exciting that takes place at their chocolate shop, from <a href=\"https://hypechocolate.com/collections/private-parties-bookings\">chocolate workshops</a>, to local Indigenous youth mentorship programs, and much more. We were so inspired by the vision and collaborative spirit Hype Chocolate has taken on to support the local community. </p><p>Marlayna Pincott, a proud urban Indigenous woman of Quinault and Yaqui descent, with mixed European settler heritage, works on the traditional territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) Nations. Deeply committed to reconnecting with her cultural roots, she is on a personal journey of healing and discovery, while mentoring others in their own reconnection to identity.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-2012.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-1983.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-2089.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-2119.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With over 20 years of experience as a celebrated makeup artist and hairstylist, Marlayna is an accomplished entrepreneur, trauma-informed holistic healer, mentor, advisor, and graphic/web designer. She co-founded <a href=\"https://www.instagram.com/hypechocolate.co\">Hype Chocolate</a> and is the founder of both <a href=\"https://hyperelations.ca/\">Hype Relations</a> and <a href=\"https://thereikigaiamarket.com/\">The Reiki Gaia Market</a>. As a business owner and creative, she brings extensive knowledge and leadership across multiple industries, fostering a calm and positive work environment.</p><p>Marlayna's work is rooted in a commitment to systemic change, with a focus on healing communities and removing barriers for youth. Her partnership with <a href=\"https://accessfutures.com/bladerunners/\">ACCESS</a>, an organization supporting Indigenous career development, exemplifies her dedication to empowering the next generation. This extends to her involvement in mentorship programs, where she leads initiatives like the first all-Indigenous internship class at Blanche Macdonald, in collaboration with <a href=\"https://www.vifw.ca/\">Vancouver Indigenous Fashion Week</a>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-2019.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Outside of her professional commitments, Marlayna is an avid outdoor enthusiast and business owner, finding balance through activities like ATV riding, wakeboarding, surfing, cycling, and participating in cultural ceremonies. Her core values of inclusivity, curiosity, and progressiveness guide her work, whether as a business owner, in the beauty industry, as a mentor, or as an artist. She remains steadfast in her dedication to working with diverse communities, especially within the Indigenous community, ensuring that her work creates lasting impact and life-changing opportunities.</p><p>We spent the morning with Marlayna to hear more about the inspiration behind Hype Chocolate. Read the full interview below.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-2148.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-2130.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-2065.jpg",
+            "link_url": ""
+          }
+        },
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MARLAYNA-1971.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tjcjtt",
+        "image_dVxmJC",
+        "image_EXDpHL"
+      ],
+      "settings": {
+        "margin_bottom": 35
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What are 3 words your friends or family would use to describe you?</h3><p>A: Empathetic, loving, and progressive.</p><h3>Q: Tell us the story behind Hype Chocolate.</h3><p>A: My partner Scott, who I started the company with, was in his creative flow during the pandemic and made these chocolate shoes that were really cute. We went around to a bunch of different rare sneaker shops, some of them decided to carry them. And then we started our social media account and it stuck.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-2119.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What are some of your fondest memories since opening Hype Chocolate?</h3><p>A: I must say that my fondest memories have been working with our Indigenous youth and the other mentees that are in our program. One day specifically we had the <a href=\"https://www.workbc.ca/explore-training-and-education/skills-training-and-supports/bladerunners-program-risk-young-adults\">BladeRunners program</a>, which is a career program that <a href=\"https://accessfutures.com/bladerunners/\">ACCESS</a> has down the street. All the kids were here for a <a href=\"https://hypechocolate.com/collections/kids-hype-birthday-party\">chocolate class</a> and our Indigenous youth who had just started working here were serving them. It was this full circle moment and it was very beautiful - seeing how we can show up for our community and the kids in the neighbourhood.</p><h3>Q: What is one product that you have created that you are the most proud of?</h3><p>A: Right now I would have to say our <a href=\"https://hypechocolate.com/products/raspberry-cream-pie-quanah-bar\">Give Me Life Quanah Style bars</a>. We had the opportunity to amplify an Indigenous Trans icon in the community’s voice, but also a part of the proceeds go towards <a href=\"https://translifeline.org/\">The Trans lifeline</a>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-1983.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: Where do you go when you are looking for inspiration?</h3><p>A: I head to a ceremony, the forest, or the ocean when I am looking for inspiration.</p><h3>Q: What is the most rewarding part of your job?</h3><p>A: The most rewarding part of my job is being able to do something that I love everyday and again it absolutely ties back to being able to contribute back to the community. It’s because I am really passionate in my mentorship role, so being able to merge that world with chocolate is pretty cool.</p><h3>Q: If you could give your younger self one piece of advice, what would it be?</h3><p>A: Stay authentic and be proud of who you are.</p><h3>Q: What’s your favourite childhood snack?</h3><p>A: My favourite childhood snack is definitely <a href=\"https://hypechocolate.com/products/smores-bar\">smores</a>.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-2048.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "image_with_text_x6yNwK": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_w8yBBb": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: How would you describe your style?</h3><p>A: Describing my style is never easy because I dress in a way to express my personality which is dependent on my mood.</p><h3>Q: What is your favourite fashion trend of all time?</h3><p>A: The 90s was so much fun and I love how I am shopping with my niece and nephew in 2024 and we are looking at the same styles I wore back in high school.<br/></p><h3>Q: Any upcoming personal projects you’d like to share with us or a sneak peak?</h3><p>A: Something exciting that is coming up soon is a <a href=\"https://hypechocolate.com/collections/holts-cafe-2-0\">Holt’s Cafe</a> takeover. We will have exclusive limited delicious <a href=\"https://hypechocolate.com/products/oat-milk-ube-matcha-latte-2-0\">Hype lattes</a>, <a href=\"https://hypechocolate.com/products/milk-chocolate-pistachio-covered-flat-croissant-2-0\">pastries</a>, and all kinds of different offerings at Holt Renfrew. This will be starting at the beginning of November into next year.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_w8yBBb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MARLAYNA-2159.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "collage_KLqDTn": {
+      "type": "collage",
+      "blocks": {
+        "image_RazRM8": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        },
+        "image_B7txji": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        },
+        "image_dr6DRy": {
+          "type": "image",
+          "settings": {
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_RazRM8",
+        "image_B7txji",
+        "image_dr6DRy"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "disabled": true,
+      "settings": {
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Marlayna's Look 1: <a href=\"https://www.getplenty.com/products/pgd-everyday-brushed-fleece-heidi-classic-pullover-hoody\">PGD Heidi Classic Pullover</a>, <a href=\"https://www.getplenty.com/products/pgd-everyday-brushed-fleece-kendra-jogger-sweatpant\">PGD Kendra Jogger</a> and <a href=\"https://www.getplenty.com/products/pgd-quilted-puffer-jessie-short-jacket\">PGD Quilted Puffer Jessie Jacket </a></p><p>Marlayna's Look 2: <a href=\"https://www.getplenty.com/products/pgd-swiss-dot-charlita-mock-neck-top\">PGD Charlita Mock Neck Top</a>, <a href=\"https://www.getplenty.com/products/m-l-cotton-lora-slouchy-sweater\">Monk & Lou Lora Sweater</a>, <a href=\"https://www.getplenty.com/products/m-l-crepe-avril-wide-leg-pants\">Monk & Lou Avril Pants</a> and <a href=\"https://www.getplenty.com/products/pgd-quilted-puffer-jimmi-coach-bomber\">PGD Jimmi Bomber</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "collage_U9qgdF",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "p80_multi_image_banner_FFEjV9",
+    "image_with_text_FAfVaW",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "image_with_text_x6yNwK",
+    "collage_KLqDTn",
+    "p80_image_banner_NVKMXG",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

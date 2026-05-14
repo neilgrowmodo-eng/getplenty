@@ -1,0 +1,83 @@
+<script id='store-set-1'>
+  let uuid = 1;
+  let storesObj = { "stores": [] };
+  {%- for location in section.blocks -%}
+      {%- assign operating_hours = '' -%}
+      {%- if location.settings.operating_hours != blank -%}
+          {% assign oh_object = location.settings.operating_hours | newline_to_br | split: '<br />' %}
+          {%- for oh in oh_object -%}
+              {%- capture operating_hours -%}{{ operating_hours }}<span>{{ oh }}</span>{%- endcapture -%}
+          {%- endfor -%}
+      {%- endif -%}
+      storesObj.stores.push({
+          "Fcilty_nam": {{ location.settings.title | json }},
+          "Street_add": {{ operating_hours | json }},
+          "Locality": {{ location.settings.address | json }},
+          "Phone_number": {{ location.settings.phone | json }},
+          "Email": {{ location.settings.map_url | json }},
+          "Ycoord": {{ location.settings.lat | json }},
+          "Xcoord": {{ location.settings.long | json }},
+          "uuid": uuid
+      });
+      uuid++;
+  {%- endfor -%}
+</script>
+
+{% schema %}
+{
+  "name": "Stores - Set #1",
+  "tag": "section",
+  "class": "stores-set",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "location",
+      "name": "Location",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.stores-set-1.blocks.location.settings.title.label"
+        },
+        {
+          "type": "textarea",
+          "id": "operating_hours",
+          "label": "t:sections.stores-set-1.blocks.location.settings.operating_hours.label"
+        },
+        {
+          "type": "textarea",
+          "id": "address",
+          "label": "t:sections.stores-set-1.blocks.location.settings.address.label"
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "label": "t:sections.stores-set-1.blocks.location.settings.phone.label"
+        },
+        {
+          "type": "url",
+          "id": "map_url",
+          "label": "t:sections.stores-set-1.blocks.location.settings.map_url.label"
+        },
+        {
+          "type": "text",
+          "id": "lat",
+          "label": "t:sections.stores-set-1.blocks.location.settings.lat.label"
+        },
+        {
+          "type": "text",
+          "id": "long",
+          "label": "t:sections.stores-set-1.blocks.location.settings.long.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

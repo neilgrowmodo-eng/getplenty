@@ -1,0 +1,77 @@
+announcement-bar {
+  display: block;
+  position: relative;
+}
+
+announcement-bar .announcement-bar {
+  opacity: 1;
+  visibility: visible;
+  justify-content: center;
+  display: flex;
+}
+
+announcement-bar .announcement-bar__message {
+  font-size: 1.4rem;
+}
+
+announcement-bar .announcement-bar__message {
+  padding: 1rem 0 0.8rem 0;
+}
+
+announcement-bar .button {
+  padding: 0;
+  background: transparent;
+  min-width: 4.6rem;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+announcement-bar .button:before,
+announcement-bar .button:after {
+  display: none;
+}
+
+announcement-bar .announcement-bar__prev {
+  left: 0;
+}
+
+announcement-bar .announcement-bar__next {
+  right: 0;
+}
+
+@media screen and (min-width: 990px) {
+  announcement-bar {
+    display: flex;
+    justify-content: stretch;
+  }
+
+  announcement-bar .button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  announcement-bar .announcement-bar--animate-out {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  announcement-bar .announcement-bar--animate-in {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  announcement-bar .announcement-bar--hidden {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  }
+
+  .announcement-bar--animate-in,
+  .announcement-bar--animate-out,
+  .announcement-bar {
+    transition: all var(--transition-duration);
+  }
+}

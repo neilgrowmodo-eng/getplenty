@@ -1,0 +1,81 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "p80_image_banner_UtDcpD": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Desktop_01.png",
+        "image_mobile": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Mobile_01.png",
+        "link_url": "https://getplenty.com/pages/loyalty/?loyal",
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_HQYqtL": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Desktop_02.png",
+        "image_mobile": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Mobile_02.png",
+        "link_url": "",
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_4eh6Cp": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Desktop_03.png",
+        "image_mobile": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Mobile_03.png",
+        "link_url": "",
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_xyzBcU": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Desktop_04.png",
+        "image_mobile": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Mobile_04.png",
+        "link_url": "https://getplenty.com/pages/loyalty/?loyal",
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_neNTV9": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Desktop_05.png",
+        "image_mobile": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Mobile_05.png",
+        "link_url": "",
+        "margin_bottom": 0
+      }
+    },
+    "p80_image_banner_63ygrg": {
+      "type": "p80-image-banner",
+      "name": "t:sections.p80-image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Desktop_06.png",
+        "image_mobile": "shopify://shop_images/Plenty_VIPClub_26.01.28_LandingPage_Mobile_06.png",
+        "link_url": "https://getplenty.com/pages/loyalty/?loyal",
+        "margin_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "p80_image_banner_UtDcpD",
+    "p80_image_banner_HQYqtL",
+    "p80_image_banner_4eh6Cp",
+    "p80_image_banner_xyzBcU",
+    "p80_image_banner_neNTV9",
+    "p80_image_banner_63ygrg"
+  ]
+}

@@ -1,0 +1,27 @@
+{%- if section.settings.use_custom_colors -%}
+style="
+  {% if section.settings.custom_text_color %}
+    --color-foreground: {{ section.settings.custom_text_color.red }}, {{ section.settings.custom_text_color.green }}, {{ section.settings.custom_text_color.blue }};
+  {% endif %}
+  {% if section.settings.custom_background_color %}
+    --color-background: {{ section.settings.custom_background_color.red }}, {{ section.settings.custom_background_color.green }}, {{ section.settings.custom_background_color.blue }};
+  {% endif %}
+  {% if section.settings.custom_background_gradient != blank %}
+    --gradient-background: {{ section.settings.custom_background_gradient }};
+  {% elsif section.settings.custom_background_color %}
+    --gradient-background: rgba({{ section.settings.custom_background_color.red }}, {{ section.settings.custom_background_color.green }}, {{ section.settings.custom_background_color.blue }}, 1);
+  {% endif %}
+  {% if section.settings.custom_link_color %}
+    --color-link: {{ section.settings.custom_link_color.red }}, {{ section.settings.custom_link_color.green }}, {{ section.settings.custom_link_color.blue }};
+    --alpha-link: 0.7;
+  {% endif %}
+  {% if section.settings.custom_button_color %}
+    --color-button: {{ section.settings.custom_button_color.red }}, {{ section.settings.custom_button_color.green }}, {{ section.settings.custom_button_color.blue }};
+  {% endif %}
+  {% if section.settings.custom_button_text_color %}
+    --color-button-text: {{ section.settings.custom_button_text_color.red }}, {{ section.settings.custom_button_text_color.green }}, {{ section.settings.custom_button_text_color.blue }};
+  {% endif %}
+"
+{%- endif -%}
+
+

@@ -1,0 +1,177 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "stores-set-1": {
+      "type": "stores-set-1",
+      "blocks": {
+        "ef3d0a68-0fd5-47ff-b020-4ee1828b3930": {
+          "type": "location",
+          "settings": {
+            "title": "COQUITLAM CENTRE",
+            "operating_hours": "Monday - Wednesday 10:00 - 7:00\nThursday - Friday 10:00 - 9:00\nSaturday 10:00 - 7:00\nSunday 11:00 - 6:00\n<br>",
+            "address": "2706-2929 Barnet Highway Coquitlam, BC V3B 5R5",
+            "phone": "(604) 942-4483",
+            "map_url": "https://www.google.ca/maps/place/Plenty/@49.2794233,-122.8008056,17z/data=!4m8!1m2!2m1!1sPlenty,+Coquitlam+Centre!3m4!1s0x54867f33425a851f:0x67b2ae01654f93f8!8m2!3d49.2792385!4d-122.7987457",
+            "lat": "49.2794233",
+            "long": "-122.8008056"
+          }
+        },
+        "216371e3-da5c-445b-a089-657132bddbdf": {
+          "type": "location",
+          "settings": {
+            "title": "KITSILANO",
+            "operating_hours": "Monday - Wednesday 10:00 - 6:00\nThursday - Friday 10:00 - 8:00\nSaturday 10:00 - 7:00\nSunday 11:00 - 6:00",
+            "address": "2803 West Broadway Vancouver, BC V6K 2G6",
+            "phone": "(604) 736-4484",
+            "map_url": "https://www.google.ca/maps/place/Plenty/@49.2642994,-123.1707103,17z/data=!3m1!4b1!4m5!3m4!1s0x548673ac7c9fdb65:0xfa99be85ed2f224b!8m2!3d49.2642959!4d-123.1685216",
+            "lat": "49.2642053",
+            "long": "-123.1706466"
+          }
+        },
+        "589ec895-1243-4e69-b5db-5e1957c6f443": {
+          "type": "location",
+          "settings": {
+            "title": "MCARTHURGLEN DESIGNER OUTLET",
+            "operating_hours": "Monday - Sunday 10:00 - 8:00",
+            "address": "14-7899 Templeton Stn Road Richmond BC V7B 1Y7",
+            "phone": "(604) 238-6019",
+            "map_url": "https://goo.gl/maps/Gied8CJak5fAVwbs9?coh=178572&entry=tt",
+            "lat": "49.1978",
+            "long": "-123.14033"
+          }
+        },
+        "0686b2f9-978c-4cc8-9702-b16e86793805": {
+          "type": "location",
+          "settings": {
+            "title": "METROPOLIS AT METROTOWN CENTRE",
+            "operating_hours": "Monday - Saturday 10:00 - 9:00\nSunday 11:00 - 7:00\n<br>",
+            "address": "Suite 24E-4700 Kingsway Burnaby, BC V5H 4M1",
+            "phone": "(604) 430-4484",
+            "map_url": "https://www.google.ca/maps/place/Plenty/@49.2264519,-123.0014267,17z/data=!3m1!4b1!4m5!3m4!1s0x548676592346ff1b:0x11e5e2fcfb432004!8m2!3d49.2264484!4d-122.999238",
+            "lat": "49.2272876",
+            "long": "-123.0027489"
+          }
+        },
+        "4fe24aab-f461-4ec6-a5fc-5155b42f2b6a": {
+          "type": "location",
+          "settings": {
+            "title": "PARK ROYAL (SOUTH)",
+            "operating_hours": "Monday - Wednesday 10:00 - 7:00\nThursday - Friday 10:00 - 9:00\nSaturday 10:00 - 8:00\nSunday 10:00 - 6:00\n<br>",
+            "address": "1044 Park Royal South West Vancouver, BC V7T 1A1",
+            "phone": "(604) 913-3460",
+            "map_url": "https://www.google.ca/maps/place/Plenty/@49.3262863,-123.1417142,17z/data=!3m1!4b1!4m5!3m4!1s0x54866e2014d1ec27:0xe7c9e4030d8b1882!8m2!3d49.3262828!4d-123.1395255",
+            "lat": "49.3254008",
+            "long": "-123.1415373"
+          }
+        },
+        "008841ae-6652-4fe8-96b6-e7ccdf84f509": {
+          "type": "location",
+          "settings": {
+            "title": "ROBSON STREET",
+            "operating_hours": "Monday - Tuesday 10:00 - 8:00\nWednesday - Saturday 10:00 - 9:00\nSunday 11:00 - 7:00\n<br>",
+            "address": "1107 Robson Street Vancouver, BC V6E 1B5",
+            "phone": "(604) 689-4478",
+            "map_url": "https://www.google.ca/maps/place/Plenty/@49.2849436,-123.1273212,17z/data=!3m1!4b1!4m5!3m4!1s0x54867180f5cd9da3:0xea03e0313663b30!8m2!3d49.2849401!4d-123.1251324",
+            "lat": "49.2849436",
+            "long": "-123.1273212"
+          }
+        },
+        "923eb2b5-3b3e-49d2-af59-d1af448ed274": {
+          "type": "location",
+          "settings": {
+            "title": "UPTOWN CENTRE - VICTORIA",
+            "operating_hours": "Monday - Friday 10:00 - 8:00\nSaturday 10:00 - 7:00\nSunday 10:00 - 6:00\n<br>",
+            "address": "Unit 119-3551 Uptown Blvd Victoria, BC V8Z 0B9",
+            "phone": "(250) 383-4433",
+            "map_url": "https://www.google.ca/maps/place/Plenty/@48.4554216,-123.3767866,17z/data=!4m8!1m2!2m1!1sPlenty,+Uptown+Centre!3m4!1s0x548f73a23df4e80d:0x8dcf23063203f177!8m2!3d48.4554699!4d-123.3744823",
+            "lat": "48.4554216",
+            "long": "-123.3767866"
+          }
+        },
+        "af3ac4f9-70e3-41c0-8735-f0a5740a7a31": {
+          "type": "location",
+          "settings": {
+            "title": "MEN'S AT UPTOWN CENTRE - VICTORIA",
+            "operating_hours": "Monday - Friday 10:00 - 8:00\nSaturday 10:00 - 7:00\nSunday 10:00 - 6:00\n<br>",
+            "address": "Unit 101-3600 Uptown Blvd Victoria, BC V8Z 0B9",
+            "phone": "(778) 406-0040",
+            "map_url": "https://www.google.com/maps/place/Plenty+Men's/@48.4550385,-123.3776982,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x451befc6175719d3!8m2!3d48.4550385!4d-123.3755095",
+            "lat": "48.4550385",
+            "long": "-123.3780908"
+          }
+        },
+        "e2466681-8bf2-4bd5-a6aa-7e22fd883d63": {
+          "type": "location",
+          "settings": {
+            "title": "WILLOWBROOK SHOPPING CENTRE",
+            "operating_hours": "Monday - Thursday 10:00 - 7:00\nFriday 10:00 - 9:00\nSaturday 10:00 - 7:00\nSunday 11:00 - 6:00\n<br>",
+            "address": "#210-19705 Fraser Highway Langley, BC V3A 7E9",
+            "phone": "604-427-3013",
+            "map_url": "https://goo.gl/maps/phZ6gcSLRRoprXvU7",
+            "lat": "49.11477741953682",
+            "long": "-122.67420290652676"
+          }
+        }
+      },
+      "block_order": [
+        "ef3d0a68-0fd5-47ff-b020-4ee1828b3930",
+        "216371e3-da5c-445b-a089-657132bddbdf",
+        "589ec895-1243-4e69-b5db-5e1957c6f443",
+        "0686b2f9-978c-4cc8-9702-b16e86793805",
+        "4fe24aab-f461-4ec6-a5fc-5155b42f2b6a",
+        "008841ae-6652-4fe8-96b6-e7ccdf84f509",
+        "923eb2b5-3b3e-49d2-af59-d1af448ed274",
+        "af3ac4f9-70e3-41c0-8735-f0a5740a7a31",
+        "e2466681-8bf2-4bd5-a6aa-7e22fd883d63"
+      ],
+      "settings": {}
+    },
+    "store-locator": {
+      "type": "main-store-locator",
+      "settings": {
+        "heading": "Find\na Store",
+        "map_api_key": "AIzaSyCeKM7lWf3DjKg0iSQWpmtzVfY5120-Y-w"
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "stores-set-1",
+    "store-locator",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

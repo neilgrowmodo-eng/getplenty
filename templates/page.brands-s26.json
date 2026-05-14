@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+        "menu": ""
+      }
+    },
+    "multicolumn_eMQwNj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9zfPbD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/M_L_DACE_TOP_MUSHROOM.jpg",
+            "title": "Monk & Lou",
+            "text": "<p>For everyday ease. Timeless staples with sophisticated silhouettes, designed to carry you from work to the weekend and everywhere in between.</p>",
+            "link_label": "Shop Monk & Lou",
+            "link": "shopify://collections/monk-lou"
+          }
+        },
+        "column_QMUTMR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PROPAGANDA_MELINDA_TOP_ICY_BLUE.jpg",
+            "title": "Propaganda",
+            "text": "<p>For a little more fun. A spirited collection of trend-forward styles, everyday comfort, and a touch of contemporary attitude.</p>",
+            "link_label": "Shop Propaganda",
+            "link": "shopify://collections/propaganda"
+          }
+        }
+      },
+      "block_order": [
+        "column_9zfPbD",
+        "column_QMUTMR"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_BLeezk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tnJbqU": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Our Brands</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_DrKebe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Plenty, we believe in style that’s made for everyone. Our exclusive private-label collections are designed for your everyday life—whether you lean minimalist, maximalist, or somewhere in between. These pieces are crafted to inspire your personal style and help build a wardrobe full of essential, versatile items.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tnJbqU",
+        "text_DrKebe"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "main-brands",
+      "settings": {
+        "padding_top": 52,
+        "padding_bottom": 72
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "10% off"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Become a Plenty Insider. </strong>Sign up for 10% off your first regular price online order. Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "multicolumn_eMQwNj",
+    "rich_text_BLeezk",
+    "main",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

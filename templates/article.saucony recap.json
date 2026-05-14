@@ -1,0 +1,555 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_Rm9zYz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SAUCONY_79fbf061-6f1c-4f48-80e3-67b08bad0966.png",
+            "heading": "Saucony DIY Event Recap",
+            "subheading": "At Plenty kitsilano",
+            "text": "",
+            "button_label": "",
+            "link": "shopify://collections/shop-the-look-grandmas-secret-sauce",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_Rm9zYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_DqD6qm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HxXHHW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Do you DIY?</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_niMnjK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We had so much fun with some of our favourite Vancouver pals customizing the latest Saucony sneakers!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HxXHHW",
+        "text_niMnjK"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "collage_U9qgdF": {
+      "type": "collage",
+      "blocks": {
+        "image_cjYdKE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6500-Enhanced-NR.jpg",
+            "image_padding": true
+          }
+        },
+        "image_erLNMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6449-Enhanced-NR.jpg",
+            "image_padding": true
+          }
+        },
+        "image_Xnqzke": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6537-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "image_cjYdKE",
+        "image_erLNMW",
+        "image_Xnqzke"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "right",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_PLHW3B": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QUxXwY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>a work of art</p>",
+            "heading_size": "h0"
+          }
+        },
+        "text_fEtnzn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're so impressed with how the sneakers turned out!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QUxXwY",
+        "text_fEtnzn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 28
+      }
+    },
+    "p80_multi_image_banner_FFEjV9": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_EXDpHL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6583-Enhanced-NR.jpg",
+            "link_url": ""
+          }
+        },
+        "image_tjcjtt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6451-Enhanced-NR.jpg",
+            "link_url": ""
+          }
+        },
+        "image_dVxmJC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6570-Enhanced-NR.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EXDpHL",
+        "image_tjcjtt",
+        "image_dVxmJC"
+      ],
+      "settings": {
+        "margin_bottom": 0
+      }
+    },
+    "multicolumn_jLq8hL": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_HwDjgp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6449-Enhanced-NR_ca13c28a-a986-453e-b64d-d44a4b7676db.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_K88XV7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6449-Enhanced-NR_ca13c28a-a986-453e-b64d-d44a4b7676db.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_HwDjgp",
+        "column_K88XV7"
+      ],
+      "disabled": true,
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "p80_image_banner_NVKMXG": {
+      "type": "p80-image-banner",
+      "settings": {
+        "link_url": "",
+        "margin_bottom": 50
+      }
+    },
+    "collage_4RMHRU": {
+      "type": "collage",
+      "blocks": {
+        "image_BNBFBV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6574-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        },
+        "image_nWdCik": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6524-Enhanced-NR.jpg",
+            "image_padding": true
+          }
+        },
+        "image_X4eDhb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6589-Enhanced-NR.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_BNBFBV",
+        "image_nWdCik",
+        "image_X4eDhb"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "collage_tazfzi": {
+      "type": "collage",
+      "blocks": {
+        "image_eAjKWE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6623-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        },
+        "image_P6QHMq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6564-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        },
+        "image_Gde7RV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6619-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "image_eAjKWE",
+        "image_P6QHMq",
+        "image_Gde7RV"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "right",
+        "mobile_layout": "collage",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_PwAJiC": {
+      "type": "collage",
+      "blocks": {
+        "image_wJbzwY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6609-Enhanced-NR.jpg",
+            "image_padding": false
+          }
+        },
+        "image_PUmyPc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6473-Enhanced-NR.jpg",
+            "image_padding": true
+          }
+        },
+        "image_WU8HPq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6596-Enhanced-NR.jpg",
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "image_wJbzwY",
+        "image_PUmyPc",
+        "image_WU8HPq"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "p80_multi_image_banner_CDnBcV": {
+      "type": "p80-multi-image-banner",
+      "blocks": {
+        "image_B6D7YA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6548-Enhanced-NR.jpg",
+            "link_url": ""
+          }
+        },
+        "image_68ELnT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6444-Enhanced-NR.jpg",
+            "link_url": ""
+          }
+        },
+        "image_FhHCrd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6448-Enhanced-NR.jpg",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B6D7YA",
+        "image_68ELnT",
+        "image_FhHCrd"
+      ],
+      "settings": {
+        "margin_bottom": 20
+      }
+    },
+    "rich_text_NCGeKy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XJVgb6": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Event Sponsor: </strong></em><a href=\"https://www.instagram.com/sauconycanada/?hl=en\" target=\"_blank\" title=\"Saucony Canada Instagram\"><em><strong>SAUCONY CANADA</strong></em></a></h6><h6><em><strong>Event Hosts: </strong></em><a href=\"https://www.instagram.com/yourgirlneens\" title=\"https://www.instagram.com/yourgirlneens\"><em><strong>Nina H.</strong></em></a><em><strong> and </strong></em><a href=\"https://www.instagram.com/dejansdayoff/\" title=\"https://www.instagram.com/dejansdayoff/\"><em><strong>Dejan S</strong></em></a><em><strong>.</strong></em></h6><h6><em><strong>Photography: </strong></em><a href=\"https://www.instagram.com/jomarvictoria\" title=\"https://www.instagram.com/jomarvictoria\"><em><strong>Jomar Victoria</strong></em></a></h6>"
+          }
+        },
+        "text_d94FbU": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_XJVgb6",
+        "text_d94FbU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>shop the looks</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "shop-the-look-grandmas-secret-sauce",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 44
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 28,
+        "padding_bottom": 20
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "rich_text_DqD6qm",
+    "collage_U9qgdF",
+    "rich_text_PLHW3B",
+    "p80_multi_image_banner_FFEjV9",
+    "multicolumn_jLq8hL",
+    "p80_image_banner_NVKMXG",
+    "collage_4RMHRU",
+    "collage_tazfzi",
+    "collage_PwAJiC",
+    "p80_multi_image_banner_CDnBcV",
+    "rich_text_NCGeKy",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

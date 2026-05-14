@@ -1,0 +1,47 @@
+{% comment %}
+  Shared discount form for <cart-discount> (main cart + cart drawer).
+  @param input_id {String} Unique id for the text input
+  @param modifier_class {String} Optional extra class (e.g. cart-discount--drawer)
+{% endcomment %}
+<cart-discount
+  class="cart__discount cart-discount{% if modifier_class != blank %} {{ modifier_class }}{% endif %}"
+>
+  <form class="cart-discount__form" novalidate>
+    <div class="cart-discount__box">
+      <label class="cart-discount__label" for="{{ input_id }}">
+        {{- 'sections.cart.discount_code_label' | t -}}
+      </label>
+      <div class="cart-discount__input-row">
+        <input
+          type="text"
+          class="cart-discount__input"
+          id="{{ input_id }}"
+          name="discount"
+          autocomplete="off"
+          placeholder="{{ 'sections.cart.discount_code_placeholder' | t }}"
+          value=""
+        >
+        <button
+          type="submit"
+          class="button cart-discount__apply"
+          data-cart-discount-apply
+        >
+          {{- 'sections.cart.discount_apply' | t -}}
+        </button>
+      </div>
+      <p class="cart-discount__error" data-cart-discount-error role="alert"></p>
+      <div class="cart-discount__bottom">
+        <button
+          type="button"
+          class="cart-discount__remove link underlined-link"
+          data-cart-discount-remove
+          {% if cart.discount_codes.size == 0 %}
+            hidden
+          {% endif %}
+        >
+          {{- 'sections.cart.discount_remove' | t -}}
+        </button>
+      </div>
+    </div>
+  </form>
+</cart-discount>

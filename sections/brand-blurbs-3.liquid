@@ -1,0 +1,45 @@
+{%- if section.blocks.size > 0 -%}
+  {%- liquid
+    assign blurb = ''
+    for block in section.blocks
+      assign current_vendor = collection.current_vendor | replace: '&amp;', ' ' | handleize
+      assign brand_name = block.settings.title | handleize
+      if current_vendor == brand_name
+        assign blurb = block.settings.text
+      endif
+    endfor
+  -%}
+  {%- if blurb != blank -%}
+    <script>
+      const brandBlurb = {{ blurb | json }};
+    </script>
+    <script src='{{ 'p80-brand-blurb.js' | asset_url }}' defer></script>
+  {%- endif -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.brand-blurbs.set_3",
+  "class": "section",
+  "blocks": [
+    {
+      "type": "blurb",
+      "name": "t:sections.brand-blurbs.blocks.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.brand-blurbs.blocks.title.label",
+          "info": "t:sections.brand-blurbs.blocks.title.info"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.brand-blurbs.blocks.text.label",
+          "default": "<p>Lorem ipsumn dolor sit amet..</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

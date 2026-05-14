@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "p80_image_banner_Nzw64x": {
+      "type": "p80-image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Plenty_WarehouseSale_26.04.02-06_LandingPageSkinny_Desktop.jpg",
+        "image_mobile": "shopify://shop_images/Plenty_WarehouseSale_26.04.02-06_LandingPageSkinny_Mobile.jpg",
+        "link_url": "",
+        "margin_bottom": 0
+      }
+    },
+    "rich_text_jMqPMT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_p73zTL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our annual warehouse sale is back. 60–90% off women’s and men’s clothing and accessories from brands you love.</p><p><strong>Dates & Times:</strong></p><p>Friday, April 3: 8am to 8pm<br/>Saturday, April 4: 10am to 6pm<br/>Sunday, April 5: 11am to 5pm<br/>Monday, April 6: 11am to 4pm<br/></p><p><strong>Location:</strong></p><p>Vancouver Convention Centre<br/>999 Canada Place<br/>East Exhibit Hall B</p><p>All bags, jackets and umbrellas will need to be checked in prior to entering the sale.</p><p>Accepting cash, debit, and credit. Sorry, no gift cards or store credit. </p><p>All sales are final. No refunds or exchanges.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_p73zTL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_ngQ8kp": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qCzMAx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Listen now to the Warehouse Sale playlist. A mix of spicy and sweet tracks brought to you by the Plenty HQ.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qCzMAx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "p80_contact_map_Qzgcqc": {
+      "type": "p80-contact-map",
+      "settings": {
+        "latitude": "49.28761002405487",
+        "longitude": "-123.11294617386955",
+        "zoom": 17,
+        "grayscale": false,
+        "height": 40,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "p80_image_banner_Nzw64x",
+    "rich_text_jMqPMT",
+    "rich_text_ngQ8kp",
+    "main",
+    "p80_contact_map_Qzgcqc"
+  ]
+}

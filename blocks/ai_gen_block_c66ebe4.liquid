@@ -1,0 +1,410 @@
+{% doc %}
+  @prompt
+    A multi-column section with one image per column. These columns should be responsive, and allow for a desktop media file and a mobile media file. Each media file should have the ability to link to another page. The padding of the section (top, bottom, right, left) should be adjustable, as well as the spacing between each column. Maximum four columns in this section. Allow this section to be reused. , each column should have a single image, with the ability to set a desktop image and mobile image , two images are still showing per column. only one image should be displayed, with a specific setting for desktop or mobile, allow all content to be centered in the section, remove spacing, padding and margins from in between each column. spacing should only be able to be adjusted on the left and right , all content should be centred in the section. it is not centred, each image should have both a desktop file and a mobile file to be asset
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-media-columns-{{ ai_gen_id }} {
+    padding-top: {{ block.settings.padding_top }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+  }
+
+  .ai-media-columns-wrapper-{{ ai_gen_id }} {
+    max-width: {{ block.settings.container_width }}px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: {{ block.settings.padding_left }}px;
+    padding-right: {{ block.settings.padding_right }}px;
+  }
+
+  .ai-media-columns-container-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: 0;
+    max-width: 100%;
+  }
+
+  .ai-media-column-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+  }
+
+  .ai-media-column-link-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .ai-media-column-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-media-column-image-desktop-{{ ai_gen_id }} {
+    display: block;
+  }
+
+  .ai-media-column-image-mobile-{{ ai_gen_id }} {
+    display: none;
+  }
+
+  .ai-media-column-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-media-column-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .ai-media-column-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-media-columns-container-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+    }
+
+    .ai-media-column-image-desktop-{{ ai_gen_id }} {
+      display: none;
+    }
+
+    .ai-media-column-image-mobile-{{ ai_gen_id }} {
+      display: block;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-media-columns-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-media-columns-wrapper-{{ ai_gen_id }}">
+    <div class="ai-media-columns-container-{{ ai_gen_id }}">
+      {% for i in (1..4) %}
+        {% liquid
+          assign column_enabled_key = 'column_' | append: i | append: '_enabled'
+          assign desktop_image_key = 'column_' | append: i | append: '_desktop_image'
+          assign mobile_image_key = 'column_' | append: i | append: '_mobile_image'
+          assign link_key = 'column_' | append: i | append: '_link'
+
+          assign column_enabled = block.settings[column_enabled_key]
+          assign desktop_image = block.settings[desktop_image_key]
+          assign mobile_image = block.settings[mobile_image_key]
+          assign link = block.settings[link_key]
+        %}
+
+        {% if column_enabled %}
+          <div class="ai-media-column-{{ ai_gen_id }}">
+            {% if link != blank %}
+              <a href="{{ link }}" class="ai-media-column-link-{{ ai_gen_id }}">
+                {% if desktop_image != blank %}
+                  <img
+                    src="{{ desktop_image | image_url: width: 1200 }}"
+                    alt="{{ desktop_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ desktop_image.width }}"
+                    height="{{ desktop_image.height }}"
+                    class="ai-media-column-image-{{ ai_gen_id }} ai-media-column-image-desktop-{{ ai_gen_id }}"
+                  >
+                {% else %}
+                  <div class="ai-media-column-placeholder-{{ ai_gen_id }} ai-media-column-image-desktop-{{ ai_gen_id }}">
+                    {{ 'image' | placeholder_svg_tag }}
+                    <div class="ai-media-column-empty-state-{{ ai_gen_id }}">
+                      Add desktop image
+                    </div>
+                  </div>
+                {% endif %}
+
+                {% if mobile_image != blank %}
+                  <img
+                    src="{{ mobile_image | image_url: width: 800 }}"
+                    alt="{{ mobile_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ mobile_image.width }}"
+                    height="{{ mobile_image.height }}"
+                    class="ai-media-column-image-{{ ai_gen_id }} ai-media-column-image-mobile-{{ ai_gen_id }}"
+                  >
+                {% elsif desktop_image != blank %}
+                  <img
+                    src="{{ desktop_image | image_url: width: 800 }}"
+                    alt="{{ desktop_image.alt | escape }}"
+                    loading="lazy"
+                    width="{{ desktop_image.width }}"
+                    height="{{ desktop_image.height }}"
+                    class="ai-media-column-image-{{ ai_gen_id }} ai-media-column-image-mobile-{{ ai_gen_id }}"
+                  >
+                {% else %}
+                  <div class="ai-media-column-placeholder-{{ ai_gen_id }} ai-media-column-image-mobile-{{ ai_gen_id }}">
+                    {{ 'image' | placeholder_svg_tag }}
+                    <div class="ai-media-column-empty-state-{{ ai_gen_id }}">
+                      Add mobile image
+                    </div>
+                  </div>
+                {% endif %}
+              </a>
+            {% else %}
+              {% if desktop_image != blank %}
+                <img
+                  src="{{ desktop_image | image_url: width: 1200 }}"
+                  alt="{{ desktop_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ desktop_image.width }}"
+                  height="{{ desktop_image.height }}"
+                  class="ai-media-column-image-{{ ai_gen_id }} ai-media-column-image-desktop-{{ ai_gen_id }}"
+                >
+              {% else %}
+                <div class="ai-media-column-placeholder-{{ ai_gen_id }} ai-media-column-image-desktop-{{ ai_gen_id }}">
+                  {{ 'image' | placeholder_svg_tag }}
+                  <div class="ai-media-column-empty-state-{{ ai_gen_id }}">
+                    Add desktop image
+                  </div>
+                </div>
+              {% endif %}
+
+              {% if mobile_image != blank %}
+                <img
+                  src="{{ mobile_image | image_url: width: 800 }}"
+                  alt="{{ mobile_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ mobile_image.width }}"
+                  height="{{ mobile_image.height }}"
+                  class="ai-media-column-image-{{ ai_gen_id }} ai-media-column-image-mobile-{{ ai_gen_id }}"
+                >
+              {% elsif desktop_image != blank %}
+                <img
+                  src="{{ desktop_image | image_url: width: 800 }}"
+                  alt="{{ desktop_image.alt | escape }}"
+                  loading="lazy"
+                  width="{{ desktop_image.width }}"
+                  height="{{ desktop_image.height }}"
+                  class="ai-media-column-image-{{ ai_gen_id }} ai-media-column-image-mobile-{{ ai_gen_id }}"
+                >
+              {% else %}
+                <div class="ai-media-column-placeholder-{{ ai_gen_id }} ai-media-column-image-mobile-{{ ai_gen_id }}">
+                  {{ 'image' | placeholder_svg_tag }}
+                  <div class="ai-media-column-empty-state-{{ ai_gen_id }}">
+                    Add mobile image
+                  </div>
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Media columns",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "container_width",
+      "min": 500,
+      "max": 2500,
+      "step": 100,
+      "unit": "px",
+      "label": "Container width",
+      "default": 1200
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_left",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Left",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_right",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Right",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Column 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_1_enabled",
+      "label": "Enable column 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_desktop_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_mobile_image",
+      "label": "Mobile image"
+    },
+    {
+      "type": "url",
+      "id": "column_1_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Column 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_2_enabled",
+      "label": "Enable column 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_desktop_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_mobile_image",
+      "label": "Mobile image"
+    },
+    {
+      "type": "url",
+      "id": "column_2_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Column 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_3_enabled",
+      "label": "Enable column 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_desktop_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_mobile_image",
+      "label": "Mobile image"
+    },
+    {
+      "type": "url",
+      "id": "column_3_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Column 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_4_enabled",
+      "label": "Enable column 4",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_4_desktop_image",
+      "label": "Desktop image"
+    },
+    {
+      "type": "image_picker",
+      "id": "column_4_mobile_image",
+      "label": "Mobile image"
+    },
+    {
+      "type": "url",
+      "id": "column_4_link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Media columns"
+    }
+  ]
+}
+{% endschema %}

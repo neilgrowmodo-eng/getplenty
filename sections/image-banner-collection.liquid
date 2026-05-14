@@ -1,0 +1,313 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'component-glide.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner-collection.css' | asset_url | stylesheet_tag }}
+
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'template-collection.css' | asset_url }}" media="print" onload="this.media='all'">
+
+{%- assign section_key = section.id | replace: '-', '_' -%}
+
+{%- style -%}
+  #Banner-{{ section.id }}::after {
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+{%- endstyle -%}
+
+<div id="Banner-{{ section.id }}" class="banner banner-collection color-{{ section.settings.color_scheme }} gradient banner--content-align-left banner-collection--image-align-{{ section.settings.desktop_image_position }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--large{% if section.settings.stack_images_on_mobile and section.settings.image != blank %} banner--stacked{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}">
+  {%- if section.settings.image != blank -%}
+    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %} banner__media-half">
+      {%-liquid
+        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+        assign sizes = "50vw"
+      -%}
+      {{ section.settings.image | image_url: width: 750 | image_tag:
+        loading: 'lazy',
+        width: section.settings.image.width,
+        height: image_height,
+        sizes: sizes,
+        widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+        alt: section.settings.image.alt | escape
+      }}
+    </div>
+  {%- endif -%}
+  <div class="banner__content banner__content--middle-left page-width">
+    <div class="banner__box content-container content-container--full-width-mobile">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+            {%- if block.settings.heading != blank -%}
+              <h2 class="banner__heading h1" {{ block.shopify_attributes }}>
+                {{ block.settings.heading | newline_to_br }}
+              </h2>
+            {%- endif -%}
+          {%- when 'subheading' -%}
+            {%- if block.settings.subheading != blank -%}
+              <h3 class="banner__subheading">{{ block.settings.subheading | escape }}</h3>
+            {%- endif -%}
+          {%- when 'text' -%}
+            <div class="banner__text body" {{ block.shopify_attributes }}>
+              <span>{{ block.settings.text | newline_to_br }}</span>
+            </div>
+          {%- when 'buttons' -%}
+            <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
+              {%- endif -%}
+              {%- if block.settings.button_label_2 != blank -%}
+                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
+              {%- endif -%}
+
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+      {%- if section.settings.image != blank -%}
+        <div class="banner__media banner__media-mobile media{% if section.settings.image == blank %} placeholder{% endif %}">
+          {%-liquid
+            assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+            assign sizes = "50vw"
+          -%}
+          {{ section.settings.image | image_url: width: 768 | image_tag:
+            loading: 'lazy',
+            width: section.settings.image.width,
+            height: image_height,
+            sizes: sizes,
+            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+            alt: section.settings.image.alt | escape
+          }}
+        </div>
+      {%- endif -%}
+    </div>
+    <div class="banner__collection">
+      <glide-carousel class="glide-carousel" data-key="{{ section_key }}">
+        <div class="glide-{{ section_key }}">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
+                <li class="glide__slide">
+                  {% render 'card-product',
+                    card_product: product,
+                    media_aspect_ratio: "portrait",
+                    show_secondary_image: true,
+                    show_vendor: true,
+                    show_rating: false,
+                    show_quick_add: false,
+                    section_id: section.id
+                  %}
+                </li>
+              {%- else -%}
+                {%- for i in (1..4) -%}
+                  <li class="glide__slide">
+                    {% render 'card-product', show_vendor: section.settings.show_vendor %}
+                  </li>
+                {%- endfor -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left slider-button slider-button--prev" data-glide-dir="<">{% render 'icon-direction' %}</button>
+            <button class="glide__arrow glide__arrow--right slider-button slider-button--next" data-glide-dir=">">{% render 'icon-direction' %}</button>
+          </div>
+        </div>
+      </glide-carousel>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.image-banner-collection.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.image-banner-collection.settings.collection.label"
+    },
+    {
+      "type": "range",
+      "id": "products_to_show",
+      "min": 5,
+      "max": 12,
+      "step": 1,
+      "default": 5,
+      "label": "t:sections.image-banner-collection.settings.products_to_show.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner-collection.settings.image.label",
+      "info": "t:sections.image-banner-collection.settings.image.info"
+    },
+    {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner-collection.settings.image_overlay_opacity.label",
+      "default": 0
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_position",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-banner-collection.settings.desktop_image_position.options__1.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-banner-collection.settings.desktop_image_position.options__2.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.image-banner-collection.settings.desktop_image_position.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.image-banner-collection.settings.header.content"
+    },
+    {
+      "type": "select",
+      "id": "mobile_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-banner-collection.settings.mobile_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-banner-collection.settings.mobile_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-banner-collection.settings.mobile_content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.image-banner-collection.settings.mobile_content_alignment.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_images_on_mobile",
+      "default": true,
+      "label": "t:sections.image-banner-collection.settings.stack_images_on_mobile.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_text_below",
+      "default": true,
+      "label": "t:sections.image-banner-collection.settings.show_text_below.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner-collection.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "t:sections.image-banner-collection.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "t:sections.image-banner-collection.blocks.subheading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "t:sections.image-banner-collection.blocks.subheading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner-collection.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "t:sections.image-banner-collection.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner-collection.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.image-banner-collection.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner-collection.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.image-banner-collection.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "t:sections.image-banner-collection.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "t:sections.image-banner-collection.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.image-banner-collection.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.image-banner-collection.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.image-banner-collection.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.image-banner-collection.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

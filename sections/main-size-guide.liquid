@@ -1,0 +1,182 @@
+<link rel="stylesheet" href="{{ 'section-main-size-guide.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-size-guide.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+{% if section.blocks.size > 0 %}
+<div class="page-width page-width--size-guide color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
+    <h1 class="main-page-title page-title hxxl">
+        {{ page.title | escape }}
+    </h1>
+    {% capture tables %}
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'heading' %}
+                    {% capture links %}
+                        {{ links }}
+                        <a href="#{{ block.settings.title | handleize }}">{{ block.settings.title }}</a>
+                    {% endcapture %}
+                    <div class="size-guide__heading">
+                        <h2 id="{{ block.settings.title | handleize }}">{{ block.settings.title }}</h2>
+                    </div>
+                {% when 'table_heading' %}
+                    {% assign headings = block.settings.headings | split: '|' %}
+                    <div class="size-guide__table">
+                        <table>
+                            <tr>
+                                {% for heading in headings %}
+                                    <th>
+                                        {% if heading contains 'BLANK' %}
+                                            &nbsp;
+                                        {% else %}
+                                            {{ heading | lstrip | newline_to_br | strip }}
+                                        {% endif %}
+                                    </th>
+                                {% endfor %}
+                            </tr>
+                {% when 'table_data' or 'table_data_first' or 'table_data_last' %}
+                    {% assign datas = block.settings.data | split: '|' %}
+                    {% if block.type == 'table_data_first' %}
+                        <div class="size-guide__table" id="{{ block.settings.title | handleize }}">
+                            <table>
+                    {% endif %}
+                    <tr>
+                        {% for data in datas %}
+                            <td>
+                                {% if data contains 'BLANK' %}
+                                    &nbsp;
+                                {% else %}
+                                    {{ data | lstrip | newline_to_br | strip }}
+                                {% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                    {% if block.type == 'table_data_last' %}
+                            </table>
+                        </div><!--size-guide__table-->
+                    {% endif %}
+            {% endcase %}
+        {% endfor %}
+    {% endcapture %}
+    {% if tables != blank %}
+        <div class="size-guide__links">
+            {{ links }}
+        </div>
+        {{ tables }}
+    {% endif %}
+</div>
+{% endif %}
+
+{% schema %}
+{
+    "name":"t:sections.size-guide.name",
+    "tag":"section",
+    "class":"section",
+    "blocks":[
+       {
+          "type":"heading",
+          "name":"t:sections.size-guide.blocks.heading.name",
+          "settings":[
+             {
+                "type":"text",
+                "id":"title",
+                "label":"t:sections.size-guide.blocks.heading.title.label"
+             }
+          ]
+       },
+       {
+          "type":"table_heading",
+          "name":"t:sections.size-guide.blocks.table_heading.name",
+          "settings":[
+             {
+                "type":"textarea",
+                "id":"headings",
+                "label":"t:sections.size-guide.blocks.table_heading.headings.label",
+                "info":"Enter table heading columns separated by a pipe. Add the word 'BLANK' for empty cell."
+             }
+          ]
+       },
+       {
+          "type":"table_data",
+          "name":"t:sections.size-guide.blocks.table_data.name",
+          "settings":[
+             {
+                "type":"textarea",
+                "id":"data",
+                "label":"t:sections.size-guide.blocks.table_data.data.label",
+                "info":"Enter table data columns separated by a pipe. Add the word 'BLANK' for empty cell."
+             }
+          ]
+       },
+       {
+          "type":"table_data_first",
+          "name":"t:sections.size-guide.blocks.table_data_first.name",
+          "settings":[
+             {
+                "type":"textarea",
+                "id":"data",
+                "label":"t:sections.size-guide.blocks.table_data_first.data.label",
+                "info":"Enter table data columns separated by a pipe. Add the word 'BLANK' for empty cell."
+             }
+          ]
+       },
+       {
+          "type":"table_data_last",
+          "name":"t:sections.size-guide.blocks.table_data_last.name",
+          "settings":[
+             {
+                "type":"textarea",
+                "id":"data",
+                "label":"t:sections.size-guide.blocks.table_data_last.data.label",
+                "info":"Enter table data columns separated by a pipe. Add the word 'BLANK' for empty cell."
+             }
+          ]
+       }
+    ],
+    "settings":[
+       {
+          "type":"color_scheme",
+          "id":"color_scheme",
+          "label":"t:sections.all.colors.label",
+          "default":"scheme-1"
+       },
+       {
+          "type":"header",
+          "content":"t:sections.all.padding.section_padding_heading"
+       },
+       {
+          "type":"range",
+          "id":"padding_top",
+          "min":0,
+          "max":100,
+          "step":4,
+          "unit":"px",
+          "label":"t:sections.all.padding.padding_top",
+          "default":36
+       },
+       {
+          "type":"range",
+          "id":"padding_bottom",
+          "min":0,
+          "max":100,
+          "step":4,
+          "unit":"px",
+          "label":"t:sections.all.padding.padding_bottom",
+          "default":36
+       }
+    ]
+ }
+{% endschema %}

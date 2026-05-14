@@ -1,0 +1,156 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faqs": {
+      "type": "main-careers",
+      "blocks": {
+        "entry_t7C7YF": {
+          "type": "entry",
+          "disabled": true,
+          "settings": {
+            "title": "Warehouse Sale",
+            "text": "<p><a href=\"/pages/hiring-warehouse-sale\" title=\"Hiring - Warehouse Sale\">Warehouse Sale (Vancouver)</a></p>"
+          }
+        },
+        "1aee9c19-f4f0-4f93-bb4a-8c31ea3aeb72": {
+          "type": "entry",
+          "settings": {
+            "title": "Office (Vancouver)",
+            "text": "<p><a href=\"/pages/senior-technical-designer-contract-maternity-leave\" title=\"Senior Technical Designer - Contract (Maternity Leave)\">Senior Technical Designer - Contract (Maternity Leave)</a></p><p><a href=\"https://www.getplenty.com/pages/fit-model-female\" title=\"https://www.getplenty.com/pages/fit-model-female\">Fit Model (Female)</a></p>"
+          }
+        },
+        "entry_GNGhwc": {
+          "type": "entry",
+          "settings": {
+            "title": "Warehouse (Vancouver)",
+            "text": "<p><a href=\"https://www.getplenty.com/pages/hiring-warehouse-sale\" title=\"Hiring - Warehouse Sale\">Warehouse Sale Support</a></p>"
+          }
+        },
+        "75315299-4952-4583-a520-87c2b3450802": {
+          "type": "entry",
+          "disabled": true,
+          "settings": {
+            "title": "Chinook Centre (Calgary)",
+            "text": "<p>Please check back in the future</p>"
+          }
+        },
+        "82a06d8b-05ca-4d97-b0bc-09b4a5b303d3": {
+          "type": "entry",
+          "settings": {
+            "title": "Coquitlam Centre",
+            "text": "<p><a href=\"/pages/stylist\" title=\"Stylist\">Stylist</a> (part -time)</p>"
+          }
+        },
+        "3833e7b8-b20d-4a05-ba29-90172ce31c57": {
+          "type": "entry",
+          "settings": {
+            "title": "Kitsilano",
+            "text": "<p><a href=\"/pages/stylist\" title=\"Stylist\">Stylist</a> (part-time)</p><p><a href=\"/pages/assistant-store-manager\" title=\"Assistant Store Manager\">Assistant Store Manager</a> (full-time)</p>"
+          }
+        },
+        "5f59172e-bcdc-4cf3-847d-804180102c47": {
+          "type": "entry",
+          "settings": {
+            "title": "McArthurGlen",
+            "text": "<p><a href=\"/pages/stylist\" title=\"Stylist\">Stylist</a> (part-time)</p>"
+          }
+        },
+        "9061f5eb-2eee-4eff-82b3-58bf53fd8607": {
+          "type": "entry",
+          "settings": {
+            "title": "Metrotown",
+            "text": "<p><a href=\"/pages/assistant-store-manager\" title=\"Assistant Store Manager\">Assistant Store Manager</a></p>"
+          }
+        },
+        "67ba933f-ff8d-4cd4-8242-cf9040647ec0": {
+          "type": "entry",
+          "settings": {
+            "title": "Park Royal",
+            "text": "<p><a href=\"/pages/manager-on-duty\" title=\"Manager On Duty (MOD)\">Manager on Duty </a>(Part Time or Full Time) </p><p>Stock Manager</p>"
+          }
+        },
+        "53072f48-8e94-4882-9ad4-bbf6e8537e8d": {
+          "type": "entry",
+          "settings": {
+            "title": "Robson Street",
+            "text": "<p>Please check back in the future</p>"
+          }
+        },
+        "64b944be-ac16-47b7-b04d-0d9e2b90cf97": {
+          "type": "entry",
+          "settings": {
+            "title": "Uptown Centre (Victoria)",
+            "text": "<p>Uptown Men's - <a href=\"/pages/manager-on-duty\" title=\"Manager On Duty (MOD)\">Manager on Duty </a>(Part Time or Full Time) </p><p>Uptown Men's - <a href=\"/pages/stylist\" title=\"Stylist\">Stylist</a> (part -time)</p><p>Uptown Women's - <a href=\"/pages/stylist\" title=\"Stylist\">Stylist</a> (part -time)</p>"
+          }
+        },
+        "9f15e4ec-11bf-4d06-94b7-c180a65fad18": {
+          "type": "entry",
+          "settings": {
+            "title": "Willowbrook",
+            "text": "<p><a href=\"/pages/assistant-store-manager\" title=\"Assistant Store Manager\">Assistant Store Manager (</a>Full Time) </p><p><a href=\"/pages/manager-on-duty\" title=\"Manager On Duty (MOD)\">Manager on Duty </a>(Part Time or Full Time) </p><p><a href=\"/pages/stylist\" title=\"Stylist\">Stylist</a> (Part Time)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "entry_t7C7YF",
+        "1aee9c19-f4f0-4f93-bb4a-8c31ea3aeb72",
+        "entry_GNGhwc",
+        "75315299-4952-4583-a520-87c2b3450802",
+        "82a06d8b-05ca-4d97-b0bc-09b4a5b303d3",
+        "3833e7b8-b20d-4a05-ba29-90172ce31c57",
+        "5f59172e-bcdc-4cf3-847d-804180102c47",
+        "9061f5eb-2eee-4eff-82b3-58bf53fd8607",
+        "67ba933f-ff8d-4cd4-8242-cf9040647ec0",
+        "53072f48-8e94-4882-9ad4-bbf6e8537e8d",
+        "64b944be-ac16-47b7-b04d-0d9e2b90cf97",
+        "9f15e4ec-11bf-4d06-94b7-c180a65fad18"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "hxxl",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "faqs",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

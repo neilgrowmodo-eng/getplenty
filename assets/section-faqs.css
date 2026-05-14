@@ -1,0 +1,137 @@
+.faqs .title {
+    text-align: center;
+    margin: 0 0 2.4rem
+}
+
+.faqs .faq-list {
+    margin-top: 0;
+    border: 0;
+    margin-bottom: 4.8rem;
+}
+
+.faqs .faq-list:not(:only-child):not(.delivery-returns) {
+    width: 100%;
+}
+
+.faq-list .accordion__item {
+    border: 0;
+    margin: 0;
+}
+
+.faq-list .accordion__item:first-of-type .accordion__button {
+    margin: 0;
+}
+
+.faq-list .accordion__button {
+    margin: 0;
+    text-align: left;
+    background: transparent;
+    text-transform: none;
+    padding: 1.6rem;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--font-body-family);
+    border-top: solid 0.2rem rgb(var(--color-line-strong))
+}
+
+.faq-list .accordion__item:not(.accordion__item--open):last-child .accordion__button {
+    border-bottom: solid 0.2rem rgb(var(--color-line-strong))
+}
+
+.faq-list .accordion__item:not(.accordion__item--open):hover .accordion__button {
+    background-color: rgb(var(--color-logo-cream));
+    border-top-color: rgb(var(--color-black));
+}
+
+.faq-list .accordion__item:not(.accordion__item--open):hover + .accordion__item .accordion__button {
+    border-top-color: rgb(var(--color-black));
+}
+
+.faq-list .accordion__item:last-child:not(.accordion__item--open):hover .accordion__button {
+    border-bottom-color: rgb(var(--color-black));
+}
+
+.faq-list .accordion__item .accordion__content {
+    margin: 0;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    border: 0;
+}
+
+.faq-list .accordion__item .accordion__content a {
+    color: currentColor;
+}
+
+.faq-list .accordion__item .accordion__content li,
+.faq-list .accordion__item .accordion__content p {
+    line-height: 2.4rem;
+}
+
+.faq-list .accordion__item--open .accordion__content {
+    padding: 2.4rem;
+    padding-top: 0;
+}
+
+.widget-content {
+    background-color: rgb(var(--color-logo-cream));
+    box-sizing: border-box;
+    padding: 2.4rem;
+}
+
+.widget-content p {
+    margin-top: 0;
+    color: rgb(var(--color-black));
+}
+
+.widget-content p:last-child {
+    margin-bottom: 0;
+}
+
+.widget-content a {
+    color: rgb(var(--color-black))
+}
+
+@media screen and (max-width: 749px) {
+    .widget-content li,
+    .widget-content p {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+
+@media screen and (min-width: 750px) {
+    .faqs .title {
+        text-align: left;
+    }
+
+    .faq-list .accordion__button {
+        padding: 2.4rem;
+        font-size: 2.4rem;
+    }
+
+    .widget-content {
+        padding: 4.8rem;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .faq-content-wrap:has(.widget-content) {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 4.8rem
+    }
+
+    .faqs .faq-list {
+        margin-bottom: 0;
+    }
+
+    .faqs .faq-list:not(:only-child) {
+        max-width: 77.4rem;
+        flex: 1;
+    }
+
+    .widget-content {
+        max-width: 43.2rem;
+    }
+}

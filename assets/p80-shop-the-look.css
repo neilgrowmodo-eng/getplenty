@@ -1,0 +1,85 @@
+.shop-the-look__title {
+  margin: 0 0 2.4rem;
+}
+
+.shop-the-look__item {
+  padding: 1.6rem;
+  border: solid 0.1rem rgb(var(--color-line-strong));
+}
+
+.shop-the-look__item .card__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+
+.shop-the-look__item .card__badge:not(:has(>span)) {
+  display: none;
+}
+
+.shop-the-look__item .quick-add,
+.shop-the-look__item .card__actions {
+  position: relative;
+  z-index: 2;
+  margin-top: 1.6rem;
+  margin-top: auto;
+}
+
+.shop-the-look__item .card-information>*:not(.visually-hidden:first-child)+*:not(.rating),
+.shop-the-look__item .card-information>* {
+  margin: 0;
+}
+
+.shop-the-look__item .card__heading {
+  margin-bottom: 0.8rem;
+  min-height: auto;
+}
+
+.shop-the-look__item .product-form__input .select {
+  max-width: 100%;
+}
+
+.shop-the-look__item .product-form__input .select__select {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: rgb(var(--color-black));
+  height: 3.6rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.shop-the-look__item .product-form__input--dropdown {
+  margin-bottom: 0.8rem;
+  max-width: 100%;
+}
+
+.shop-the-look__item .form__label {
+  display: none;
+}
+
+.shop-the-look__item .button--full-width {
+  min-height: 4.4rem;
+  height: 4.4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .shop-the-look__grid {
+    row-gap: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .shop-the-look__title {
+    margin-bottom: 4.8rem;
+  }
+
+  .shop-the-look__item .product-form__input .select {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .shop-the-look__item .card__heading {
+    margin-bottom: 0.8rem
+  }
+}

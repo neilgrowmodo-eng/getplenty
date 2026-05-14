@@ -1,0 +1,153 @@
+{% if section.settings.redirect_enabled == true %}
+    {{ 'p80-store-redirect.css' | asset_url | stylesheet_tag }}
+    {{ 'component-rte.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'p80-store-redirect.js' | asset_url }}" defer="defer"></script>
+    <store-redirect class="color-{{ section.settings.color_scheme }} gradient" style="--background-color: {{ section.settings.background_colour | color_to_rgb | default: 'rgb(var(--color-white))' }}">
+      <div class="page-width">
+        <div class="redirect__message rte" data-redirect-message></div>
+        <div class="redirect__buttons">
+          <button type="button" class="button button--primary" data-redirect-decline></button>
+          <button type="button" class="button button--primary button--ghost" data-redirect-accept></button>
+        </div>
+      </div>
+      <script type="application/json">
+        {
+              "geoLocationServiceUrl": "{{ section.settings.geolocation_service_url | escape }}",
+              "redirectInternational": {{ section.settings.redirect_international }},
+              "redirectInternationalCode": "{{ section.settings.redirect_international_code | escape }}",
+              "redirectInternationalUrl": "{{ section.settings.redirect_international_url | escape }}",
+              "redirectInternationalConfirmationText": "{{ section.settings.redirect_international_confirmation_text | escape }}",
+              "redirectInternationalDeclineText": "{{ section.settings.redirect_international_decline_text | escape }}",
+              "redirectInternationalMessage": {{ section.settings.redirect_international_message | json }},
+              "locations": [
+                  {%- for block in section.blocks -%}
+                      {%- case block.type -%}
+                          {%- when 'redirect' -%}
+                              {
+                                  "code": "{{ block.settings.location_code | escape }}",
+                                  "redirectUrl": "{{ block.settings.location_redirect_url | escape }}",
+                                  "redirectMessage": {{ block.settings.location_redirect_message | json }},
+                                  "redirectConfirmationText": "{{ block.settings.location_redirect_confirmation_text | escape }}",
+                                  "redirectDeclineText": "{{ block.settings.location_redirect_decline_text | escape }}"
+                              }{%- unless forloop.last -%},{% endunless %}
+                      {%- endcase -%}
+                  {%- endfor -%}
+              ]
+        }
+      </script>
+    </store-redirect>
+  {% endif %}
+  
+  {% schema %}
+  {
+    "name": "P80 Store Redirect",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "redirect_enabled",
+        "label": "t:sections.p80-store-redirect.settings.redirect_enabled.label",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "geolocation_service_url",
+        "label": "t:sections.p80-store-redirect.settings.geolocation_service_url.label",
+        "default": "https://us-central1-p80-utils.cloudfunctions.net/geolocation"
+      },
+      {
+        "type": "checkbox",
+        "id": "redirect_international",
+        "label": "t:sections.p80-store-redirect.settings.redirect_international.label",
+        "default": false,
+        "info": "When enabled, all countries outside your native country will be prompted to redirect. This will disable any country-specific redirect set below."
+      },
+      {
+        "type": "text",
+        "id": "redirect_international_code",
+        "label": "t:sections.p80-store-redirect.settings.redirect_international_code.label",
+        "default": "US",
+        "info": "Any users that do not fall within this country code will be prompted with a redirect."
+      },
+      {
+        "type": "text",
+        "id": "redirect_international_url",
+        "label": "t:sections.p80-store-redirect.settings.redirect_international_url.label"
+      },
+      {
+        "type": "richtext",
+        "id": "redirect_international_message",
+        "label": "t:sections.p80-store-redirect.settings.redirect_international_message.label",
+        "default": "<p>We have detected your location to be from outside of {insert country here}, would you like to go to our {international} store?</p>"
+      },
+      {
+        "type": "text",
+        "id": "redirect_international_confirmation_text",
+        "label": "t:sections.p80-store-redirect.settings.redirect_international_confirmation_text.label",
+        "default": "Yes, please redirect me"
+      },
+      {
+        "type": "text",
+        "id": "redirect_international_decline_text",
+        "label": "t:sections.p80-store-redirect.settings.redirect_international_decline_text.label",
+        "default": "No, please keep me here"
+      },
+      {
+        "type": "color",
+        "id": "background_colour",
+        "label": "t:sections.p80-store-redirect.settings.background_colour.label",
+        "default": "#fff"
+      },
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "redirect",
+        "name": "Redirect",
+        "limit": 50,
+        "settings": [
+          {
+            "type": "text",
+            "id": "location_code",
+            "default": "CA",
+            "label": "t:sections.p80-store-redirect.blocks.redirect.settings.location_code.label",
+            "info": "Users belonging to this code will be redirected. E.G: CA, US, MX"
+          },
+          {
+            "type": "text",
+            "id": "location_redirect_url",
+            "label": "t:sections.p80-store-redirect.blocks.redirect.settings.location_redirect_url.label"
+          },
+          {
+            "type": "richtext",
+            "id": "location_redirect_message",
+            "label": "t:sections.p80-store-redirect.blocks.redirect.settings.location_redirect_message.label",
+            "default": "<p>We have detected your location to be from {insert country here}, would you like to go to our {insert country here} Store?</p>"
+          },
+          {
+            "type": "text",
+            "id": "location_redirect_confirmation_text",
+            "label": "t:sections.p80-store-redirect.blocks.redirect.settings.location_redirect_confirmation_text.label",
+            "default": "Yes, please redirect me"
+          },
+          {
+            "type": "text",
+            "id": "location_redirect_decline_text",
+            "label": "t:sections.p80-store-redirect.blocks.redirect.settings.location_redirect_decline_text.label",
+            "default": "No, keep me here"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "P80 Store Redirect"
+      }
+    ]
+  }
+  {% endschema %}
+  

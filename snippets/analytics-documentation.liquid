@@ -1,0 +1,99 @@
+{% comment %}
+  Server-Side Event Tracking Documentation
+  
+  This implementation provides server-side event tracking using Shopify's analytics API
+  and forwards events to GTM Server-Side when configured.
+  
+  SETUP INSTRUCTIONS:
+  
+  1. Enable Server-Side Tracking:
+     - Go to Theme Settings > Analytics & Tracking
+     - Enable "Enable Server-Side Tracking"
+  
+  2. Configure GTM Server-Side (Optional):
+     - Enter your GTM Server-Side URL (e.g., https://your-gtm-server-side-domain.com/collect)
+     - Optionally enter your GTM Container ID for reference
+     - Enable Debug Mode if you want to see events in the browser console
+  
+  3. Set Up Server-Side Proxy:
+     You'll need to set up a server-side proxy that receives events from this client-side code
+     and forwards them to your GTM Server-Side container. This can be done using:
+     
+     - Cloudflare Workers
+     - AWS Lambda
+     - Google Cloud Functions
+     - A custom server endpoint
+     
+     The proxy should:
+     1. Receive POST requests with JSON payload containing:
+        - event_name: The name of the event
+        - event_data: The event data object
+        - page_context: Page context information
+        - timestamp: Event timestamp
+     
+     2. Forward the event to your GTM Server-Side endpoint:
+        POST https://your-gtm-server-side-domain.com/collect
+        Headers: Content-Type: application/json
+        Body: Transform the event data to match GTM Server-Side format
+     
+     Example Cloudflare Worker code:
+     ```javascript
+     export default {
+       async fetch(request) {
+         const event = await request.json();
+         
+         // Transform event to GTM Server-Side format
+         const gtmEvent = {
+           client_name: 'shopify-storefront',
+           events: [{
+             name: event.event_name,
+             params: event.event_data
+           }]
+         };
+         
+         // Forward to GTM Server-Side
+         const response = await fetch('https://your-gtm-server-side-domain.com/collect', {
+           method: 'POST',
+           headers: {
+             'Content-Type': 'application/json'
+           },
+           body: JSON.stringify(gtmEvent)
+         });
+         
+         return response;
+       }
+     }
+     ```
+  
+  4. TRACKED EVENTS:
+     - page_view: Triggered on every page load
+     - product_view: Triggered when viewing a product page
+     - add_to_cart: Triggered when adding a product to cart
+     - remove_from_cart: Triggered when removing a product from cart
+     - cart_view: Triggered when viewing the cart page
+     - cart_updated: Triggered when cart is updated
+     - begin_checkout: Triggered when clicking checkout buttons
+  
+  5. CUSTOM EVENTS:
+     All events are also published to Shopify Analytics as custom events with prefix "plenty:"
+     Example: "plenty:add_to_cart"
+     
+     You can subscribe to these events in Shopify Web Pixels or other analytics tools.
+  
+  6. PURCHASE TRACKING:
+     Purchase events are typically tracked on the order confirmation page.
+     You can add purchase tracking by:
+     - Adding tracking code to the order status/thank you page template
+     - Using Shopify's built-in checkout tracking
+     - Creating a custom web pixel that subscribes to checkout completion events
+  
+  DEBUGGING:
+  - Enable Debug Mode in Theme Settings to see events in the browser console
+  - Check Network tab for requests to your GTM Server-Side URL
+  - Verify Shopify Analytics custom events are being published (check browser console)
+  
+  NOTE:
+  - All events use Shopify.analytics.publish() for Shopify Analytics integration
+  - Server-side forwarding is optional and only works if GTM Server-Side URL is configured
+  - Events are sent using navigator.sendBeacon() for better reliability during page navigation
+{% endcomment %}

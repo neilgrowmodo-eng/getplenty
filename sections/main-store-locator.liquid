@@ -1,0 +1,65 @@
+<script>
+  const mapPin = {{ 'icon-main-pin.png' | asset_url | json }};
+  const mapHeading = {{ section.settings.heading | newline_to_br | json }};
+</script>
+<style>
+  .storelocator-panel .location-search input {
+    background-image: url({{ 'icon-search.png' | asset_url }});
+  }
+  .store-item .address {
+    background-image: url({{ 'icon-pin.png' | asset_url }});
+  }
+  .store-item .phone {
+    background-image: url({{ 'icon-phone.png' | asset_url }});
+  }
+  .store-item .hours {
+    background-image: url({{ 'icon-schedule.png' | asset_url }});
+  }
+</style>
+<script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer="defer" src="{{ 'infobubble-compiled.js' | asset_url }}"></script>
+<script defer="defer" src="https://maps.googleapis.com/maps/api/js?key={{ section.settings.map_api_key }}&libraries=places"></script>
+<script defer="defer" src="{{ 'storelocator.js' | asset_url }}"></script>
+<script defer="defer" src="{{ 'storelocator-static-v2.js' | asset_url }}"></script>
+<script defer="defer" src="{{ 'storelocator-custom.js' | asset_url }}"></script>
+{{ 'storelocator.css' | asset_url | stylesheet_tag }}
+
+<div class="store-locator color-{{ section.settings.color_scheme }} gradient">
+  <div id="panel"></div>
+  <div class="map-wrapper">
+    <div id="map-canvas"></div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Store Locator",
+  "tag": "section",
+  "class": "spaced-section",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "t:sections.main-store-locator.settings.heading.label",
+      "default": "Find\na Store"
+    },
+    {
+      "type": "text",
+      "id": "map_api_key",
+      "label": "t:sections.main-store-locator.settings.map_api_key.label",
+      "default": "AIzaSyCeKM7lWf3DjKg0iSQWpmtzVfY5120-Y-w"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Store Locator"
+    }
+  ]
+}
+{% endschema %}

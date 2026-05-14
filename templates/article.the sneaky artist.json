@@ -1,0 +1,369 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PVraCa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Nishant-3200.jpg",
+            "heading": "Meet: Sneaky Artist",
+            "subheading": "@thesneakyartist",
+            "text": "Plenty is excited to be hosting the Sneaky Artist on Saturday December 14th 2024 from 2-5pm at our flagship Kitsilano store for our holiday artist event. Come and shop with us and receive a free doodle by @thesneakyartist with every gift box purchase, with all proceeds going to BC SPCA.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_PVraCa"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nishant Jain is a<a href=\"https://www.sneakyartist.com/\">Sneaky Artist</a>, observing life in public spaces and drawing into a little sketchbook with a fountain pen. His secret drawings celebrate the richness and diversity of our shared urban environment and our harmonious coexistence with one another. Nishant’s work has been published in news media all over the world and recently he was an artist-in-residence on the<a href=\"https://www.translink.ca/\">TransLink</a>. This year, Nishant is drawing his infant son, changing lots of diapers, and writing his first book. With a background in engineering, Nishant applies a minimalist style to his illustrations, observing and documenting the world around him, one sneaky illustration at a time.</p><p></p><p>We spent the morning with Nishant at the <a href=\"https://thebeaumontstudios.com/\">Beaumont Studios</a> to hear more about his life as a Sneaky Artist. Read the full interview below.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nishant-3159.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q&A with The Sneaky Artist</h3><h3>Q: What are 3 words your friends or family would use to describe you?</h3><p>A: Difficult, talkative, and impulsive.</p><h3>Q: Tell us the story behind the Sneaky Artist.</h3><p>A: Sneaky Art began because I was really curious about my world and I really wanted to learn how to draw. However, I was really self conscious about being an adult in the world not knowing how to draw and wanting to learn. So I picked up a sketch book and this fountain pen and told myself I would never erase another line again. I went out and started to draw things but because I was so self conscious, I wanted to draw without anybody knowing I was doing this silly, outrageous thing. So I would sit in the corner of cafes, look at people, and draw very quickly and get out of there before anybody saw me. And that is what I decided to call Sneaky Art. It was me being sneaky because I was so ashamed of this stupid thing, of a grown person learning to draw, it just felt so odd and I didn’t want anybody to see my pages. Over time, it has become so much bigger and I have gotten so much better at it and I am not underconfident about my work. However, I still like to be sneaky about it because I think it is really nice to be in a corner and observe quietly. There is a lot of hidden beauty in this world that I get to look at and I get to pay attention. Sneaky Art now is the art of the world that is right in front of us, but it is sneaky so we don’t notice.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nishant-3045.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What is one illustration that you are most proud of?</h3><p>A: Over the last nine months, my art has shifted to the home because now I am the official artist of my baby boy and I make it my job to draw him everyday. I think those are some of the illustrations I am the most proud of, especially since he started crawling because he doesn’t sit still even if he knows he is being drawn, so I have to be much faster than him. I feel like every time I get away with drawing him successfully is a really proud moment for me.</p><h3>Q: What is the most rewarding part of your job?</h3><p>A: I think drawing and the business of being observant in public spaces has really helped me to connect with the people around me, even if from a distance. It has made me feel connected to the city, to the people whom I share the city with, and it has made me feel less alone even as an immigrant in this part of the world. I feel like we are losing connection with each other and all our lives are being spent in little bubbles with our screens, music and devices. As an artist carrying a sketchbook with me outside has given me the mandate to look up, to observe, and to find beauty. And I think that has not only made me a better artist, but a better person too.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nishant-3028.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: If you could give your younger self one piece of advice, what would it be?</h3><p>A: I think I would like to give my younger self a permission slip. I feel like my younger self looked for permission from figures of authority for all the things he wanted to do. I would like to tell him that you can do the things you want to do and you don’t have to wait for others to tell you that you can do them. I would give him the confidence and permission to pursue whatever he finds interesting because I feel like that is the only important thing to do in this life, to find what makes you interested, to find what sparks your curiosity and to chase it.</p><h3>Q: Where do you go when you are looking for inspiration?</h3><p>A: I think inspiration is everywhere and the job of the artist is to look everywhere and at all of the world around us with these fresh eyes to be able to admire and respect beauty in ordinary places. So I make it my job to walk around with an open mind without a specific plan, just waiting for things to fall into my eyesight and when I see them I have to be alert to what is beautiful, there is beauty everywhere and I make it my job to draw it as soon as I see it.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nishant-3082.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What’s your favourite childhood snack?</h3><p>A: I come from a city that is famous for street food. I believe it is the best street food in the country which by extension means it’s the best street food in the world. There is this one dish in my city called puchka which is a little ball filled with potatoes, onions, and spices and then there is really spicy water that we put in it. I cannot describe it any better than this. It’s Kolkata street food, it’s spicy, and it’s delicious and you can find it everywhere. Having that and having dozens of it is a fond childhood memory for me.</p><h3>Q: How would you describe your style?</h3><p>A: My instinct is born from my self-consciousness, my instinct is to be quick, my instinct is to be minimalist. As an engineer, I am trained in minimalism and efficiency and I think that has spilled into my art. Minimalism definitely describes a lot of my art but I think of it also as observant. Whatever I see is not everything that I draw. What I draw is a filter of the things I see. It’s the things that catch my eye, it’s the things that spark my curiosity. Putting myself on a time limit means that my art is very instinctive, selective, minimalist, and observation filtered. </p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nishant-3072.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_XTjAEU": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_cbwyny": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What are some of your fondest since you have started the Sneaky Artist?</h3><p>A: It is actually pretty difficult to say because a sketch book is a really intimate space, every page in it is a very special memory. I can turn to any page in my sketchbook and I can tell you where I was, how it felt, if it was cold or windy, if I was listening to music, or if people were talking around me. So, in a sense a sketchbook has made me very observant but it has also become a memory vault. A couple of years ago, I had an opportunity to be an Artist In Residence for TransLink. It was my job to wear a bright blue jacket and walk around the train drawing people. They could see me and I could see them seeing me, and my job was to do it. It was a beautiful challenge and I love that I got to do it.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_cbwyny"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nishant-3057.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_fTLXfb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_PKQ6p9": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_t4jzPd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nishant's Look 1: <a href=\"https://getplenty.com/products/rhythm-sonny-ls-overshirt\">Rhythm Sonny Overshirt,</a> <a href=\"https://www.getplenty.com/products/atrium-classic-cotton-jersey-crewneck-short-sleeve-tshirt-1\">ATRIUM Crewneck Short Sleeve T-Shirt</a>, and <a href=\"https://www.getplenty.com/products/atrium-ripstop-cargo-pant\">ATRIUM Ripstop Cargo</a>. Pants.</p><p>Look 2: <a href=\"https://www.getplenty.com/products/zanerobe-fuzzy-lowgo-cardigan\">Zanerobe Fuzzy Lowgo Cardigan</a>, <a href=\"https://www.getplenty.com/products/atrium-classic-cotton-jersey-crewneck-short-sleeve-tshirt-1\">ATRIUM Crewneck Short Sleeve T-Shirt</a>, and <a href=\"https://www.getplenty.com/products/atrium-ripstop-cargo-pant\">ATRIUM Ripstop Cargo</a>. </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PKQ6p9",
+        "text_t4jzPd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "subtitle": "",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 88
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_c4jGUN",
+    "image_with_text_XTjAEU",
+    "rich_text_fTLXfb",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

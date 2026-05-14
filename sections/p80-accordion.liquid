@@ -1,0 +1,117 @@
+<link
+  rel='stylesheet'
+  href='{{ 'p80-accordion.css' | asset_url }}'
+  media='print'
+  onload="this.media='all'"
+>
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class='accordion color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding'>
+  {%- for block in section.blocks -%}
+    {% case block.type %}
+      {%- when 'accordion' -%}
+        {% if block.settings.title != blank and block.settings.content != blank %}
+          <accordion-component class='accordion__item'>
+            <button
+              class='accordion__button'
+              aria-expanded='false'
+              aria-controls='accordion-content-{{ section.id }}-{{ forloop.index0 }}'
+              id='accordion-control-{{ section.id }}-{{ forloop.index0 }}'
+              data-toggle
+            >
+              <span class='accordion__title'>{{ block.settings.title }}</span>
+              <span class='accordion__icon'></span>
+            </button>
+            <div
+              class='accordion__content'
+              aria-hidden='true'
+              id='accordion-content-{{ section.id }}-{{ forloop.index0 }}'
+              data-content
+            >
+              {{ block.settings.content }}
+            </div>
+          </accordion-component>
+        {% endif %}
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Accordion",
+  "class": "page-width",
+  "blocks": [
+    {
+      "type": "accordion",
+      "name": "Entry",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.p80-accordion.blocks.accordion.settings.title.label"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "t:sections.p80-accordion.blocks.accordion.settings.content.label"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "Accordion",
+      "blocks": [
+        {
+          "type": "accordion"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

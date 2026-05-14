@@ -1,0 +1,98 @@
+.newsletter__wrapper {
+  color: rgb(var(--color-foreground));
+}
+
+@media screen and (min-width: 750px) {
+  .newsletter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+.newsletter__wrapper>* {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.newsletter__heading {
+  line-height: 0.87;
+  margin: 0 0 .8rem
+}
+
+.newsletter__subheading {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter__form {
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+.newsletter-form__field-wrapper .newsletter-form__message {
+  margin-top: 1.5rem;
+}
+
+.newsletter__button {
+  margin-top: 3rem;
+  width: fit-content;
+}
+
+.newsletter__form .klaviyo-form {
+  padding: 0 !important;
+}
+
+.newsletter__form .kl-private-reset-css-Xuajs1 {
+  min-height: 0 !important;
+}
+
+.newsletter__form .kl-private-reset-css-Xuajs1[type="email"],
+.newsletter__form .kl-private-reset-css-Xuajs1[data-testid="form-component"],
+.newsletter__form form.kl-private-reset-css-Xuajs1 {
+  background-color: transparent !important;
+}
+
+.newsletter__form input[type="email"] {
+  padding: 0 !important;
+  height: 5.6rem !important;
+  border: 0 !important;
+  border-bottom: solid 0.2rem rgb(var(--color-foreground)) !important;
+  font-family: var(--font-heading-family) !important;
+  font-size: 2rem !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: rgb(var(--color-foreground)) !important;
+}
+
+.newsletter__form input[type="email"]::placeholder {
+  opacity: 1 !important;
+  color: rgb(var(--color-foreground)) !important;
+}
+
+.newsletter__form button[type="button"] {
+  font-size: 1.5rem !important;
+  letter-spacing: .1rem !important;
+  line-height: calc(1 + .2 / var(--font-body-scale)) !important;
+  background-color: rgb(var(--color-button));
+  color: rgb(var(--color-button-text));
+  border-color: rgb(var(--color-button));
+  transition: opacity 0.2s ease;
+}
+
+.newsletter__form button[type="button"]:hover {
+  opacity: 0.9;
+}
+
+@media screen and (min-width: 750px) {
+  .newsletter__button {
+    flex-shrink: 0;
+    margin: 0 0 0 1rem;
+  }
+
+  .newsletter__wrapper>* {
+    max-width: 66rem;
+  }
+}

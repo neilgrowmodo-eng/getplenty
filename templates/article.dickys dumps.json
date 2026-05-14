@@ -1,0 +1,410 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_6nfiqf": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_PVraCa": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DD_4X5-5245.jpg",
+            "heading": "Meet: Dicky's Dumps",
+            "subheading": "@dickysdumps",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 10,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_PVraCa"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Aidan of Things From Gardens"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
+        "content": {
+          "type": "content",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "share",
+        "title",
+        "featured_image",
+        "content"
+      ],
+      "settings": {}
+    },
+    "image_with_text_t6KzFw": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CcwiLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rooted in tradition and continually inspired by their appetites, <a href=\"https://dickysdumps.com/\">Dicky's Dumps</a> is a Vancouver-based dumpling business that's co-owned by Pearl Lam and Dickson Li.  Their Chinese dumplings are handmade in small batches and flash frozen to lock in optimal flavour and freshness. </p><p>They have built a business around a comfort food that's so iconic in Chinese culture. Since their inception they have managed to attract a lot of first-time tasters who are now big-time dumpling fans. Together and separately, they’ve been championing community and culture for most of their adult lives — Dickson through cooking and feeding loved ones, and Pearl through creating <a href=\"https://instagram.com/districtlocal\">District Local</a>, a Vancouver passion project. They both participate in a lot of local events and are longtime supporters of the Chinatown community.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CcwiLn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DD_4X5-5257.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_wKVLmh": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_CLbqn8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dicky's Dumps was conceived at a District Local Lunar New Year event <a href=\"https://www.instagram.com/explore/tags/getluckyartshow/\">Get Lucky Art Show</a>, celebrating Chinese heritage while bringing the community together, and sharing the culture in a fun way with those who may or may not have grown up with it.</p><p>Their delicious dumplings come in four flavours and are sold at local grocers and restaurants, including <a href=\"https://www.instagram.com/tvdinnershop\">TV Dinner Market & Cafe</a>, <a href=\"https://gourmetwarehouse.ca/\">Gourmet Warehouse</a>, <a href=\"https://www.stongs.com/\">Stong’s Market</a>, <a href=\"https://www.instagram.com/drivecanteen\">The Drive Canteen</a>, <a href=\"https://www.fujiya.ca/\">Fujiya Japanese Foods</a>, <a href=\"https://www.welks.ca/\">Welk’s General Store</a>, <a href=\"http://singsingyvr.com/\">Sing Sing</a>, and more. Find their full list of <a href=\"https://dickysdumps.com/stockists\">stockists here</a>. Order them for your freezer for the easiest meals <a href=\"https://dickysdumps.com/order\">here</a>. Follow them on their Instagram account <a href=\"https://www.instagram.com/dickysdumps/\">@dickysdumps</a> for the latest community events and freshest dumpling drops.</p><p>We spent an afternoon with Pearl and Dickson at one of their good friends and stockists <a href=\"https://www.instagram.com/tvdinnershop\">TV Dinner Market & Cafe</a>. Read more about their journey with Dicky’s Dumps here.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_CLbqn8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DD_4X5-5269.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NjQ3EM": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_ENV8fL": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Q&A with Pearl & Dickson</h2><h3>Q: What are 3 words your friends or family would use to describe you?</h3><p>Pearl: Perceptive, resilient, and a workhorse.</p><p>Dickson: Fun, funny, and funniest.<br/></p><h3>Q: Tell us the story behind Dicky's Dumps.</h3><p>Pearl: My friend Sylvia and I run a passion project called District Local, and in 2018 we hosted a community art show for Chinese New Year called Get Lucky and invited Dickson to help us run a dumpling bar.</p><p>Dickson: The dumpling bar was at Fortune Sound Club. We made about 1000 dumplings and it sold out in 90 minutes.</p><p>Pearl: So fast forward a couple more Chinese New Year dumpling pop-ups, and by demand we started selling dumplings at the side of our desk to our friends and family through Instagram.<br/>Dickson: And then COVID hits, we both get laid off, but the dumplings pick right up so here we are.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_ENV8fL"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DD_4X5-5222.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FAfVaW": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_tfc8jA": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: Where do you go when you are looking for inspiration?</h3><p>A:<strong> </strong>I find inspiration from a lot of places but if I’m specifically looking for something when I’m starting a project, I really like to look at vintage floral books, art books, and things that are around me. I really like to start from a specific concept to build a project around. So for example this summer I was doing the <a href=\"https://www.instagram.com/maude.sips/\">Maude Sips</a> dinner which is a wine tasting dinner and we were thinking about what a deep summer, August, moody floral design could look like. And so we built around the concept of sneaking out at night from your grandparents house. So we were using flowers that were maybe a bit more traditional, flowers that a grandmother might have in her garden like blue hydrangeas or fuchsias. And then creating a little more abstract designs out of them so that we were really looking to emulate those feelings of deep summer, things that are really hot, sexy, sweaty and shiny, and that was really fun. I’m also really drawn to nature, so my initial concept of my business started with me wandering around my neighborhood. I find a lot of inspiration just looking at gardens around me, seeing what things are paired in the garden together, the way that textures balance, the way colours combine with each other, the way different things grow at different heights is really inspiring to me. Or even just going for a walk with my dog and seeing the way moss grows on the forest floor.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_tfc8jA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DD_4X5-5309.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_c4jGUN": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_WTVxJJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q:  What is the best way to prepare Dicky’s Dumps at home?</h3><p>Dickson: Our dumplings were made to be very versatile, so you can pan fry them, steam them, or you can boil them.</p><p>Pearl: At home because I’m lazy, I usually just give them a quick boil and toss them in sauce and scarf them down. So quick and so easy.</p><h3>Q:  What is the most rewarding part of your job?</h3><p>Pearl: Getting to connect with different people of different backgrounds over food.</p><p>Dickson: Amen.</p><h3>Q: If you could give your younger self one piece of advice, what would it be?</h3><p>Pearl: Trust your intuition more and sooner.</p><p>Dickson: Spent more money on travelling. When you’re younger, that is one key piece of advice. Travel and eat everything.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_WTVxJJ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DD_4X5-5254.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_9WEiBt": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_Qjbd39": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Q: What’s your favourite childhood snack?</h3><p>Pearl: I ate a lot of sugary cereals. My favourite was Reese Puffs and Chef Boyardee. </p><p>Dickson: Haw flakes. If you don’t know what those are, look them up. And then, Maltesers. Not Whoppers, Maltesers, don’t get it twisted.</p><h3>Q: How would you describe your style?</h3><p>Pearl: Kind of all over the place. But usually street, a little bit of vintage, and a little bit funky.</p><p>Dickson: And then my style has a bit of streetwear, skate, techwear, whatever the vibe is or the trend.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Qjbd39"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DD_4X5-5333.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "collage_KLqDTn": {
+      "type": "collage",
+      "blocks": {
+        "image_dr6DRy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DD_4X5-5276.jpg",
+            "image_padding": false
+          }
+        },
+        "image_RazRM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DD-5252.jpg",
+            "image_padding": false
+          }
+        },
+        "image_B7txji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DD_4X5-5288.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "image_dr6DRy",
+        "image_RazRM8",
+        "image_B7txji"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "card_styles": "none",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_JRKYey": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wPKJRG": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em><strong>Photography: Tomo G.</strong></em></h6><h6><em><strong>Interview: Therise L.</strong></em></h6>"
+          }
+        },
+        "text_QhjLQN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pearl’s Look 1: <a href=\"https://www.getplenty.com/products/free-people-good-luck-mid-rise-black?variant=43083017191469\">Free People Good Luck Midrise Jean</a>, Monk & Lou Open Knit Kenna Polo, and <a href=\"https://www.getplenty.com/products/jjxx-tania-faux-fur-jacket\">JJXX Tania Faux Fur Jacket</a></p><p>Pearl’s Look 2: <a href=\"https://www.getplenty.com/products/free-people-high-roller-jumpsuit\">Free People High Roller Jumpsuit</a> and <a href=\"https://www.getplenty.com/products/free-people-be-my-baby-long-sleeve-tee?variant=43082795581485\">Free People Be My Baby Long Sleeve Tee</a></p><p>Dickson’s Look 1: Obey Patron Cardigan and <a href=\"https://www.getplenty.com/products/gramicci-gadget-pant\">Gramicci Gadget Pant</a></p><p>Dickson’s Look 2: <a href=\"https://www.getplenty.com/products/cat-wwr-big-cat-logo-crewneck?variant=43072761331757\">Cat WWR Big Cat Logo Crewneck</a> and <a href=\"https://www.getplenty.com/products/cat-wwr-canvas-carpenter-pant\">Cat WWR Canvas Carpenter Pant</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wPKJRG",
+        "text_QhjLQN"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "description": "<h2>new arrivals</h2>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-new",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "link",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 88
+      }
+    },
+    "bb43c458-526a-4407-8b00-047c19d76a4d": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Related Articles",
+        "heading_size": "h1",
+        "blog": "journal",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plenty Insider"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, lookbooks + more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "slideshow_6nfiqf",
+    "main",
+    "image_with_text_t6KzFw",
+    "image_with_text_wKVLmh",
+    "image_with_text_NjQ3EM",
+    "image_with_text_FAfVaW",
+    "image_with_text_c4jGUN",
+    "image_with_text_9WEiBt",
+    "collage_KLqDTn",
+    "rich_text_JRKYey",
+    "featured_collection",
+    "bb43c458-526a-4407-8b00-047c19d76a4d",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}

@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faqs": {
+      "type": "main-delivery-returns",
+      "blocks": {
+        "2b8e8365-2f6f-47ea-a89d-cb0e0550a35f": {
+          "type": "entry",
+          "settings": {
+            "title": "Shipping Fees and Policies",
+            "text": "{{ page.metafields.custom.shipping_policies | metafield_tag }}"
+          }
+        },
+        "1d018b10-2de7-4b73-9f47-4a7292bec079": {
+          "type": "entry",
+          "settings": {
+            "title": "Order Fulfillment Policies",
+            "text": "{{ page.metafields.custom.order_fulfilment_policies | metafield_tag }}"
+          }
+        },
+        "374130de-cdf2-4df2-8526-6471c5aa43a1": {
+          "type": "entry",
+          "settings": {
+            "title": "In-Store Pick Up Policies",
+            "text": "{{ page.metafields.custom.in_store_pick_up_policies | metafield_tag }}"
+          }
+        },
+        "entry_WrKXzt": {
+          "type": "entry",
+          "settings": {
+            "title": "Exchange and Return Conditions",
+            "text": "{{ page.metafields.custom.exchange_return_conditions | metafield_tag }}"
+          }
+        },
+        "695a6121-8255-443d-b536-9596f2bdaef0": {
+          "type": "entry",
+          "settings": {
+            "title": "Returning Online Purchases",
+            "text": "{{ page.metafields.custom.returning_online_purchases | metafield_tag }}"
+          }
+        },
+        "entry_NKwrhq": {
+          "type": "entry",
+          "settings": {
+            "title": "How to Return by Mail",
+            "text": "{{ page.metafields.custom.return_by_mail | metafield_tag }}"
+          }
+        },
+        "a1e04c22-27c2-43c7-9484-1e04e20b7adc": {
+          "type": "entry",
+          "settings": {
+            "title": "Cancelling Your Order",
+            "text": "{{ page.metafields.custom.cancellation_policies | metafield_tag }}"
+          }
+        },
+        "4dfb7404-0869-4948-add6-7e050420d3c7": {
+          "type": "entry",
+          "settings": {
+            "title": "Tracking and Delivery",
+            "text": "{{ page.metafields.custom.tracking_and_delivery | metafield_tag }}"
+          }
+        },
+        "c177fcf3-06c2-4754-a670-be70e1268461": {
+          "type": "entry",
+          "settings": {
+            "title": "Returning Purchases Made In Store",
+            "text": "{{ page.metafields.custom.returning_in_store_purchases | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "2b8e8365-2f6f-47ea-a89d-cb0e0550a35f",
+        "1d018b10-2de7-4b73-9f47-4a7292bec079",
+        "374130de-cdf2-4df2-8526-6471c5aa43a1",
+        "entry_WrKXzt",
+        "695a6121-8255-443d-b536-9596f2bdaef0",
+        "entry_NKwrhq",
+        "a1e04c22-27c2-43c7-9484-1e04e20b7adc",
+        "4dfb7404-0869-4948-add6-7e050420d3c7",
+        "c177fcf3-06c2-4754-a670-be70e1268461"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "hxxl",
+        "color_scheme": "background-1",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BECOME A PLENTY INSIDER"
+          }
+        },
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
+        "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "faqs",
+    "fb3d67e1-28da-4ca2-a249-e4e97b44b896"
+  ]
+}
