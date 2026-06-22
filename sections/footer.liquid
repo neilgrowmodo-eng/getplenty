@@ -6,20 +6,9 @@
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'disclosure.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'footer-color-schemes.css.liquid' | asset_url }}" media="print" onload="this.media='all'">
-{%- liquid
-  assign has_newsletter_block = false
-  for block in section.blocks
-    if block.type == 'newsletter'
-      assign has_newsletter_block = true
-      break
-    endif
-  endfor
--%}
-{%- if has_newsletter_block -%}
   <link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'newsletter-section.css' | asset_url }}" media="print" onload="this.media='all'">
   <link rel="stylesheet" href="{{ 'newsletter-color-schemes.css.liquid' | asset_url }}" media="print" onload="this.media='all'">
-{%- endif -%}
 
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}</noscript>
@@ -27,11 +16,9 @@
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'disclosure.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'footer-color-schemes.css.liquid' | asset_url | stylesheet_tag }}</noscript>
-{%- if has_newsletter_block -%}
-  <noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}</noscript>
-  <noscript>{{ 'newsletter-color-schemes.css.liquid' | asset_url | stylesheet_tag }}</noscript>
-{%- endif -%}
+<noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'newsletter-color-schemes.css.liquid' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .footer {
@@ -55,6 +42,10 @@
     filter: grayscale(100%) contrast(1.2);
   }
 
+  .newsletter-block {
+    max-width: 60rem;
+  }
+
   @media screen and (min-width: 800px) {
     .footer {
       margin-top: {{ section.settings.margin_top }}px;
@@ -66,19 +57,76 @@
     }
   }
 {%- endstyle -%}
-
+{% if section.settings.show_newsletter %}
+{% render 'newsletter-static',
+   newsletter_wrapper_class: 'newsletter--from-footer-' | append: section.id,
+   newsletter_heading: section.settings.newsletter_heading,
+   newsletter_subheading: section.settings.newsletter_subheading,
+   newsletter_enable_custom_typography: section.settings.newsletter_enable_custom_typography,
+   newsletter_title_font_face: section.settings.newsletter_title_font_face,
+   newsletter_body_font_face: section.settings.newsletter_body_font_face,
+   newsletter_text_color: section.settings.newsletter_text_color,
+   newsletter_heading_font_size: section.settings.newsletter_heading_font_size,
+   newsletter_body_font_size: section.settings.newsletter_body_font_size,
+   newsletter_heading_font_size_mobile: section.settings.newsletter_heading_font_size_mobile,
+   newsletter_body_font_size_mobile: section.settings.newsletter_body_font_size_mobile,
+   footer_section_settings: section.settings
+  %}
+{% endif %}
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
         <div class="footer__blocks-wrapper">
           {%- for block in section.blocks -%}
-            <div class="footer-block {% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if block.type == 'social_media' %} footer-block--social{% endif %}" {{ block.shopify_attributes }}>
+            <div class="footer-block {%  if block.type == 'newsletter' %} newsletter-block {% endif %} {% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if block.type == 'social_media' %} footer-block--social{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.type != 'newsletter' and block.settings.heading != blank -%}
                 <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
               {%- endif -%}
 
               {%- case block.type -%}
+                {%- when 'newsletter' -%}
+                  <div class="footer-block__details-content footer-block-newsletter {% if block.settings.dark_mode_newsletter %}dark-mode-newsletter{% endif %}">
+                    <div class="newsletter color-{{ block.settings.color_scheme }} newsletter--narrow">
+                      <div class="newsletter__wrapper content-container isolate">
+                        <div class="newsletter__text">
+                          {%- if block.settings.newsletter_heading != blank -%}
+                            <h3 class="newsletter__heading" {% if block.settings.enable_custom_typography %}style="font-family: {%- if block.settings.title_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ block.settings.text_color }};"{% endif %}>{{ block.settings.newsletter_heading | escape }}</h3>
+                          {%- endif -%}
+
+                          {%- if block.settings.newsletter_text != blank -%}
+                            <div class="newsletter__subheading rte" {% if block.settings.enable_custom_typography %}style="font-family: {%- if block.settings.body_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ block.settings.text_color }};"{% endif %}>
+                              {{ block.settings.newsletter_text }}
+                            </div>
+                          {%- endif -%}
+                        </div>
+
+                        <div class="newsletter__form">
+                          <div class="{{ block.settings.klaviyo_embed_class }}"></div>
+                        </div>
+                      </div>
+                    </div>
+                  {% if block.settings.newsletter_heading == blank and block.settings.newsletter_text == blank %}
+                    {% style %}
+                      footer .dark-mode-newsletter form.klaviyo-form {
+                        padding: 0 0 20px 0 !important;
+                      }
+
+                      footer .newsletter__form {
+                        margin-top: 0;
+                      }
+
+                      footer .newsletter__button {
+                        margin-top: 1.5rem;
+                      }
+
+                      footer .go2151320816.go2151320816.go2151320816 {
+                        padding-top: 0;
+                      }
+                    {% endstyle %}
+                  {% endif %}
+                  </div>
+
                 {%- when 'text' -%}
                   <div class="footer-block__details-content rte">
                     {{ block.settings.subtext }}
@@ -114,7 +162,7 @@
                       </ul>
                     </div>
                   {%- endif -%}
-                  {%- when 'social_media' -%}
+                {%- when 'social_media' -%}
                     <ul class="list list-social list-unstyled" role="list">
                       {%- if settings.social_twitter_link != blank -%}
                         <li class="list-social__item">
@@ -206,36 +254,6 @@
                         </ul>
                       </div>
                     {%- endif -%}
-                {%- when 'newsletter' -%}
-                  <div
-                    class="newsletter newsletter--footer color-{{ block.settings.color_scheme }} gradient"
-                    style="
-                      {%- if block.settings.enable_custom_typography -%}
-                        --nl-title-font-family: {%- if block.settings.title_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%};
-                        --nl-body-font-family: {%- if block.settings.body_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%};
-                        --nl-text-color: {{ block.settings.text_color }};
-                        --font-heading-scale: {{ block.settings.heading_scale_percent | divided_by: 100.0 }};
-                        --font-body-scale: {{ block.settings.body_scale_percent | divided_by: 100.0 }};
-                      {%- endif -%}
-                    "
-                  >
-                    {%- if block.settings.newsletter_heading != blank -%}
-                      <h2 class="footer-block__heading">
-                        {{ block.settings.newsletter_heading | escape }}
-                      </h2>
-                    {%- endif -%}
-
-                    <div class="footer-block__details-content rte">
-                      {%- if block.settings.newsletter_text != blank -%}
-                        <div class="newsletter__subheading rte">
-                          {{ block.settings.newsletter_text }}
-                        </div>
-                      {%- endif -%}
-                      <div class="newsletter__form">
-                        <div class="{{ block.settings.klaviyo_embed_class }}"></div>
-                      </div>
-                    </div>
-                  </div>
                 {%- when 'image' -%}
                   <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                     {%- if block.settings.image != blank -%}
@@ -421,6 +439,81 @@
   customElements.define('localization-form', LocalizationForm);
 {% endjavascript %}
 
+{% comment %} 
+{
+      "type": "checkbox",
+      "id": "newsletter_enable_custom_typography",
+      "label": "Enable custom newsletter typography",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "newsletter_title_font_face",
+      "label": "Newsletter title font face",
+      "options": [
+        { "value": "heading", "label": "Heading font" },
+        { "value": "body", "label": "Body font" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "select",
+      "id": "newsletter_body_font_face",
+      "label": "Newsletter body font face",
+      "options": [
+        { "value": "body", "label": "Body font" },
+        { "value": "heading", "label": "Heading font" }
+      ],
+      "default": "body"
+    },
+    {
+      "type": "color",
+      "id": "newsletter_text_color",
+      "label": "Text color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "newsletter_heading_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size (px)",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "newsletter_body_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Body font size (px)",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "newsletter_heading_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size (mobile, px)",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "newsletter_body_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Body font size (mobile, px)",
+      "default": 14
+    }, 
+{% endcomment %}
+
 {% schema %}
 {
   "name": "t:sections.footer.name",
@@ -535,6 +628,12 @@
           "id": "heading",
           "default": "Newsletter",
           "label": "Block heading"
+        },
+        {
+          "type": "checkbox",
+          "id": "dark_mode_newsletter",
+          "label": "Use dark mode styles for newsletter block",
+          "default": false
         },
         {
           "type": "text",

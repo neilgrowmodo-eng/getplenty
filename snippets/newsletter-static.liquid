@@ -1,0 +1,80 @@
+{%- comment -%}
+Static newsletter snippet converted from sections/newsletter.liquid.
+Non-editable; includes heading, subheading and the Klaviyo embed container.
+Update this snippet to change newsletter content.
+{%- endcomment -%}
+
+<link rel="stylesheet" href="{{ 'component-newsletter.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'newsletter-section.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'newsletter-color-schemes.css.liquid' | asset_url }}" media="print" onload="this.media='all'">
+
+<style data-shopify>
+  .newsletter-static-padding {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  @media screen and (min-width: 750px) {
+    .newsletter-static-padding {
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+  }
+</style>
+
+{%- style -%}
+  .{{ newsletter_wrapper_class }} {
+    {%- if newsletter_enable_custom_typography -%}
+      --newsletter-title-font-family: {%- if newsletter_title_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%};
+      --newsletter-body-font-family: {%- if newsletter_body_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%};
+      --newsletter-text-color: {{ newsletter_text_color }};
+    {%- endif -%}
+  }
+
+  @media screen and (max-width: 749px) {
+    .{{ newsletter_wrapper_class }} .newsletter__heading { font-size: {{ newsletter_heading_font_size_mobile | default: newsletter_heading_font_size | default: 36 }}px !important; }
+    .{{ newsletter_wrapper_class }} .newsletter__subheading { font-size: {{ newsletter_body_font_size_mobile | default: newsletter_body_font_size | default: 16 }}px !important; }
+  }
+{%- endstyle -%}
+
+{%- liquid
+  assign newsletter_heading = footer_section_settings.newsletter_heading
+  assign newsletter_subheading = footer_section_settings.newsletter_subheading
+
+  if request.page_type == 'collection' and footer_section_settings.newsletter_custom_text_collection
+    assign newsletter_heading = footer_section_settings.newsletter_heading_collection
+    assign newsletter_subheading = footer_section_settings.newsletter_subheading_collection
+  endif
+
+  if request.page_type == 'blog' or request.page_type == 'article'
+    if footer_section_settings.newsletter_custom_text_blog
+      assign newsletter_heading = footer_section_settings.newsletter_heading_blog
+      assign newsletter_subheading = footer_section_settings.newsletter_subheading_blog
+    endif
+  endif
+-%}
+
+<div class="newsletter color-scheme-1 gradient newsletter--narrow page-width {{ newsletter_wrapper_class }}">
+  <div class="newsletter__wrapper content-container isolate newsletter-static-padding">
+    <div class="newsletter__text">
+      <h2
+        class="newsletter__heading hxxl"
+        style="{% if newsletter_enable_custom_typography %}font-family: {%- if newsletter_title_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ newsletter_text_color }}; font-size: {{ newsletter_heading_font_size | default: 36 }}px;{% endif %}"
+      >
+        {{ newsletter_heading | default: 'BECOME A PLENTY INSIDER' }}
+      </h2>
+
+      <div
+        class="newsletter__subheading rte"
+        style="{% if newsletter_enable_custom_typography %}font-family: {%- if newsletter_body_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ newsletter_text_color }}; font-size: {{ newsletter_body_font_size | default: 16 }}px;{% endif %}"
+      >
+        {{ newsletter_subheading | default: '<p>Be the first to know about new arrivals, promotions, and more.</p>' }}
+      </div>
+    </div>
+
+    <div class="newsletter__form">
+      <!-- Klaviyo embed container (static) -->
+      <div class="klaviyo-form-XGcjVD"></div>
+    </div>
+  </div>
+</div>
