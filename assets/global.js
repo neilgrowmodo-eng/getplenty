@@ -619,10 +619,18 @@ class SliderComponent extends HTMLElement {
     this.sliderItemOffsetY =
       this.sliderItemsToShow[1].offsetTop - this.sliderItemsToShow[0].offsetTop;
     if (this.slideToScroll) this.sliderItemOffset = this.sliderItemOffset * this.slideToScroll;
-    this.slidesPerPage = Math.floor(
-      (this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset
-    );
-    this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
+    // Avoid division by zero and ensure at least 1 slide per page
+    if (!this.sliderItemOffset || this.sliderItemOffset === 0) {
+      this.slidesPerPage = 1;
+    } else {
+      this.slidesPerPage = Math.max(
+        1,
+        Math.floor(
+          (this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset
+        )
+      );
+    }
+    this.totalPages = Math.max(1, this.sliderItemsToShow.length - this.slidesPerPage + 1);
     this.update();
   }
 

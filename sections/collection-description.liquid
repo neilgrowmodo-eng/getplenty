@@ -87,34 +87,55 @@
 {%- endif -%}
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const readMoreButtons = document.querySelectorAll('.read-more-btn');
-  
-  readMoreButtons.forEach(button => {
-    button.addEventListener('click', function() {
-      const wrapper = this.closest('.collection-description-wrapper');
-      const textSpan = wrapper.querySelector('.collection-description-text');
-      const readMoreText = this.querySelector('.read-more-text');
-      const readLessText = this.querySelector('.read-less-text');
-      
-      const isExpanded = this.getAttribute('data-expanded') === 'true';
-      
-      if (isExpanded) {
-        textSpan.textContent = this.getAttribute('data-truncated');
-        readMoreText.style.display = 'inline';
-        readLessText.style.display = 'none';
-        this.setAttribute('data-expanded', 'false');
-        this.setAttribute('aria-expanded', 'false');
-      } else {
-        textSpan.textContent = this.getAttribute('data-full');
-        readMoreText.style.display = 'none';
-        readLessText.style.display = 'inline';
-        this.setAttribute('data-expanded', 'true');
-        this.setAttribute('aria-expanded', 'true');
-      }
+(function(){
+  function bindReadMore(container = document) {
+    const buttons = container.querySelectorAll('.read-more-btn');
+    buttons.forEach(button => {
+      if (button.getAttribute('data-readmore-bound') === 'true') return;
+
+      button.addEventListener('click', function() {
+        const wrapper = this.closest('.collection-description-wrapper');
+        const textSpan = wrapper.querySelector('.collection-description-text');
+        const readMoreText = this.querySelector('.read-more-text');
+        const readLessText = this.querySelector('.read-less-text');
+
+        const isExpanded = this.getAttribute('data-expanded') === 'true';
+
+        if (isExpanded) {
+          textSpan.textContent = this.getAttribute('data-truncated');
+          readMoreText.style.display = 'inline';
+          readLessText.style.display = 'none';
+          this.setAttribute('data-expanded', 'false');
+          this.setAttribute('aria-expanded', 'false');
+        } else {
+          // use textContent to ensure any escaped HTML displays correctly
+          const full = this.getAttribute('data-full') || '';
+          try {
+            textSpan.textContent = full;
+          } catch (e) {
+            textSpan.textContent = full;
+          }
+
+          readMoreText.style.display = 'none';
+          readLessText.style.display = 'inline';
+          this.setAttribute('data-expanded', 'true');
+          this.setAttribute('aria-expanded', 'true');
+        }
+      });
+
+      button.setAttribute('data-readmore-bound', 'true');
     });
-  });
-});
+  }
+
+  document.addEventListener('DOMContentLoaded', function() { bindReadMore(document); });
+
+  // Re-bind when sections are loaded dynamically in the theme editor or via AJAX
+  document.addEventListener('shopify:section:load', function(event) { if (event.target) bindReadMore(event.target); });
+  document.addEventListener('shopify:section:reorder', function(event) { if (event.target) bindReadMore(event.target); });
+
+  // expose for debugging
+  window.bindCollectionDescriptionReadMore = bindReadMore;
+})();
 </script>
 
 {% schema %}

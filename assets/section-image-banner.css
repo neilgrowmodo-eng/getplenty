@@ -227,6 +227,15 @@
   .banner--stacked .banner__media-image-half {
     width: 100%;
   }
+
+  /* Ensure first image displays on top when stacked on mobile */
+  .banner--stacked .first-image {
+    z-index: 2;
+  }
+
+  .banner--stacked .second-image {
+    z-index: 1;
+  }
 }
 
 .banner__content {

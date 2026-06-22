@@ -108,8 +108,15 @@
                 id='title-{{ section_id }}-{{ card_product.id }}'
               {% endif %}
             >
+                {%- liquid
+                  assign product_card_url = card_product.url
+
+                  if collection != blank
+                    assign product_card_url = card_product.url | within: collection
+                  endif
+                -%}
               <a
-                href='{{ card_product.url }}'
+                href='{{ product_card_url }}'
                 id='StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }}'
                 class='full-unstyled-link'
                 aria-labelledby='StandardCardNoMediaLink-{{ section_id }}-{{ card_product.id }} NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}'
@@ -155,8 +162,15 @@
               id='title-{{ section_id }}-{{ card_product.id }}'
             {% endif %}
           >
+            {%- liquid
+                assign product_card_url = card_product.url
+
+                if collection != blank
+                  assign product_card_url = card_product.url | within: collection
+                endif
+              -%}
             <a
-              href='{{ card_product.url }}'
+              href='{{ product_card_url }}'
               id='CardLink-{{ section_id }}-{{ card_product.id }}'
               class='full-unstyled-link'
               aria-labelledby='CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}'
@@ -319,7 +333,7 @@
             {%- endif -%}
           </div>
         {%- endif -%}
-        <div class='card__badge {{ settings.badge_position }}'>
+        <div class='card__badge{{ settings.badge_position }}'>
           {%- if card_product.available == false -%}
             <span
               id='Badge-{{ section_id }}-{{ card_product.id }}'

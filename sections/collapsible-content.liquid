@@ -15,8 +15,16 @@
   }
 {%- endstyle -%}
 
+<style>
+  @media screen and (max-width: 749px) {
+    .collapsible-content--from-section-{{ section.id }} .collapsible-content__heading { font-size: {{ section.settings.heading_font_size_mobile | default: section.settings.heading_font_size | default: 28 }}px !important; color: {{ section.settings.heading_text_color | default: '#111111' }} !important; font-family: {%- if section.settings.heading_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%} !important; }
+    .collapsible-content--from-section-{{ section.id }} .accordion__title { font-size: {{ section.settings.collapsible_title_font_size_mobile | default: section.settings.collapsible_title_font_size | default: 18 }}px !important; color: {{ section.settings.collapsible_title_text_color | default: '#111111' }} !important; font-family: {%- if section.settings.collapsible_title_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%} !important; }
+    .collapsible-content--from-section-{{ section.id }} .accordion__content { font-size: {{ section.settings.collapsible_content_font_size_mobile | default: section.settings.collapsible_content_font_size | default: 16 }}px !important; color: {{ section.settings.collapsible_content_text_color | default: '#111111' }} !important; font-family: {%- if section.settings.collapsible_content_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%} !important; }
+  }
+</style>
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
+  <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout collapsible-content--from-section-{{ section.id }} isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
     <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
       <div class="{% if section.settings.image == blank %}collapsible-content-wrapper-narrow{% else %}page-width{% endif %}">
         <div class="collapsible-content__header" style="text-align: {{ section.settings.heading_alignment }};">
@@ -24,7 +32,7 @@
             <p class="caption-with-letter-spacing"> {{ section.settings.caption | escape }}</p>
           {% endif %}
           {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+            <h2 class="collapsible-content__heading {{ section.settings.heading_size }}"{% if section.settings.enable_heading_custom_typography %} style="font-family: {%- if section.settings.heading_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ section.settings.heading_text_color }}; font-size: {{ section.settings.heading_font_size }}px;"{% endif %}>{{ section.settings.heading | escape }}</h2>
           {%- else -%}
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
@@ -50,12 +58,12 @@
                 <details id="Details-{{ block.id }}-{{ section.id }}"{% if section.settings.open_first_collapsible_row and forloop.first %} open{% endif %}>
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h3 class="accordion__title h4">
+                    <h3 class="accordion__title h4"{% if section.settings.enable_collapsible_custom_typography %} style="font-family: {%- if section.settings.collapsible_title_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ section.settings.collapsible_title_text_color }}; font-size: {{ section.settings.collapsible_title_font_size }}px;"{% endif %}>
                       {{ block.settings.heading | default: block.settings.page.title }}
                     </h3>
                     {% render 'icon-caret' %}
                   </summary>
-                  <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
+                  <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"{% if section.settings.enable_collapsible_custom_typography %} style="font-family: {%- if section.settings.collapsible_content_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ section.settings.collapsible_content_text_color }}; font-size: {{ section.settings.collapsible_content_font_size }}px;"{% endif %}>
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
                   </div>
@@ -125,6 +133,52 @@
         }
       ],
       "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Typography (heading)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_heading_custom_typography",
+      "label": "Enable custom heading typography",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "heading_font_face",
+      "label": "Heading font face",
+      "options": [
+        { "value": "heading", "label": "Heading font" },
+        { "value": "body", "label": "Body font" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "color",
+      "id": "heading_text_color",
+      "label": "Heading text color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size (px)",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size (mobile, px)",
+      "default": 24
     },
     {
       "type": "select",
@@ -234,6 +288,88 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Typography (accordion)"
+    },
+    { 
+      "type": "checkbox",
+      "id": "enable_collapsible_custom_typography",
+      "label": "Enable custom typography",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "collapsible_title_font_face",
+      "label": "Title font face",
+      "options": [
+        { "value": "heading", "label": "Heading font" },
+        { "value": "body", "label": "Body font" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "color",
+      "id": "collapsible_title_text_color",
+      "label": "Title text color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "collapsible_title_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Title font size (px)",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "collapsible_title_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Title font size (mobile, px)",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "collapsible_content_font_face",
+      "label": "Content font face",
+      "options": [
+        { "value": "body", "label": "Body font" },
+        { "value": "heading", "label": "Heading font" }
+      ],
+      "default": "body"
+    },
+    {
+      "type": "color",
+      "id": "collapsible_content_text_color",
+      "label": "Content text color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "collapsible_content_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Content font size (px)",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "collapsible_content_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Content font size (mobile, px)",
+      "default": 14
     }
   ],
   "blocks": [

@@ -68,7 +68,15 @@
     </noscript>
   {%- endif -%}
 
-  <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
+<style>
+  @media screen and (max-width: 749px) {
+    .slideshow--from-section-{{ section.id }} .banner__heading { font-size: {{ section.settings.slideshow_heading_font_size_mobile | default: section.settings.slideshow_heading_font_size | default: 28 }}px !important; color: {{ section.settings.slideshow_heading_text_color | default: '#111111' }} !important; font-family: {%- if section.settings.slideshow_heading_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%} !important; }
+    .slideshow--from-section-{{ section.id }} .banner__subheading { font-size: {{ section.settings.slideshow_subheading_font_size_mobile | default: section.settings.slideshow_subheading_font_size | default: 20 }}px !important; color: {{ section.settings.slideshow_heading_text_color | default: '#111111' }} !important; }
+    .slideshow--from-section-{{ section.id }} .banner__text { font-size: {{ section.settings.slideshow_body_font_size_mobile | default: section.settings.slideshow_body_font_size | default: 16 }}px !important; color: {{ section.settings.slideshow_body_text_color | default: '#111111' }} !important; font-family: {%- if section.settings.slideshow_body_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%} !important; }
+  }
+</style>
+
+  <div class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere slideshow--from-section-{{ section.id }}{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if section.blocks.first.settings.image == blank %} slideshow--placeholder{% endif %}"
     id="Slider-{{ section.id }}"
     aria-live="polite"
     aria-atomic="true"
@@ -109,14 +117,14 @@
           {% if block.type == 'slide_half' %}<div class="slideshow__text_wrap">{% endif %}
           <div class="slideshow__text banner__box content-container content-container--full-width-mobile slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
               {%- if block.settings.heading != blank -%}
-                <h2 class="banner__heading">{{ block.settings.heading | escape }}</h2>
+                <h2 class="banner__heading"{% if section.settings.enable_slideshow_custom_typography %} style="font-family: {%- if section.settings.slideshow_heading_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ section.settings.slideshow_heading_text_color }}; font-size: {{ section.settings.slideshow_heading_font_size }}px;"{% endif %}>{{ block.settings.heading | escape }}</h2>
               {%- endif -%}
               {%- if block.settings.subheading != blank -%}
-                <h3 class="banner__subheading">{{ block.settings.subheading | escape }}</h3>
+                <h3 class="banner__subheading"{% if section.settings.enable_slideshow_custom_typography %} style="font-family: {%- if section.settings.slideshow_heading_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ section.settings.slideshow_heading_text_color }}; font-size: {{ section.settings.slideshow_subheading_font_size }}px;"{% endif %}>{{ block.settings.subheading | escape }}</h3>
               {%- endif -%}
             <div class="banner__text_button">
               {%- if block.settings.text != blank -%}
-                <div class="banner__text" {{ block.shopify_attributes }}>
+                <div class="banner__text"{% if section.settings.enable_slideshow_custom_typography %} style="font-family: {%- if section.settings.slideshow_body_font_face == 'heading' -%}var(--font-heading-family){%- else -%}var(--font-body-family){%- endif -%}; color: {{ section.settings.slideshow_body_text_color }}; font-size: {{ section.settings.slideshow_body_font_size }}px;"{% endif %} {{ block.shopify_attributes }}>
                   <span>{{ block.settings.text | newline_to_br }}</span>
                 </div>
               {%- endif -%}
@@ -231,11 +239,11 @@
       "options": [
         {
           "value": "dots",
-          "label": "t:sections.slideshow.settings.slider_visual.options__2.label"
+          "label": "t:sections.slideshow.settings.slider_visual.options__1.label"
         },
         {
           "value": "counter",
-          "label": "t:sections.slideshow.settings.slider_visual.options__1.label"
+          "label": "t:sections.slideshow.settings.slider_visual.options__2.label"
         },
         {
           "value": "numbers",
@@ -260,6 +268,109 @@
       "unit": "s",
       "label": "t:sections.slideshow.settings.change_slides_speed.label",
       "default": 5
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_slideshow_custom_typography",
+      "label": "Enable custom typography",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "slideshow_heading_font_face",
+      "label": "Heading font face",
+      "options": [
+        { "value": "heading", "label": "Heading font" },
+        { "value": "body", "label": "Body font" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "color",
+      "id": "slideshow_heading_text_color",
+      "label": "Heading color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "slideshow_heading_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size (px)",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "slideshow_heading_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading font size (mobile, px)",
+      "default": 28
+    },
+
+    {
+      "type": "range",
+      "id": "slideshow_subheading_font_size",
+      "min": 6,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Subheading font size (px)",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "slideshow_subheading_font_size_mobile",
+      "min": 6,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Subheading font size (mobile, px)",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "slideshow_body_font_face",
+      "label": "Body font face",
+      "options": [
+        { "value": "body", "label": "Body font" },
+        { "value": "heading", "label": "Heading font" }
+      ],
+      "default": "body"
+    }, 
+    {
+      "type": "color",
+      "id": "slideshow_body_text_color",
+      "label": "Body text color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "slideshow_body_font_size",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Body font size (px)",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "slideshow_body_font_size_mobile",
+      "min": 8,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "label": "Body font size (mobile, px)",
+      "default": 16
     },
     {
       "type": "header",

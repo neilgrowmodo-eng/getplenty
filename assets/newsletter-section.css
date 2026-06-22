@@ -5,6 +5,7 @@
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -17,18 +18,23 @@
 
 .newsletter__heading {
   line-height: 0.87;
-  margin: 0 0 .8rem
+  margin: 0 0 .8rem;
+  color: #F2EEE4;
 }
 
 .newsletter__subheading {
   max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
+  color: #F2EEE4;
 }
 
 .newsletter__form {
   width: 100%;
   margin-top: 1.2rem;
+}
+.newsletter__form .kl-private-reset-css-Xuajs1[type=email] {
+  padding-left: 10px !important; 
 }
 
 .newsletter-form__field-wrapper .newsletter-form__message {
@@ -40,10 +46,6 @@
   width: fit-content;
 }
 
-.newsletter__form .klaviyo-form {
-  padding: 0 !important;
-}
-
 .newsletter__form .kl-private-reset-css-Xuajs1 {
   min-height: 0 !important;
 }
@@ -51,7 +53,7 @@
 .newsletter__form .kl-private-reset-css-Xuajs1[type="email"],
 .newsletter__form .kl-private-reset-css-Xuajs1[data-testid="form-component"],
 .newsletter__form form.kl-private-reset-css-Xuajs1 {
-  background-color: transparent !important;
+  background-color: white !important;
 }
 
 .newsletter__form input[type="email"] {
@@ -86,6 +88,39 @@
   opacity: 0.9;
 }
 
+
+footer .dark-mode-newsletter span.ql-font-poppins,
+footer .dark-mode-newsletter .go2939287685.go2939287685.go2939287685 {
+  color: white !important;
+}
+
+.dark-mode-newsletter .newsletter__form .kl-private-reset-css-Xuajs1[data-testid="form-component"],
+.dark-mode-newsletter .newsletter__form form.kl-private-reset-css-Xuajs1 {
+  background-color: transparent !important;
+}
+
+.dark-mode-newsletter .go319037497.go319037497.go319037497 {
+  border: 1px solid #fff !important;
+  transition: background-color 0.2s ease;
+}
+
+.dark-mode-newsletter .go319037497.go319037497.go319037497:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  color: black !important;
+}
+
+.go258608705[type='email'] {
+  padding-left: 10px !important;
+}
+
+footer form[data-testid="klaviyo-form-XGcjVD"] input[type="email"] {
+  padding: 0 10px !important;
+}
+
+footer .dark-mode-newsletter form.klaviyo-form {
+  padding: 0 0 20px 0 !important;
+}
+
 @media screen and (min-width: 750px) {
   .newsletter__button {
     flex-shrink: 0;
@@ -94,5 +129,15 @@
 
   .newsletter__wrapper>* {
     max-width: 66rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  footer .newsletter__subheading {
+    margin-bottom: 10px;
+  }
+
+  footer .go2151320816.go2151320816.go2151320816 {
+    padding-top: 25px;
   }
 }

@@ -301,8 +301,8 @@
           "menu": "main-menu-2",
           "menu_type_desktop": "mega",
           "show_line_separator": false,
-          "enable_sticky_header": true,
-          "sticky_header_style": "always",
+          "enable_sticky_header": false,
+          "sticky_header_style": "on-scroll-up",
           "mobile_logo_position": "center",
           "margin_bottom": 0,
           "padding_top": 20,
@@ -326,6 +326,23 @@
               "menu": "support"
             }
           },
+          "newsletter_neqTkQ": {
+            "type": "newsletter",
+            "settings": {
+              "heading": "Newsletter",
+              "dark_mode_newsletter": true,
+              "newsletter_heading": "",
+              "newsletter_text": "",
+              "enable_custom_typography": false,
+              "title_font_face": "heading",
+              "body_font_face": "body",
+              "text_color": "#111111",
+              "heading_scale_percent": 100,
+              "body_scale_percent": 100,
+              "klaviyo_embed_class": "klaviyo-form-W34ynb",
+              "color_scheme": "scheme-1"
+            }
+          },
           "social_media_qqbiNz": {
             "type": "social_media",
             "settings": {
@@ -337,6 +354,7 @@
         "block_order": [
           "footer-0",
           "link_list_hffigU",
+          "newsletter_neqTkQ",
           "social_media_qqbiNz"
         ],
         "settings": {

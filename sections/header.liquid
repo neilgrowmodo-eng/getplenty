@@ -580,7 +580,7 @@
         </a>
       {%- endif -%}
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble" data-toggle-cart data-cart-quantity>
+      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble" data-toggle-cart data-cart-quantity data-cart-page-load-gate="true">
         {% render 'icon-cart-empty' %}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}

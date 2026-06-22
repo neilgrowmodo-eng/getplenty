@@ -39,7 +39,8 @@
               {% render 'card-collection',
                 card_collection: link_object,
                 card_image: card_image,
-                media_aspect_ratio: 'portrait'
+                media_aspect_ratio: 'portrait',
+                section_settings: section.settings
               %}
             </li>
           {%- endfor -%}
@@ -65,6 +66,90 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_typography",
+      "label": "Enable custom typography",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "title_font_face",
+      "label": "Title font face",
+      "options": [
+        { "value": "heading", "label": "Heading font" },
+        { "value": "body", "label": "Body font" }
+      ],
+      "default": "heading"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "heading_px",
+      "min": 10,
+      "max": 72,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading font size (px)",
+      "default": 24
+    },
+    {
+      "type": "header",
+      "content": "Text positioning"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_text_positioning",
+      "label": "Enable custom text positioning",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "text_horizontal_alignment",
+      "label": "Text alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "text_vertical_alignment",
+      "label": "Text vertical alignment",
+      "options": [
+        { "value": "top", "label": "Top" },
+        { "value": "50%", "label": "Center" },
+        { "value": "bottom", "label": "Bottom" }
+      ],
+      "default": "top"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_text_vertical_alignment",
+      "label": "Enable flexible vertical alignment",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "custom_text_vertical_alignment_offset",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "label": "Custom vertical alignment offset (%)",
+      "default": 20,
+      "visible_if": "{{section.settings.enable_custom_text_vertical_alignment }}"
     }
   ],
   "blocks": [

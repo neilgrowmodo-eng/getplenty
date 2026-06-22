@@ -1,6 +1,25 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .banner__text.body.hide--on-desktop,
+  .banner__buttons.hide--on-desktop.banner__buttons--multiple.banner__buttons--custom {
+    display: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .hide--on-desktop {
+      display: block;
+    }
+
+    .banner__text.body.hide--on-desktop {
+      display: block;
+    }
+    
+    .hide--on-mobile {
+      display: none !important;
+    }
+  }
+
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
@@ -28,6 +47,18 @@
     --font-heading-scale: {{ section.settings.heading_scale_override | divided_by: 100.0 }};
     --font-body-scale: {{ section.settings.body_scale_override | divided_by: 100.0 }};
   }
+
+  /* Ensure banner text uses the local --font-body-scale instead of fixed rems */
+  #Banner-{{ section.id }} .banner__text {
+    font-size: calc(var(--font-body-base) * var(--font-body-scale));
+  }
+
+  @media screen and (min-width: 768px) {
+    #Banner-{{ section.id }} .banner__text span {
+      font-size: calc(var(--font-body-base) * var(--font-body-scale));
+    }
+  }
+
 
 {%- endstyle -%}
 
@@ -94,27 +125,192 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            {% style %}
+
+              {% if block.settings.custom_heading_positioning %}
+                #Banner-{{ section.id }} .banner__heading.custom-heading-positioning {
+                  text-align: {{ block.settings.heading_alignment }};
+                  width: 100%;
+                  display: flex;
+                  justify-content: {{ block.settings.heading_alignment }};
+                  align-items: {{ block.settings.heading_align_item_position }};
+                }
+
+                @media screen and (max-width: 749px) {
+                  #Banner-{{ section.id }} .banner__heading.custom-heading-positioning {
+                    text-align: {{ block.settings.heading_alignment_mobile }};
+                    width: 100%;
+                    display: flex;
+                    justify-content: {{ block.settings.heading_alignment_mobile }};
+                    align-items: {{ block.settings.heading_align_item_position_mobile }};
+                  }
+                }
+              {% endif %}
+            {% endstyle %}
+            <h2 class="banner__heading {{ block.settings.heading_size }} {% if block.settings.custom_heading_positioning %}custom-heading-positioning{% endif %}" {{ block.shopify_attributes }}>
               <span>{{ block.settings.heading | newline_to_br }}</span>
             </h2>
           {%- when 'text' -%}
-            <div class="banner__text body" {{ block.shopify_attributes }}>
+            <div class="banner__text body hide--on-mobile" {{ block.shopify_attributes }}>
               <span>{{ block.settings.text | newline_to_br }}</span>
             </div>
+            {% if block.settings.custom_text_positioning %}
+              <style>
+                #Banner-{{ section.id }} .banner__text[data-block-id="{{ block.id }}"] {
+                  text-align: {{ block.settings.text_alignment }};
+                  width: 100%;
+                  max-width: 100%;
+                }
+                
+                @media screen and (max-width: 749px) {
+                  #Banner-{{ section.id }} .banner__text {
+                    text-align: {{ block.settings.text_alignment_mobile }};
+                    width: 100%;
+                  }
+                }
+              </style>
+            {% endif %}
           {%- when 'buttons' -%}
-            <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
+            <div class="banner__buttons hide--on-mobile{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %} {%  if block.settings.custom_button_positioning %} banner__buttons--custom{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.button_label_1 != blank -%}
-                <a{% if block.settings.button_link_1 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_1 | escape }}</a>
+                <a{% if block.settings.button_link_1 != blank %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %} button_number_1">{{ block.settings.button_label_1 | escape }}</a>
               {%- endif -%}
               {%- if block.settings.button_label_2 != blank -%}
-                <a{% if block.settings.button_link_2 == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}">{{ block.settings.button_label_2 | escape }}</a>
+                <a{% if block.settings.button_link_2 != blank %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %} button_number_2">{{ block.settings.button_label_2 | escape }}</a>
               {%- endif -%}
 
             </div>
+            <style>
+              {% if block.settings.enable_custom_button_styles == true %}
+                
+                #Banner-{{ section.id }} .banner__box .button_number_1 {
+                  background-color: {{ block.settings.button_color }};
+                  color: {{ block.settings.button_text_color }};
+                  border: {{ block.settings.button_outline_color }} {{ block.settings.button_border_width }}px solid;
+                }
+                #Banner-{{ section.id }} .banner__box .button_number_2 {
+                  background-color: {{ block.settings.button_color_2 }};
+                  color: {{ block.settings.button_text_color_2 }};
+                  border: {{ block.settings.button_outline_color_2 }} {{ block.settings.button_border_width_2 }}px solid;
+                }
+
+                .button::after {
+                  box-shadow: none;
+                }
+
+                .button:not([disabled]):hover:after {
+                  box-shadow: none;
+                }
+              {% endif %}
+              {% if block.settings.custom_button_positioning %}
+                @media screen and (min-width: 750px) {
+                  #Banner-{{ section.id }} .banner__buttons--custom {
+                    display: flex;
+                    max-width: none;
+                    width: 100%;
+                    justify-content: {{ block.settings.button_alignment }};
+                  }
+
+                  #Banner-{{ section.id }} .banner__buttons .button {
+                    max-width: 212px;
+                  }
+                }
+              {% endif %}
+            </style>
+
         {%- endcase -%}
       {%- endfor -%}
     </div>
   </div>
+</div>
+<div class="blocks__container color-{{ section.settings.color_scheme }}">
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'text' -%}
+        <div class="banner__text body hide--on-desktop" {{ block.shopify_attributes }}>
+          <span>{{ block.settings.text | newline_to_br }}</span>
+        </div>
+        {% if block.settings.custom_text_positioning %}
+          <style>
+            .blocks__container .banner__text[data-block-id="{{ block.id }}"] {
+              text-align: {{ block.settings.text_alignment }};
+              width: 100%;
+              max-width: 100%;
+            }
+            
+            @media screen and (max-width: 749px) {
+              .blocks__container {
+                padding: 0 15px 45px 15px; 
+              }
+
+              .blocks__container .banner__text {
+                text-align: {{ block.settings.text_alignment_mobile }};
+                width: 100%;
+              }
+
+              .banner__text.body.hide--on-desktop {
+                padding-bottom: 15px;
+              }
+            }
+          </style>
+        {% endif %}
+      {%- when 'buttons' -%}
+        <div {% if block.settings.custom_button_positioning %} id="mobile_buttons" {% endif %} class="banner__buttons hide--on-desktop{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %} {%  if block.settings.custom_button_positioning %} banner__buttons--custom{% endif %}" {{ block.shopify_attributes }}>
+          {%- if block.settings.button_label_1 != blank -%}
+            <a{% if block.settings.button_link_1 != blank %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %} button_number_1">{{ block.settings.button_label_1 | escape }}</a>
+          {%- endif -%}
+          {%- if block.settings.button_label_2 != blank -%}
+            <a{% if block.settings.button_link_2 != blank %} href="{{ block.settings.button_link_2 }}"{% endif %} class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %} button_number_2">{{ block.settings.button_label_2 | escape }}</a>
+          {%- endif -%}
+
+        </div>
+        <style>
+          {% if block.settings.enable_custom_button_styles == true %}
+            
+            .blocks__container .button_number_1 {
+              background-color: {{ block.settings.button_color }};
+              color: {{ block.settings.button_text_color }};
+              border: {{ block.settings.button_outline_color }} {{ block.settings.button_border_width }}px solid;
+            }
+            .blocks__container .button_number_2 {
+              background-color: {{ block.settings.button_color_2 }};
+              color: {{ block.settings.button_text_color_2 }};
+              border: {{ block.settings.button_outline_color_2 }} {{ block.settings.button_border_width_2 }}px solid;
+            }
+
+            .button::after {
+              box-shadow: none;
+            }
+
+            .button:not([disabled]):hover:after {
+              box-shadow: none;
+            }
+          {% endif %}
+          {% if block.settings.custom_button_positioning %}
+            .blocks__container .banner__buttons--custom {
+              display: none;
+            }
+            
+            @media screen and (max-width: 750px) {
+              .blocks__container #mobile_buttons.banner__buttons--custom {
+                display: flex;
+                max-width: none;
+                width: 100%;
+                justify-content: {{ block.settings.button_alignment_mobile }};
+              }
+
+              .blocks__container #mobile_buttons.banner__buttons .button {
+                width: 100%;
+                max-width: 150px;
+                padding: 0;
+                min-width: auto;
+              }
+            }
+          {% endif %}
+        </style>
+
+    {%- endcase -%}
+  {%- endfor -%}
 </div>
 
 {% schema %}
@@ -285,6 +481,60 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "header",
+          "content": "Text Positioning"
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_heading_positioning",
+          "default": false,
+          "label": "Enable custom heading positioning"
+        },
+        {
+          "type": "select",
+          "id": "heading_alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center",
+          "label": "Heading alignment",
+        },
+        {
+          "type": "select",
+          "id": "heading_align_item_position",
+          "options": [
+            { "value": "flex-start", "label": "Top" },
+            { "value": "center", "label": "Center" },
+            { "value": "flex-end", "label": "Bottom" }
+          ],
+          "default": "flex-start",
+          "label": "Heading vertical alignment"
+        },
+        {
+          "type": "select",
+          "id": "heading_alignment_mobile",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center",
+          "label": "Heading alignment (mobile)",
+        },
+        {
+          "type": "select",
+          "id": "heading_align_item_position_mobile",
+          "options": [
+            { "value": "flex-start", "label": "Top" },
+            { "value": "center", "label": "Center" },
+            { "value": "flex-end", "label": "Bottom" }
+          ],
+          "default": "flex-start",
+          "label": "Heading vertical alignment (mobile)"
         }
       ]
     },
@@ -298,6 +548,38 @@
           "id": "text",
           "default": "Give customers details about the banner image(s) or content on the template.",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "header",
+          "content": "Text Positioning"
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_text_positioning",
+          "default": false,
+          "label": "Enable custom text positioning"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center",
+          "label": "Text alignment (desktop)"
+        },
+        {
+          "type": "select",
+          "id": "text_alignment_mobile",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "center", "label": "Center" },
+            { "value": "right", "label": "Right" }
+          ],
+          "default": "center",
+          "label": "Text alignment (mobile)"
         }
       ]
     },
@@ -341,6 +623,142 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+        },
+        {
+          "type": "header",
+          "content": "Custom Button Styles"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_custom_button_styles",
+          "default": false,
+          "label": "Enable custom button styles"
+        },
+        {
+          "type": "header",
+          "content": "Button 1 styles"
+        },
+        {
+          "type": "color",
+          "id": "button_color",
+          "label": "Button background color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color",
+          "label": "Button text color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_outline_color",
+          "label": "Button outline color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "button_border_width",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "unit": "px",
+          "label": "Button border width",
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Button 2 styles"
+        },
+        {
+          "type": "color",
+          "id": "button_color_2",
+          "label": "Button background color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "button_text_color_2",
+          "label": "Button text color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "button_outline_color_2",
+          "label": "Button outline color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "button_border_width_2",
+          "min": 0,
+          "max": 10,
+          "step": 1,
+          "unit": "px",
+          "label": "Button border width",
+          "default": 0
+        },
+        {
+          "type": "header",
+          "content": "Custom Button Positioning"
+        },
+        {
+          "type": "checkbox",
+          "id": "custom_button_positioning",
+          "default": false,
+          "label": "Enable custom button positioning"
+        },
+        {
+          "type": "select",
+          "id": "button_alignment",
+          "options": [
+            { "value": "left",
+              "label": "Left"
+            },
+            { "value": "center",
+              "label": "Center"
+            },
+            { "value": "right",
+              "label": "Right"
+            },
+            { "value": "space-between",
+              "label": "Space between"
+            },
+            { "value": "space-around",
+              "label": "Space around"
+            },
+            { "value": "space-evenly",
+              "label": "Space evenly"
+            }
+          ],
+          "default": "center",
+          "label": "Button alignment"
+        },
+        {
+          "type": "select",
+          "id": "button_alignment_mobile",
+          "options": [
+            { "value": "left",
+              "label": "Left"
+            },
+            { "value": "center",
+              "label": "Center"
+            },
+            { "value": "right",
+              "label": "Right"
+            },
+            { "value": "space-between",
+              "label": "Space between"
+            },
+            { "value": "space-around",
+              "label": "Space around"
+            },
+            { "value": "space-evenly",
+              "label": "Space evenly"
+            }
+          ],
+          "default": "center",
+          "label": "Button alignment (mobile)"
         }
       ]
     }

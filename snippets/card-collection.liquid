@@ -34,7 +34,97 @@
     assign card_color_scheme = settings.collection_card_color_scheme
     assign card_style = settings.collection_card_style
   endif
+
+  assign block_settings = block_settings
+  if block_settings.custom_text != blank
+    assign custom_title = block_settings.custom_text
+  endif
+
+  if section_settings.enable_custom_text_positioning
+    assign text_vertical_alignment = section_settings.text_vertical_alignment
+    assign text_horizontal_alignment = section_settings.text_horizontal_alignment
+    if section_settings.enable_custom_text_vertical_alignment
+      assign text_vertical_alignment_flex = section_settings.custom_text_vertical_alignment_offset
+    endif
+  endif
+  
+  assign vertical_key = 'm'
+  assign horizontal_key = 'c'
+
+  case text_vertical_alignment
+    when 'top'
+      assign vertical_key = 't'
+    when 'bottom'
+      assign vertical_key = 'b'
+    else
+      assign vertical_key = 'm'
+  endcase
+
+  case text_horizontal_alignment
+    when 'left'
+      assign horizontal_key = 'l'
+    when 'right'
+      assign horizontal_key = 'r'
+    else
+      assign horizontal_key = 'c'
+  endcase
+
+  assign css_value = 'text_' | append: vertical_key | append: '-' | append: horizontal_key
 -%}
+
+{% style %}
+  #customTextPositioning.card__content.text_t-l,
+  #customTextPositioning.card__content.text_t-c,
+  #customTextPositioning.card__content.text_t-r {
+    {% if section_settings.enable_custom_text_vertical_alignment %}
+      top: {{ text_vertical_alignment_flex }}%; /* flexible */
+      bottom: unset;
+    {% else %}
+      top: 0;
+    {% endif %}
+  }
+
+  #customTextPositioning.card__content.text_m-l,
+  #customTextPositioning.card__content.text_m-c,
+  #customTextPositioning.card__content.text_m-r {
+    {% if section_settings.enable_custom_text_vertical_alignment %}
+      top: {{ text_vertical_alignment_flex }}%; /* flexible */
+    {% else %}
+      top: 50%; /* default */
+      transform: translateY(-50%);
+    {% endif %}
+    bottom: unset;
+  }
+
+  #customTextPositioning.card__content.text_b-l,
+  #customTextPositioning.card__content.text_b-c,
+  #customTextPositioning.card__content.text_b-r {
+    {% if section_settings.enable_custom_text_vertical_alignment %}
+      top: {{ text_vertical_alignment_flex }}%; /* flexible */
+      bottom: unset;
+    {% else %}
+      bottom: 0;
+    {% endif %}
+  }
+
+  #customTextPositioning.card__content.text_t-l,
+  #customTextPositioning.card__content.text_m-l,
+  #customTextPositioning.card__content.text_b-l {
+    text-align: left;
+  }
+
+  #customTextPositioning.card__content.text_t-c,
+  #customTextPositioning.card__content.text_m-c,
+  #customTextPositioning.card__content.text_b-c {
+    text-align: center;
+  }
+
+  #customTextPositioning.card__content.text_t-r,
+  #customTextPositioning.card__content.text_m-r,
+  #customTextPositioning.card__content.text_b-r {
+    text-align: right;
+  }
+{% endstyle %}
 
 <div class="card-wrapper animate-arrow {% if wrapper_class and wrapper_class != 'none' %}{{ wrapper_class }}{% else %}collection-card-wrapper{% endif %}">
   <div class="card
@@ -71,11 +161,20 @@
       <div class="card__content">
         <div class="card__information">
           <h3 class="card__heading">
-            <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link">
-              {%- if card_collection.title != blank -%}
-                {{- card_collection.title | escape -}}
+            {%- liquid
+              assign product_card_url = card_product.url
+
+              if collection != blank
+                assign product_card_url = card_product.url | within: collection
+              endif
+            -%}
+            <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link test_link_1">
+              {% if custom_title != blank and block_settings.replace_title %}
+                {{- custom_title | escape -}}
+              {%- elsif card_collection.title != blank -%}
+                {{- card_collection.title | escape -}} 
               {%- else -%}
-                {{ 'onboarding.collection_title' | t }}
+                {{ 'onboarding.collection_title' | t }} 
               {%- endif -%}
               {%- if card_collection.description == blank -%}<span class="icon-wrap">{% render 'icon-arrow' %}</span>{% endif %}
             </a>
@@ -89,14 +188,41 @@
       </div>
     </div>
     {% if card_style == 'card' or featured_image %} 
-      <div class="card__content">
+      <div {% if section_settings.enable_custom_text_positioning %} id="customTextPositioning"{% endif %} class="card__content {{ css_value }}">
         <div class="card__information">
           <h3 class="card__heading">
-            <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link">
-              {%- if card_collection.title != blank -%}
+            {%- liquid
+              assign product_card_url = card_product.url
+
+              if collection != blank
+                assign product_card_url = card_product.url | within: collection
+              endif
+            -%}
+            <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ product_card_url }}"{% endif %} class="full-unstyled-link test_link_2"
+              {% if custom_title != blank and block_settings.replace_title %}
+                style="
+                color: {{ block_settings.custom_text_color }} !important;
+                font-size: {{ block_settings.custom_text_font_size }}px
+                "
+              {%  endif %}
+              {% if section.settings.enable_custom_typography %}
+                style="
+                {%- if section.settings.title_font_face == 'heading' -%}
+                  font-family: 'Canopee', sans-serif;
+                {%- elsif section.settings.title_font_face == 'body' -%}
+                  font-family: 'Caslon Ionic', serif;
+                {%- endif -%}
+                color: {{ section.settings.text_color }} !important;
+                font-size: {{ section.settings.heading_px }}px
+                "
+              {% endif %}
+            >
+              {% if custom_title != blank and block_settings.replace_title %}
+                {{- custom_title | escape -}}
+              {%- elsif card_collection.title != blank -%}
                 {{- card_collection.title | escape -}}
               {%- else -%}
-                {{ 'onboarding.collection_title' | t }}
+                {{ 'onboarding.collection_title' | t }} 
               {%- endif -%}
               {%- if featured_image or card_collection.description == blank -%}<span class="icon-wrap">{% render 'icon-arrow' %}</span>{% endif %}
             </a>
