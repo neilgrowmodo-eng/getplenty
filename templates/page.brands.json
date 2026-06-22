@@ -12,12 +12,16 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "settings": {
-        "menu": ""
+        "menu": "",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "main": {
       "type": "main-brands",
       "settings": {
+        "color_scheme": "",
         "padding_top": 52,
         "padding_bottom": 72
       }
@@ -34,7 +38,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
           }
         }
       },
@@ -42,6 +46,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": false,

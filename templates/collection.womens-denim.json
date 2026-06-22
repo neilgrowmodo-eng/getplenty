@@ -12,7 +12,10 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "settings": {
-        "menu": ""
+        "menu": "",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "blurbs-1": {
@@ -22,35 +25,35 @@
           "type": "blurb",
           "settings": {
             "title": "Adidas",
-            "text": "<p>‘Through sport, we have the power to change lives,’ guides the way Adidas runs their company, how they work with their partners, how they create their products, and how they engage with their consumers. They will always strive to expand the boundaries of human possibility, to include and unite people in sport, and to create a more sustainable world. <br\/><\/p>"
+            "text": "<p>‘Through sport, we have the power to change lives,’ guides the way Adidas runs their company, how they work with their partners, how they create their products, and how they engage with their consumers. They will always strive to expand the boundaries of human possibility, to include and unite people in sport, and to create a more sustainable world. <br/></p>"
           }
         },
         "d930ddf5-60e4-445f-90b7-eef0be10cf1e": {
           "type": "blurb",
           "settings": {
             "title": "AFENDS",
-            "text": "<p>Born in 2006 in the coastal town of Byron Bay, Australia, Afends was founded by Declan Wise & Jonathan Salfield off the back of a screen printing business they originally created to print band merchandise for punk & hardcore bands.<\/p><p>With the added culture of surf and skate injected into the punk and hardcore movement of the 2000s, the Afends ethos and style evolved into the look and feel that they stand by today. Driven by environmental and social impacts, they strive to do what's best for people and the planet; to design and deliver durable, eco-friendly and timeless apparel that will last a lifetime.<\/p>"
+            "text": "<p>Born in 2006 in the coastal town of Byron Bay, Australia, Afends was founded by Declan Wise & Jonathan Salfield off the back of a screen printing business they originally created to print band merchandise for punk & hardcore bands.</p><p>With the added culture of surf and skate injected into the punk and hardcore movement of the 2000s, the Afends ethos and style evolved into the look and feel that they stand by today. Driven by environmental and social impacts, they strive to do what's best for people and the planet; to design and deliver durable, eco-friendly and timeless apparel that will last a lifetime.</p>"
           }
         },
         "c3b45f61-8c49-4277-b995-36b9d04f77ec": {
           "type": "blurb",
           "settings": {
             "title": "AG",
-            "text": "<p>AG Jeans is a premium denim and knitwear house leading the sustainable manufacturing movement with innovative technology and eco-minded processes.<\/p><p>Today, AG Jeans continues on its mission to design product that is authentically rooted in denim, craftsmanship, fit, and fabric innovation. Their in-house model helps to pivot alongside the newest mechanisms on the market, keeping our process eco-inspired, transparent in its practice, and radical in its production.<\/p>"
+            "text": "<p>AG Jeans is a premium denim and knitwear house leading the sustainable manufacturing movement with innovative technology and eco-minded processes.</p><p>Today, AG Jeans continues on its mission to design product that is authentically rooted in denim, craftsmanship, fit, and fabric innovation. Their in-house model helps to pivot alongside the newest mechanisms on the market, keeping our process eco-inspired, transparent in its practice, and radical in its production.</p>"
           }
         },
         "e364210c-6903-40f5-abd4-6356021e9eda": {
           "type": "blurb",
           "settings": {
             "title": "AGOLDE",
-            "text": "<p>AGOLDE is a fashion forward denim label, experimental in both approach and design.<\/p><p>Continually seeking inspiration from the classics, the AGOLDE design collective sets out to recreate them with a modern reinterpretation in mind. An AGOLDE silhouette offers the authenticity and rarity found in discovering the perfect vintage pair. As they continue to aspire and push boundaries, they draw influences globally from many directions of today’s emerging artists, creatives, and individuals.<\/p><p><\/p><p> <\/p><p><\/p>"
+            "text": "<p>AGOLDE is a fashion forward denim label, experimental in both approach and design.</p><p>Continually seeking inspiration from the classics, the AGOLDE design collective sets out to recreate them with a modern reinterpretation in mind. An AGOLDE silhouette offers the authenticity and rarity found in discovering the perfect vintage pair. As they continue to aspire and push boundaries, they draw influences globally from many directions of today’s emerging artists, creatives, and individuals.</p><p></p><p> </p><p></p>"
           }
         },
         "3cdd3b5e-05ef-485d-a97c-283c3c82e717": {
           "type": "blurb",
           "settings": {
             "title": "Aigle",
-            "text": "<p>Welcome to Ingrandes, France. Here, 220 master bootmakers work by hand to execute and oversee every step of the process, shaping the rubber and bringing each boot to life. Since 1853, their craft has only improved — and the legend continues as we look to the future.<\/p>"
+            "text": "<p>Welcome to Ingrandes, France. Here, 220 master bootmakers work by hand to execute and oversee every step of the process, shaping the rubber and bringing each boot to life. Since 1853, their craft has only improved — and the legend continues as we look to the future.</p>"
           }
         },
         "76f36657-0498-4992-8591-283ec70e3817": {
@@ -64,301 +67,301 @@
           "type": "blurb",
           "settings": {
             "title": "AJ MORGAN",
-            "text": "<p>Founded in 1981 on the principle that looking chic shouldn't break the bank, A.J. Morgan has become a leader in fashion forward eyewear. For vintage reading glasses, sunglasses, and prescription-ready eye glass frames for men and women, buy designer glasses online through AJ Morgan Eyewear.<\/p>"
+            "text": "<p>Founded in 1981 on the principle that looking chic shouldn't break the bank, A.J. Morgan has become a leader in fashion forward eyewear. For vintage reading glasses, sunglasses, and prescription-ready eye glass frames for men and women, buy designer glasses online through AJ Morgan Eyewear.</p>"
           }
         },
         "ebee533b-3791-4342-b6d4-1132459ccb6a": {
           "type": "blurb",
           "settings": {
             "title": "Baggu",
-            "text": "<p>As a company, BAGGU is guided by a simple but unwavering principle: <em>Do the right thing<\/em>. This begins with recognizing that every product made has a social and environmental impact. They are committed to doing everything in their power to minimize and control these impacts on the environment while bolstering the well-being of both their own employees and those of their partners. Their code of conduct highlights the expectations they have of themselves and of their suppliers, to practice business responsibly and sustainably.<\/p>"
+            "text": "<p>As a company, BAGGU is guided by a simple but unwavering principle: <em>Do the right thing</em>. This begins with recognizing that every product made has a social and environmental impact. They are committed to doing everything in their power to minimize and control these impacts on the environment while bolstering the well-being of both their own employees and those of their partners. Their code of conduct highlights the expectations they have of themselves and of their suppliers, to practice business responsibly and sustainably.</p>"
           }
         },
         "1d50c8ae-6ef8-4272-b618-e6f95124ce8b": {
           "type": "blurb",
           "settings": {
             "title": "Banquet",
-            "text": "<p>Banquet Atelier & Workshop is a Vancouver-based studio run by Sarah Edmonds and Tammy Lawrence who are engaged in creating quality goods. All of their products are conceived, designed, printed and produced in Canada with a fine attention to affordability, environmental sustainability and share a distinct beauty and uniqueness. They offer screen printed signed and dated prints, stationery, textiles as well as clothing and jewelry. <\/p>"
+            "text": "<p>Banquet Atelier & Workshop is a Vancouver-based studio run by Sarah Edmonds and Tammy Lawrence who are engaged in creating quality goods. All of their products are conceived, designed, printed and produced in Canada with a fine attention to affordability, environmental sustainability and share a distinct beauty and uniqueness. They offer screen printed signed and dated prints, stationery, textiles as well as clothing and jewelry. </p>"
           }
         },
         "ff30a01c-d8d1-402a-a107-1f16165f9502": {
           "type": "blurb",
           "settings": {
             "title": "Baxter",
-            "text": "<p>Lorem ipsumn dolor sit amet..<\/p>"
+            "text": "<p>Lorem ipsumn dolor sit amet..</p>"
           }
         },
         "e5ace9bc-fbe4-4761-840c-c76a2107e740": {
           "type": "blurb",
           "settings": {
             "title": "Bellroy",
-            "text": "<p>Bellroy is an Australian-based brand from Bells Beach and Fitzroy, which began around a kitchen table in 2010.<\/p><p>They believe business can be a force for good in the world, and are working hard to create a more vibrant future. They’re proud to be part of the B Corp movement, in which certified companies use the power of business to help solve social and environmental problems.<\/p>"
+            "text": "<p>Bellroy is an Australian-based brand from Bells Beach and Fitzroy, which began around a kitchen table in 2010.</p><p>They believe business can be a force for good in the world, and are working hard to create a more vibrant future. They’re proud to be part of the B Corp movement, in which certified companies use the power of business to help solve social and environmental problems.</p>"
           }
         },
         "c9f6cf65-58c6-45e2-a77c-eda95397a6db": {
           "type": "blurb",
           "settings": {
             "title": "BETSEY JOHNSON",
-            "text": "<p>Known for her celebration of the exuberant, the embellished and the over the top, Betsey has been rocking the fashion industry with her unique and original designs since the 1960’s. Her commitment to remain true to her one-of-a-kind vision has afforded Betsey continued success in an industry known for its fickleness. Her ability to change with the times while keeping her designs pure has not gone unnoticed.<\/p>"
+            "text": "<p>Known for her celebration of the exuberant, the embellished and the over the top, Betsey has been rocking the fashion industry with her unique and original designs since the 1960’s. Her commitment to remain true to her one-of-a-kind vision has afforded Betsey continued success in an industry known for its fickleness. Her ability to change with the times while keeping her designs pure has not gone unnoticed.</p>"
           }
         },
         "057f55d8-e9f5-4e54-bf7b-71bee5929dc8": {
           "type": "blurb",
           "settings": {
             "title": "Birkenstock",
-            "text": "<p>Since 1774, Birkenstock has been thinking of ways they – the inventor of the footbed – can make the lives of their customers better and richer – with a good shoe for all conceivable situations in life. BIRKENSTOCK, with its premium quality products, creates a reasonable alternative for those who place value on function and quality.<\/p><p><\/p>"
+            "text": "<p>Since 1774, Birkenstock has been thinking of ways they – the inventor of the footbed – can make the lives of their customers better and richer – with a good shoe for all conceivable situations in life. BIRKENSTOCK, with its premium quality products, creates a reasonable alternative for those who place value on function and quality.</p><p></p>"
           }
         },
         "6c129350-4d6b-4671-9552-713b60ce5815": {
           "type": "blurb",
           "settings": {
             "title": "Blondo",
-            "text": "<p>Blondo was founded in 1910 by Harold Blondeau in Loretteville, QC Canada. In the Mid 1980s the company introduced it's first collection of leather waterproof boots. Since then they have been a proud Canadian manufacturer of stylish while also durable and functional footwear. <\/p>"
+            "text": "<p>Blondo was founded in 1910 by Harold Blondeau in Loretteville, QC Canada. In the Mid 1980s the company introduced it's first collection of leather waterproof boots. Since then they have been a proud Canadian manufacturer of stylish while also durable and functional footwear. </p>"
           }
         },
         "5ce3ccd8-6407-4a9a-9fd1-df1fab317073": {
           "type": "blurb",
           "settings": {
             "title": "Brixton",
-            "text": "<p>Inspired by the past, built to live in the present.<\/p><p>Brixton’s approach begins with classic silhouettes reinterpreted to meet the needs of modern living.<\/p><p>Their products derive their inspiration from workwear through several generations - from mariners and aviators, to cowboys and laborers, and beyond.<\/p><p>Simply put, Brixton’s apparel and headwear is inspired by the past, built to live in the present.<\/p>"
+            "text": "<p>Inspired by the past, built to live in the present.</p><p>Brixton’s approach begins with classic silhouettes reinterpreted to meet the needs of modern living.</p><p>Their products derive their inspiration from workwear through several generations - from mariners and aviators, to cowboys and laborers, and beyond.</p><p>Simply put, Brixton’s apparel and headwear is inspired by the past, built to live in the present.</p>"
           }
         },
         "c1351d02-6cb2-4b97-8706-de3851b2277e": {
           "type": "blurb",
           "settings": {
             "title": "Camper",
-            "text": "<p>Camper is a contemporary footwear brand from the island of Mallorca, Spain. Founded in 1975, they are a family business with a rich shoemaking heritage that they use to create unique designs.<\/p><p>Every season they strive to reinvent some of their classic concepts while continuing to challenge the status quo with new and original designs. We often find that there is a Camper style for every walk of life.<\/p>"
+            "text": "<p>Camper is a contemporary footwear brand from the island of Mallorca, Spain. Founded in 1975, they are a family business with a rich shoemaking heritage that they use to create unique designs.</p><p>Every season they strive to reinvent some of their classic concepts while continuing to challenge the status quo with new and original designs. We often find that there is a Camper style for every walk of life.</p>"
           }
         },
         "51c89bfd-7d3d-42e4-a0df-6339ee196502": {
           "type": "blurb",
           "settings": {
             "title": "Casio",
-            "text": "<p>Casio's primary objective is to make products that work reliably in any environment, and can always be used with safety. From the initial engineering phase to the release of the final product, Casio takes great pains to ensure there are no compromises on manufacturing quality.<\/p>"
+            "text": "<p>Casio's primary objective is to make products that work reliably in any environment, and can always be used with safety. From the initial engineering phase to the release of the final product, Casio takes great pains to ensure there are no compromises on manufacturing quality.</p>"
           }
         },
         "f98bd40a-7cb4-4104-9d75-4f01af576da4": {
           "type": "blurb",
           "settings": {
             "title": "Champion",
-            "text": "<p>As the inventor of the hoodie, Champion set the standard of excellence for all hoodies. Champion invented the hoodie for the sidelines 80+ years ago and today, it continues to be a staple in sports, style and culture. Champion is an authentic, American, athletic wear brand with a proud heritage designing stylish and comfortable solutions for the sidelines, on campus and in the streets for nearly a century.<\/p>"
+            "text": "<p>As the inventor of the hoodie, Champion set the standard of excellence for all hoodies. Champion invented the hoodie for the sidelines 80+ years ago and today, it continues to be a staple in sports, style and culture. Champion is an authentic, American, athletic wear brand with a proud heritage designing stylish and comfortable solutions for the sidelines, on campus and in the streets for nearly a century.</p>"
           }
         },
         "02059a7a-3f04-4287-a466-57885d7ac10e": {
           "type": "blurb",
           "settings": {
             "title": "Chelsea Crew",
-            "text": "<p>What started out 25 years ago, as a part time college job selling shoes at retail, became a long life passion of designing top fashion shoes. Chelsea Crew's hard work paid off watching their customers smile as they left the stores wearing their newly purchased women's boots. It was this satisfaction that drove them to go to greater lengths with our designs.<br\/><br\/>It was only after we opened our first flagship store in Chelsea, Manhattan that they started being referred to as the “Chelsea Crew”. Instantly the name stuck and it became the brand you know all too well. They draw inspiration from vintage styles to high fashion runway shows. With their collections offering the latest hot trends at very affordable prices.<\/p>"
+            "text": "<p>What started out 25 years ago, as a part time college job selling shoes at retail, became a long life passion of designing top fashion shoes. Chelsea Crew's hard work paid off watching their customers smile as they left the stores wearing their newly purchased women's boots. It was this satisfaction that drove them to go to greater lengths with our designs.<br/><br/>It was only after we opened our first flagship store in Chelsea, Manhattan that they started being referred to as the “Chelsea Crew”. Instantly the name stuck and it became the brand you know all too well. They draw inspiration from vintage styles to high fashion runway shows. With their collections offering the latest hot trends at very affordable prices.</p>"
           }
         },
         "b1119ca5-cdcf-491f-8d5e-306d3f07c18c": {
           "type": "blurb",
           "settings": {
             "title": "Citizens",
-            "text": "<p>Citizens of Humanity is a Los Angeles-based premium denim label that has captivated the world with a devoted commitment to producing the highest quality denim, without compromise. With an elevated style that exudes femininity, naturalness, and a sophisticated ease, this sets the foundation for the brand that continuously executes each design with intention in every detail. Since 2003, they have designed and manufactured in their company-owned facilities as well as with select production partners to ensure that their product is unparalleled in look, fit, and feel.<\/p>"
+            "text": "<p>Citizens of Humanity is a Los Angeles-based premium denim label that has captivated the world with a devoted commitment to producing the highest quality denim, without compromise. With an elevated style that exudes femininity, naturalness, and a sophisticated ease, this sets the foundation for the brand that continuously executes each design with intention in every detail. Since 2003, they have designed and manufactured in their company-owned facilities as well as with select production partners to ensure that their product is unparalleled in look, fit, and feel.</p>"
           }
         },
         "867effda-a9d1-4e09-82b1-5985116c7f5a": {
           "type": "blurb",
           "settings": {
             "title": "Clarks",
-            "text": "<p>Lorem ipsumn dolor sit amet..<\/p>"
+            "text": "<p>Lorem ipsumn dolor sit amet..</p>"
           }
         },
         "1a4121dc-cac7-4224-b7f1-cd5a69290a0b": {
           "type": "blurb",
           "settings": {
             "title": "Coal",
-            "text": "<p>In 2002 a group of friends with a passion for headwear and a shared love of snowboarding and the outdoors— came together to start a company that reflected their lifestyle and shared vision: Headwear is more than an accessory. At the time, hats and beanies were little more than a commodity, another place to put a brand logo. Coal saw an opportunity to provide styles that took fit, function, and fashion seriously while knowing that headwear is an extension of you and your lifestyle. Design, quality, and style have guided them, and over 20 years later, they remain dedicated to making headwear more than an accessory.<\/p>"
+            "text": "<p>In 2002 a group of friends with a passion for headwear and a shared love of snowboarding and the outdoors— came together to start a company that reflected their lifestyle and shared vision: Headwear is more than an accessory. At the time, hats and beanies were little more than a commodity, another place to put a brand logo. Coal saw an opportunity to provide styles that took fit, function, and fashion seriously while knowing that headwear is an extension of you and your lifestyle. Design, quality, and style have guided them, and over 20 years later, they remain dedicated to making headwear more than an accessory.</p>"
           }
         },
         "932688f5-7610-4f19-adf2-b08bc2f5016c": {
           "type": "blurb",
           "settings": {
             "title": "Colab",
-            "text": "<p>CO<span style=\"text-decoration:underline\">L<\/span>AB is focused on bringing a new wave of accessories: functional, organized, cruelty-free, and thoughtfully designed to the smallest detail.  Not only are the materials PETA-Approved Vegan but their collections feature an extensive range of high quality, soft, recycled materials that have been tested for durability and strength.<\/p><p>Building its sustainable and ethical efforts and its mandate to keep producing high quality products, the Montreal Canadian brand keeps growing and staying innovative since its launch in 2007.<\/p>"
+            "text": "<p>CO<span style=\"text-decoration:underline\">L</span>AB is focused on bringing a new wave of accessories: functional, organized, cruelty-free, and thoughtfully designed to the smallest detail.  Not only are the materials PETA-Approved Vegan but their collections feature an extensive range of high quality, soft, recycled materials that have been tested for durability and strength.</p><p>Building its sustainable and ethical efforts and its mandate to keep producing high quality products, the Montreal Canadian brand keeps growing and staying innovative since its launch in 2007.</p>"
           }
         },
         "8160f366-f496-434b-88f1-4694270aa5b8": {
           "type": "blurb",
           "settings": {
             "title": "Deus Ex Machina",
-            "text": "<p>Deus ex Machina (god from the machine) roared into Australia’s cultural consciousness in 2006, with some neatly customised motorcycles and a quaint notion that doing something is more fun than just owning something.<\/p><p>Deus ex Machina is a step bigger than a brand: it’s a culture. Our openness and enthusiasm strike a chord with people, wherever they are…<\/p>"
+            "text": "<p>Deus ex Machina (god from the machine) roared into Australia’s cultural consciousness in 2006, with some neatly customised motorcycles and a quaint notion that doing something is more fun than just owning something.</p><p>Deus ex Machina is a step bigger than a brand: it’s a culture. Our openness and enthusiasm strike a chord with people, wherever they are…</p>"
           }
         },
         "1274a7aa-aa98-46c5-8552-2eb3492856ec": {
           "type": "blurb",
           "settings": {
             "title": "Dickies",
-            "text": "<p>A century ago, Dickies was just a small Texas company making bib overalls. Built with quality, grit, and quiet pride, every pair that came out of their shop embodied the spirit of the American worker. Eventually, the rest of the world caught on and wanted what Dickies was doing too.<\/p><p><\/p>"
+            "text": "<p>A century ago, Dickies was just a small Texas company making bib overalls. Built with quality, grit, and quiet pride, every pair that came out of their shop embodied the spirit of the American worker. Eventually, the rest of the world caught on and wanted what Dickies was doing too.</p><p></p>"
           }
         },
         "ebb92a79-c7c6-4239-8d80-ff7da9f78efd": {
           "type": "blurb",
           "settings": {
             "title": "Dolce Vita",
-            "text": "<p>Founded in 2001 on New York City's Lower East Side, the brans name is an homage to their founders' favorite bar from their days studying in Italy. <\/p><p>Since those days, they've stayed true to their roots in New York's vibrant creative epicenter while broadening our horizons and always, always allowing our wildest dreams to dictate the next step. <\/p><p>Today every Dolce Vita collextion is designed for the fearless - the dreamers, the tastemakers, and the confident individuals who inspire every day. <\/p>"
+            "text": "<p>Founded in 2001 on New York City's Lower East Side, the brans name is an homage to their founders' favorite bar from their days studying in Italy. </p><p>Since those days, they've stayed true to their roots in New York's vibrant creative epicenter while broadening our horizons and always, always allowing our wildest dreams to dictate the next step. </p><p>Today every Dolce Vita collextion is designed for the fearless - the dreamers, the tastemakers, and the confident individuals who inspire every day. </p>"
           }
         },
         "36cf84fa-c26b-4878-bfb2-61f00c9f5e99": {
           "type": "blurb",
           "settings": {
             "title": "DR DENIM",
-            "text": "<p>Dr.Denim is a jeans maker run by two brothers from Sweden who made it into a personal quest to be the global cure for half-baked denim.  <\/p><p>Ever since Dr.Denim's launch in 2004 the Graah family have had full ownership of the company, they helm the brand's creative expression, the product development and they set the strategic direction with full force into a new digital decade of delivering great jeans experiences.<\/p>"
+            "text": "<p>Dr.Denim is a jeans maker run by two brothers from Sweden who made it into a personal quest to be the global cure for half-baked denim.  </p><p>Ever since Dr.Denim's launch in 2004 the Graah family have had full ownership of the company, they helm the brand's creative expression, the product development and they set the strategic direction with full force into a new digital decade of delivering great jeans experiences.</p>"
           }
         },
         "bd4dfeba-a018-4945-88e4-a4bd94404ece": {
           "type": "blurb",
           "settings": {
             "title": "Duer",
-            "text": "<p>After decades in the jeanswear business Duer's founder traded in his car for a bike to adopt a healthier active lifestyle. Unable to find a pair of pants with stretch to handle a commute and polish for a day of meetings, the need for performance denim emerged.<\/p><p>He crafted a category of stretch performance denim and lifestyle apparel made from plants and recycled materials. Designed for “doers” to move comfortably from bikelane to boardroom to an evening out, all in a single pair of pants.<\/p>"
+            "text": "<p>After decades in the jeanswear business Duer's founder traded in his car for a bike to adopt a healthier active lifestyle. Unable to find a pair of pants with stretch to handle a commute and polish for a day of meetings, the need for performance denim emerged.</p><p>He crafted a category of stretch performance denim and lifestyle apparel made from plants and recycled materials. Designed for “doers” to move comfortably from bikelane to boardroom to an evening out, all in a single pair of pants.</p>"
           }
         },
         "a0e702ec-14dc-4c86-b244-10ef612493d6": {
           "type": "blurb",
           "settings": {
             "title": "Edwin",
-            "text": "<p>EDWIN is a progressive denim brand that blends their Japanese background, craftsmanship and expertise with a European contemporary flavor, vision and attitude.<\/p><p>Counter-cultural music, art and international style-tribes are touchstones to their creative vision; celebrating all things denim and non-denim with inspiration taken from everyday life, from urban street, surf, skate culture, as well as traditional and contemporary denim.<\/p><p>Guest artists, DJ and collaborations that orbit the EDWIN brand are deep and varied; whether celebrating urban motorcycle culture, tattoo art, DIY-punk graphics or the electronic music and rave scenes of London, Paris and Berlin; the mix is modern, eclectic and interesting; an effortless blend of their rich background, combined with a forward-thinking approach to what they do.  A celebration of craft and counter \/ subculture; all brought together under a singular creative vision.<\/p>"
+            "text": "<p>EDWIN is a progressive denim brand that blends their Japanese background, craftsmanship and expertise with a European contemporary flavor, vision and attitude.</p><p>Counter-cultural music, art and international style-tribes are touchstones to their creative vision; celebrating all things denim and non-denim with inspiration taken from everyday life, from urban street, surf, skate culture, as well as traditional and contemporary denim.</p><p>Guest artists, DJ and collaborations that orbit the EDWIN brand are deep and varied; whether celebrating urban motorcycle culture, tattoo art, DIY-punk graphics or the electronic music and rave scenes of London, Paris and Berlin; the mix is modern, eclectic and interesting; an effortless blend of their rich background, combined with a forward-thinking approach to what they do.  A celebration of craft and counter / subculture; all brought together under a singular creative vision.</p>"
           }
         },
         "3d76d629-a7ce-4a66-b40d-a41838bebf99": {
           "type": "blurb",
           "settings": {
             "title": "ELA",
-            "text": "<p>Humble luxury is the ELA brand philosophy. They believe that great design and quality should be accessible and sustainable.<\/p><p>All ELA products are Vegan and cruelty free. They also use a signature, purple 100% recycled plastic bottle lining on all bags, and wrapping currently used is 100% recyclable. <\/p>"
+            "text": "<p>Humble luxury is the ELA brand philosophy. They believe that great design and quality should be accessible and sustainable.</p><p>All ELA products are Vegan and cruelty free. They also use a signature, purple 100% recycled plastic bottle lining on all bags, and wrapping currently used is 100% recyclable. </p>"
           }
         },
         "5e0b43f4-e5d8-45c7-92d9-0800d0b69fa6": {
           "type": "blurb",
           "settings": {
             "title": "ELLESSE",
-            "text": "<p>Ellesse was formed in 1959 by Leonardo Servadio, an Italian tailor and charismatic personality who founded the brand in Perugia, Italy, who was known for breaking the boundaries between fashion and sport.<\/p><p>Ellesse was also famous for its half-ball logo design that combined the tips of a pair of skis with a cross section of a tennis ball and symbolized the brand's heritage in both skiing and tennis.<\/p><p>The Ellesse brand is often cited as one of the first ever brands to feature their company logo on the outside of the clothes, a move copied by brands worldwide ever since. With their roots in the professional sporting world, Ellesse continues to reinvent the concept of fashion sportswear with new products and designs.<\/p>"
+            "text": "<p>Ellesse was formed in 1959 by Leonardo Servadio, an Italian tailor and charismatic personality who founded the brand in Perugia, Italy, who was known for breaking the boundaries between fashion and sport.</p><p>Ellesse was also famous for its half-ball logo design that combined the tips of a pair of skis with a cross section of a tennis ball and symbolized the brand's heritage in both skiing and tennis.</p><p>The Ellesse brand is often cited as one of the first ever brands to feature their company logo on the outside of the clothes, a move copied by brands worldwide ever since. With their roots in the professional sporting world, Ellesse continues to reinvent the concept of fashion sportswear with new products and designs.</p>"
           }
         },
         "3633ca58-0c4f-4df3-be0f-abc657ec50ed": {
           "type": "blurb",
           "settings": {
             "title": "EMU",
-            "text": "<p>For the last 25 years EMU Australia has been inspired by innovating with sustainable and natural materials, to create quality footwear that lasts.<\/p><p>EMU started out with a simple idea, that nature is the best inventor and we're just following her lead.<br\/>Australian Merino wool, leather and Australian sheepskin are world renowned for their super-natural qualities<br\/>including next-to-skin softness, as well as being renewable, biodegradable and 100% natural.<\/p>"
+            "text": "<p>For the last 25 years EMU Australia has been inspired by innovating with sustainable and natural materials, to create quality footwear that lasts.</p><p>EMU started out with a simple idea, that nature is the best inventor and we're just following her lead.<br/>Australian Merino wool, leather and Australian sheepskin are world renowned for their super-natural qualities<br/>including next-to-skin softness, as well as being renewable, biodegradable and 100% natural.</p>"
           }
         },
         "797e24e3-c66f-4028-b73e-e16daa44ff1a": {
           "type": "blurb",
           "settings": {
             "title": "Erin Templeton",
-            "text": "<p>Erin Templeton was born and raised in the mountains outside of Vancouver, Canada. she began making leather accessories in 1999, while studying shoemaking at Cordwainer's College in London, England. she continued to study leatherwork in Australia, and once home in Vancouver, she began concentrating on handbags.<\/p><p>By 2007, her studio graduated from renting the boiler room of a local tailor shop to the actual tailor shop, where she opened her studio\/storefront to the public in Vancouver's historic Chinatown.<\/p>"
+            "text": "<p>Erin Templeton was born and raised in the mountains outside of Vancouver, Canada. she began making leather accessories in 1999, while studying shoemaking at Cordwainer's College in London, England. she continued to study leatherwork in Australia, and once home in Vancouver, she began concentrating on handbags.</p><p>By 2007, her studio graduated from renting the boiler room of a local tailor shop to the actual tailor shop, where she opened her studio/storefront to the public in Vancouver's historic Chinatown.</p>"
           }
         },
         "767d0104-77b8-4eb9-b6a5-e2ecf45393d4": {
           "type": "blurb",
           "settings": {
             "title": "Faithfull",
-            "text": "<p>Founded in Indonesia in 2014, Faithfull the Brand has care, quality and authenticity weaved into its fabric. From day one, co-directors, Sarah-Jane Abrahams and Helle Them-Enger have collaborated with Bali’s best artisans to create their hand-made garments, and have continued to live and work closely with their local community ever since.<\/p><p>At the heart of the brand are thoughtfully produced designs that evoke a sense of summer and a spirit of travel. Faithfull is known and loved for its vintage inspired prints, flattering shapes, and unique pieces, made for sun-seekers and romantic dreamers. Women around the world look to Faithfull for their clean and simple off-duty wear and inspiring campaign imagery that transports them from their everyday to a holiday frame of mind. This essence is apparent in every collection.<\/p>"
+            "text": "<p>Founded in Indonesia in 2014, Faithfull the Brand has care, quality and authenticity weaved into its fabric. From day one, co-directors, Sarah-Jane Abrahams and Helle Them-Enger have collaborated with Bali’s best artisans to create their hand-made garments, and have continued to live and work closely with their local community ever since.</p><p>At the heart of the brand are thoughtfully produced designs that evoke a sense of summer and a spirit of travel. Faithfull is known and loved for its vintage inspired prints, flattering shapes, and unique pieces, made for sun-seekers and romantic dreamers. Women around the world look to Faithfull for their clean and simple off-duty wear and inspiring campaign imagery that transports them from their everyday to a holiday frame of mind. This essence is apparent in every collection.</p>"
           }
         },
         "439a75cc-9752-4a3a-8030-1083c020d07d": {
           "type": "blurb",
           "settings": {
             "title": "Fred Perry",
-            "text": "<p>In 1952, Triple Wimbledon champion Fred Perry founded the Fred Perry brand, designing his first pique shirt the same year. That shirt, the shirt, would transcend sportswear to streetwear on the backs of generation after generation of British youth subcultures. The shirt is the start and end of everything we do, because it’s more than a shirt – it’s a rite of passage, it’s the uniform of the non-uniform. A true icon.<\/p><p>Today, Fred Perry is a global community of 370 employees, all inspired by the Laurel Wreath and what it represents.<\/p>"
+            "text": "<p>In 1952, Triple Wimbledon champion Fred Perry founded the Fred Perry brand, designing his first pique shirt the same year. That shirt, the shirt, would transcend sportswear to streetwear on the backs of generation after generation of British youth subcultures. The shirt is the start and end of everything we do, because it’s more than a shirt – it’s a rite of passage, it’s the uniform of the non-uniform. A true icon.</p><p>Today, Fred Perry is a global community of 370 employees, all inspired by the Laurel Wreath and what it represents.</p>"
           }
         },
         "bde61a85-8aef-4b89-aa1f-cd1d0b86d86b": {
           "type": "blurb",
           "settings": {
             "title": "Free People",
-            "text": "<p>Free People, a specialty women’s clothing brand, is the destination for bohemian fashion that features the latest trends and vintage collections for women who live free through fashion, art, music, and travel. The brand offers a wide range of products from apparel to accessories – all reflecting a high level of quality, invoking attributes of femininity, spirit, and creativity in its design, while creating the perfect festival clothing.  More than a clothing brand, Free People aims to create a lifestyle that’s inclusive and sincere. <\/p>"
+            "text": "<p>Free People, a specialty women’s clothing brand, is the destination for bohemian fashion that features the latest trends and vintage collections for women who live free through fashion, art, music, and travel. The brand offers a wide range of products from apparel to accessories – all reflecting a high level of quality, invoking attributes of femininity, spirit, and creativity in its design, while creating the perfect festival clothing.  More than a clothing brand, Free People aims to create a lifestyle that’s inclusive and sincere. </p>"
           }
         },
         "94fe3f0c-bba5-4273-a358-d0ee620606b3": {
           "type": "blurb",
           "settings": {
             "title": "Girlfriend",
-            "text": "<p>Girlfriend Collective designs ethically-made activewear from fully recycled materials such as old plastic water bottles! Using Eco-friendly dyes and responsible water recycling  Girlfriend prioritizes sustainibility and transparency for their brand. <\/p>"
+            "text": "<p>Girlfriend Collective designs ethically-made activewear from fully recycled materials such as old plastic water bottles! Using Eco-friendly dyes and responsible water recycling  Girlfriend prioritizes sustainibility and transparency for their brand. </p>"
           }
         },
         "96410dc7-1494-460d-9a13-4c0c474654bb": {
           "type": "blurb",
           "settings": {
             "title": "Gramicci",
-            "text": "<p>Since 1982 Gramicci has been making functional clothing for life in the great outdoors. Built for movement, and loved by countless cultural movements—what started out in a garage in Ventura, California has traveled to the streets of Tokyo and beyond.<\/p><p><br\/><\/p>"
+            "text": "<p>Since 1982 Gramicci has been making functional clothing for life in the great outdoors. Built for movement, and loved by countless cultural movements—what started out in a garage in Ventura, California has traveled to the streets of Tokyo and beyond.</p><p><br/></p>"
           }
         },
         "5761de3a-1af6-4ed4-8ed2-f4fc4e2050f9": {
           "type": "blurb",
           "settings": {
             "title": "Herschel",
-            "text": "<p>In the beginning, Herschel Supply Company adopted its name from a small town in Saskatchewan, where three generations of our family grew up. As kids, Herschel was a place that had no boundaries and represented endless creative freedom. With this mindset, we based our brand in Vancouver, British Columbia, where we’re committed to our footprint and care about the community, oceans and mountains that surround our beautiful city. We design classic products that combine style, quality and purpose while keeping sustainability at the forefront.<\/p>"
+            "text": "<p>In the beginning, Herschel Supply Company adopted its name from a small town in Saskatchewan, where three generations of our family grew up. As kids, Herschel was a place that had no boundaries and represented endless creative freedom. With this mindset, we based our brand in Vancouver, British Columbia, where we’re committed to our footprint and care about the community, oceans and mountains that surround our beautiful city. We design classic products that combine style, quality and purpose while keeping sustainability at the forefront.</p>"
           }
         },
         "1c9d2a66-b20e-48b0-b988-2b2bd94ca6d8": {
           "type": "blurb",
           "settings": {
             "title": "Hibi",
-            "text": "<p>Natural “aroma” for 10 minutes every day.<\/p><p>Light the match by striking it, and entrust yourself to the natural fragrance rising in the air. <em>Hibi<\/em> is an incense stick you can light easily without a lighting device. The incense of Awaji Island and matches of Harima. Born from the encounter of two of Hyogo prefecture’s traditional crafts.<\/p>"
+            "text": "<p>Natural “aroma” for 10 minutes every day.</p><p>Light the match by striking it, and entrust yourself to the natural fragrance rising in the air. <em>Hibi</em> is an incense stick you can light easily without a lighting device. The incense of Awaji Island and matches of Harima. Born from the encounter of two of Hyogo prefecture’s traditional crafts.</p>"
           }
         },
         "c19b6059-6082-422c-8a74-558426a5c8c4": {
           "type": "blurb",
           "settings": {
             "title": "Jack Jones",
-            "text": "<p>Jack & Jones aim to offer the foundation to every outfit. A collection of strong, contemporary basics that prove simple doesn't mean boring.  A collection that was made for literally everyone. <\/p>"
+            "text": "<p>Jack & Jones aim to offer the foundation to every outfit. A collection of strong, contemporary basics that prove simple doesn't mean boring.  A collection that was made for literally everyone. </p>"
           }
         },
         "c4941c9a-4eb3-479d-80c5-b7f867c556b6": {
           "type": "blurb",
           "settings": {
             "title": "JACK OF ALL TRADES",
-            "text": "<p>Jack of All Trades® came onto the scene in 2010, giving you the hottest pop-culture, rock n' roll, and superhero tops made up of the highest quality fabrics and art application techniques. They produce just enough tops to ensure you stand out from the crowd, not blend in!<\/p>"
+            "text": "<p>Jack of All Trades® came onto the scene in 2010, giving you the hottest pop-culture, rock n' roll, and superhero tops made up of the highest quality fabrics and art application techniques. They produce just enough tops to ensure you stand out from the crowd, not blend in!</p>"
           }
         },
         "2b139386-478c-42cc-9d4a-36886f9b0ac5": {
           "type": "blurb",
           "settings": {
             "title": "Jason Markk",
-            "text": "<p>Seeing that there wasn’t a cleaning product designed specifically for sneakerheads, Jason Markk filled that niche by introducing the Jason Markk Premium Shoe Cleaner. No longer would sneakerheads need to use household cleaning products and other solutions containing harsh chemicals to clean their precious kicks. Building the foundation of the brand with a grassroots approach, enthusiasts, collectors and publications quickly recognized it as the best product on the market. <\/p>"
+            "text": "<p>Seeing that there wasn’t a cleaning product designed specifically for sneakerheads, Jason Markk filled that niche by introducing the Jason Markk Premium Shoe Cleaner. No longer would sneakerheads need to use household cleaning products and other solutions containing harsh chemicals to clean their precious kicks. Building the foundation of the brand with a grassroots approach, enthusiasts, collectors and publications quickly recognized it as the best product on the market. </p>"
           }
         },
         "4beaf2db-c0a7-4626-94e3-bcc1e0c82940": {
           "type": "blurb",
           "settings": {
             "title": "JJXX",
-            "text": "<p>JJXX is not your average girl clothing brand. They’re here to redefine what a girl’s brand can be like, and by focusing on denim craftsmanship, essentials, and high fashion they aim to inspire girls all over the world. JJXX wants to encourage young women to be exactly what they want to be and to empower them to feel free, independent, powerful, capable, and cool in their everyday lives – always presenting our core values in everything we do: social, strong, energetic, and dedicated.  We are built on over 30 years of experience working with craftsmanship, high standards, and essential fabrics, shaping and perfecting our clothing universe – one style at a time.<\/p>"
+            "text": "<p>JJXX is not your average girl clothing brand. They’re here to redefine what a girl’s brand can be like, and by focusing on denim craftsmanship, essentials, and high fashion they aim to inspire girls all over the world. JJXX wants to encourage young women to be exactly what they want to be and to empower them to feel free, independent, powerful, capable, and cool in their everyday lives – always presenting our core values in everything we do: social, strong, energetic, and dedicated.  We are built on over 30 years of experience working with craftsmanship, high standards, and essential fabrics, shaping and perfecting our clothing universe – one style at a time.</p>"
           }
         },
         "1d84799f-aef1-425f-b7c4-8a48bb19e823": {
           "type": "blurb",
           "settings": {
             "title": "JOHN + JENN",
-            "text": "<p>JOHN + JENN is a women’s ready-to-wear label embracing contemporary off-duty style with an effortless point-of-view. Launched in 2012, the brand draws inspiration from a fusion of influences, combining retro classics with the sartorial instinct of the street. JOHN + JENN captures current trends in knit dressing and outerwear, specializing in unique fabrications, playful textures, and forward shapes. <\/p>"
+            "text": "<p>JOHN + JENN is a women’s ready-to-wear label embracing contemporary off-duty style with an effortless point-of-view. Launched in 2012, the brand draws inspiration from a fusion of influences, combining retro classics with the sartorial instinct of the street. JOHN + JENN captures current trends in knit dressing and outerwear, specializing in unique fabrications, playful textures, and forward shapes. </p>"
           }
         },
         "03ece81b-80c4-4974-8bf4-e6ce3bfd1727": {
           "type": "blurb",
           "settings": {
             "title": "JUNGMAVEN",
-            "text": "<p>JUNGMAVEN grew from roots of simplicity and sustainability. In the early '90's JUNGMAVEN founder, Robert Jungmann, became passionate about putting a stop to clear-cutting practices that devastate the planet– and knew growing hemp offered a solution to this, as well as to many other environmental issues. At that time, hemp was not considered fashion, and Rob’s concept to design a high-quality hemp tee was born from a determination to get the industry and the public to recognize both hemp's massive potential to heal the planet and to become a fashion-forward textile.<\/p>"
+            "text": "<p>JUNGMAVEN grew from roots of simplicity and sustainability. In the early '90's JUNGMAVEN founder, Robert Jungmann, became passionate about putting a stop to clear-cutting practices that devastate the planet– and knew growing hemp offered a solution to this, as well as to many other environmental issues. At that time, hemp was not considered fashion, and Rob’s concept to design a high-quality hemp tee was born from a determination to get the industry and the public to recognize both hemp's massive potential to heal the planet and to become a fashion-forward textile.</p>"
           }
         },
         "aadf9fa1-6520-403d-860b-fe569ec5ce67": {
           "type": "blurb",
           "settings": {
             "title": "Kinto",
-            "text": "<p>Established in 1972, KINTO started out as a wholesaler of tableware in Shiga, Japan. We eventually began developing our own line of products, with a passion to create products that bring comfort and inspiration into the everyday life. Since 2010, our products have been exported worldwide. Subsidiaries have been established in Europe in 2016, and in USA in 2019.  Ranging from tableware, drinkware, to interior accessories, we work to deliver products that inspire and give fulfillment with every touch and use.<\/p>"
+            "text": "<p>Established in 1972, KINTO started out as a wholesaler of tableware in Shiga, Japan. We eventually began developing our own line of products, with a passion to create products that bring comfort and inspiration into the everyday life. Since 2010, our products have been exported worldwide. Subsidiaries have been established in Europe in 2016, and in USA in 2019.  Ranging from tableware, drinkware, to interior accessories, we work to deliver products that inspire and give fulfillment with every touch and use.</p>"
           }
         },
         "22990d60-351a-4942-9e5a-7d962f318b00": {
           "type": "blurb",
           "settings": {
             "title": "Kuwalla",
-            "text": "<p>Established in 2012, Kuwalla Tee is a Canadian streetwear brand that redefines everyday basics through elevated essentials. Born out of a need for quality, our brand offers premium clothing that is sustainable, stylish, and affordable. <br\/><\/p>"
+            "text": "<p>Established in 2012, Kuwalla Tee is a Canadian streetwear brand that redefines everyday basics through elevated essentials. Born out of a need for quality, our brand offers premium clothing that is sustainable, stylish, and affordable. <br/></p>"
           }
         },
         "8bc6e63c-c1cb-45c8-aea0-4107b5b08270": {
           "type": "blurb",
           "settings": {
             "title": "Lack of Color",
-            "text": "<p>Founded in 2011 by Australian creative duo, Rob and Tess, Lack of Color has reimagined the world of hats – taking a creative and nostalgic approach to a range of styles and designs.<\/p><p>With a distinctly Australian aesthetic and down-to-earth appeal, Lack of Color offers boutique designs to suit all, having found a home among the wardrobes of style icons, celebrities and hat lovers throughout the world.<\/p>"
+            "text": "<p>Founded in 2011 by Australian creative duo, Rob and Tess, Lack of Color has reimagined the world of hats – taking a creative and nostalgic approach to a range of styles and designs.</p><p>With a distinctly Australian aesthetic and down-to-earth appeal, Lack of Color offers boutique designs to suit all, having found a home among the wardrobes of style icons, celebrities and hat lovers throughout the world.</p>"
           }
         }
       },
@@ -413,8 +416,7 @@
         "22990d60-351a-4942-9e5a-7d962f318b00",
         "8bc6e63c-c1cb-45c8-aea0-4107b5b08270"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "blurbs-2": {
       "type": "brand-blurbs-2",
@@ -423,7 +425,7 @@
           "type": "blurb",
           "settings": {
             "title": "Land of Daughters",
-            "text": "<p>Metis + female founded, Land of Daughters has been around since July 2018 with a focus on creating unique scents for our candles, aroma sprays and solid perfumes. They love all things cozy and seasonal, and are homebodies to the core. This is reflected in a lot of the names chosen and also inspires the types of scents designed. With all of their product crafted in Calgary, Alberta, Land of Daughters values knowing where their things came from and knowing where their money goes to. To make a different future for the next generation!<\/p>"
+            "text": "<p>Metis + female founded, Land of Daughters has been around since July 2018 with a focus on creating unique scents for our candles, aroma sprays and solid perfumes. They love all things cozy and seasonal, and are homebodies to the core. This is reflected in a lot of the names chosen and also inspires the types of scents designed. With all of their product crafted in Calgary, Alberta, Land of Daughters values knowing where their things came from and knowing where their money goes to. To make a different future for the next generation!</p>"
           }
         },
         "615392f5-78d1-46f3-81b7-95a3c72bf889": {
@@ -438,13 +440,11 @@
         "f492b345-bf00-4bac-9c15-749d3b50c08d",
         "615392f5-78d1-46f3-81b7-95a3c72bf889"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "blurbs-3": {
       "type": "brand-blurbs-3",
-      "settings": {
-      }
+      "settings": {}
     },
     "banner": {
       "type": "main-collection-banner",
@@ -459,6 +459,9 @@
     "collection-description": {
       "type": "collection-description",
       "settings": {
+        "enable_read_more": true,
+        "character_limit": 150,
+        "color_scheme": "",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -469,362 +472,334 @@
         "9158fbde-f148-43d2-8e22-6dd7d0085fc5": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/tops\/shirts+",
-            "image": "shopify:\/\/shop_images\/we4mrnlbtnxje4xkar3x_e766a3b2-b9a9-4ce6-afeb-b11039573a6a.jpg"
+            "title": "/collections/tops/shirts+",
+            "image": "shopify://shop_images/we4mrnlbtnxje4xkar3x_e766a3b2-b9a9-4ce6-afeb-b11039573a6a.jpg"
           }
         },
         "75a1d36e-f1b0-4173-a503-6cbb8ea59454": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/tops\/long-sleeves+",
-            "image": "shopify:\/\/shop_images\/jguntxtnjmpzo6equawd_6d586ad5-b49e-4405-a8fe-ef30756f62e8.jpg"
+            "title": "/collections/tops/long-sleeves+",
+            "image": "shopify://shop_images/jguntxtnjmpzo6equawd_6d586ad5-b49e-4405-a8fe-ef30756f62e8.jpg"
           }
         },
         "0ad43899-3fcd-4c12-a0c9-60c90708dd88": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/tops\/tees",
-            "image": "shopify:\/\/shop_images\/gjk2vvrsrteqkplqfsui_6a5bb516-f27e-49dd-a42d-431962a4ce6a.jpg"
+            "title": "/collections/tops/tees",
+            "image": "shopify://shop_images/gjk2vvrsrteqkplqfsui_6a5bb516-f27e-49dd-a42d-431962a4ce6a.jpg"
           }
         },
         "b9bc4317-af2c-45fa-a32f-8597c19d0af8": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/tops\/sleeveless",
-            "image": "shopify:\/\/shop_images\/o39ptnzjujqk47ubgxmy_37ab92b7-f657-4796-9059-54e5909c84a2.jpg"
+            "title": "/collections/tops/sleeveless",
+            "image": "shopify://shop_images/o39ptnzjujqk47ubgxmy_37ab92b7-f657-4796-9059-54e5909c84a2.jpg"
           }
         },
         "a0adbf2d-5406-4ea1-a904-b3e4f1933289": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/tops\/intimates",
-            "image": "shopify:\/\/shop_images\/SS21_FREEPEOPLE_ADELLABRALETTE_BLACK_625f1cc0-aea9-44aa-be29-f13efb1c79fd.jpg"
+            "title": "/collections/tops/intimates",
+            "image": "shopify://shop_images/SS21_FREEPEOPLE_ADELLABRALETTE_BLACK_625f1cc0-aea9-44aa-be29-f13efb1c79fd.jpg"
           }
         },
         "a95140c3-97f0-429b-95cd-f1e2853f2e53": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/dresses\/mini",
-            "image": "shopify:\/\/shop_images\/0504_Plenty_Ecomm_Sierra1278.jpg"
+            "title": "/collections/dresses/mini"
           }
         },
         "d4cbe0ee-4133-41f2-ae8a-632cb957bcf7": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/dresses\/midi",
-            "image": "shopify:\/\/shop_images\/FW22_MONKLOU_SCULPT_VANESSA_MIDIDRESS_BLACK3.jpg"
+            "title": "/collections/dresses/midi"
           }
         },
         "590bc64a-125e-4baa-8aca-001bc7f9e111": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/dresses\/maxi",
-            "image": "shopify:\/\/shop_images\/FW19_FP_ADELLA_MAXI_PINK.jpg"
+            "title": "/collections/dresses/maxi",
+            "image": "shopify://shop_images/FW19_FP_ADELLA_MAXI_PINK.jpg"
           }
         },
         "c2987f4e-dbc3-4616-a9e2-ad6f15fe6909": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/dresses\/jumpsuits",
-            "image": "shopify:\/\/shop_images\/jumpsuitleft_5dce9c20-c5d7-4b93-8cc6-c134b61279aa.png"
+            "title": "/collections/dresses/jumpsuits",
+            "image": "shopify://shop_images/jumpsuitleft_5dce9c20-c5d7-4b93-8cc6-c134b61279aa.png"
           }
         },
         "4e6c53f7-453f-4c6a-bc7f-76ecb1d4e26f": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/knitwear\/pullovers",
-            "image": "shopify:\/\/shop_images\/FW22_MONKLOU_BRAIDED_SAMSARA_PULLOVER_MULTI3.jpg"
+            "title": "/collections/knitwear/pullovers"
           }
         },
         "3efeccd4-4cfd-41d2-86f9-cec7b3156497": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/knitwear\/cardigans",
-            "image": "shopify:\/\/shop_images\/FW19_ML_PRTWOV_CARDI_MSTFLR.jpg"
+            "title": "/collections/knitwear/cardigans",
+            "image": "shopify://shop_images/FW19_ML_PRTWOV_CARDI_MSTFLR.jpg"
           }
         },
         "8de7a8ff-52fe-47ac-87be-5655e071c6d1": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/knit-vests",
-            "image": "shopify:\/\/shop_images\/FW22_MLTHELABEL_KNIT_HELENE_MOCHA2.jpg"
+            "title": "/collections/knit-vests"
           }
         },
         "7fe0ba76-8881-43ef-b830-a238f2c0b336": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/outerwear\/jackets+coats",
-            "image": "shopify:\/\/shop_images\/HARRINGTON_JACKET_530_X_586.png"
+            "title": "/collections/outerwear/jackets+coats",
+            "image": "shopify://shop_images/HARRINGTON_JACKET_530_X_586.png"
           }
         },
         "321f71d8-b51e-430a-bf35-e5f000600c1e": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/outerwear\/shackets",
-            "image": "shopify:\/\/shop_images\/SS22_PGD_WASHEDBRUSHFLEECE_IGGY_JACKET_BLACK2.jpg"
+            "title": "/collections/outerwear/shackets"
           }
         },
         "3a32e2db-6f32-48bb-b697-0ec6d3df83f7": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/outerwear\/vests",
-            "image": "shopify:\/\/shop_images\/FW22_VEROMODA_MILEYSHORTVEST_AZTEC2.jpg"
+            "title": "/collections/outerwear/vests"
           }
         },
         "5ebdb3db-23ab-49a7-bbfd-625679725758": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/outerwear\/waterproof",
-            "image": "shopify:\/\/shop_images\/SP19_PGD_WATERPROOF_STARK_BLUSH.jpg"
+            "title": "/collections/outerwear/waterproof",
+            "image": "shopify://shop_images/SP19_PGD_WATERPROOF_STARK_BLUSH.jpg"
           }
         },
         "e9408cbf-6f5b-487c-9104-39937ed2e7b0": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/outerwear\/blazers",
-            "image": "shopify:\/\/shop_images\/FW22_MONKLOU_COATINGHERRINGBONE_SIMON_HERRINGBONE.jpg"
+            "title": "/collections/outerwear/blazers"
           }
         },
         "8f2cf1a5-71bb-4f35-91a9-c327669c2810": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/shorts",
-            "image": "shopify:\/\/shop_images\/SS23_TM_MARBELLA_WHITE3.jpg"
+            "title": "/collections/denim/shorts"
           }
         },
         "d7f498c2-10dc-4c06-a989-1537557415f0": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/tailor-made",
-            "image": "shopify:\/\/shop_images\/SS23_SADIESAGE_BRIGETTERUFFLETOP_IVORY.jpg"
+            "title": "/collections/denim/tailor-made"
           }
         },
         "cafc2a12-2478-4fe4-ba8f-cf7870c8fc35": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/highrise",
-            "image": "shopify:\/\/shop_images\/SP18_ONETEASPOON_BANDITS_HIGHRISE_COCONUTS.jpg"
+            "title": "/collections/denim/highrise",
+            "image": "shopify://shop_images/SP18_ONETEASPOON_BANDITS_HIGHRISE_COCONUTS.jpg"
           }
         },
         "111e8df8-0a81-43db-8f02-94772a7aab4d": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/midrise",
-            "image": "shopify:\/\/shop_images\/SP19_TM_DENVER_COBALT2.jpg"
+            "title": "/collections/denim/midrise",
+            "image": "shopify://shop_images/SP19_TM_DENVER_COBALT2.jpg"
           }
         },
         "969ebb1c-b25b-46d9-bc48-5da188008a20": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/skinny",
-            "image": "shopify:\/\/shop_images\/SP18_LEVIS_711_SUMMERTIME2.jpg"
+            "title": "/collections/denim/skinny",
+            "image": "shopify://shop_images/SP18_LEVIS_711_SUMMERTIME2.jpg"
           }
         },
         "c1a96a5d-a64a-4d54-84a6-23f0f215d32b": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/straight",
-            "image": "shopify:\/\/shop_images\/FW19_RVCA_SCOUT_PANT3.jpg"
+            "title": "/collections/denim/straight",
+            "image": "shopify://shop_images/FW19_RVCA_SCOUT_PANT3.jpg"
           }
         },
         "fb23c5f5-333c-40ed-8b18-c20c4fdf3ade": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim\/wide",
-            "image": "shopify:\/\/shop_images\/FW23_FREEPEOPLE_COOLHARBOURWIDELEGPANT_CAMEL4.jpg"
+            "title": "/collections/denim/wide"
           }
         },
         "4a6a36c0-9d15-4f6b-8b76-f5dafd37f51d": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/bottoms\/pants",
-            "image": "shopify:\/\/shop_images\/SP19_HEARTLOOM_ZANE_STRIPE_PANT2.jpg"
+            "title": "/collections/bottoms/pants",
+            "image": "shopify://shop_images/SP19_HEARTLOOM_ZANE_STRIPE_PANT2.jpg"
           }
         },
         "773c370a-5f1c-47c7-8d7b-a12120e866bc": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/bottoms\/skirts",
-            "image": "shopify:\/\/shop_images\/FW18_LEVIS_DECONSTRUCTED_SKIRT2.jpg"
+            "title": "/collections/bottoms/skirts",
+            "image": "shopify://shop_images/FW18_LEVIS_DECONSTRUCTED_SKIRT2.jpg"
           }
         },
         "46f3f8ec-ecf5-4ce0-82d8-a6098c3f81bd": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/bottoms\/shorts",
-            "image": "shopify:\/\/shop_images\/SP18_OBEY_DAVY_SHORT_BLACK3.jpg"
+            "title": "/collections/bottoms/shorts",
+            "image": "shopify://shop_images/SP18_OBEY_DAVY_SHORT_BLACK3.jpg"
           }
         },
         "0632056e-1d64-4614-95bc-c3b9455dc7b1": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-tees",
-            "image": "shopify:\/\/shop_images\/wemoto-ss23-men-artwork-estate-tee-white-3.jpg"
+            "title": "/collections/mens-tees"
           }
         },
         "9999f3bb-9be5-42f2-a18d-650ac6dc2a0e": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-longsleeves"
+            "title": "/collections/mens-longsleeves"
           }
         },
         "2432bff9-b8ef-4ff4-b3c1-f1b63c3edd02": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-button-downs",
-            "image": "shopify:\/\/shop_images\/FW23_JACKJONES_AUTUMNCHECKLONGSLEEVE_CINABAR.jpg"
+            "title": "/collections/mens-button-downs"
           }
         },
         "71f6b951-a4f2-409c-826f-a2eeaa0eb549": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-knitwear",
-            "image": "shopify:\/\/shop_images\/SS23_WEMOTO_ALLENCARDIGAN2.jpg"
+            "title": "/collections/mens-knitwear"
           }
         },
         "d0283353-5335-4f04-ac5a-dd205b03d26a": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-hoodies-crewnecks",
-            "image": "shopify:\/\/shop_images\/SS23_ONLYSONS_FARISLIFERELAXHOODY_BLACK.jpg"
+            "title": "/collections/mens-hoodies-crewnecks"
           }
         },
         "7d5fe006-76f8-43a8-9b8f-515c2636e415": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-denim",
-            "image": "shopify:\/\/shop_images\/FW22_ROLLAS_TIMSLIM_FASTTIMESWORN_5.jpg"
+            "title": "/collections/mens-denim"
           }
         },
         "ffeba453-f2e9-4750-a7d4-86b2344d3182": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-pants",
-            "image": "shopify:\/\/shop_images\/SS23_WEMOTO_GROVERSEERSUCKERPANT2.jpg"
+            "title": "/collections/mens-pants"
           }
         },
         "7730f84c-df8c-43bb-b9da-e2ca58936a5b": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-joggers",
-            "image": "shopify:\/\/shop_images\/SS2_ADIDAS_TI3SPANT.jpg"
+            "title": "/collections/mens-joggers"
           }
         },
         "cf7d8bca-54b4-4278-8e96-906c5210fd54": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/mens-shorts",
-            "image": "shopify:\/\/shop_images\/SS23_TENTREE_SASQUATCHTEE_DEEPLICHEN_4.jpg"
+            "title": "/collections/mens-shorts"
           }
         },
         "13a12f66-9e77-483b-b245-fc06b094821b": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/purses",
-            "image": "shopify:\/\/shop_images\/SS23_PIXIEMOOD_LARISSAMINICROSSBODY_COCONUTCREAMPEBBLED4.jpg"
+            "title": "/collections/accessories/purses"
           }
         },
         "c4aff36e-f9d9-4456-8f11-787e5bc6b680": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/totes",
-            "image": "shopify:\/\/shop_images\/FW22_EDWIN_APOLLOOVERSIZEDTOTE_BLUE_1.jpg"
+            "title": "/collections/accessories/totes"
           }
         },
         "50ff3621-cb43-4535-baf2-7971c6a51ee4": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/backpacks",
-            "image": "shopify:\/\/shop_images\/SS23_PIXIEMOOD_BLOSSOMBACKPACKSMALL_SANDRECYCLED3.jpg"
+            "title": "/collections/accessories/backpacks"
           }
         },
         "cddee5b3-99ec-4f6a-b26f-226c8f5f0eaf": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/jewelry",
-            "image": "shopify:\/\/shop_images\/FW19_LOVERSTEMPO_GLORIA_LRG_HOOP_SILVER.jpg"
+            "title": "/collections/accessories/jewelry",
+            "image": "shopify://shop_images/FW19_LOVERSTEMPO_GLORIA_LRG_HOOP_SILVER.jpg"
           }
         },
         "4397192f-c5e2-4bcf-82e5-fec1da106c1a": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/wallets",
-            "image": "shopify:\/\/shop_images\/FW18_BELLROY_HIDESEEKRFID_CARAMEL3.jpg"
+            "title": "/collections/accessories/wallets",
+            "image": "shopify://shop_images/FW18_BELLROY_HIDESEEKRFID_CARAMEL3.jpg"
           }
         },
         "f5d9f539-3436-4b46-a772-584d333e9643": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/hats",
-            "image": "shopify:\/\/shop_images\/SS23_LACKOFCOLOR_VISTACESCASUNHAT_BROWN.jpg"
+            "title": "/collections/accessories/hats"
           }
         },
         "10a7edc6-2a7c-42f0-b16a-89142f45bd7b": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/accessories\/socks",
-            "image": "shopify:\/\/shop_images\/FW22_STANCE_ABSOLUTENOSHOW3PACK_MULTIBLACK_ba6e6902-7d37-40c2-a688-14c82bd08070.jpg"
+            "title": "/collections/accessories/socks"
           }
         },
         "efcae26f-686c-4020-b8c2-53d84a2bd206": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/lifestyle\/scented",
-            "image": "shopify:\/\/shop_images\/SS22_KILIG_CANDLE_MAHALKITA2.jpg"
+            "title": "/collections/lifestyle/scented"
           }
         },
         "78078071-bbbb-486d-aee3-ad4b416aa39c": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/lifestyle\/home",
-            "image": "shopify:\/\/shop_images\/SS22_BRAUN_BNC09DIGITALALARMCLOCK_WHITE.jpg"
+            "title": "/collections/lifestyle/home"
           }
         },
         "b35bb90f-8976-48ac-be1b-326f58b99801": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/beauty-wellness",
-            "image": "shopify:\/\/shop_images\/SS21_TANGENT_OUDBODYWASH.jpg"
+            "title": "/collections/beauty-wellness"
           }
         },
         "264fe394-7b1b-466b-8635-1af98e5f9983": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/lifestyle\/gifts",
-            "image": "shopify:\/\/shop_images\/SS23_PLANTITA_CO_PALOSANTOXROSEQUARTZBUNDLE_5d337068-82b3-4ae0-b4c2-2d95c174a54d.jpg"
+            "title": "/collections/lifestyle/gifts",
+            "image": "shopify://shop_images/SS23_PLANTITA_CO_PALOSANTOXROSEQUARTZBUNDLE_5d337068-82b3-4ae0-b4c2-2d95c174a54d.jpg"
           }
         },
         "a9f22bb3-9abf-43e7-9274-1979772caaaa": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/lifestyle\/travel",
-            "image": "shopify:\/\/shop_images\/SS21_JASONMARKK_4OZESSENTIALKIT.jpg"
+            "title": "/collections/lifestyle/travel"
           }
         },
         "49dc11d2-7094-49cc-a348-f1fee8196065": {
           "type": "tag_filter",
           "disabled": true,
           "settings": {
-            "title": "\/collections\/lifestyle\/books",
-            "image": "shopify:\/\/shop_images\/SS22_RAINCOAST_ONELINEADAY.jpg"
+            "title": "/collections/lifestyle/books"
           }
         },
         "tag_filter_mQk6di": {
           "type": "tag_filter",
           "settings": {
-            "title": "\/collections\/denim-days\/denim"
+            "title": "/collections/denim-days/denim"
           }
         }
       },
@@ -881,7 +856,17 @@
         "tag_filter_mQk6di"
       ],
       "settings": {
-        "menu": "main-menu-2"
+        "menu": "main-menu-2",
+        "color_scheme": "",
+        "enable_custom_typography": false,
+        "title_font_face": "heading",
+        "text_color": "#111111",
+        "heading_px": 24,
+        "enable_custom_text_positioning": false,
+        "text_horizontal_alignment": "left",
+        "text_vertical_alignment": "top",
+        "enable_custom_text_vertical_alignment": false,
+        "custom_text_vertical_alignment_offset": 20
       }
     },
     "product-grid": {
@@ -898,6 +883,8 @@
         "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
+        "color_scheme": "",
+        "filters_background_color": "rgba(0,0,0,0)",
         "padding_top": 48,
         "padding_bottom": 48
       }
@@ -914,7 +901,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
           }
         }
       },
@@ -922,6 +909,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": false,
@@ -935,14 +923,14 @@
         "heading_p8cpyP": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Women's Jeans<\/h1>",
+            "heading": "<h1>Women's Jeans</h1>",
             "heading_size": "h1"
           }
         },
         "text_JVzRbB": {
           "type": "text",
           "settings": {
-            "text": "<p>Find your perfect fit with our selection of women’s jeans at Plenty. Whether you’re searching for <a href=\"https:\/\/www.getplenty.com\/collections\/high-rise\">high-rise jeans<\/a> that hug your waist just right, classic straight-leg styles for casual work wear, or a pair of relaxed everyday <a href=\"https:\/\/www.getplenty.com\/collections\/wide\">wide-leg jeans<\/a>, we have something for everyone and every occasion. Our denim is designed to blend comfort with style, making it easy to dress up or down. Looking for jeans that complement your favorite tops and jackets? Explore our variety of cuts and washes—we even offer denim skirts and denim shorts for women. Shop our women's denim collection online or in-person from our Canada locations.<\/p>"
+            "text": "<p>Find your perfect fit with our selection of women’s jeans at Plenty. Whether you’re searching for <a href=\"https://www.getplenty.com/collections/high-rise\">high-rise jeans</a> that hug your waist just right, classic straight-leg styles for casual work wear, or a pair of relaxed everyday <a href=\"https://www.getplenty.com/collections/wide\">wide-leg jeans</a>, we have something for everyone and every occasion. Our denim is designed to blend comfort with style, making it easy to dress up or down. Looking for jeans that complement your favorite tops and jackets? Explore our variety of cuts and washes—we even offer denim skirts and denim shorts for women. Shop our women's denim collection online or in-person from our Canada locations.</p>"
           }
         }
       },

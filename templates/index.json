@@ -170,6 +170,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "full_width": false,
@@ -267,13 +268,21 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "custom_heading_positioning": false,
+            "heading_alignment": "center",
+            "heading_align_item_position": "flex-start",
+            "heading_alignment_mobile": "center",
+            "heading_align_item_position_mobile": "flex-start"
           }
         },
         "text_z6LGQz": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "custom_text_positioning": true,
+            "text_alignment": "center",
+            "text_alignment_mobile": "center"
           }
         },
         "buttons_biDR9i": {
@@ -284,7 +293,19 @@
             "button_style_secondary_1": false,
             "button_label_2": "Button label",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "enable_custom_button_styles": false,
+            "button_color": "#000000",
+            "button_text_color": "#ffffff",
+            "button_outline_color": "#00a408",
+            "button_border_width": 0,
+            "button_color_2": "#000000",
+            "button_text_color_2": "#334fb4",
+            "button_outline_color_2": "#00a408",
+            "button_border_width_2": 4,
+            "custom_button_positioning": true,
+            "button_alignment": "left",
+            "button_alignment_mobile": "right"
           }
         }
       },
@@ -295,11 +316,11 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/KEELY_3.png",
-        "image_2": "shopify://shop_images/KEELY_3.png",
+        "image": "shopify://shop_images/IMG_2760.jpg",
+        "image_2": "shopify://shop_images/selected-harry-loose-twill-pant-chinchilla-front-detail.jpg",
         "image_overlay_opacity": 0,
         "desktop_content_position": "middle-center",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true,
         "color_scheme": "scheme-180854e8-8650-4d0e-88c8-1f999e63cd73",
@@ -307,6 +328,146 @@
         "heading_scale_override": 100,
         "body_font_override": "global",
         "body_scale_override": 100
+      }
+    },
+    "collapsible_content_qxyd6c": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGzKLH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "<p>This is some test text</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_U3Y9h4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_C8VipJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_t8QR4M": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGzKLH",
+        "collapsible_row_U3Y9h4",
+        "collapsible_row_C8VipJ",
+        "collapsible_row_t8QR4M"
+      ],
+      "name": "t:sections.collapsible_content.name",
+      "settings": {
+        "caption": "",
+        "heading": "Title of Collapsable Content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "enable_heading_custom_typography": false,
+        "heading_font_face": "heading",
+        "heading_text_color": "#111111",
+        "heading_font_size": 28,
+        "heading_font_size_mobile": 24,
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_first",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "enable_collapsible_custom_typography": true,
+        "collapsible_title_font_face": "body",
+        "collapsible_title_text_color": "#111111",
+        "collapsible_title_font_size": 18,
+        "collapsible_title_font_size_mobile": 16,
+        "collapsible_content_font_face": "body",
+        "collapsible_content_text_color": "#111111",
+        "collapsible_content_font_size": 16,
+        "collapsible_content_font_size_mobile": 14
+      }
+    },
+    "slideshow_Ag8ace": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_zziaUN": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "text": "Enter short excerpt",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_dtBWDy": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "subheading": "Tell your brand's story through images",
+            "text": "Enter short excerpt",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_zziaUN",
+        "slide_dtBWDy"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_slideshow_custom_typography": false,
+        "slideshow_heading_font_face": "heading",
+        "slideshow_heading_text_color": "#111111",
+        "slideshow_heading_font_size": 48,
+        "slideshow_heading_font_size_mobile": 28,
+        "slideshow_subheading_font_size": 28,
+        "slideshow_subheading_font_size_mobile": 20,
+        "slideshow_body_font_face": "body",
+        "slideshow_body_text_color": "#111111",
+        "slideshow_body_font_size": 18,
+        "slideshow_body_font_size_mobile": 16,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
@@ -318,6 +479,8 @@
     "fb3d67e1-28da-4ca2-a249-e4e97b44b896",
     "instagram",
     "rich_text_MJHDKF",
-    "image_banner_PbpiTn"
+    "image_banner_PbpiTn",
+    "collapsible_content_qxyd6c",
+    "slideshow_Ag8ace"
   ]
 }

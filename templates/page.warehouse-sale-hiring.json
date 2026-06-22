@@ -16,7 +16,8 @@
         "image": "shopify://shop_images/rev-Plenty_WarehouseSaleHiring_26.03.02-15_WebsiteHP_Desktop.jpg",
         "image_mobile": "shopify://shop_images/rev-Plenty_WarehouseSaleHiring_26.03.02-15_WebsiteHP_Mobile.jpg",
         "link_url": "",
-        "margin_bottom": 20
+        "margin_bottom": 20,
+        "color_scheme": ""
       }
     },
     "main": {
@@ -25,6 +26,7 @@
         "h1 {display: none;}"
       ],
       "settings": {
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -49,6 +51,7 @@
         "heading",
         "paragraph"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "full_width": false,

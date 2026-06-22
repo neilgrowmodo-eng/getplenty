@@ -40,6 +40,17 @@
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
+        "enable_slideshow_custom_typography": false,
+        "slideshow_heading_font_face": "heading",
+        "slideshow_heading_text_color": "#111111",
+        "slideshow_heading_font_size": 48,
+        "slideshow_heading_font_size_mobile": 28,
+        "slideshow_subheading_font_size": 28,
+        "slideshow_subheading_font_size_mobile": 20,
+        "slideshow_body_font_face": "body",
+        "slideshow_body_text_color": "#111111",
+        "slideshow_body_font_size": 18,
+        "slideshow_body_font_size_mobile": 16,
         "show_text_below": true,
         "accessibility_info": "Aidan of Things From Gardens"
       }
@@ -80,7 +91,9 @@
         "featured_image",
         "content"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": ""
+      }
     },
     "image_with_text_t6KzFw": {
       "type": "image-with-text",
@@ -287,6 +300,7 @@
         "mobile_layout": "collage",
         "card_styles": "none",
         "color_scheme": "scheme-1",
+        "full_width": false,
         "padding_top": 0,
         "padding_bottom": 36
       }
@@ -344,7 +358,22 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 48,
-        "padding_bottom": 88
+        "padding_bottom": 88,
+        "enable_custom_typography": false,
+        "font_face": "heading",
+        "body_font_face": "body",
+        "text_color": "#010203",
+        "heading_scale_percent": 100,
+        "body_scale_percent": 100,
+        "enable_custom_buttons_links": false,
+        "link_color": "#1a73e8",
+        "link_hover_color": "#1557b0",
+        "button_background": "#010203",
+        "button_text": "#ffffff",
+        "button_border": "#010203",
+        "button_hover_background": "#010203",
+        "button_hover_text": "#ffffff",
+        "button_hover_border": "#010203"
       }
     },
     "bb43c458-526a-4407-8b00-047c19d76a4d": {
@@ -384,6 +413,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "full_width": false,

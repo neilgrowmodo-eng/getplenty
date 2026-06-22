@@ -132,13 +132,16 @@
         "af3ac4f9-70e3-41c0-8735-f0a5740a7a31",
         "e2466681-8bf2-4bd5-a6aa-7e22fd883d63"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": ""
+      }
     },
     "store-locator": {
       "type": "main-store-locator",
       "settings": {
         "heading": "Find\na Store",
-        "map_api_key": "AIzaSyCeKM7lWf3DjKg0iSQWpmtzVfY5120-Y-w"
+        "map_api_key": "AIzaSyCeKM7lWf3DjKg0iSQWpmtzVfY5120-Y-w",
+        "color_scheme": ""
       }
     },
     "fb3d67e1-28da-4ca2-a249-e4e97b44b896": {
@@ -161,6 +164,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": false,

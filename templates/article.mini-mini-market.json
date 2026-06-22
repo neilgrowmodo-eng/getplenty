@@ -16,7 +16,8 @@
         "image": "shopify://shop_images/Plenty_MiniMarket_25.08.23_Website_Journal_Desktop.jpg",
         "image_mobile": "shopify://shop_images/Plenty_MiniMarket_25.08.23_Website_Journal_Mobile.jpg",
         "link_url": "",
-        "margin_bottom": 50
+        "margin_bottom": 50,
+        "color_scheme": ""
       }
     },
     "main": {
@@ -54,7 +55,9 @@
         "featured_image",
         "content"
       ],
-      "settings": {}
+      "settings": {
+        "color_scheme": ""
+      }
     },
     "bb43c458-526a-4407-8b00-047c19d76a4d": {
       "type": "featured-blog",
@@ -93,6 +96,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": false,

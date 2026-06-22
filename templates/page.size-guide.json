@@ -111,7 +111,7 @@
         "77ede174-69d3-4669-9f5c-065ccbdae1ac": {
           "type": "table_data_last",
           "settings": {
-            "data": "CAN \/ US|\n6|\n6.5|\n7.5|\n8.5|\n9|\n10"
+            "data": "CAN / US|\n6|\n6.5|\n7.5|\n8.5|\n9|\n10"
           }
         },
         "d014bf71-799b-4828-9c70-ec951b708883": {
@@ -184,6 +184,7 @@
         "6e837f2e-7eb2-49ff-8a2e-c5dc82cf334d"
       ],
       "settings": {
+        "color_scheme": "",
         "padding_top": 96,
         "padding_bottom": 96
       }
@@ -200,7 +201,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Be the first to know about new arrivals, promotions, and more.<\/p>"
+            "text": "<p>Be the first to know about new arrivals, promotions, and more.</p>"
           }
         }
       },
@@ -208,6 +209,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": false,

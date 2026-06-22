@@ -42,6 +42,7 @@
         "dfd0b9c5-61c3-468e-a8dd-b8293f501a88"
       ],
       "settings": {
+        "color_scheme": "",
         "padding_top": 96,
         "padding_bottom": 96
       }
@@ -66,6 +67,7 @@
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-0",
         "template--15077340643388__fb3d67e1-28da-4ca2-a249-e4e97b44b896-1673490121ed477624-1"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "full_width": false,
