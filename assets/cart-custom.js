@@ -610,3 +610,255 @@
     init();
   }
 })();
+
+// Footer messaging logic 
+(function () {
+  const FOOTER_SELECTOR = '[data-rebuy-cart-anchor="footer"]';
+  const SUBTOTAL_BOX_SELECTOR = '.rebuy-cart__subtotal-with-discounts';
+  const SUBTOTAL_AMOUNT_ROW_SELECTOR = '.rebuy-cart__subtotal-with-discounts-row-amount';
+  const FINAL_AMOUNT_SELECTOR = '.rebuy-cart__flyout-subtotal-final-amount span:not(.sr-only)';
+  const COMPARE_AMOUNT_SELECTOR = '.rebuy-cart__flyout-subtotal-compare-amount span:not(.sr-only)';
+  const DISCOUNT_SUMMARY_SELECTOR = '.rebuy-cart__discount-summary';
+  const ORDER_DISCOUNT_ITEM_SELECTOR = '.rebuy-cart__discount-summary-item';
+
+  const MESSAGE_ROW_ATTR = 'data-custom-footer-return-policy-message';
+  const MESSAGE_ROW_CLASS = 'rebuy-cart__subtotal-with-discounts-row custom-return-policy-footer-row';
+  const MESSAGE_CLASS = 'custom-return-policy-footer-badge';
+
+  const FINAL_SALE_MESSAGE = 'Final Sale';
+  const STORE_CREDIT_MESSAGE = 'Store credit only with discount code';
+  const FINAL_SALE_THRESHOLD = 50;
+  const WELCOME_CODE_KEYWORD = 'WELCOME';
+
+  let observer = null;
+  let processTimer = null;
+  let isUpdating = false;
+
+  function parseMoney(value) {
+    const number = parseFloat(
+      String(value || '')
+        .replace(/[^0-9.,-]/g, '')
+        .replace(/,/g, '')
+    );
+
+    return Number.isFinite(number) ? Math.abs(number) : null;
+  }
+
+  function getFooter() {
+    return document.querySelector(FOOTER_SELECTOR);
+  }
+
+  function getOrderDiscountItems(footer) {
+    return Array.from(footer.querySelectorAll(ORDER_DISCOUNT_ITEM_SELECTOR));
+  }
+
+  function hasOrderLevelDiscount(footer) {
+    return getOrderDiscountItems(footer).some(function (item) {
+      const code = String(item.querySelector('span')?.textContent || '').toUpperCase();
+
+      return code && !code.includes(WELCOME_CODE_KEYWORD);
+    });
+  }
+
+  function getSubtotalAmounts(footer) {
+    const amountRow = footer.querySelector(SUBTOTAL_AMOUNT_ROW_SELECTOR);
+
+    if (!amountRow) {
+      return {
+        compare: null,
+        final: null
+      };
+    }
+
+    const compareText = amountRow.querySelector(COMPARE_AMOUNT_SELECTOR)?.textContent || '';
+    const finalText = amountRow.querySelector(FINAL_AMOUNT_SELECTOR)?.textContent || '';
+
+    return {
+      compare: parseMoney(compareText),
+      final: parseMoney(finalText)
+    };
+  }
+
+  function getPolicyData() {
+    const footer = getFooter();
+
+    if (!footer) return null;
+    if (!hasOrderLevelDiscount(footer)) return null;
+
+    const amounts = getSubtotalAmounts(footer);
+
+    if (!amounts.compare || amounts.compare <= 0) return null;
+    if (amounts.final == null) return null;
+    if (amounts.final >= amounts.compare) return null;
+
+    const discountPercent =
+      ((amounts.compare - amounts.final) / amounts.compare) * 100;
+
+    const roundedPercent = Math.round(discountPercent * 100) / 100;
+
+    const message =
+      roundedPercent >= FINAL_SALE_THRESHOLD
+        ? FINAL_SALE_MESSAGE
+        : STORE_CREDIT_MESSAGE;
+
+    return {
+      message: message,
+      percent: roundedPercent,
+      state: message + '|' + roundedPercent + '|' + amounts.compare + '|' + amounts.final
+    };
+  }
+
+  function getExistingMessageRow(footer) {
+    return footer.querySelector('[' + MESSAGE_ROW_ATTR + '="true"]');
+  }
+
+  function createMessageRow(policyData) {
+    const row = document.createElement('div');
+    row.className = MESSAGE_ROW_CLASS;
+    row.setAttribute(MESSAGE_ROW_ATTR, 'true');
+    row.setAttribute('data-discount-percent', String(policyData.percent));
+    row.setAttribute('data-message-state', policyData.state);
+
+    const message = document.createElement('div');
+    message.className = MESSAGE_CLASS;
+    message.textContent = policyData.message;
+
+    row.appendChild(message);
+
+    return row;
+  }
+
+  function updateMessageRow(row, policyData) {
+    if (row.getAttribute('data-message-state') === policyData.state) return;
+
+    row.setAttribute('data-discount-percent', String(policyData.percent));
+    row.setAttribute('data-message-state', policyData.state);
+
+    const message = row.querySelector('.' + MESSAGE_CLASS);
+
+    if (message && message.textContent !== policyData.message) {
+      message.textContent = policyData.message;
+    }
+  }
+
+  function removeMessage() {
+    const footer = getFooter();
+    if (!footer) return;
+
+    const existingRow = getExistingMessageRow(footer);
+
+    if (!existingRow) return;
+
+    isUpdating = true;
+    existingRow.remove();
+
+    setTimeout(function () {
+      isUpdating = false;
+    }, 0);
+  }
+
+  function renderMessage(policyData) {
+    const footer = getFooter();
+    if (!footer) return;
+
+    const subtotalBox = footer.querySelector(SUBTOTAL_BOX_SELECTOR);
+    const discountSummary = footer.querySelector(DISCOUNT_SUMMARY_SELECTOR);
+
+    if (!subtotalBox || !discountSummary) return;
+
+    let row = getExistingMessageRow(footer);
+
+    isUpdating = true;
+
+    if (!row) {
+      row = createMessageRow(policyData);
+    } else {
+      updateMessageRow(row, policyData);
+    }
+
+    if (discountSummary.previousElementSibling !== row) {
+      discountSummary.insertAdjacentElement('beforebegin', row);
+    }
+
+    setTimeout(function () {
+      isUpdating = false;
+    }, 0);
+  }
+
+  function processFooterMessage() {
+    const policyData = getPolicyData();
+
+    if (policyData) {
+      renderMessage(policyData);
+    } else {
+      removeMessage();
+    }
+  }
+
+  function scheduleProcess() {
+    clearTimeout(processTimer);
+
+    processTimer = setTimeout(processFooterMessage, 100);
+  }
+
+  function isOurMessageNode(node) {
+    if (!node) return false;
+
+    if (node.nodeType === Node.TEXT_NODE) {
+      return Boolean(
+        node.parentElement &&
+        node.parentElement.closest('[' + MESSAGE_ROW_ATTR + '="true"]')
+      );
+    }
+
+    if (!(node instanceof Element)) return false;
+
+    return Boolean(
+      node.matches('[' + MESSAGE_ROW_ATTR + '="true"]') ||
+      node.closest('[' + MESSAGE_ROW_ATTR + '="true"]')
+    );
+  }
+
+  function shouldIgnoreMutation(mutation) {
+    if (isUpdating) return true;
+
+    const changedNodes = Array.from(mutation.addedNodes || []).concat(
+      Array.from(mutation.removedNodes || [])
+    );
+
+    if (isOurMessageNode(mutation.target)) return true;
+
+    return changedNodes.length > 0 && changedNodes.every(isOurMessageNode);
+  }
+
+  function init() {
+    const footer = getFooter();
+
+    if (!footer) {
+      setTimeout(init, 300);
+      return;
+    }
+
+    if (observer) observer.disconnect();
+
+    observer = new MutationObserver(function (mutations) {
+      if (mutations.every(shouldIgnoreMutation)) return;
+
+      scheduleProcess();
+    });
+
+    observer.observe(footer, {
+      childList: true,
+      subtree: true,
+      characterData: true
+    });
+
+    processFooterMessage();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
